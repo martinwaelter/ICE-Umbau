@@ -1,0 +1,43 @@
+ERSTSTROM | MOTORTRIEBKOPF ALLEIN
+ARBEITSKARTE 32
+Motorseite: erster Strom und kurze Kleinstfahrt
+Zuerst Kommunikation und Licht im Stand, dann leiser Sound. Der Motor wird erst im zweiten Schritt kurz bewegt.
+VORHER Motorseite S. 29/S. 30 bestanden; passende Laststufe S. 28. Gegenkopf/Wagen/Puffer physisch getrennt. Freie
+Kupplungsenden einzeln isoliert.
+1. Getrenntes Prüfgleis waagerecht und gegen Absturz sichern. Genau einen passenden CS3-Ausgang
+anschließen; Programmier- und Betriebsausgang nicht verbinden. Fahrstufe 0, Automatik aus, keine Einmessfahrt
+vorgemerkt. Hilfsleitungen vollständig entfernt.
+2. Den ganzen Motortriebkopf auf das getrennte Programmiergleis setzen und nach dem bestätigten
+Märklin-Leseverfahren prüfen. Zum Wechsel auf Betriebsgleis wieder ausschalten und den Kopf vollständig
+stromlos umsetzen. Kein Kopf steht gleichzeitig auf verbundenen Stromkreisen.
+3. Im Betrieb bei stehendem Motor nur den eindeutig zugeordneten mfx-Eintrag bedienen. F0 aus: Front dunkel.
+F0 an: vorwärts Weiß, rückwärts Rot. Tatsächliche LEDs beobachten; kein Anrollen zum Lichtwechsel. Danach
+den zugelassenen Sound leise testen.
+Offener Standtest
+Ist / Ergebnis
+Kommunikation / eindeutiger 60977
+________________
+F0 aus / vorwärts / rückwärts
+________________
+Leiser Sound / keine Überlast
+________________
+Keine Wärme-/Geruchsauffälligkeit
+________________
+4. Nur nach bestandenem Standtest und zugelassener Motorlast: freien Fahrweg prüfen, kleinste Fahrstufe kurz
+anlegen, dann wieder 0. Räder nicht festhalten. Der Motortriebkopf muss bei vorwärts in die festgelegte
+Vorwärtsrichtung fahren.
+5. Bei falscher Fahrtrichtung: STOP, vom Gleis nehmen, alle Verbindungen trennen, Decoder abziehen.
+Bestätigte Motorzuordnung gezielt korrigieren; danach komplette betroffene Motor-/Litzenprüfung S. 14/S. 15 und
+Anschlussprüfung wiederholen. Keine spontane Licht- oder CV-Invertierung als Ersatz.
+STOPP Brummen ohne Bewegung, Geruch, auffällige Wärme oder Überlast: sofort Versorgung aus. Mechanik,
+Bürsten, Litzen und Isolation stromlos prüfen. Nicht höhere Fahrstufe geben oder wiederholt einschalten.
+Einmessfahrt bleibt aus: CV7/Firmware-Feld nicht auf 77 setzen. Das kurze Prüfgleis ist dafür nicht vorgesehen.
+Die gewöhnliche Kleinstfahrt ist ein eigener kontrollierter Handgriff.
+Datum ______; Projekt/Firmware ______; Laststufe ______; Lichtrichtung ______; Sound ______;
+Kleinstfahrt/Richtung ______; Auffälligkeiten ______.
+WEITER, WENN Die Motorseite besteht ihren Einzeltest. Alle Änderungen sind erneut geprüft; erst dann Gegenkopf
+ergänzen.
+REV11 | ICE 2976 | 11.09.2026
+32 / 40
+Quellen: Q1, Q2, Q3 (S. 40)
+Weiter: 33

@@ -1,0 +1,70 @@
+{
+  "pages": 40,
+  "bookmarks": 40,
+  "links": 199,
+  "invalid_page_links": [],
+  "out_of_bounds_characters": [],
+  "unresolved_placeholders": [],
+  "words": 12844,
+  "figure_placements": 22,
+  "photo_or_manufacturer_placements": 13,
+  "vector_diagram_placements": 9,
+  "sources": 23,
+  "bytes": 6996767,
+  "sha256": "3c67f596856f5403eac6f27f1f2512379555d3611749e4a7bd94f817cc7e41cb",
+  "rev10_unchanged": true,
+  "visual_review": {
+    "root": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      10,
+      24,
+      28
+    ],
+    "visual_agent": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      30,
+      31
+    ],
+    "coverage_agent": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "programming_agent": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "scope": "Document content/layout validation. No physical decoder programming or vehicle test performed."
+}

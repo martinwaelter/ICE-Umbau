@@ -1,0 +1,57 @@
+ZUGTEST | ZUNÄCHST OFFENE GEHÄUSE
+ARBEITSKARTE 34
+Wagen ergänzen: Innenlicht T1 bis T8 prüfen
+Vor jedem zusätzlichen Wagen seine elektrische Prüfung und die neue Laststufe abschließen. Die ganze
+Prüfserie wird für jede zugelassene Zusammenstellung wiederholt.
+VORHER Beide Köpfe S. 32/S. 33 bestanden. Wagen S. 23-S. 25 geprüft; bei gewählter Radkontaktoption zusätzlich S.
+26, Last S. 28 zugelassen. Ein CS3-Stromkreis, Fahrstufe 0, Automatik aus, beide 60974 ab.
+1. Vollständig ausschalten und Bus trennen. Nur den nächsten bereits geprüften Wagen ankoppeln;
+Endorientierung und Kontaktzuordnung kontrollieren. Niemals unter Spannung kuppeln. Danach im bestätigten
+begrenzten Prüfaufbau einschalten.
+Test
+Du bedienst den gemeinsamen ICE-Eintrag
+Bestanden, wenn
+T1
+F0, Sound und Innenlicht aus.
+Alle Wagen dunkel.
+T2
+Innenlicht einmal einschalten, loslassen; 30 Sekunden beobachten.
+Bleibt an, kein Blinken/Timer.
+T3
+F0 aus. Bei Fahrstufe 0 zehnmal vorwärts und zurück; je Zustand
+etwa 2 Sekunden warten.
+Innenlicht unverändert, Motor steht.
+T4
+F0 an. Die zehn Wechsel wiederholen.
+Fronten wechseln korrekt, Innenlicht
+unverändert.
+T5
+Nur F0 mehrfach aus/ein schalten.
+Innenlicht reagiert nicht.
+T6
+Zugelassenen Sound leise zuschalten; Richtungsfolge im Stand
+wiederholen.
+Kein Lichtausfall, Sound-Neustart oder
+Reset.
+T7
+Nur Innenlicht aus/ein schalten.
+Wagen folgen; Fronten/Sound bleiben
+unverändert.
+T8
+Nach jedem weiteren zugelassenen Wagen die Folge wiederholen.
+Jede endgültige Wagen-/Endorientierung
+besteht; später auch geschlossen.
+2. Bei einem Fehler sofort trennen. Alle Wagen richtungsabhängig dunkel: Innenlichtmapping und GE prüfen. Ein
+Wagen/alles ab einer Kupplung: betroffenen Übergang und Kontakt-Pad-Zuordnung prüfen. Sound-Neustart
+zusammen mit Lichtausfall: Versorgung und Last klären.
+STOPP Keinen Puffer gegen ungeklärtes Flackern anlöten. Ein kurzer Einbruch trotz richtiger Zuordnung braucht
+eine Messung des tatsächlichen Ausgangs-/Versorgungsverlaufs im passenden Aufbau. Ohne Ursache keinen
+weiteren Einschaltversuch.
+Wagenzahl/Reihenfolge ______; Endorientierung ______; AUX/Taste ______; Laststufe ______; T1-T8 je Stufe
+______; Datum ______. Zug und Kupplungen während der Standprüfung nicht berühren.
+WEITER, WENN Die vollständige vorgesehene Zusammenstellung besteht im Stand. Jetzt T9 und kontrollierten Fahrtest
+auf S. 35 ausführen.
+REV11 | ICE 2976 | 11.09.2026
+34 / 40
+Quellen: Q1, Q3, Q4, Q10 (S. 40)
+Weiter: 35

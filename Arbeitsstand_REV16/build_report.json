@@ -1,0 +1,10 @@
+{
+  "output": "/Users/martinwaelter/ICE Umbau/output/pdf/ICE_2976_REV16_MFX_EIN_DECODER_KUPPLUNGSLICHT.pdf",
+  "pages": 16,
+  "sha256": "4b1073343039bb7020aa3cbf3eeedf5d1987af999a4d072e5c1463f64a964114",
+  "physical_test": false,
+  "scope": "Nutzer bestätigt: mfx, keine Traktion, ein 60972, HLA 60941, LoDi-514, nur leitende Kupplungen; lokale Wagenversorgung zu prüfen",
+  "visual_qa": "All 16 pages rendered and visually inspected; pages 8/9 corrected and rechecked.",
+  "open_item": "Own center pickup shoe per middle coach not yet confirmed.",
+  "status": "Document complete; physical build and conditional wagon supply verification pending."
+}

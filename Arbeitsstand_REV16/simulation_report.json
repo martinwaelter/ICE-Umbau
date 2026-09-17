@@ -1,0 +1,2171 @@
+{
+  "model": "Static SPICE with resistive AUX switches, representative LEDs, 1N4148 model; physical LoDi LED characteristics unknown. Tolerances varied together, not exhaustive independent corners.",
+  "cases": 144,
+  "passed": true,
+  "max_LED_mA": 0.42068871500000005,
+  "max_pullup_mW": 128.9455946095213,
+  "max_LED_reverse_V": 0.3447969999999998,
+  "hardware_test": false,
+  "cases_data": [
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "normal",
+      "red_mA": -9.17295703e-13,
+      "white_mA": -9.17295632e-13,
+      "pullup1_mW": 2.239641630112112e-15,
+      "pullup2_mW": 2.239641630112112e-15,
+      "red_reverse_V": 0.0009171999999999514,
+      "white_reverse_V": 0.0009171999999999514
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "open1",
+      "red_mA": -9.178602039999999e-13,
+      "white_mA": -9.16731521e-13,
+      "pullup1_mW": 2.239641630112112e-15,
+      "pullup2_mW": 2.239641630112112e-15,
+      "red_reverse_V": 0.0009179000000010262,
+      "white_reverse_V": 0.0009167000000012138
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "open2",
+      "red_mA": -9.17903599e-13,
+      "white_mA": -9.16686298e-13,
+      "pullup1_mW": 2.239641630112112e-15,
+      "pullup2_mW": 2.239641630112112e-15,
+      "red_reverse_V": 0.0009179000000010262,
+      "white_reverse_V": 0.0009167000000012138
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "short12",
+      "red_mA": -9.17296856e-13,
+      "white_mA": -9.17296536e-13,
+      "pullup1_mW": 2.239641630112112e-15,
+      "pullup2_mW": 2.239641630112112e-15,
+      "red_reverse_V": 0.00091730000000112,
+      "white_reverse_V": 0.00091730000000112
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "normal",
+      "red_mA": -9.1800313e-13,
+      "white_mA": -9.180029090000001e-13,
+      "pullup1_mW": 2.127659548606507e-15,
+      "pullup2_mW": 2.127659548606507e-15,
+      "red_reverse_V": 0.0009180000000004185,
+      "white_reverse_V": 0.0009180000000004185
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "open1",
+      "red_mA": -9.18485737e-13,
+      "white_mA": -9.175199829999998e-13,
+      "pullup1_mW": 2.127659548606507e-15,
+      "pullup2_mW": 2.127659548606507e-15,
+      "red_reverse_V": 0.0009184999999991561,
+      "white_reverse_V": 0.0009174999999999045
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "open2",
+      "red_mA": -9.18513743e-13,
+      "white_mA": -9.174930439999999e-13,
+      "pullup1_mW": 2.127659548606507e-15,
+      "pullup2_mW": 2.127659548606507e-15,
+      "red_reverse_V": 0.0009185000000009325,
+      "white_reverse_V": 0.0009174999999999045
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "short12",
+      "red_mA": -9.18004127e-13,
+      "white_mA": -9.18004087e-13,
+      "pullup1_mW": 2.127659548606507e-15,
+      "pullup2_mW": 2.127659548606507e-15,
+      "red_reverse_V": 0.0009180000000004185,
+      "white_reverse_V": 0.0009180000000004185
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "normal",
+      "red_mA": -9.18658217e-13,
+      "white_mA": -9.18658029e-13,
+      "pullup1_mW": 2.026342427244292e-15,
+      "pullup2_mW": 2.026342427244292e-15,
+      "red_reverse_V": 0.0009186000000003247,
+      "white_reverse_V": 0.0009186000000003247
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "open1",
+      "red_mA": -9.19039392e-13,
+      "white_mA": -9.182779109999999e-13,
+      "pullup1_mW": 2.026342427244292e-15,
+      "pullup2_mW": 2.026342427244292e-15,
+      "red_reverse_V": 0.0009189999999996701,
+      "white_reverse_V": 0.0009182000000009793
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "open2",
+      "red_mA": -9.19122831e-13,
+      "white_mA": -9.181959060000001e-13,
+      "pullup1_mW": 2.026342427244292e-15,
+      "pullup2_mW": 2.026342427244292e-15,
+      "red_reverse_V": 0.0009191000000008387,
+      "white_reverse_V": 0.0009182000000009793
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "short12",
+      "red_mA": -9.18658414e-13,
+      "white_mA": -9.18658391e-13,
+      "pullup1_mW": 2.026342427244292e-15,
+      "pullup2_mW": 2.026342427244292e-15,
+      "red_reverse_V": 0.0009186000000003247,
+      "white_reverse_V": 0.0009186000000003247
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "normal",
+      "red_mA": 0.187189833,
+      "white_mA": -3.33010694e-10,
+      "pullup1_mW": 32.235392912038655,
+      "pullup2_mW": 0.15646224683540644,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.3330106999999991
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "open1",
+      "red_mA": -8.17008121e-13,
+      "white_mA": -1.01739064e-12,
+      "pullup1_mW": 32.236398652299705,
+      "pullup2_mW": 2.239641630112112e-15,
+      "red_reverse_V": 0.0008169999999996236,
+      "white_reverse_V": 0.0010174000000002792
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "open2",
+      "red_mA": 1.0785754000000001e-13,
+      "white_mA": -1.0760078300000001e-13,
+      "pullup1_mW": 32.236398652299705,
+      "pullup2_mW": 2.239641630112112e-15,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.00010760078999999968
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "short12",
+      "red_mA": 1.78952455e-16,
+      "white_mA": -1.86202625e-14,
+      "pullup1_mW": 32.22627405289107,
+      "pullup2_mW": 15.858234728336438,
+      "red_reverse_V": 0,
+      "white_reverse_V": 1.8619999999858194e-05
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "normal",
+      "red_mA": 0.17792641,
+      "white_mA": -3.30628047e-10,
+      "pullup1_mW": 30.624356265502044,
+      "pullup2_mW": 0.14880019006042555,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.3306281000000002
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "open1",
+      "red_mA": -8.1765976e-13,
+      "white_mA": -1.01815291e-12,
+      "pullup1_mW": 30.625264458488033,
+      "pullup2_mW": 2.127659548606507e-15,
+      "red_reverse_V": 0.0008177000000006984,
+      "white_reverse_V": 0.0010182000000007463
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "open2",
+      "red_mA": 1.07851727e-13,
+      "white_mA": -1.07594965e-13,
+      "pullup1_mW": 30.625264458488033,
+      "pullup2_mW": 2.127659548606507e-15,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.00010759496999999995
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "short12",
+      "red_mA": -3.06511931e-16,
+      "white_mA": -1.81637808e-14,
+      "pullup1_mW": 30.6161265922699,
+      "pullup2_mW": 15.065899278412214,
+      "red_reverse_V": 3.1000000011438544e-07,
+      "white_reverse_V": 1.8159999999989296e-05
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "normal",
+      "red_mA": 0.169600203,
+      "white_mA": -3.28407409e-10,
+      "pullup1_mW": 29.16668524037943,
+      "pullup2_mW": 0.14185959428109648,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.32840740000000146
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "open1",
+      "red_mA": -8.18214586e-13,
+      "white_mA": -1.0189098600000001e-12,
+      "pullup1_mW": 29.167509436761165,
+      "pullup2_mW": 2.026342427244292e-15,
+      "red_reverse_V": 0.000818199999999436,
+      "white_reverse_V": 0.0010189000000000448
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "open2",
+      "red_mA": 1.0784577900000001e-13,
+      "white_mA": -1.0758901100000001e-13,
+      "pullup1_mW": 29.167509436761165,
+      "pullup2_mW": 2.026342427244292e-15,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.00010758900999999991
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "short12",
+      "red_mA": -7.458248379999999e-16,
+      "white_mA": -1.7750829400000002e-14,
+      "pullup1_mW": 29.15922078200509,
+      "pullup2_mW": 14.348972077570025,
+      "red_reverse_V": 7.500000001048335e-07,
+      "white_reverse_V": 1.7750000000038568e-05
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "normal",
+      "red_mA": -3.32327868e-10,
+      "white_mA": 0.175989175,
+      "pullup1_mW": 0.13774795337174442,
+      "pullup2_mW": 32.23545497420829,
+      "red_reverse_V": 0.332327900000001,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "open1",
+      "red_mA": -1.07600806e-13,
+      "white_mA": 1.07857521e-13,
+      "pullup1_mW": 2.239641630112112e-15,
+      "pullup2_mW": 32.236398652299705,
+      "red_reverse_V": 0.00010760077999999972,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "open2",
+      "red_mA": -1.01855501e-12,
+      "white_mA": -8.15831843e-13,
+      "pullup1_mW": 2.239641630112112e-15,
+      "pullup2_mW": 32.236398652299705,
+      "red_reverse_V": 0.0010185000000006994,
+      "white_reverse_V": 0.0008157999999998111
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "short12",
+      "red_mA": -1.86204375e-14,
+      "white_mA": 1.7878105899999998e-16,
+      "pullup1_mW": 15.858234728336438,
+      "pullup2_mW": 32.22627405289107,
+      "red_reverse_V": 1.8619999999858194e-05,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "normal",
+      "red_mA": -3.30004174e-10,
+      "white_mA": 0.166982406,
+      "pullup1_mW": 0.13101411305975305,
+      "pullup2_mW": 30.62441227005779,
+      "red_reverse_V": 0.3300041,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "open1",
+      "red_mA": -1.07594984e-13,
+      "white_mA": 1.07851705e-13,
+      "pullup1_mW": 2.127659548606507e-15,
+      "pullup2_mW": 30.625264458488033,
+      "red_reverse_V": 0.00010759496999999995,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "open2",
+      "red_mA": -1.0191513899999999e-12,
+      "white_mA": -8.16652135e-13,
+      "pullup1_mW": 2.127659548606507e-15,
+      "pullup2_mW": 30.625264458488033,
+      "red_reverse_V": 0.0010191999999999979,
+      "white_reverse_V": 0.0008166999999996705
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "short12",
+      "red_mA": -1.8163567700000003e-14,
+      "white_mA": -3.06328565e-16,
+      "pullup1_mW": 15.065899278412214,
+      "pullup2_mW": 30.6161265922699,
+      "red_reverse_V": 1.8159999999989296e-05,
+      "white_reverse_V": 3.1000000011438544e-07
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "normal",
+      "red_mA": -3.2787627299999997e-10,
+      "white_mA": 0.15927213499999998,
+      "pullup1_mW": 0.12490471694230011,
+      "pullup2_mW": 29.16673606021838,
+      "red_reverse_V": 0.3278762000000004,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "open1",
+      "red_mA": -1.07589034e-13,
+      "white_mA": 1.07845759e-13,
+      "pullup1_mW": 2.026342427244292e-15,
+      "pullup2_mW": 29.167509436761165,
+      "red_reverse_V": 0.00010758900999999991,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "open2",
+      "red_mA": -1.01974454e-12,
+      "white_mA": -8.17369796e-13,
+      "pullup1_mW": 2.026342427244292e-15,
+      "pullup2_mW": 29.167509436761165,
+      "red_reverse_V": 0.0010197999999999041,
+      "white_reverse_V": 0.000817399999998969
+    },
+    {
+      "voltage": 12,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "short12",
+      "red_mA": -1.77508406e-14,
+      "white_mA": -7.45848149e-16,
+      "pullup1_mW": 14.348972077570025,
+      "pullup2_mW": 29.15922078200509,
+      "red_reverse_V": 1.7750000000038568e-05,
+      "white_reverse_V": 7.500000001048335e-07
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "normal",
+      "red_mA": -2.6592015000000004e-22,
+      "white_mA": -2.65839867e-22,
+      "pullup1_mW": 32.23639865240719,
+      "pullup2_mW": 32.23639865240719,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "open1",
+      "red_mA": 3.3508718800000003e-21,
+      "white_mA": -3.8249061e-21,
+      "pullup1_mW": 32.23639865240719,
+      "pullup2_mW": 32.23639865240719,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "open2",
+      "red_mA": -3.71286754e-21,
+      "white_mA": 4.28742328e-21,
+      "pullup1_mW": 32.23639865240719,
+      "pullup2_mW": 32.23639865240719,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "short12",
+      "red_mA": -2.7718327799999997e-22,
+      "white_mA": -2.77160239e-22,
+      "pullup1_mW": 32.23639865240719,
+      "pullup2_mW": 32.23639865240719,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "normal",
+      "red_mA": -2.10159188e-22,
+      "white_mA": -2.0998610800000001e-22,
+      "pullup1_mW": 30.625264458539093,
+      "pullup2_mW": 30.625264458539093,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "open1",
+      "red_mA": -6.75739543e-22,
+      "white_mA": 1.62848944e-21,
+      "pullup1_mW": 30.625264458539093,
+      "pullup2_mW": 30.625264458539093,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "open2",
+      "red_mA": -2.06338979e-21,
+      "white_mA": 1.70859377e-21,
+      "pullup1_mW": 30.625264458539093,
+      "pullup2_mW": 30.625264458539093,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "short12",
+      "red_mA": -1.12087444e-22,
+      "white_mA": -1.12064004e-22,
+      "pullup1_mW": 30.625264458539093,
+      "pullup2_mW": 30.625264458539093,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "normal",
+      "red_mA": 1.44467799e-23,
+      "white_mA": 1.4569508799999998e-23,
+      "pullup1_mW": 29.167509436858406,
+      "pullup2_mW": 29.167509436858406,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "open1",
+      "red_mA": 5.91907193e-21,
+      "white_mA": -5.87754151e-21,
+      "pullup1_mW": 29.167509436858406,
+      "pullup2_mW": 29.167509436858406,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "open2",
+      "red_mA": -6.56332884e-21,
+      "white_mA": 6.88224044e-21,
+      "pullup1_mW": 29.167509436858406,
+      "pullup2_mW": 29.167509436858406,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 12,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "short12",
+      "red_mA": 8.73008432e-23,
+      "white_mA": 8.73238114e-23,
+      "pullup1_mW": 29.167509436858406,
+      "pullup2_mW": 29.167509436858406,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "normal",
+      "red_mA": -9.17296917e-13,
+      "white_mA": -9.17296671e-13,
+      "pullup1_mW": 2.2396417096801677e-15,
+      "pullup2_mW": 2.2396417096801677e-15,
+      "red_reverse_V": 0.0009172999999975673,
+      "white_reverse_V": 0.0009172999999975673
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "open1",
+      "red_mA": -9.17820868e-13,
+      "white_mA": -9.16769314e-13,
+      "pullup1_mW": 2.2396417096801677e-15,
+      "pullup2_mW": 2.2396417096801677e-15,
+      "red_reverse_V": 0.0009177999999998576,
+      "white_reverse_V": 0.000916699999997661
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "open2",
+      "red_mA": -9.17932423e-13,
+      "white_mA": -9.16658169e-13,
+      "pullup1_mW": 2.2396417096801677e-15,
+      "pullup2_mW": 2.2396417096801677e-15,
+      "red_reverse_V": 0.0009178999999974735,
+      "white_reverse_V": 0.0009166000000000452
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "short12",
+      "red_mA": -9.17294538e-13,
+      "white_mA": -9.17294215e-13,
+      "pullup1_mW": 2.2396417096801677e-15,
+      "pullup2_mW": 2.2396417096801677e-15,
+      "red_reverse_V": 0.0009172999999975673,
+      "white_reverse_V": 0.0009172999999975673
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "normal",
+      "red_mA": -9.180031190000001e-13,
+      "white_mA": -9.180027370000001e-13,
+      "pullup1_mW": 2.12765962419616e-15,
+      "pullup2_mW": 2.12765962419616e-15,
+      "red_reverse_V": 0.0009179999999986421,
+      "white_reverse_V": 0.0009179999999986421
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "open1",
+      "red_mA": -9.18477163e-13,
+      "white_mA": -9.17529052e-13,
+      "pullup1_mW": 2.12765962419616e-15,
+      "pullup2_mW": 2.12765962419616e-15,
+      "red_reverse_V": 0.0009185000000009325,
+      "white_reverse_V": 0.0009174999999999045
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "open2",
+      "red_mA": -9.18502236e-13,
+      "white_mA": -9.17502275e-13,
+      "pullup1_mW": 2.12765962419616e-15,
+      "pullup2_mW": 2.12765962419616e-15,
+      "red_reverse_V": 0.0009184999999973797,
+      "white_reverse_V": 0.0009174999999999045
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "short12",
+      "red_mA": -9.18005228e-13,
+      "white_mA": -9.18005033e-13,
+      "pullup1_mW": 2.12765962419616e-15,
+      "pullup2_mW": 2.12765962419616e-15,
+      "red_reverse_V": 0.0009179999999986421,
+      "white_reverse_V": 0.0009179999999986421
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "normal",
+      "red_mA": -9.18658563e-13,
+      "white_mA": -9.186584269999999e-13,
+      "pullup1_mW": 2.0263424992344378e-15,
+      "pullup2_mW": 2.0263424992344378e-15,
+      "red_reverse_V": 0.0009185999999985484,
+      "white_reverse_V": 0.0009185999999985484
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "open1",
+      "red_mA": -9.19054912e-13,
+      "white_mA": -9.182644839999998e-13,
+      "pullup1_mW": 2.0263424992344378e-15,
+      "pullup2_mW": 2.0263424992344378e-15,
+      "red_reverse_V": 0.0009191000000008387,
+      "white_reverse_V": 0.0009182999999985952
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "open2",
+      "red_mA": -9.19132105e-13,
+      "white_mA": -9.18185897e-13,
+      "pullup1_mW": 2.0263424992344378e-15,
+      "pullup2_mW": 2.0263424992344378e-15,
+      "red_reverse_V": 0.000919099999997286,
+      "white_reverse_V": 0.0009181999999974266
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "short12",
+      "red_mA": -9.18658354e-13,
+      "white_mA": -9.186584260000001e-13,
+      "pullup1_mW": 2.0263424992344378e-15,
+      "pullup2_mW": 2.0263424992344378e-15,
+      "red_reverse_V": 0.0009185999999985484,
+      "white_reverse_V": 0.0009185999999985484
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "normal",
+      "red_mA": 0.304218367,
+      "white_mA": -3.3881587999999997e-10,
+      "pullup1_mW": 72.52944842584934,
+      "pullup2_mW": 0.412164794622567,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.33881590000000017
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "open1",
+      "red_mA": -7.665046530000001e-13,
+      "white_mA": -1.06765369e-12,
+      "pullup1_mW": 72.53189696775497,
+      "pullup2_mW": 8.958566520448448e-15,
+      "red_reverse_V": 0.0007664999999974498,
+      "white_reverse_V": 0.0010675999999989472
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "open2",
+      "red_mA": 1.6188297000000002e-13,
+      "white_mA": -1.61305282e-13,
+      "pullup1_mW": 72.53189696775497,
+      "pullup2_mW": 8.958566520448448e-15,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.00016130528000000022
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "short12",
+      "red_mA": 4.880027999999999e-15,
+      "white_mA": -2.3318778999999998e-14,
+      "pullup1_mW": 72.50911661900493,
+      "pullup2_mW": 35.681028167025815,
+      "red_reverse_V": 0,
+      "white_reverse_V": 2.3319999999937835e-05
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "normal",
+      "red_mA": 0.289135058,
+      "white_mA": -3.35033696e-10,
+      "pullup1_mW": 68.9046344127743,
+      "pullup2_mW": 0.3918257239919057,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.3350337000000003
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "open1",
+      "red_mA": -7.67164236e-13,
+      "white_mA": -1.0684066e-12,
+      "pullup1_mW": 68.9068450315215,
+      "pullup2_mW": 8.510638194426027e-15,
+      "red_reverse_V": 0.0007671000000009087,
+      "white_reverse_V": 0.0010684000000011906
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "open2",
+      "red_mA": 1.61874242e-13,
+      "white_mA": -1.6129654100000001e-13,
+      "pullup1_mW": 68.9068450315215,
+      "pullup2_mW": 8.510638194426027e-15,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.00016129654000000045
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "short12",
+      "red_mA": 4.1588449599999995e-15,
+      "white_mA": -2.26270314e-14,
+      "pullup1_mW": 68.88628483260729,
+      "pullup2_mW": 33.898273349571575,
+      "red_reverse_V": 0,
+      "white_reverse_V": 2.2629999999690398e-05
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "normal",
+      "red_mA": 0.275066495,
+      "white_mA": -3.32873154e-10,
+      "pullup1_mW": 65.62489046008477,
+      "pullup2_mW": 0.37340371529298705,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.33287320000000165
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "open1",
+      "red_mA": -7.67685906e-13,
+      "white_mA": -1.0691942099999999e-12,
+      "pullup1_mW": 65.62689623274909,
+      "pullup2_mW": 8.105369708977168e-15,
+      "red_reverse_V": 0.000767700000000815,
+      "white_reverse_V": 0.0010691999999998814
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "open2",
+      "red_mA": 1.61865325e-13,
+      "white_mA": -1.61287614e-13,
+      "pullup1_mW": 65.62689623274909,
+      "pullup2_mW": 8.105369708977168e-15,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.00016128761000000014
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "short12",
+      "red_mA": 3.5064967500000003e-15,
+      "white_mA": -2.20009909e-14,
+      "pullup1_mW": 65.60824675947498,
+      "pullup2_mW": 32.28518717453255,
+      "red_reverse_V": 0,
+      "white_reverse_V": 2.199999999996649e-05
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "normal",
+      "red_mA": -3.39261226e-10,
+      "white_mA": 0.292180218,
+      "pullup1_mW": 0.3811868227385462,
+      "pullup2_mW": 72.52954223742651,
+      "red_reverse_V": 0.33926119999999926,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "open1",
+      "red_mA": -1.61305313e-13,
+      "white_mA": 1.61882937e-13,
+      "pullup1_mW": 8.958566520448448e-15,
+      "pullup2_mW": 72.53189696775497,
+      "red_reverse_V": 0.00016130528000000022,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "open2",
+      "red_mA": -1.06881522e-12,
+      "white_mA": -7.65318465e-13,
+      "pullup1_mW": 8.958566520448448e-15,
+      "pullup2_mW": 72.53189696775497,
+      "red_reverse_V": 0.0010687999999987596,
+      "white_reverse_V": 0.0007652999999976373
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "short12",
+      "red_mA": -2.3318927800000002e-14,
+      "white_mA": 4.87987137e-15,
+      "pullup1_mW": 35.681028167025815,
+      "pullup2_mW": 72.50911661900493,
+      "red_reverse_V": 2.3319999999937835e-05,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "normal",
+      "red_mA": -3.34815615e-10,
+      "white_mA": 0.277702293,
+      "pullup1_mW": 0.3624704800947143,
+      "pullup2_mW": 68.90471883293927,
+      "red_reverse_V": 0.33481560000000243,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "open1",
+      "red_mA": -1.61296574e-13,
+      "white_mA": 1.61874212e-13,
+      "pullup1_mW": 8.510638194426027e-15,
+      "pullup2_mW": 68.9068450315215,
+      "red_reverse_V": 0.0001612965500000004,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "open2",
+      "red_mA": -1.06938118e-12,
+      "white_mA": -7.66170631e-13,
+      "pullup1_mW": 8.510638194426027e-15,
+      "pullup2_mW": 68.9068450315215,
+      "red_reverse_V": 0.0010693999999986659,
+      "white_reverse_V": 0.0007661999999974967
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "short12",
+      "red_mA": -2.26269896e-14,
+      "white_mA": 4.1589313700000005e-15,
+      "pullup1_mW": 33.898273349571575,
+      "pullup2_mW": 68.88628483260729,
+      "red_reverse_V": 2.2629999999690398e-05,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "normal",
+      "red_mA": -3.33383092e-10,
+      "white_mA": 0.26457724699999996,
+      "pullup1_mW": 0.3454687999007981,
+      "pullup2_mW": 65.6249669452267,
+      "red_reverse_V": 0.33338309999999893,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "open1",
+      "red_mA": -1.61287647e-13,
+      "white_mA": 1.61865298e-13,
+      "pullup1_mW": 8.105369708977168e-15,
+      "pullup2_mW": 65.62689623274909,
+      "red_reverse_V": 0.0001612876200000001,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "open2",
+      "red_mA": -1.06998349e-12,
+      "white_mA": -7.66881833e-13,
+      "pullup1_mW": 8.105369708977168e-15,
+      "pullup2_mW": 65.62689623274909,
+      "red_reverse_V": 0.001069999999998572,
+      "white_reverse_V": 0.0007668999999985715
+    },
+    {
+      "voltage": 18,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "short12",
+      "red_mA": -2.2000872100000002e-14,
+      "white_mA": 3.50661725e-15,
+      "pullup1_mW": 32.28518717453255,
+      "pullup2_mW": 65.60824675947498,
+      "red_reverse_V": 2.199999999996649e-05,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "normal",
+      "red_mA": -4.07234221e-22,
+      "white_mA": -4.07114446e-22,
+      "pullup1_mW": 72.53189696783556,
+      "pullup2_mW": 72.53189696783556,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "open1",
+      "red_mA": 5.22562476e-21,
+      "white_mA": -6.08266128e-21,
+      "pullup1_mW": 72.53189696783556,
+      "pullup2_mW": 72.53189696783556,
+      "red_reverse_V": 0,
+      "white_reverse_V": 9.999999960041972e-12
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "open2",
+      "red_mA": -5.62178624e-21,
+      "white_mA": 6.74162549e-21,
+      "pullup1_mW": 72.53189696783556,
+      "pullup2_mW": 72.53189696783556,
+      "red_reverse_V": 9.999999960041972e-12,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "short12",
+      "red_mA": -4.2242606499999997e-22,
+      "white_mA": -4.22390421e-22,
+      "pullup1_mW": 72.53189696783556,
+      "pullup2_mW": 72.53189696783556,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "normal",
+      "red_mA": -3.33026206e-22,
+      "white_mA": -3.327668e-22,
+      "pullup1_mW": 68.90684503167465,
+      "pullup2_mW": 68.90684503167465,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "open1",
+      "red_mA": -1.41204697e-21,
+      "white_mA": 8.07452629e-22,
+      "pullup1_mW": 68.90684503167465,
+      "pullup2_mW": 68.90684503167465,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "open2",
+      "red_mA": -1.40530496e-21,
+      "white_mA": 2.7883312e-21,
+      "pullup1_mW": 68.90684503167465,
+      "pullup2_mW": 68.90684503167465,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "short12",
+      "red_mA": -1.43352372e-22,
+      "white_mA": -1.43318083e-22,
+      "pullup1_mW": 68.90684503167465,
+      "pullup2_mW": 68.90684503167465,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "normal",
+      "red_mA": 2.42666177e-23,
+      "white_mA": 2.44509274e-23,
+      "pullup1_mW": 65.62689623289495,
+      "pullup2_mW": 65.62689623289495,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "open1",
+      "red_mA": 9.24547943e-21,
+      "white_mA": -7.41834675e-21,
+      "pullup1_mW": 65.62689623289495,
+      "pullup2_mW": 65.62689623289495,
+      "red_reverse_V": 0,
+      "white_reverse_V": 9.999999960041972e-12
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "open2",
+      "red_mA": -1.05354352e-20,
+      "white_mA": 1.06435165e-20,
+      "pullup1_mW": 65.62689623289495,
+      "pullup2_mW": 65.62689623289495,
+      "red_reverse_V": 9.999999960041972e-12,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 18,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "short12",
+      "red_mA": 1.30196226e-22,
+      "white_mA": 1.30230462e-22,
+      "pullup1_mW": 65.62689623289495,
+      "pullup2_mW": 65.62689623289495,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "normal",
+      "red_mA": -9.434249320000001e-12,
+      "white_mA": -9.434247929999999e-12,
+      "pullup1_mW": 2.2396417096801677e-15,
+      "pullup2_mW": 2.2396417096801677e-15,
+      "red_reverse_V": 0.009434299999998785,
+      "white_reverse_V": 0.009434299999998785
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "open1",
+      "red_mA": -9.43733674e-12,
+      "white_mA": -9.431155419999999e-12,
+      "pullup1_mW": 2.2396417096801677e-15,
+      "pullup2_mW": 2.2396417096801677e-15,
+      "red_reverse_V": 0.009437399999999485,
+      "white_reverse_V": 0.009431199999998086
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "open2",
+      "red_mA": -9.43741861e-12,
+      "white_mA": -9.43107702e-12,
+      "pullup1_mW": 2.2396417096801677e-15,
+      "pullup2_mW": 2.2396417096801677e-15,
+      "red_reverse_V": 0.009437399999999485,
+      "white_reverse_V": 0.00943110000000047
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "short12",
+      "red_mA": -9.43424669e-12,
+      "white_mA": -9.43424495e-12,
+      "pullup1_mW": 2.2396417096801677e-15,
+      "pullup2_mW": 2.2396417096801677e-15,
+      "red_reverse_V": 0.009434299999998785,
+      "white_reverse_V": 0.009434299999998785
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "normal",
+      "red_mA": -9.438015129999999e-12,
+      "white_mA": -9.43801392e-12,
+      "pullup1_mW": 2.12765962419616e-15,
+      "pullup2_mW": 2.12765962419616e-15,
+      "red_reverse_V": 0.009437999999999391,
+      "white_reverse_V": 0.009437999999999391
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "open1",
+      "red_mA": -9.440654639999999e-12,
+      "white_mA": -9.43536816e-12,
+      "pullup1_mW": 2.12765962419616e-15,
+      "pullup2_mW": 2.12765962419616e-15,
+      "red_reverse_V": 0.00944069999999897,
+      "white_reverse_V": 0.00943539999999743
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "open2",
+      "red_mA": -9.440698469999999e-12,
+      "white_mA": -9.43532803e-12,
+      "pullup1_mW": 2.12765962419616e-15,
+      "pullup2_mW": 2.12765962419616e-15,
+      "red_reverse_V": 0.00944069999999897,
+      "white_reverse_V": 0.009435299999999813
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "short12",
+      "red_mA": -9.43801309e-12,
+      "white_mA": -9.43801119e-12,
+      "pullup1_mW": 2.12765962419616e-15,
+      "pullup2_mW": 2.12765962419616e-15,
+      "red_reverse_V": 0.009437999999999391,
+      "white_reverse_V": 0.009437999999999391
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "normal",
+      "red_mA": -9.441495609999999e-12,
+      "white_mA": -9.44149402e-12,
+      "pullup1_mW": 2.0263424992344378e-15,
+      "pullup2_mW": 2.0263424992344378e-15,
+      "red_reverse_V": 0.00944149999999766,
+      "white_reverse_V": 0.00944149999999766
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "open1",
+      "red_mA": -9.44362764e-12,
+      "white_mA": -9.43936827e-12,
+      "pullup1_mW": 2.0263424992344378e-15,
+      "pullup2_mW": 2.0263424992344378e-15,
+      "red_reverse_V": 0.009443600000000885,
+      "white_reverse_V": 0.009439399999997988
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "open2",
+      "red_mA": -9.44369851e-12,
+      "white_mA": -9.43929603e-12,
+      "pullup1_mW": 2.0263424992344378e-15,
+      "pullup2_mW": 2.0263424992344378e-15,
+      "red_reverse_V": 0.0094436999999985,
+      "white_reverse_V": 0.009439300000000372
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "short12",
+      "red_mA": -9.441498800000001e-12,
+      "white_mA": -9.44149695e-12,
+      "pullup1_mW": 2.0263424992344378e-15,
+      "pullup2_mW": 2.0263424992344378e-15,
+      "red_reverse_V": 0.00944149999999766,
+      "white_reverse_V": 0.00944149999999766
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "normal",
+      "red_mA": 0.42068871500000005,
+      "white_mA": -3.4087258900000005e-10,
+      "pullup1_mW": 128.94107409942356,
+      "pullup2_mW": 0.790229964686845,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.34087260000000086
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "open1",
+      "red_mA": -9.29600378e-12,
+      "white_mA": -9.57220573e-12,
+      "pullup1_mW": 128.9455946093063,
+      "pullup2_mW": 8.958566520448448e-15,
+      "red_reverse_V": 0.009295999999999083,
+      "white_reverse_V": 0.009572200000000919
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "open2",
+      "red_mA": 2.15973011e-13,
+      "white_mA": -2.14946018e-13,
+      "pullup1_mW": 128.9455946093063,
+      "pullup2_mW": 8.958566520448448e-15,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.00021494601999999963
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": -0.05,
+      "fault": "short12",
+      "red_mA": 9.58133557e-15,
+      "white_mA": -2.80170857e-14,
+      "pullup1_mW": 128.90509621156428,
+      "pullup2_mW": 63.43293898872929,
+      "red_reverse_V": 0,
+      "white_reverse_V": 2.801999999979543e-05
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "normal",
+      "red_mA": 0.39980209499999997,
+      "white_mA": -3.38123715e-10,
+      "pullup1_mW": 122.49697646827923,
+      "pullup2_mW": 0.7512751347616351,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.3381237000000006
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "open1",
+      "red_mA": -9.29934749e-12,
+      "white_mA": -9.57638964e-12,
+      "pullup1_mW": 122.50105783385001,
+      "pullup2_mW": 8.510638194426027e-15,
+      "red_reverse_V": 0.009299299999998567,
+      "white_reverse_V": 0.009576400000000262
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "open2",
+      "red_mA": 2.1596140900000001e-13,
+      "white_mA": -2.1493439200000002e-13,
+      "pullup1_mW": 122.50105783385001,
+      "pullup2_mW": 8.510638194426027e-15,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.0002149344000000001
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0,
+      "fault": "short12",
+      "red_mA": 8.62476861e-15,
+      "white_mA": -2.70898e-14,
+      "pullup1_mW": 122.4645063690796,
+      "pullup2_mW": 60.263597113648856,
+      "red_reverse_V": 0,
+      "white_reverse_V": 2.708999999967432e-05
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "normal",
+      "red_mA": 0.380845327,
+      "white_mA": -3.36614294e-10,
+      "pullup1_mW": 116.66633495791531,
+      "pullup2_mW": 0.7158069846831931,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.3366143000000008
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "open1",
+      "red_mA": -9.30236741e-12,
+      "white_mA": -9.58033793e-12,
+      "pullup1_mW": 116.6700377471419,
+      "pullup2_mW": 8.105369708977168e-15,
+      "red_reverse_V": 0.009302399999999267,
+      "white_reverse_V": 0.009580299999999653
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "open2",
+      "red_mA": 2.1594954200000002e-13,
+      "white_mA": -2.1492250700000002e-13,
+      "pullup1_mW": 116.6700377471419,
+      "pullup2_mW": 8.105369708977168e-15,
+      "red_reverse_V": 0,
+      "white_reverse_V": 0.00021492251000000077
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        0
+      ],
+      "tolerance": 0.05,
+      "fault": "short12",
+      "red_mA": 7.75949898e-15,
+      "white_mA": -2.62505351e-14,
+      "pullup1_mW": 116.63688312792313,
+      "pullup2_mW": 57.3958883102801,
+      "red_reverse_V": 0,
+      "white_reverse_V": 2.6249999999894413e-05
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "normal",
+      "red_mA": -3.44797049e-10,
+      "white_mA": 0.409141131,
+      "pullup1_mW": 0.7474435871833739,
+      "pullup2_mW": 128.9411981810401,
+      "red_reverse_V": 0.3447969999999998,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "open1",
+      "red_mA": -2.1494609899999998e-13,
+      "white_mA": 2.15973009e-13,
+      "pullup1_mW": 8.958566520448448e-15,
+      "pullup2_mW": 128.9455946093063,
+      "red_reverse_V": 0.00021494606000000034,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "open2",
+      "red_mA": -9.578386470000001e-12,
+      "white_mA": -9.289770659999999e-12,
+      "pullup1_mW": 8.958566520448448e-15,
+      "pullup2_mW": 128.9455946093063,
+      "red_reverse_V": 0.009578400000002318,
+      "white_reverse_V": 0.009289800000001236
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "short12",
+      "red_mA": -2.80172781e-14,
+      "white_mA": 9.58114132e-15,
+      "pullup1_mW": 63.43293898872929,
+      "pullup2_mW": 128.90509621156428,
+      "red_reverse_V": 2.801999999979543e-05,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "normal",
+      "red_mA": -3.42162311e-10,
+      "white_mA": 0.388785565,
+      "pullup1_mW": 0.7104431984956688,
+      "pullup2_mW": 122.49708892825674,
+      "red_reverse_V": 0.34216229999999825,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "open1",
+      "red_mA": -2.14934434e-13,
+      "white_mA": 2.15961365e-13,
+      "pullup1_mW": 8.510638194426027e-15,
+      "pullup2_mW": 122.50105783385001,
+      "red_reverse_V": 0.00021493439000000013,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "open2",
+      "red_mA": -9.5816537e-12,
+      "white_mA": -9.29403348e-12,
+      "pullup1_mW": 8.510638194426027e-15,
+      "pullup2_mW": 122.50105783385001,
+      "red_reverse_V": 0.009581700000001803,
+      "white_reverse_V": 0.009294100000001748
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "short12",
+      "red_mA": -2.7089310000000002e-14,
+      "white_mA": 8.62521405e-15,
+      "pullup1_mW": 60.263597113648856,
+      "pullup2_mW": 122.4645063690796,
+      "red_reverse_V": 2.708999999967432e-05,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "normal",
+      "red_mA": -3.3948271899999997e-10,
+      "white_mA": 0.370363494,
+      "pullup1_mW": 0.676947934173446,
+      "pullup2_mW": 116.666436866369,
+      "red_reverse_V": 0.33948270000000136,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "open1",
+      "red_mA": -2.14922547e-13,
+      "white_mA": 2.15949499e-13,
+      "pullup1_mW": 8.105369708977168e-15,
+      "pullup2_mW": 116.6700377471419,
+      "red_reverse_V": 0.00021492251000000077,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "open2",
+      "red_mA": -9.58467235e-12,
+      "white_mA": -9.29799256e-12,
+      "pullup1_mW": 8.105369708977168e-15,
+      "pullup2_mW": 116.6700377471419,
+      "red_reverse_V": 0.009584600000000165,
+      "white_reverse_V": 0.009298000000001139
+    },
+    {
+      "voltage": 24,
+      "state": [
+        0,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "short12",
+      "red_mA": -2.6250691e-14,
+      "white_mA": 7.7592629e-15,
+      "pullup1_mW": 57.3958883102801,
+      "pullup2_mW": 116.63688312792313,
+      "red_reverse_V": 2.6249999999894413e-05,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "normal",
+      "red_mA": -5.55130702e-22,
+      "white_mA": -5.54969265e-22,
+      "pullup1_mW": 128.9455946095213,
+      "pullup2_mW": 128.9455946095213,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "open1",
+      "red_mA": 7.25232948e-21,
+      "white_mA": -5.78598888e-21,
+      "pullup1_mW": 128.9455946095213,
+      "pullup2_mW": 128.9455946095213,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 9.999999960041972e-12
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "open2",
+      "red_mA": -7.685161290000001e-21,
+      "white_mA": 9.44322572e-21,
+      "pullup1_mW": 128.9455946095213,
+      "pullup2_mW": 128.9455946095213,
+      "red_reverse_V": 9.999999960041972e-12,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": -0.05,
+      "fault": "short12",
+      "red_mA": -5.728777940000001e-22,
+      "white_mA": -5.72831713e-22,
+      "pullup1_mW": 128.9455946095213,
+      "pullup2_mW": 128.9455946095213,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "normal",
+      "red_mA": -4.66032685e-22,
+      "white_mA": -4.65686517e-22,
+      "pullup1_mW": 122.50105783405424,
+      "pullup2_mW": 122.50105783405424,
+      "red_reverse_V": 9.999999960041972e-12,
+      "white_reverse_V": 9.999999960041972e-12
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "open1",
+      "red_mA": -2.42520374e-21,
+      "white_mA": 1.59490476e-21,
+      "pullup1_mW": 122.50105783405424,
+      "pullup2_mW": 122.50105783405424,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "open2",
+      "red_mA": -2.15499361e-21,
+      "white_mA": 4.02252103e-21,
+      "pullup1_mW": 122.50105783405424,
+      "pullup2_mW": 122.50105783405424,
+      "red_reverse_V": 9.999999960041972e-12,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0,
+      "fault": "short12",
+      "red_mA": -1.59055092e-22,
+      "white_mA": -1.5900909099999998e-22,
+      "pullup1_mW": 122.50105783405424,
+      "pullup2_mW": 122.50105783405424,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "normal",
+      "red_mA": 3.51437697e-23,
+      "white_mA": 3.53883589e-23,
+      "pullup1_mW": 116.6700377473364,
+      "pullup2_mW": 116.6700377473364,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "open1",
+      "red_mA": 1.28522868e-20,
+      "white_mA": -1.2861639700000001e-20,
+      "pullup1_mW": 116.6700377473364,
+      "pullup2_mW": 116.6700377473364,
+      "red_reverse_V": 0,
+      "white_reverse_V": 9.999999960041972e-12
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "open2",
+      "red_mA": -1.4198503600000002e-20,
+      "white_mA": 1.46518908e-20,
+      "pullup1_mW": 116.6700377473364,
+      "pullup2_mW": 116.6700377473364,
+      "red_reverse_V": 1.9999999920083944e-11,
+      "white_reverse_V": 0
+    },
+    {
+      "voltage": 24,
+      "state": [
+        1,
+        1
+      ],
+      "tolerance": 0.05,
+      "fault": "short12",
+      "red_mA": 1.72947627e-22,
+      "white_mA": 1.72994431e-22,
+      "pullup1_mW": 116.6700377473364,
+      "pullup2_mW": 116.6700377473364,
+      "red_reverse_V": 0.0,
+      "white_reverse_V": 0.0
+    }
+  ]
+}

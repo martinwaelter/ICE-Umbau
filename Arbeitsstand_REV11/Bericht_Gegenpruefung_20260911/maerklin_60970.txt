@@ -1,0 +1,1441 @@
+PDF-Seite 1
+TRACKL
+TRACKR
+LV
+LR
+AUX1
+AUX2
+AUX3
+AUX4
+AUX5
+AUX6
+AUX7
+SUSICLK
+SUSIDAT
+  M2
+PGTRACKL
+LV
+AUX1
+U+
+LR
+PGTRACKR
+M1
+AUX2
+GND
+LS2
+LS1
+HALL1
+HALL2
+HALL3
+AUX3
+AUX4
+AUX5
+AUX6
+AUX7
+Decoder 
+Programmer
+SUSI
+NEM 652
+NEM 651
+MTC 21
+PLUX 22
+MTC 14
+Gleis
+Motorumschaltung
+<     >
+Motorlaufrichtung
+AUX3 / AUX4
+Motor         Funktion Logikpegel      verstärkt
+IN1 IN2 IN3
+Spur 1
+USB
+Impedanz
+Zentrale
+100 Ohm                 8 Ohm
+Lautsprecher 
+extern
+Tester für mLD/3 und mSD/3 und weitere Decoder
+60970
+PDF-Seite 2
+2
+Bestimmungsgemäße Verwendung  4
+Sicherheitshinweise  4
+Wichtige Hinweise 4
+Voraussetzungen zur Anwendung: 4
+Anschluss des Decoders  4
+Anschluss an das Steuergerät / Programmer 60971 4
+Anpassen an den Decoder  5
+Anwendung  5
+Die Anschlüsse am Decoder-Tester 60970 20
+Die Schalter am Decoder-Tester 60970  24
+Die Anzeigeelemente am Decoder-Tester 60970  26
+Betrieb des Decoder-Testers 60970  28
+For Use as Designed  6
+Safety Notes  6
+Important Notes 6
+Requirements for Use: 6
+Decoder Connections 6
+Connections to the Controller / 60971 Programmer 6
+Adjustments for the Decoder  7
+Application 7
+The Connections on the 60970 Decoder-Tester  20
+The Switches on the 60970 Decoder-Tester  24
+The Display Elements on the 60970 Decoder-Tester  26
+Operation of the 60970 Decoder-Tester  28
+Usage conforme  8
+Consignes de sécurité 8
+Indications importantes 8
+Conditions préalables à l’utilisation :  8
+Raccordement du décodeur 8
+Raccordement à l’appareil de commande /  
+au Programmer réf. 60971 8
+Ajustement au décodeur 9
+Utilisation 9
+Connexions sur le Decoder-Tester 60970  20
+Commutateurs sur le Decoder-Tester 60970  24
+Eléments d’affichage sur le Decoder-Tester 60970  26
+Exploitation du Decoder-Tester 60970  28
+Beoogd gebruik 10
+Veiligheidsaanwijzingen 10
+Belangrijke aanwijzingen 10
+Voorwaarde voor het gebruik: 10
+Aansluiten van de decoder 10
+Aansluiten op het besturingsapparaat / programmer 60791 10
+Aanpassen aan de decoder 11
+Het gebruik  11
+De aansluitingen op de decodertester 60970  20
+De schakelaars op de decodertester 60970  24
+De weergave elementen op de decodertester 60970  26
+Gebruik van de decodertester 60970  28
+PDF-Seite 3
+3
+Uso conforme a la finalidad prevista  12
+Consejos de seguridad  12
+Notas importantes 12
+Requisitos para uso: 12
+Conexión del decoder  12
+Conexión de la unidad de control/programador 60971 12
+Adaptación al decoder  13
+Aplicación  13
+Los terminales del téster de decoder 60970  22
+Los interruptores del téster de decoder 60970  24
+Los elementos indicadores del téster de decoder 60970  26
+Funcionamiento del téster de decoder 60970  28
+Utilizzo appropriato allo scopo  14
+Avvertenze di sicurezza  14
+Avvertenze importanti 14
+Disposizioni preliminari per l‘impiego: 14
+Connessione del Decoder  14
+Connessione all‘apparato di comando / Programmer 60971 14
+Adeguamento al Decoder  15
+Impiego  15
+Le connessioni al Tester per Decoder 60970  22
+I commutatori sul Tester per Decoder 60970  24
+Gli elementi indicatori sul Tester per Decoder 60970  26
+Funzionamento del Tester per Decoder  28
+Användning 16
+Säkerhetsbestämmelser 16
+Viktig information 16
+Förutsättningar för korrekt användning:  16
+Anslutning av dekoder 16
+Anslutning av körkontrollen / Programmerare 60971. 16
+Justering av dekodern 17
+Användning 17
+Anslutningarna till Dekoder-testare 60970  22
+Manöverkontakter på Dekoder-testare 60970  24
+Indikatorer på Dekoder-testare 60790  26
+nvändning av Dekoder-testare 60970  28
+Korrekt anvendelse  18
+Sikkerhedshenvisninger  18
+Vigtige oplysninger 18
+Forudsætninger for brug: 18
+Tilslutning af dekoderen  18
+Tilslutning til styreenheden / Programmer 60971 18
+Tilpasning til dekoderen  19
+Anvendelse  19
+Tilslutningerne på dekoder-testeren 60970  22
+Omskifterne på dekoder-testeren Tester 60970  24
+Indikatorelementerne på dekoder-testapparatet 60970  26
+Drift af dekoder-testapparatet 60970  28
+PDF-Seite 4
+4
+Bestimmungsgemäße Verwendung 
+•  Der Decoder-Tester 60970 ist zum Testen oder Program-
+mieren von Lok-Decodern an einem digitalen Steuergerät 
+oder mit dem Programmer 60971. 
+•  Es darf keine zusätzliche Spannungsquelle angeschlos-
+sen werden. Die Spannungsversorgung erfolgt aus-
+schließlich über den Gleisanschluss. 
+•  Es darf immer nur ein Decoder gleichzeitig mit dem 
+Decoder-Tester 60970 verbunden werden. 
+Sicherheitshinweise 
+•  nur zur Verwendung in geschlossenen Räumen 
+•  Betrieb nur an digitalen Modellbahn-Steuergeräten wie 
+z.B. Mobile Station oder Central Station oder dem Pro-
+grammer 60971. 
+•  Während des Betriebes des Decoder-Testers 60970 dür-
+fen die Bauteile oder Anschlüsse des Testers oder des 
+daran angeschlossenen Decoders nicht berührt werden 
+oder mit anderen elektrisch leitenden Gegenständen in 
+Verbindung kommen. 
+•  ACHTUNG! Funktionsbedingte scharfe Kanten und Spitzen.
+•  Verbaute LED`s entsprechen der Laserklasse 1 nach  
+Norm EN 60825-1.
+Wichtige Hinweise
+•  Die Bedienungsanleitung ist Bestandteil des Produktes 
+und muss deshalb aufbewahrt sowie bei Weitergabe des 
+Produktes mitgegeben werden. 
+•  Entsorgung: www.maerklin.com/en/imprint.html
+Voraussetzungen zur Anwendung:
+•  Vollständiger und korrekter Anschluss nur an den Gleis-
+anschluss oder an den Programmer 60971 und den Gleis-
+anschluss. 
+•  Anschluss nur eines Decoders. 
+Anschluss des Decoders 
+Der Anschluss des Decoders darf nur im spannungslosen 
+Zustand erfolgen. 
+Der Decoder-Tester 60970 verfügt über die gängigsten 
+Decoderschnittstellen aller Spurweiten. Sie können an einer 
+dieser Schnittstellen Ihren Decoder anschließen. Achten 
+Sie auf die richtige Decoderausrichtung. Dazu ist der 
+Kontakt 1 an dem Decoder-Tester jeweils mit einem weißen 
+Punkt gekennzeichnet. 
+Decoder mit Kabelanschluss statt Schnittstelle können an 
+den Schraubanschlüssen angeschlossen werden. Bitte 
+achten Sie auf die richtige Zuordnung der Kabel zu den 
+Anschlüssen. 
+Anschluss an das Steuergerät / Programmer 60971
+Der Decoder-Tester 60970 erhält seine Spannungsversor-
+gung ausschließlich über den Gleisanschluss. Somit muss 
+immer ein Steuergerät an den Gleisanschluss des Decoder-
+Testers angeschlossen werden. 
+Soll der Decoder über den Programmer 60971 programmiert 
+oder getestet werden, ist ebenfalls die Spannungsversor-
+gung über den Gleisanschluss notwendig. Soll zusätzlich 
+das MDT3-Tool verwendet werden, so muss es mindestens 
+in Version 3.2.4 vorliegen. 
+PDF-Seite 5
+5
+Anpassen an den Decoder 
+Damit der Decoder-Tester richtig auf die Signale des 
+Decoders reagieren kann, sollten ein paar Einstellungen am 
+Decoder-Tester vorgenommen / geprüft werden. 
+•  Impedanz: Stellen Sie hier den vom Decoder geforderten 
+Anschlusswiderstand des Lautsprechers (8 Ω / 100 Ω) ein. 
+Beachten Sie hierzu die Unterlagen des Decoders.  
+Ist die notwendige Einstellung nicht bekannt, sollte vor-
+sichtshalber auf 100 Ω eingestellt werden. 
+•  Motorumschaltung: Hier sollte eingestellt werden, ob an 
+dem Motorausgang ein Motor angeschlossen sein soll, 
+oder ob der Decoder als reiner Funktionsdecoder einge-
+setzt werden soll. Beachten Sie hierzu die Unterlagen des 
+Decoders.
+•  AUX3 /AUX4: Geben Sie hier an, ob diese Ausgänge als 
+reine Logik-Ausgänge schalten sollen, oder ob diese 
+Ausgänge des Decoders verstärkt sind. In unklaren Situa-
+tionen empfehlen wir hier „Logikpegel“ einzustellen. 
+Hinweis: 
+Der Schalter „Datenquelle“ entscheidet, ob der angeschlos-
+sene Decoder über USB vom Computer aus, oder von einem 
+angeschlossenen Steuergerät geschaltet oder program-
+miert werden soll. 
+Hinweis: 
+Der Umschalter für die Funktionsweise des Motorausgangs 
+ist nur für Decoder mit mtc21-Schnittstelle relevant.
+Anwendung 
+Mit angeschlossenem Decoder zeigt Ihnen der Decoder-
+Tester alle Reaktionen des Decoders auf die Steuerbefehle, 
+die er von der angeschlossenen Zentrale bekommt. Der 
+Decoder wird genau so reagieren, wie wenn er in einer Lok 
+eingebaut wäre. 
+PDF-Seite 6
+6
+For Use as Designed 
+•  The 60970 Decoder-Tester is for testing or programming 
+locomotive decoders on a digital controller or with the 
+60971 Programmer. 
+•  No additional source of voltage may be connected. The 
+voltage is supplied exclusively from the track connec-
+tions. 
+•  Only one decoder may be connected to the 60970 Deco-
+der-Tester at any single time. 
+Safety Notes 
+•  Only for use in closed areas 
+•  Operation only when connected to digital model railroad  
+controllers such as the Mobile Station or Central Station 
+or 60971 Programmer. 
+•  When the 60970 Decoder-Tester is in operation, the 
+components or connections on the tester or the decoder 
+connected to it must not be touched or come into contact 
+with other electrically conductive objects. 
+•  IMPORTANT! The tester has sharp edges and points due 
+to the way it works.
+•  The LEDs in this item correspond to Laser Class 1 accor-
+ding to Standard EN 60825-1.
+Important Notes
+•  The operating instructions are a component part of the 
+product and must therefore be kept in a safe place as 
+well as transferred to third parties receiving the tester. 
+•  Disposal: www.maerklin.com/en/imprint.html 
+Requirements for Use:
+•  Complete and correct connections only to the track  
+connections or to the 60971 Programmer and the track  
+connections. 
+•  Only one decoder to be connected to the tester at a time. 
+Decoder Connections
+The connections to the decoder may take place only when 
+there is no voltage present. The 60970 Decoder-Tester has 
+one of the most accessible decoder interfaces in all of the 
+gauges. You can connect your decoder to this interface. 
+Make sure that the decoder is properly aligned with the 
+interface. Contact 1 on the decoder-tester is marked with 
+a white dot to do this. Decoders with wire connections 
+instead of an interface can be connected to the tester by 
+means of the setscrew terminals. Please make sure that the 
+arrangement of the wires to the terminals is correct. 
+Connections to the Controller / 60971 Programmer
+The 60970 Decoder-Tester receives its voltage supply exclu-
+sively by means of the track connections. A controller must 
+therefore always be connected to the track connection for 
+the decoder- testers.
+If the decoder is to be programmed or tested by means of 
+the 60971 Programmer, the voltage supply must also come 
+by means of the track connections. If the MDT3 Tool is to be 
+used, it must be at least Version 3.2.4. 
+PDF-Seite 7
+7
+Adjustments for the Decoder 
+Several settings should be done / checked on the decoder-
+tester so that the decoder-tester can react correctly to the 
+signals from the decoder. 
+•  Impedance: Use the connection resistor for the speaker 
+(8 Ω / 100 Ω) here as required by the decoder. To do this 
+pay attention to the documentation for the decoder. If the 
+necessary setting is not known, then you should set the 
+resistance at 100 Ω as a precaution. 
+•  Motor Changeover: Here you should set whether a motor 
+is to be connected to the motor output, or whether the 
+decoder is to be used as a pure function decoder. 
+•  AUX3 / AUX4: Indicate here whether these outputs are 
+to be switched as pure logic outputs, or whether these 
+outputs on the decoder are amplified. In ambiguous situa-
+tions, we recommend using „logic level“ here.
+Note: 
+The switch „Data Source“ decides, whether the connected 
+decoder is to be switched and/or programmed by means of 
+USB from the computer, or by a connected control device.
+Note: 
+The reverser for the function of the motor output is only 
+relevant for a decoder with an mtc21 interface.
+Application
+When the decoder is connected to the decoder-tester, all 
+of the reactions from the decoder to the control commands 
+received from the central controller will be shown to you 
+by the decoder-tester. The decoder will react exactly as if it 
+were installed in a locomotive. 
+PDF-Seite 8
+8
+Usage conforme 
+•  Le Decoder-Tester réf. 60970 est conçu pour tester ou 
+programmer des décodeurs de locomotives sur un ap-
+pareil de commande numérique ou avec le Programmer 
+réf. 60971. 
+•  Aucune source de tension supplémentaire ne doit être 
+raccordée. L’alimentation  en tension se fait exclusive-
+ment via la connexion à la voie. 
+•  Attention: Le Decoder-Tester réf. 60970 ne doit être 
+raccordé qu’avec un seul décodeur à la fois. 
+Consignes de sécurité
+•  Uniquement pour l’utilisation dans des pièces fermées
+•  Exploitation uniquement avec des appareils de comman-
+de numériques pour trains miniatures tels que Mobile 
+Station, Central Station ou le Programmer réf. 60971. 
+•  Pendant l’exploitation du Decoder-Tester réf. 60970, les 
+composants ou connexions du Tester ou du décodeur y 
+étant raccordé ne doivent en aucun cas être touchés ou 
+entrer en contact avec d‘autres objets conducteurs de 
+courant. 
+•  ATTENTION! L’appareil présente des arêtes coupantes.
+•  Les DEL installées correspondent à la classe laser 1 se-
+lon la norme EN 60825-1.
+Indications importantes
+•  La notice d‘utilisation fait partie intégrante du produit ; 
+elle doit donc être conservée et, le cas échéant, transmi-
+se avec le produit. 
+•  Elimination www.maerklin.com/en/imprint.html 
+Conditions préalables à l’utilisation : 
+•  Raccordement complet et correct : uniquement à la voie 
+ou au Programmer réf. 60971 et à la voie. 
+•  Raccordement d’un seul décodeur. 
+Raccordement du décodeur
+Le raccordement du décodeur doit impérativement se faire 
+quand l‘appareil se trouve hors tension. 
+Le Decoder-Tester réf. 60970 dispose des interfaces 
+décodeur les plus usuelles pour tous les écartements. Vous 
+pouvez raccorder votre décodeur à l’une de ces interfaces. 
+Veillez à ce que l’orientation du décodeur soit correcte. 
+En guise de repère, le contact 1 sur le Decoder-Tester est 
+marqué d’un point blanc. Les décodeurs munis/équipés 
+d’une connexion filaire à la place de l’interface peuvent être 
+raccordés aux bornes à vis. Veillez à l’affectation correcte 
+des fils aux différentes connexions. 
+Raccordement à l’appareil de commande / au Programmer 
+réf. 60971
+Le Decoder-Tester réf. 60970 est alimenté en tension 
+exclusivement via la connexion à la voie. Un appareil de 
+commande doit donc toujours être raccordé à la connexion 
+voie du Decoder-Tester. 
+La programmation ou le test du décodeur via le Programmer 
+réf. 60971 nécessite également l’alimentation en tension via 
+la connexion à la voie. Si le MDT3-Tool doit également être 
+utilisé, il doit être disponible au moins dans la version 3.2.4. 
+PDF-Seite 9
+9
+Ajustement au décodeur
+Pour que le Decoder-Tester puisse réagir correctement 
+aux signaux du décodeur, certains paramètres doivent être 
+définis / vérifiés sur le Decoder-Tester. 
+•  Impédance : Définissez ici la résistance de contact du 
+haut-parleur (8 Ω / 100 Ω) exigée par le décodeur. A cet 
+effet, reportez-vous à la notice du décodeur.  
+Si vous ne connaissez pas le paramètre requis, choi-
+sissez par précaution une valeur de 100 Ω. 
+•  Commutation du moteur : Il vous faut déterminer ici si 
+la sortie moteur doit être raccordée à un moteur ou si le 
+décodeur doit être utilisé seulement comme décodeur de 
+fonctions. 
+•  AUX3 / AUX4 : Indiquez ici si ces sorties doivent commu-
+ter en tant que simples sorties logiques ou si ces sorties 
+du décodeur sont amplifiées. En cas de doute, nous con-
+seillons de définir le „niveau logique“. 
+Remarque : 
+Le commutateur « Source données » décide si le décodeur 
+raccordé doit être commuté et/ou programmé via USB à 
+partir de l’ordinateur ou à partir d’un appareil de commande 
+raccordé.
+Remarque : 
+Le combinateur pour le mode de fonctionnement de la sortie 
+moteur est pertinent uniquement pour les décodeurs avec 
+interface mtc21.
+Utilisation
+Si un décodeur est raccordé, le Decoder-Tester vous 
+indique toutes les réactions du décodeur aux ordres de 
+commande émanant de la centrale raccordée. Le décodeur 
+réagit exactement comme s’il était installé dans une 
+locomotive.
+PDF-Seite 10
+10
+Beoogd gebruik
+• De decodertester 60970 is bedoeld voor het testen of 
+programmeren van locdecoders aan een digitaal bestu-
+ringsapparaat of met de programmer 60971.
+• Er mag geen extra voedingsbron aangesloten worden. De 
+stroomvoorziening geschiedt uitsluitend via de railaanslu-
+iting.
+• Er mag maar één decoder tegelijk met de decodertester 
+60790 verbonden zijn.
+Veiligheidsaanwijzingen
+• Alleen voor het gebruik in gesloten ruimtes.
+• Alleen gebruiken aan de digitale modelbaan besturings-
+apparaten zoals bijv. Mobile Station of het Central Station 
+of de programmer 60971.
+• Tijdens het gebruik van de decodertester  60790 mogen 
+de componenten of de aansluitingen van de tester of de 
+daarop aangesloten decoder niet aangeraakt worden 
+of in verbinding gebracht worden met andere elektrisch 
+geleidende voorwerpen.
+• LET OP! Functionele scherpe kanten en punten. 
+•  Ingebouwde LED’s komen overeen met de laserklasse 1 
+volgens de norm EN 60825-1.
+Belangrijke aanwijzingen
+• De gebruiksaanwijzing is bestandsdeel van het product 
+en moet daarom bewaard en bij het doorgegeven van het 
+product bijgevoegd worden.
+• Afdanken: www.maerklin.com/en/imprint.html
+Voorwaarde voor het gebruik:
+• Volledige en correcte aansluiting alleen aan de railaans-
+luiting of aan de programmer 60971 en de railaansluiting.
+• Één decoder aangesloten.
+Aansluiten van de decoder
+Het aansluiten van de decoder mag alleen in spanningloze 
+toestand gebeuren. De decodertester beschikt over de 
+gangbare decoder- stekkerbussen voor alle spoorbreedtes. 
+U kunt op één van deze stekkerbussen uw decoder aans-
+luiten. Let op de juiste plaatsing van de decoder. Hiervoor 
+is contact 1 op de decodertester telkens voorzien van een 
+witte stip. Decoders met draadaansluiting i.p.v. een stekker 
+kunnen op de schroefstrook aangesloten worden. Let op de 
+juiste plaats van de draden op de aansluitklemmen.
+Aansluiten op het besturingsapparaat / programmer 60791
+De decodertester 60970 krijgt zijn stroomvoorziening 
+uitsluitend via de railaansluiting. Op de spooraansluiting 
+van de decoder-tester moet dus altijd een regelaar worden 
+aangesloten. 
+Moet de decoder via de programmer 60971 geprogram-
+meerd worden, dan is eveneens de stroomvoorziening via de 
+railaansluiting noodzakelijk. Als ook het MDT3-tool gebruikt 
+moet worden, moet dit ten minste de versie 3.2.4 zijn. 
+PDF-Seite 11
+11
+Aanpassen aan de decoder
+Om er voor te zorgen dat de decodertester op de juiste wijze 
+op de signalen van de decoder kan reageren, moeten een 
+paar instellingen op de decodertester uitgevoerd / gecontro-
+leerd worden.
+• Impedantie: Stel hier de door de decoder vereiste aans-
+luitweerstand van de luidspreker (8 Ω / 100 Ω) in. Zie hier -
+voor de gebruiksaanwijzing van de decoder.  
+Is de noodzakelijke instelling niet bekend, dan dient voor-
+zichtigheidshalve op 100 Ω ingesteld te worden.
+• Motoromschakeling: hier dient te worden ingesteld of op 
+de motoruitgang een motor zal zijn aangesloten of dat de 
+decoder puur als functiedecoder gebruikt gaat worden.
+• AUX3 / AUX 4: geef hier aan of deze uitgangen als pure 
+logische uitgangen moeten schakelen of dat deze uit-
+gangen van de decoder versterkt zijn. Als de situatie 
+onduidelijk is bevelen wij hier aan logiclevel in te stellen.
+Let op: 
+de schakelaar Databron beslist of de aangesloten decoder 
+via usb vanuit de computer of vanuit een aangesloten rijre-
+gelaar wordt geschakeld en/of geprogrammeerd.
+Let op: 
+de omschakelaar voor de functie van de motoruitgang is 
+alleen relevant voor decoders met mtc21-interface.
+Het gebruik 
+Met de aangesloten decoder toont de decodertester u alle 
+reacties van de decoder op de besturingsopdrachten afkom-
+stig van de aangesloten centrale. De decoder zal precies zo 
+reageren alsof deze ingebouwd is in een loc.
+PDF-Seite 12
+12
+Uso conforme a la finalidad prevista 
+•  El téster de decoder 60970 sirve para el testeo o progra-
+mación de decoders de locomotora en una unidad de 
+control digital o con el programador 60971. 
+•  No está permitido conectar fuentes de tensión adicio-
+nales. La alimentación eléctrica se realiza exclusiva-
+mente desde la conexión de vía. 
+•  Está permitido conectar al téster de decoder 60970 siem-
+pre un solo decoder a la vez. 
+Consejos de seguridad 
+•  Está previsto para su uso únicamente en recintos cerra-
+dos 
+•  Está permitido su uso únicamente conectado a unidades 
+de control digitales para maquetas de trenes, p. ej., Mobi-
+le Station o Central Station o al programador 60971. 
+•  Durante el funcionamiento del téster de decoder 60970 
+no está permitido tocar los componentes o los terminales 
+del téster o del decoder conectado a éste o conectarse a 
+otros objetos conductores de la electricidad. 
+•  ¡ATENCIÓN! El equipo, debido a sus características fun-
+cionales, presenta cantos y puntas cortantes.
+•  Los LEDs incorporados corresponden a la clase de láser 
+1 según la norma europea EN 60825-1.
+Notas importantes
+•  Las instrucciones de empleo forman parte integrante 
+del producto y, por este motivo, deben conservarse y 
+entregarse al nuevo comprador en el caso de venta del 
+producto. 
+•  Eliminación: www.maerklin.com/en/imprint.html
+Requisitos para uso:
+•  Está permitida una conexión completa y correcta solo a 
+la conexión de vía o al programador 60971 y la conexión 
+de vía. 
+•  Está permitido conectar solo un decoder. 
+Conexión del decoder 
+Está permitido realizar la conexión del decoder únicamente 
+sin tensión. 
+El téster de decoder 60970 dispone de las interfaces de 
+decoder más corrientes de todos los anchos de vía. Puede 
+conectar su decoder a una de estas interfaces. Asegúrese 
+de que el decoder esté orientado correctamente. Para ello, 
+el contacto 1 de cada téster de decoder está identificado 
+por un punto blanco. 
+Es posible conectar los decoders con conexión cableada, 
+en lugar de hacerlo en la interfaz, también en los bornes de 
+tornillos. Asegúrese de conectar correctamente los distintos 
+conductores de los cables a los bornes correspondientes. 
+Conexión de la unidad de control/programador 60971
+El téster de decoder 60970 recibe su alimentación eléctrica 
+exclusivamente a través de la conexión de vía. Por tanto, 
+siempre debe estar conectada una unidad de control a la 
+conexión de vía del téster del decoder. 
+Si se desea programar o testear el decoder a través del 
+programador 60971, se requiere así mismo la alimentación 
+eléctrica a través de la conexión de vía. Si, además de ello, 
+se desea utilizar la herramienta MDT3, la versión de ésta 
+debe ser la 3.2.4 o superior. 
+PDF-Seite 13
+13
+Adaptación al decoder 
+Con el fin de que el téster de decoder pueda reaccionar 
+correctamente a las señales del decoder, se deben realizar/
+comprobar un par de ajustes en el téster de decoder. 
+•  Impedancia: Ajuste aquí la resistencia de conexión del 
+altavoz exigida por el decoder (8 Ω / 100 Ω). Véase al re-
+specto la documentación del decoder.  
+Si se desconoce el ajuste necesario, por precaución 
+debe ajustarse a 100 Ω. 
+•  Conmutación del motor: Aquí se debe configurar si se 
+desea conectar un motor a la salida de motor o si se 
+desea utilizar el decoder únicamente como decoder de 
+funciones. 
+•  AUX3 /AUX4: Indique aquí si estas salidas deben conmu-
+tarse únicamente como salidas lógicas o si estas salidas 
+del decoder cuentan con amplificación. En situaciones 
+poco claras, recomendamos aquí configurar „Nivel lógi-
+co“.
+Nota: 
+El interruptor „Fuente de datos“ decide si se desea con-
+mutar y/programar el decoder conectado vía USB desde el 
+ordenador o desde una unidad de control conectada.
+Nota: 
+El conmutador del modo de funcionamiento de la salida de 
+motor es relevante únicamente para decoders con interfaz 
+mtc21.
+Aplicación 
+El téster de decoder, si tiene un decoder conectado, mue-
+stra todas las reacciones del decoder a los comandos de 
+control que recibe de la unidad central conectada al mismo. 
+El decoder reaccionará exactamente como si estuviera 
+montado en una locomotora. 
+PDF-Seite 14
+14
+Utilizzo appropriato allo scopo 
+•  Il Tester per Decoder 60970 serve per la prova oppure la 
+programmazione di Decoder da locomotive su un appara-
+to di comando digitale oppure con il Programmer 60971. 
+•  Non deve venire collegata alcuna sorgente di tensione 
+aggiuntiva. L‘alimentazione di tensione avviene esclusi-
+vamente tramite la connessione al binario. 
+•  Deve sempre venire collegato con il Tester per Decoder 
+60970 soltanto un Decoder nello stesso tempo. 
+Avvertenze di sicurezza 
+•  soltanto per utilizzo in ambienti chiusi 
+•  Funzionamento soltanto con apparati di comando digitali 
+per ferrovia in miniatura come ad es. Mobile Station op-
+pure Central Station oppure il Programmer 60971. 
+•  Durante il funzionamento del Tester per Decoder 60970 i 
+componenti oppure le connessioni del Tester oppure dei 
+Decoder ivi collegati non devono venire toccati oppure ve-
+nire a contatto con altri oggetti elettricamente conduttivi. 
+•  ATTENZIONE! Spigoli e punte acuminati per necessità 
+funzionali.
+•  I LED incorporati corrispondono alla categoria di laser 1 
+secondo la Norma EN 60825-1.
+Avvertenze importanti
+•  Tali istruzioni di azionamento costituiscono parte inte-
+grante del prodotto e devono pertanto venire conservate 
+nonché consegnate accluse in caso di cessione ad altri 
+di tale prodotto. 
+•  Smaltimento: www.maerklin.com/en/imprint.html
+Disposizioni preliminari per l‘impiego:
+•  Completo e corretto collegamento soltanto alla con-
+nessione al binario oppure al Programmer 60971 ed alla 
+connessione al binario. 
+•  Connessione solamente di un solo Decoder. 
+Connessione del Decoder 
+La connessione del Decoder deve avvenire soltanto nella 
+condizione esente da tensione. 
+Tale Tester per Decoder 60970 dispone delle più comuni 
+interfacce per Decoder di tutti gli scartamenti. Voi potete 
+collegare il Vostro Decoder ad una sola di queste interfacce. 
+Prestate attenzione al corretto orientamento del Decoder. A 
+tale scopo il contatto 1 sul Tester per Decoder é rispettiva-
+mente contrassegnato con un punto bianco. 
+I Decoder con connessioni di cavetti in luogo dell‘interfaccia 
+possono venire collegati alle connessioni a vite. Si prega di 
+porre attenzione alla corretta assegnazione dei cavetti a tali 
+connessioni. 
+Connessione all‘apparato di comando / Programmer 60971
+Il Tester per Decoder 60970 riceve la sua alimentazione di 
+tensione esclusivamente tramite la connessione al binario. 
+In tal modo deve sempre venire collegato un apparato di co-
+mando alla connessione del binario del Tester per Decoder. 
+Qualora il Decoder debba venire programmat
+o oppure provato tramite il Programmer 60971, è ugual-
+mente necessaria l‘alimentazione di tensione attraverso la 
+connessione al binario. Qualora in aggiunta debba venire 
+utilizzato il MDT3-Tool, esso deve allora essere presente 
+come minimo nella versione 3.2.4. 
+PDF-Seite 15
+15
+Adeguamento al Decoder 
+Affinché il Tester per Decoder possa reagire correttamente 
+ai segnali del Decoder, dovranno venire intraprese / verifi-
+cate un paio di impostazioni sul  Tester per Decoder. 
+•  Impedenza: Impostate qui la resistenza di connessione 
+dell’altoparlante richiesta dal Decoder (8 Ω / 100 Ω). Pre-
+state attenzione a tale scopo ai documenti del Decoder.  
+Qualora la necessaria impostazione non sia conosciuta, 
+dovrebbe venire impostata per precauzione su 100 Ω. 
+•  Commutazione del motore: Qui dovrà venire impostato se 
+all‘uscita del motore debba essere collegato un motore, 
+oppure se il Decoder deve venire impiegato come un 
+puro Decoder da funzioni. 
+•  AUX3 /AUX4: Specificate qui se queste uscite devono 
+commutare come pure uscite logiche, oppure se queste 
+uscite del Decoder sono amplificate. In situazioni incerte 
+noi suggeriamo di impostare qui „Livello logico“.
+Avvertenza: 
+Il commutatore „Sorgente dati“ decide se il Decoder 
+collegato deve venire commutato e/o programmato tramite 
+USB da parte di un Computer, oppure da un apparato di 
+controllo collegato.
+Avvertenza: 
+Il commutatore per il modo di funzionamento dell’uscita per 
+motore è rilevante solo per Decoder con interfaccia mtc21.
+Impiego 
+Con il Decoder collegato, il Tester per Decoder Vi mostra 
+tutte le reazioni del Decoder alle istruzioni di comando, che 
+esso riceve dalla centrale collegata. Il Decoder reagirà 
+così esattamente come se esso fosse installato in una 
+locomotiva. 
+PDF-Seite 16
+16
+Användning
+•  Dekoder-testare 60970 är avsedd för att testa eller pro-
+grammera lokdekodrar via en digital körkontroll eller med 
+programmerare 60971. 
+•  Ingen annan strömkälla får anslutas. Elmatningen sker 
+endast via spåranslutningen.
+•  Endast en enda dekoder i taget får anslutas till Dekoder-
+testare 60970.
+Säkerhetsbestämmelser
+•  Får endast användas inomhus, i torra utrymmen 
+•  Får endast användas tillsammans med digitala körkon-
+troller, t.ex. Mobile Station, Central Station eller Program-
+merare 60971. 
+•  Under användning av Dekoder-testare 60970 får inga av 
+dess anslutningar, anslutna delar eller ansluten dekoder 
+vidröras, ej heller komma i kontakt med andra elektriskt 
+ledande föremål eller material. 
+•  Varning! Se upp för för konstruktionsbetingade vassa 
+kanter och spetsiga ändar. 
+•  Inbyggda LED (lysdioder) motsvarar laser-klass 1 enligt 
+Ennorm 60825-1.
+Viktig information
+•  Bruksanvisningen tillhör produkten och måste därför 
+sparas och medfölja produkten vid eventuell överlåtelse 
+till annan person. 
+•  Hantering som avfall: www.maerklin.com/en/imprint.html
+Förutsättningar för korrekt användning: 
+•  Fullständig och korrekt anslutning till enbart spåranslutnin-
+gen eller till Programmerare 60971 och spåranslutningen. 
+•  Endast en dekoder ansluten i taget.
+Anslutning av dekoder
+Anslutning av dekoder får endast göras i spänninglöst 
+tillstånd. Dekoder-testare 60970 är försedd med de 
+vanligaste kontakterna för dekodrar passande alla olika 
+spårvidder. Man kan ansluta dekodern till något av dessa 
+kontakter. Observera att dekoren ansluts med kontakten åt 
+rätt håll. Kontakt 1 på Dekoder-testaren är markerad med en 
+vit punkt. 
+En dekoder med kabelanslutningar i stället för kontakt kan 
+anslutas till skruvanslutningarna. Kontrollera att rätt kabel 
+kopplas till rätt anslutning. 
+Anslutning av körkontrollen / Programmerare 60971.
+Dekoder-testare 60970 strömförsörjs enbart via spårans-
+lutningen. En körkontroll måste alltid vara ansluten till 
+Dekoder-testarens spåranslutning. 
+Ska dekodern programmeras eller testas via Programmerare 
+60971 måste strömförsörjningen också ske via spåranslut-
+ningen. Ska MDT3-Tool användas, så måste det vara Version 
+3.2.4 eller senare. 
+schwedisch
+PDF-Seite 17
+17
+Justering av dekodern
+För att Dekoder-testaren ska reagera korrekt på dekoderns 
+signaler, måste ett par inställningar på Dekoder-testaren 
+göras / kontrolleras.
+•  Impedans: Här ställer man inhögtalarens anslutningsmot-
+stånd (8 Ω / 100 Ω). Kontrollera med dekoderns bruksan-
+visning.  
+Saknas tillgång till korrekta värden, ställer man försiktigt-
+vis in värdet på 100 Ω.
+•  Motorinställning: Här ställs in om en motor ska anslutas 
+till motorutgången, eller om dekodern ska användas som 
+en ren funktionsdekoder. 
+•  AUX3 /AUX4: Ange här om dessaa utgångar ska regleras 
+som enbart logisk utgång, eller om dessa dekoder-utgån-
+gar är förstärkta. I osäkra lägen rekommenderar vi att här 
+ställa in ”Logigpegel“ (logisk nivå). 
+Observera:
+Kontakten ”datakälla“ bestämmer, om den anslutna deko-
+dern ska programmeras via USB från en dator eller via en 
+ansluten körkontroll.
+Observera: 
+Kontakten för motorutgången gäller endast för dekodrar 
+med mtc21-gränssnittsställe.
+Användning
+Med dekodern ansluten visar Dekoder-testaren alla 
+dekoderns svar på signaler från den anslutna körkontrollen. 
+Dekodern reagerar exakt på samma sätt som om den vore 
+monterad i ett lok. 
+PDF-Seite 18
+18
+Korrekt anvendelse 
+•  Dekoder-testapparatet Tester 60970 tjener til at teste eller 
+programmere lokomotiv-dekodere på en digital styreenhed 
+eller med programmeringsapparatet Programmer 60971. 
+•  Der må ikke tilsluttes nogen yderligere spændingskil-
+de. Spændingsforsyningen sker udelukkende gennem 
+skinnetilslutningen. 
+•  Der må altid kun være tilsluttet en dekoder til dekoder-
+testapparatet 60970 på samme tid. 
+Sikkerhedshenvisninger 
+•  Kun til brug i lukkede rum 
+•  Må kun anvendes i forbindelse med digitale modeljern-
+bane-styreenheder som f. eks. Mobile Station eller Central 
+Station eller programmeringsapparatet Programmer 60971. 
+•  Når dekoder-testapparatet 60970 er i funktion, må man ikke 
+røre ved testapparatets eller den hertil tilsluttede dekoders 
+komponenter eller tilslutninger, og disse dele må heller ikke 
+komme i kontakt med andre elektrisk ledende genstande. 
+•  PAS PÅ! Funktionsbetinget skarpe kanter og spidser.
+•  De indbyggede lysdioder svarer til laserklasse 1 i henhold 
+til normen EN 60825-1.
+Vigtige oplysninger
+•  Denne brugsvejledning er bestanddel af produktet og 
+skal derfor opbevares. Hvis produktet gives videre, skal 
+vejledningen følge med. 
+•  Bortskafning: www.maerklin.com/en/imprint.html
+Forudsætninger for brug:
+•  Fuldstændig og korrekt tilslutning kun til skinnetilslutnin-
+gen eller til Programmer 60971 og skinnetilslutningen. 
+•  Tilslutning af kun en dekoder. 
+Tilslutning af dekoderen 
+Dekoderen må kun tilsluttes i spændingsfri tilstand. 
+Dekoder-testapparatet Tester 60970 er udstyret med de 
+mest gængse dekoder-tilslutninger til alle sporvidder. Du 
+kan tilslutte din dekoder til en af disse tilslutninger. Vær 
+opmærksom på den rigtige tilslutning af dekoderen. Den 
+pågældende kontakt nummer 1 på dekoder-testapparatet er 
+altid mærket med en hvid prik. 
+Dekodere, som har en kabelforbindelse i stedet for en anden 
+tilslutning, kan altid forbindes med skruetilslutningerne. 
+Vær venligst opmærksom på den rigtige forbindelse mellem 
+kablerne og tilslutningerne. 
+Tilslutning til styreenheden / Programmer 60971
+Dekoder-testapparatet Tester 60970 forsynes med spænding 
+udelukkende gennem skinnetilslutningen. Således skal der 
+altid sluttes en styringsenhed til dekodertesterens skinne-
+forbindelse. 
+Skal dekoderen programmeres eller testes ved hjælp af 
+programmeringsapparatet Programmer 60971, kræves det 
+ligeledes, at spændingsforsyningen sker gennem skinnetils-
+lutningen. Hvis MDT3-værktøjet derudover skal anvendes, 
+skal det være mindst være i version 3.2.4. 
+PDF-Seite 19
+19
+Tilpasning til dekoderen 
+For at dekoder-testapparatet kan reagere rigtigt på 
+dekoderens signaler, skal nogle indstillinger på dekoder-
+testapparatet foretages / kontrolleres. 
+•  Impedans: Her indstilles den af dekoderen påkrævede 
+tilslutningsmodstand for højtaleren (8 Ω / 100 Ω). Se ven-
+ligst i dekoderens papirer.  
+Når den nødvendige indstilling ikke kendes, skal man af 
+forsigtighedshensyn vælge 100 Ω. 
+•  Motoromskifter: Her vælger man, om der skal være tils-
+luttet en motor ved motorudgangen, eller om dekoderen 
+skal fungere som ren funktionsdekoder. 
+•  AUX3 /AUX4: Angiv her, om disse udgange skal fungere 
+som rent logiske udgange, eller om disse udgange på de-
+koderen er forstærkede. I tilfælde af tvivl, anbefales det 
+her at indstille ”logikniveauet”.
+OBS: 
+Omskifteren „datakilde“ bestemmer, om den tilsluttede 
+dekoder skal programmeres/styres via USB fra en tilsluttet 
+computer eller fra en tilsluttet styreenhed.
+OBS: 
+Omskifteren til motorudgangens funktionsmåde er kun 
+relevant for dekodere med mtc21-interface.
+Anvendelse 
+Med tilsluttet dekoder viser dekoder-testeren dig alle 
+dekoderens reaktioner på styreinstruktionerne, som den 
+modtager fra den tilsluttede central. Dekoderen vil reagere 
+på nøjagtig samme måde, som hvis den var indbygget i et 
+lokomotiv. 
+PDF-Seite 20
+20
+TRACKL
+TRACKR
+LV
+LR
+AUX1
+AUX2
+AUX3
+AUX4
+AUX5
+AUX6
+AUX7
+SUSICLK
+SUSIDAT
+  M2
+PGTRACKL
+LV
+AUX1
+U+
+LR
+PGTRACKR
+M1
+AUX2
+GND
+LS2
+LS1
+HALL1
+HALL2
+HALL3
+AUX3
+AUX4
+AUX5
+AUX6
+AUX7
+Decoder 
+Programmer
+SUSI
+NEM 652
+NEM 651
+MTC 21
+PLUX 22
+MTC 14
+Gleis
+Motorumschaltung
+<     >
+Motorlaufrichtung
+AUX3 / AUX4
+Motor         Funktion Logikpegel      verstärkt
+IN1 IN2 IN3
+Spur 1
+USB
+Impedanz
+Zentrale
+100 Ohm                 8 Ohm
+Lautsprecher 
+extern
+e
+g
+hc
+b
+a
+d i
+k
+l
+f
+Die Anschlüsse am Decoder-Tester 60970
+The Connections on the 60970 Decoder-Tester
+Connexions sur le Decoder-Tester 60970
+De aansluitingen op de decodertester 60970
+PDF-Seite 21
+21
+a  Buchse für den Anschluss eines externen Lautsprechers.  
+Klinkenstecker 3,5 mm
+b  Anschluss für den Programmer 60971 
+c  Anschluss an das Steuergerät (Programmiergleis) 
+d  Anschlussfeld für Decoder ohne Schnittstelle 
+e  Schnittstelle für Spur1-Decoder 
+f  Decoderschnittstelle MTC 14
+g  Decoderschnittstelle PLUX  
+der Decoder muss von oben aufgesteckt werden 
+h  Decoderschnittstelle MTC 21, Einbaurichtung beachten
+i  Decoderschnittstelle für Decoder gemäß NEM 652
+k  Schnittstelle zum Anschluss eines SUSI-Moduls 
+l  Decoderschnittstelle für Decoder gemäß NEM 651
+a  Socket for the connection of an external speaker.  
+3.5 mm jack plug
+b  Connections for the 60971 Programmer
+c  Connections for the controller (programming track) 
+d  Connection field for a decoder without an interface 
+e  Interface for a 1 Gauge decoder 
+f  MTC 14 decoder interface
+g  Decoder interface PLUX  
+the decoder must be plugged in from above. 
+h  Decoder interface MTC 21, note the mounting direction
+i  Decoder interface for decoders in compliance with NEM 652
+k  Interface for connections from a SUSI module 
+l  Decoder interface for decoders in compliance with NEM 651
+a  Prise pour le raccordement d’un haut-parleur externe.  
+Jack 3,5 mm
+b  Connexion pour le Programmer 60971
+c  Raccordement à l‘appareil de commande (voie de pro-
+grammation)
+d   Panneau de connecteurs pour décodeur sans interface
+e  Interface pour décodeur échelle 1
+f  Interface décodeur MTC 14
+g  Interface décodeur PLUX  
+le décodeur doit être enfiché par le haut 
+h  Interface décodeur MTC 21, veillez au sens de montage 
+i  Interface décodeur pour décodeurs conformes à la nor-
+me NEM 652
+k  Interface pour la connexion d’un module SUSI
+l  Interface décodeur pour décodeurs conformes à la nor-
+me NEM 651
+a Bus voor het aansluiten van een externe luidspreker.  
+Klinkstekker 3.5 mm.
+b Aansluiting voor de programmer 60791.
+c Aansluiting voor het besturingsapparaat (programmeer-
+rail).
+d Aansluiting voor een decoder zonder stekker.
+e Stekkerbus voor spoor 1 decoder.
+f Decoderstekker voor MTC 14.
+g Decoderinterface PLUX  
+de decoder moet van boven worden opgestoken 
+h Decoderinterface MTC 21, let op inbouwrichting 
+i Decoderstekker voor decoder volgens NEM 652.
+k Stekkerbus voor aansluiten van SUSI-module.
+l Decoderstekker voor decoder volgens NEM 651.
+PDF-Seite 22
+22
+Los terminales del téster de decoder 60970
+Le connessioni al Tester per Decoder 60970
+Anslutningarna till Dekoder-testare 60970
+Tilslutningerne på dekoder-testeren 60970
+TRACKL
+TRACKR
+LV
+LR
+AUX1
+AUX2
+AUX3
+AUX4
+AUX5
+AUX6
+AUX7
+SUSICLK
+SUSIDAT
+  M2
+PGTRACKL
+LV
+AUX1
+U+
+LR
+PGTRACKR
+M1
+AUX2
+GND
+LS2
+LS1
+HALL1
+HALL2
+HALL3
+AUX3
+AUX4
+AUX5
+AUX6
+AUX7
+Decoder 
+Programmer
+SUSI
+NEM 652
+NEM 651
+MTC 21
+PLUX 22
+MTC 14
+Gleis
+Motorumschaltung
+<     >
+Motorlaufrichtung
+AUX3 / AUX4
+Motor         Funktion Logikpegel      verstärkt
+IN1 IN2 IN3
+Spur 1
+USB
+Impedanz
+Zentrale
+100 Ohm                 8 Ohm
+Lautsprecher 
+extern
+e
+g
+hc
+b
+a
+d i
+k
+l
+f
+PDF-Seite 23
+23
+a  Hembrilla para conexión de un altavoz externo.  
+Conector cinch de 3,5 mm
+b  Terminal para el programador 60971 
+c  Conexión a la unidad de control (vía de programación) 
+d  Sección para conexión de decoder sin interfaz 
+e  Interfaz para decoder de ancho de vía 1 
+f  Interfaz para decoder MTC 14
+g  Interfaz de decoder PLUX  
+el decoder debe enchufarse desde arriba 
+h  Interfaz de decóder MTC 21, tener presente la dirección 
+de montaje
+i  Interfaz para decoder según NEM 652
+k  Interfaz para conexión de un módulo SUSI 
+l  Interfaz para decoder según NEM 651
+a  Presa per la connessione di un altoparlante esterno.  
+Innesto jack da 3,5 mm
+b  Connessione per il Programmer 60971 
+c  Connessione all‘apparato di comando (binario di  
+programmazione) 
+d  Campo di connessione per Decoder senza interfaccia 
+e  Interfaccia per Decoder in scartamento 1
+f  Interfaccia per Decoder MTC 14
+g  Interfaccia Decoder PLUX 16 
+il Decoder deve venirvi innestato da sopra 
+h  Interfaccia per Decoder MTC 21, prestare attenzione alla 
+direzione di montaggio 
+i  Interfaccia da Decoder per Decoder conformi alla NEM 652
+k  Interfaccia per la connessione di un modulo SUSI 
+l  Interfaccia da Decoder per Decoder conformi alla NEM 651
+a Kontakt för anslutning av en extern högtalare. 
+Stickkontakt 3,5 mm
+b Anslutning för Programmerare 60971
+c Anslutning för körkontrollen (programmeringsspår)
+d Anslutningspunkt för dekoder utan kontakt
+e Kontakt för Spår 1-dekoder
+f Dekoderkontakt MTC 14
+g Dekoder-gränssnitt PLUX 
+måste anslutas/stickas i uppifrån
+h Dekoderkontakt MTC 21, observera inbyggnadsriktningen 
+i Dekoderkontakt för dekoder enligt NEM 652
+k Kontakt för anslutning av en SUSI-Modul
+l Dekoderkontakt för dekoder enligt NEM 651
+a  Bøsning til tilslutning af en ekstern højttaler.  
+Jackstick 3,5 mm
+b  Tilslutning til programmeringsapparatet Programmer 60971 
+c  Tilslutning til styreenheden (programmeringsspor) 
+d  Tilslutningsfelt til dekoder uden egen tilslutning 
+e  Tilslutning til spor1-dekoder 
+f  Dekodertilslutning MTC 14
+g  Dekoderinterface PLUX  
+dekoderen skal sættes på oppefra 
+h  Bemærk dekodergrænseflade MTC 21, Indbygningsretning.
+i  Dekodertilslutning til dekoder i henhold til NEM 652
+k  Tilslutning for et SUSI-modul 
+l  Dekodertilslutning til dekoder i henhold til NEM 651
+PDF-Seite 24
+24
+TRACKL
+TRACKR
+LV
+LR
+AUX1
+AUX2
+AUX3
+AUX4
+AUX5
+AUX6
+AUX7
+SUSICLK
+SUSIDAT
+  M2
+PGTRACKL
+LV
+AUX1
+U+
+LR
+PGTRACKR
+M1
+AUX2
+GND
+LS2
+LS1
+HALL1
+HALL2
+HALL3
+AUX3
+AUX4
+AUX5
+AUX6
+AUX7
+Decoder 
+Programmer
+SUSI
+NEM 652
+NEM 651
+MTC 21
+PLUX 22
+MTC 14
+Gleis
+Motorumschaltung
+<     >
+Motorlaufrichtung
+AUX3 / AUX4
+Motor         Funktion Logikpegel      verstärkt
+IN1 IN2 IN3
+Spur 1
+USB
+Impedanz
+Zentrale
+100 Ohm                 8 Ohm
+Lautsprecher 
+extern
+ad
+e
+b
+c
+Die Schalter am Decoder-Tester 60970
+The Switches on the 60970 Decoder-Tester
+Commutateurs sur le Decoder-Tester 60970
+De schakelaars op de decodertester 60970
+Los interruptores del téster de decoder 60970
+I commutatori sul Tester per Decoder 60970
+Manöverkontakter på Dekoder-testare 60970
+Omskifterne på dekoder-testeren Tester 60970
+PDF-Seite 25
+25
+a  Commutateur pour les sorties décodeur AUX3 & AUX4
+b  Commutateur pour le fonctionnement de la sortie moteur
+c Touche permettant de simuler les signaux d‘éventuels 
+contacts à lames souples sur une loco et de déclencher 
+les fonctions affectées. 
+d  Combinateur pour la sortie haut-parleur
+e Combinateur pour la source de données 
+a  Switch for the decoder outputs AUX3 & AUX4
+b  Switch for die functioning of the motor outputs 
+c Buttons to simulate the signals from any reed contacts for 
+a locomotive and to activate functions assigned to them. 
+d Reverser for the speaker output
+e Reverser for the data source 
+a  Conmutador para las salidas de decoder AUX3 y AUX4
+b  Conmutador del modo de funcionamiento de la salida de 
+motor 
+c Pulsador para simular las señales de posibles contactos de 
+lámina de una locomotora y activar las funciones asociadas.
+d Conmutador para la salida de altavoces
+e Conmutador para la fuente de datos
+a Omschakelaar voor de decoderuitgangen AUX3 & AUX4
+b Omschakelaar voor functie van de motoruitgang.
+c Toets om signalen van eventuele reedcontacten in een 
+loc te simuleren en de toegewezen functie te schakelen.
+d Schakelaar voor luidsprekeruitgang
+e Schakelaar voor databron 
+a  Commutatore per le uscite del Decoder AUX3 & AUX4
+b  Commutatore per le modalità di funzionamento dell‘uscita 
+del motore 
+c Tasti per simulare i segnali di eventuali contatti Reed di una 
+locomotiva e per far azionare le funzioni corrispondenti.
+d Commutatore per l’uscita altoparlante
+e Commutatore per la sorgente dati
+a  Omkopplare för dekoderutgångarna AUX3 & AUX4
+b  Omkopplare för motorutgångarnas funktioner
+c  Knapp för att simulera signalen från ett en eventuell 
+Reed-kontakt och därmed utlösa tillhörande funktioner.
+d Omkopplare för högtalarutgången
+e Omkopplare för datakälla 
+a  Omskifter for dekoderudgangene AUX3 & AUX4
+b  Omskifter for motorudgangens funktion 
+c Tast til at simulere signalerne fra et lokomotivs eventuelle 
+reed-kontakter og til at udløse de pågældende funktioner. 
+d Omskifter til højttalerudgang
+e Omskifter til datakilde
+a  Umschalter für die Decoderausgänge AUX3 & AUX4
+b  Umschalter für die Funktionsweise des Motorausgangs 
+c Taster um die Signale eventueller Reedkontakte einer Lok 
+zu simulieren und die zugeordneten Funktionen auszulösen. 
+d Umschalter für die Lautsprecherimpedanz
+e Umschalter für die Datenquelle
+PDF-Seite 26
+26
+TRACKL
+TRACKR
+LV
+LR
+AUX1
+AUX2
+AUX3
+AUX4
+AUX5
+AUX6
+AUX7
+SUSICLK
+SUSIDAT
+  M2
+PGTRACKL
+LV
+AUX1
+U+
+LR
+PGTRACKR
+M1
+AUX2
+GND
+LS2
+LS1
+HALL1
+HALL2
+HALL3
+AUX3
+AUX4
+AUX5
+AUX6
+AUX7
+Decoder 
+Programmer
+SUSI
+NEM 652
+NEM 651
+MTC 21
+PLUX 22
+MTC 14
+Gleis
+Motorumschaltung
+<     >
+Motorlaufrichtung
+AUX3 / AUX4
+Motor         Funktion Logikpegel      verstärkt
+IN1 IN2 IN3
+Spur 1
+USB
+Impedanz
+Zentrale
+100 Ohm                 8 Ohm
+Lautsprecher 
+extern
+b
+c
+d
+a
+Die Anzeigeelemente am Decoder-Tester 60970
+The Display Elements on the 60970 Decoder-Tester
+Eléments d’affichage sur le Decoder-Tester 60970
+De weergave elementen op de decodertester 60970
+Los elementos indicadores del téster de decoder 60970
+Gli elementi indicatori sul Tester per Decoder 60970
+Indikatorer på Dekoder-testare 60790
+Indikatorelementerne på dekoder-testapparatet 60970
+PDF-Seite 27
+27
+a  Leuchtdioden, die leuchten, wenn die zugehörige Funkti-
+on eingeschaltet ist. 
+b  Lautsprecher. Wird bei Anschluss eines externen Laut-
+sprechers abgeschaltet. 
+c  Motor. 
+d  Leuchtdioden die die Fahrtrichtung der Lok anzeigen. 
+a Lysdioder, tända när respektive funktion är tillkopplad.
+b Högtalare. Stängs av vid anslutning av en extern högta-
+lare.
+c Motor.
+d Lysdioder som visar lokets körriktning.
+a LED’s licht op als de desbetreffende functie ingescha-
+keld is.
+b Luidspreker. Wordt uitgeschakeld bij het aansluiten van 
+een externe luidspreker.
+c Motor.
+d LED’s die de rijrichting van de loc weergeven.
+a  Diodi luminosi, che si illuminano quando la corrispon-
+dente funzione è attivata. 
+b  Altoparlante. Viene disattivato in caso di connessione di 
+un altoparlante esterno. 
+c  Motore. 
+d  Diodi luminosi che indicano la direzione di marcia della 
+locomotiva.
+a  Diodes électroluminescentes qui s’allument quand la 
+fonction correspondante est activée. 
+b  Haut-parleur. S’éteint lorsqu’un haut-parleur externe est 
+raccordé. 
+c  Moteur. 
+d  Diodes électroluminescentes indiquant le sens de mar-
+che de la loco.
+a  Lysdioder, der lyser, når den pågældende funktion er 
+slået til. 
+b  Højttaler. Slukkes, når der tilsluttes en ekstern højttaler. 
+c  Motor. 
+d  Lysdioder, som viser lokomotivets kørselsretning.
+a  LEDs que lucen cuando está activada la función asocia-
+da. 
+b  Altavoces. Se desactiva al conectar un altavoz externo. 
+c  Motor. 
+d  LEDs que indican la dirección de circulación de la loco.
+a  LEDs that light up when the function assigned to them is 
+turned on. 
+b  Speaker. Is turned off when an external speaker is con-
+nected. 
+c  Motor. 
+d  LEDs that show the direction of the locomotive. 
+PDF-Seite 28
+28
+Betrieb des Decoder-Testers 60970 mit einem H0-Decoder, wahlweise zusätzlich mit Programmer 60971 
+Operating the 60970 Decoder-Tester with an H0 decoder, optionally also with a 60971 Programmer 
+Exploitation du Decoder-Tester 60970 avec un décodeur H0, au choix avec Programmer 60971 en sus
+Bedrijf van de decodertester 60970 met een H0-decoder, indien gewenst tevens met programmer 60971
+Funcionamiento del téster de decóder 60970 con un decóder H0, opcionalmente también con el programador 60971
+Funzionamento del Tester per Decoder 60970 con un Decoder H0, a scelta con Programmer 60971 aggiuntivo 
+Drift av dekoder-testaren 60970 med en H0-dekoder, eventuellt kompletterad med Programmer 60971
+Drift af dekodertesteren 60970 med en H0-dekoder, kan valgfrit ske med en yderligere programmør 6097
+PDF-Seite 29
+29
+TRACKL
+TRACKR
+LV
+LR
+AUX1
+AUX2
+AUX3
+AUX4
+AUX5
+AUX6
+AUX7
+SUSICLK
+SUSIDAT
+  M2
+PGTRACKL
+LV
+AUX1
+U+
+LR
+PGTRACKR
+M1
+AUX2
+GND
+LS2
+LS1
+HALL1
+HALL2
+HALL3
+AUX3
+AUX4
+AUX5
+AUX6
+AUX7
+Decoder 
+Programmer
+SUSI
+NEM 652
+NEM 651
+MTC 21
+PLUX 22
+MTC 14
+Gleis
+Motorumschaltung
+<     >
+Motorlaufrichtung
+AUX3 / AUX4
+Motor         Funktion Logikpegel      verstärkt
+IN1 IN2 IN3
+Spur 1
+bn
+rt
+USB
+Impedanz
+Zentrale
+100 Ohm                 8 Ohm
+Lautsprecher 
+extern
+PDF-Seite 30
+30
+PDF-Seite 31
+31
+PDF-Seite 32
+Gebr. Märklin & Cie. GmbH 
+Stuttgarter Str. 55 - 57 
+73033 Göppingen 
+Germany
+www.maerklin.com
+282288/0223/Sm3Ko
+Änderungen vorbehalten  
+© Gebr. Märklin & Cie. GmbHwww.maerklin.com/en/imprint.html
+PAP
+22
+Cet appareil 
+se recycle

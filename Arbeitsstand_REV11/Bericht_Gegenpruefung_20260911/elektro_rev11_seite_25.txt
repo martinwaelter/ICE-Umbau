@@ -1,0 +1,56 @@
+MITTELWAGEN | ANSCHLUSSPRÜFUNG
+ARBEITSKARTE 25
+Wagen: vor und nach dem Löten vergleichen
+Die weiße Leiste bleibt unverändert. Du prüfst jeden Kontakt zu seinem richtigen Pad und die vorgesehenen
+Längspfade.
+VORHER Wagen allein, ohne Gleis und Bus; Speicherzustand sicher. Passive Kupplungen S. 24 geprüft. Für bestückte
+Querpfade Messkarte S. 5 ausgefüllt.
+Vor Kupplungsanschluss
+Nach Kupplungsanschluss
+L Ende 1 zu L Ende 2: stabiler Sollpfad
+L-L erneut prüfen, auch bei Deichselbewegung
+O Ende 1 zu O Ende 2: stabiler Sollpfad
+O-O erneut prüfen, auch bei Deichselbewegung
+L gegen O in beiden Polungen nur nach festgelegtem
+Elektronikplan erfassen
+Bei gleichem Zustand, Bereich, Polung und Wartezeit
+vergleichen
+Jede freie Kontaktlitze einzeln zugeordnet
+An beiden Enden: RT-Kontakt zu O; GE-Kontakt zu L
+1. Ende 1/2, Revision und vorhandene Speicher fotografieren. L-L und O-O zuerst positiv nachweisen. Je Reihe
+Kontaktkontrollen vor und nachher durchführen. Ist eine Soll-Durchleitung unklar, noch keine Kupplungslitze
+anlöten.
+2. RT-Litzen an die vorgesehenen O-Pads und GE-Litzen an L löten. Flexibles Kabel mit Bewegungsschlaufe
+führen; keine zusätzliche Längsader. Für optionale Radkontakte zuerst die getrennte B-Prüfung S. 26
+abschließen.
+3. Mit Lupe jede Lötstelle auf Brücke und Einzelsträhnen prüfen. Für jedes Wagenende tatsächlichen RT-Kontakt
+bis O und GE-Kontakt bis L kontrollieren. L-L und O-O erneut prüfen. Deichsel in beide Endlagen schwenken;
+Litzen dürfen nicht spannen oder am Rad streifen.
+4. Die vorher festgelegten L/O-Querpfade bei gleichen Bedingungen vergleichen. Neu niederohmig oder
+unerklärlich verändert: Kupplungslitzen wieder stromlos abtrennen, freie Litzen nach S. 24 prüfen und Lötstellen
+untersuchen. Bleibt die Abweichung an der Leiste, Bauteilpfad mit Quelle/Messkarte klären.
+STOPP Ein Vorher-/Nachhervergleich erkennt Änderungen, bestätigt aber allein keine fehlerfreie ursprüngliche
+Elektronik. Kein Bauteil entfernen und keine Leiterbahn aufschneiden, um einen Offenwert zu erhalten.
+Wagen / Revision / Ende
+L-L / O-O
+Kontakt-Pad / Bewegung
+Querpfade / Ergebnis
+________________
+_____ / _____
+____________
+____________
+________________
+_____ / _____
+____________
+____________
+________________
+_____ / _____
+____________
+____________
+Weiter zur Lastprüfung: Wenn der vordere Schleifer aussetzt, kann der Motorstrom über RT durch alle
+Wagenkupplungen fließen. Daher Wagenzahl nicht aus der Ohmmessung ableiten; zulässige Stufen auf S. 28
+bestimmen.
+REV11 | ICE 2976 | 11.09.2026
+25 / 40
+Quellen: Q3, Q4 (S. 40)
+Weiter: 26

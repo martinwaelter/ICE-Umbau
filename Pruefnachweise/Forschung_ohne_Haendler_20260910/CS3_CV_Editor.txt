@@ -1,0 +1,51 @@
+PAGE 1
+5/30/2018 Hilfe
+http://10.0.41.235/system/help/content 1/2
+Bearbeitung von CV-Werten von DCC und MM Decodern
+Hinweis zur CV-Bearbeitung
+Bei programmierbaren Decodern werden die Eigenschaften durch Conﬁgurations-Variablen (CV oder Register) festgelegt. In
+diesen CV-Variablen sind alle Informationen bezüglich des Verhaltens der Lokomotive abgelegt. Die Bedeutung der einzelnen
+Register ist vom Hersteller und vom Decoder abhängig. Veränderungen an den Registern können weitreichende Folgen haben,
+bis hin zur Unbrauchbarkeit der Lok. Veränderungen werden sofort nach der Eingabe in den Decoder geschrieben, eine
+Funktion, um zu den vorherigen Einstellungen zurückzukommen (Rückgängig / Undo), gibt es nicht. Die Einstellungen an den
+CV-Werten sollten unter Berücksichtigung der Lok- oder Decoderanleitung erfolgen. 
+Bei Eintritt in den Konﬁgurieren Dialog wird versucht, die aktuellen Einstellungen aus dem Decoder auszulesen. Bei DCC ist
+daher sicherzustellen, dass die korrekte Lokomotive auf dem Programmiergleis steht. Eine mfx-Lokomotive muss sich auf der
+Anlage beﬁnden und unter Spannung sein (nicht in einem stromlosen Abschnitt).
+- Laden einer CV-Vorlage
+Mittels des Laden-Buttons kann eine voreingestellte Zusammenstellung von CV-Werten geladen werden. Die aktuelle Liste
+wird durch die Deﬁnition der neu geladenen Liste ersetzt. Nach dem Laden der Liste wird bei DCC versucht die derzeitigen
+Werte aus dem Decoder auszulesen. In der Spalte Ist/Soll wird danach der aktuelle Wert des Decoders sowie der Wert aus der
+Vorlage dargestellt.
+- Zusätzliche CV-Werte der Liste hinzufügen
+Zusätzliche Zeilen zu einer CV-Vorlage können mit dem Knopf CV Hinzu eingefügt werden. Nach dem Hinzufügen kann die
+neue CV den eigenen Bedürfnissen angepasst werden, CV-Nummer und Name können individuell geändert werden.
+- Eine CV-Vorlage wieder speichern
+Mit Speichern kann eine individuell erstellte / geänderte CV-Vorlage für weitere Verwendung gespeichert werden. Beim
+Speichern werden sowohl die Zusammenstellung der CVs wie auch die aktuell gelesenen Werte aus dem Decoder
+geschrieben.
+- Schreiben von Werten aus einer Vorlage
+Mit Prog. werden die Werte aus einer geladenen CV-Vorlage in den Decoder geschrieben. Somit kann eine komplette
+Zusammenstellung von Einstellungen leicht in mehrere Decoder kopiert werden.
+- Statusdarstellung
+
+PAGE 2
+5/30/2018 Hilfe
+http://10.0.41.235/system/help/content 2/2
+Links neben den Knöpfen wird der Status von Lese und Schreibvorgängen dargestellt. Solange das Schreiben von CV-Werten
+noch nicht abgeschlossen ist, darf der Dialog nicht verlassen werden - der Schreibvorgang wird sonst abgebrochen.
+- Löschen einzelner Zeilen
+Durch das Mülleimersymbol wird eine CV-Zeile wieder gelöscht.
+- DCC: POM
+Bei DCC wird die Möglichkeit angeboten, Werte mittels der DCC-Programmiermethode POM (Programming on Main) in den
+Decoder zu schreiben. Bei POM ist kein Lesen von Werten möglich. Nicht alle Werte können mittels POM verändert werden.
+- CV-Zeile anpassen
+Eine CV-Zeile kann den eigenen Bedürfnissen angepasst werden. Dazu die Felder CV-Nr und Name entsprechend anpassen.
+Soll die Einstellung dauerhaft sein, die Zusammenstellung unter einem passenden Namen speichern.
+- CV-Wert ändern
+Soll ein CV-Wert geändert werden, den neuen Wert in der Spalte Ist/Soll eintragen. Entweder durch Drücken auf die + oder -
+Taste oder Tippen auf das Wertefeld öﬀnet einen numerischen Eingabedialog. Änderungen werden beim Verlassen des
+Eingabefeldes sofort in den Decoder geschrieben.
+- Hinweis
+Bei MM Decodern können die CV-Werte vorher nicht ausgelesen werden. Es werden die Eingabewerte direkt in den Decoder
+geschrieben.

@@ -1,0 +1,51 @@
+VORBEREITUNG
+ARBEITSKARTE 06
+Prüfaufnahme und genau eine Gleisquelle
+Die lose Decoderprüfung findet vor dem Zugumbau statt. Eine passende 21MTC-Buchse allein bestätigt die
+Aufnahme noch nicht.
+EINE QUELLE
+CS3-Ausgang
+B und 0
+EINZELAUFNAHME
+Passender Decoder, Lasten und Orientierung
+PAARTEST: ZWEI GETRENNTE AUFNAHMEN
+Eigene Lasten je Decoder, gleiche Quelle
+Kein U+ / AUX / Motor-Ausgang gemeinsam
+Quelle umstecken:
+vorher ausschalten
+und vollständig trennen.
+An der tatsächlichen Aufnahme festlegen
+Eintragen / abgleichen
+Artikel, Revision, Decoder und Index
+____________________________
+Quelle, Anschlüsse und Schalterstellungen
+____________________________
+Motorlast / DCC-Quittierung
+____________________________
+AUX3/AUX4: Logik oder verstärkt
+59649 MKL: verstärkt; Monitore müssen passen
+Lautsprecher: Impedanz und Belastbarkeit
+____________________________
+Zulässige Testlast / Begrenzung / Abschaltwert
+____________________________
+Bestand prüfen: Märklin 60970 dokumentiert Umschalter für Logik/verstärkt, Motor/Funktion und Lautsprecher.
+Beim ESU 53900 unterscheiden sich Herstellerangaben zu Lautsprecher und Impedanz je Quelle/Ausführung.
+Keinen davon ungeprüft anschließen oder vorsorglich kaufen. Die tatsächlichen Schalterbilder mit der passenden
+Originalanleitung abgleichen.
+LASTEN 60977: bis 1,6 W an 8 Ω; die 53900-Anleitung nennt einen 0,5-W-Prüflautsprecher. Passende Impedanz
+gibt keine volle Lautstärke frei. AUX3/AUX4 eines MKL nicht an einen ungeklärten Logikmonitor anschließen.
+1. Getrenntes Gleis/Prüfplatz vorbereiten. CS3-Automatik aus, Fahrstufe 0. Programmer, Betriebsgleis und
+Gleisbox dürfen nie gleichzeitig mit derselben Aufnahme verbunden sein. Zum Umstecken ausschalten und die
+bisherige Quelle vollständig abtrennen.
+2. Für Einzelprogrammierung nur einen Decoder anschließen. Für den Paartest zwei geeignete getrennte
+Aufnahmen bzw. gleichwertig dokumentierte Aufbauten mit eigenen Lasten verwenden. Genau eine Quelle speist
+beide Gleiseingänge.
+Im späteren Zug: Der RT-Bus verbindet beide Schleifer. Der ganze Zug bleibt auf einem einzigen freigegebenen
+Stromkreis; keine Grenze zu Programmiergleis, anderem Booster, Brems-/Analogabschnitt überbrücken. Erst den
+vollständigen Zug stromlos umsetzen.
+WEITER, WENN Die sechs Felder sind für die tatsächlich verwendete Aufnahme geklärt. Ein eigener 53451 ist erst bei
+konkretem Kommunikations- oder Firmwarebedarf zu entscheiden.
+REV11 | ICE 2976 | 11.09.2026
+6 / 40
+Quellen: Q1, Q6, Q17, Q18, Q19 (S. 40)
+Weiter: 7

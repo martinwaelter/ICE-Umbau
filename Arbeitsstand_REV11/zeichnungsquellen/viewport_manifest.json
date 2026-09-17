@@ -1,0 +1,77 @@
+[
+  {
+    "kind": "motor_60941",
+    "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60941_seite2_600dpi.png",
+    "crop": [
+      0.1,
+      0.03,
+      0.875,
+      0.625
+    ],
+    "source_pdf": "/Users/martinwaelter/ICE Umbau/Pruefnachweise/REV9_Berichtsabgleich/Maerklin_60941_Original.pdf",
+    "source_page": 2,
+    "image_pixels": [
+      3497,
+      2481
+    ],
+    "example_max_width_pt": 510,
+    "example_max_height_pt": 380,
+    "actual_size_pt": [
+      510.0,
+      277.79
+    ],
+    "effective_dpi": 382.6,
+    "sha256_png": "288565d5c785af58a503f4e5126e1b218735b5592f7d0f0ab57438808e40363e",
+    "caption": "Märklin 60941/60943, Originalzeichnung S. 2: Ausbau links, Einbau rechts. Bildnummern 1–6 aus der Herstellerzeichnung."
+  },
+  {
+    "kind": "carrier_60977",
+    "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60977_600dpi-005.png",
+    "crop": [
+      0.045,
+      0.225,
+      0.478,
+      0.695
+    ],
+    "source_pdf": "/Users/martinwaelter/ICE Umbau/Pruefnachweise/REV9_Berichtsabgleich/Maerklin_60977_Original.pdf",
+    "source_page": 5,
+    "image_pixels": [
+      3497,
+      2481
+    ],
+    "example_max_width_pt": 510,
+    "example_max_height_pt": 380,
+    "actual_size_pt": [
+      493.45,
+      380.0
+    ],
+    "effective_dpi": 220.9,
+    "sha256_png": "67dc09bbc5d7a78a61ec12253c63771bf596ebddc3c480131f9cf322732b8634",
+    "caption": "Märklin-Träger, Originalzeichnung S. 5. Padnamen und Märklin-Kabelfarben; im Gegenkopf wird der ESU 59649 eingesetzt."
+  },
+  {
+    "kind": "insertion_21mtc",
+    "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60977_600dpi-006.png",
+    "crop": [
+      0.07,
+      0.205,
+      0.375,
+      0.91
+    ],
+    "source_pdf": "/Users/martinwaelter/ICE Umbau/Pruefnachweise/REV9_Berichtsabgleich/Maerklin_60977_Original.pdf",
+    "source_page": 6,
+    "image_pixels": [
+      3497,
+      2481
+    ],
+    "example_max_width_pt": 510,
+    "example_max_height_pt": 380,
+    "actual_size_pt": [
+      231.72,
+      380.0
+    ],
+    "effective_dpi": 331.4,
+    "sha256_png": "1e7045c4c2332adc001cc31a8a188624612f5da74bb7a24e7d6abfd58b732c73",
+    "caption": "Märklin, Originalzeichnung S. 6: Einsteckfolge mit vergrößertem Warn-Seitenprofil. Kein Foto des eingebauten ESU-Decoders."
+  }
+]

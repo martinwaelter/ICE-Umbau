@@ -1,0 +1,2102 @@
+PAGE 1
+Version 2.6.0
+- Fehlerbereinigungen
+- Erweiterungen WebApp
+- Neues USB-Gerätemanagement
+Neuigkeiten
+Mapping hinzugefügt
+Webserver
+In der WebApp wurde das Mapping von Decodern an die neue Umgebung angepasst, fehlerbereinigt und aktiviert.
+Update eines Lokdecoders
+Webserver
+In der WebApp wurde das Update eines Lokdecoders hinzugefügt.
+CS WebUpdater hinzugefügt
+Webserver
+Der CS WebUpdater wurde in der WebApp hinzugefügt. Über diesen ist es möglich, die CS über den Browser mittels des Paketupdates zu
+aktualisieren
+Übersichtsseite für Gleisverbrauchswerte hinzugefügt
+Webserver
+Es wurde eine Übersichtsseite für die Gleisverbrauchswerte hinzugefügt. Damit erhalten Sie einen Überblick über die Verbrauchswerte der einzelnen
+Gleise.
+Paketinformationen für die jeweilige Zentrale anzeigen
+Webserver
+Es wurde eine Übersichtsseite für die Paketinformationen der jeweiligen Zentrale hinzugefügt. Damit erhalten Sie einen Überblick über die
+installierten Pakete und deren Versionen. Sie finden diese Übersicht unter System -> CS3 -> Geräte- und Softwareinfo.
+Einstellungsseite für Schaltnetzteil-Geräte hinzugefügt
+Webserver
+Es wurde eine Einstellungsseite für Schaltnetzteil-Geräte hinzugefügt. Damit können Sie die Einstellungen für die Schaltnetzteil-Geräte direkt in der
+WebApp vornehmen.
+USB-Geräte-Management
+CS-SW
+Das Gerätemanagement der CS3 zu USB-Speichersticks und USB-Kameras wurde überarbeitet und wird nun durch die CS3-Prozesse durchgeführt.
+Die Erweiterung ist, dass USB-Geräte im Central Station Verbund nun eindeutig verwaltet werden. Ein USB-Stick der an einem Erweiterungsgerät
+erstmalig angesteckt wird erscheint nun auch auf allen weiteren Geräten im Verbund.
+USB Speichersticks
+CS-SW
+Auf der CS mit dem Stick können die Dateien auf dem Stick dem internen Speicher oder einer SD-Karte hinzugefügt werden. Sicheres Auswerfen
+eines Sticks kann auf dem angesteckten Gerät gemacht werden. Auf einem entfernten Gerät ist der Stick nur sichtbar und kann bearbeitet werden.
+USB-Kameras in der CS3
+CS-SW
+In das Gerätemanagement sind auch die USB-Kameras aufgenommen worden. Kameras können sowohl am Gerät selbst wie auch am entfernten
+Gerät eingestellt werden. Kameras können jetzt in der CS3 verwendet werden. Die Überwachung schlecht einsehbarer Bereiche kann auf der CS
+realisiert werden. Eine Kamera kann in ein Gleisbild eingefügt werden. Durch Aufruf der Kamera im Bedienmodus wird ein Livebild der Kamera auf
+der CS angezeigt.
+Spielewelt Verbrauchswerte
+CS-SW
+Das Lesen der Verbrauchswerte von Spielewelt-Lokomotiven wurde überarbeitet.
+- Es werden nur die Verbrauchswerte der Loks gelesen, die auf einem Control sind
+- Wird eine Lok mit Fahrstufe 0 abgestellt dann werden die Verbrauchswerte nicht mehr gelesen. Sobald die Lok wieder angefahren wird, werden die
+Verbrauchswerte wieder ausgelesen.
+- Können von einer Lok wiederholt keine Verbrauchswerte gelesen werden, wird das Lesen pausiert. Eine aktive Steuerung der Lok startet das Lesen
+wieder.
+Lokliste und Artikelliste
+
+PAGE 2
+CS-SW
+Die Handhabung bzw. Darstellung der Lok- und Artikelliste wurde erweitert. Es ist nun möglich beide Listen bei einer überlappenden Größe in den
+Vordergrund zu bringen. Somit ist ein schneller Wechsel bei großen Listen möglich.
+Rekursionserkennung Ereignisse
+CS-SW
+Viele Probleme bei Ereignissen rühren von Rekursionen ohne ausreichende Pauseneinstellung her. Das führt dazu, dass die Ereignisse die komplette
+CPU belegen und dadurch Reaktionen verloren gehen.
+Rekursionen werden beim Bearbeiten erkannt und beim Verlassen der Konfiguration darauf hingewiesen.
+Beim Ausführen von Rekursionen wurden Sicherheitsmechanismen realisiert welche die Auswirkung von CPU-Engpässen abfangen sollen.
+Überlauf der Lokverwaltungsliste des GFP
+CS-SW
+Wenn die Lokverwaltungsliste des GFP gefüllt ist, kommt nun eine entsprechende Fehlermeldung auf der Oberfläche.
+QR-Code für CS3 Webserver
+CS-SW
+Eine Seite mit QR-Codes zum Aufrufen der wichtigsten Web-Seiten der WEB-App wurde in die GUI eingefügt.
+Darstellung mfx-Ausgangseinstellung für Lokdecoder
+CS-SW
+Aufgrund einer Forderung nach einer Erweiterung im Decoder musste die Darstellung der AUX-Ausgangskonfiguration für Lokdecoder angepasst
+werden. Die Einträge wurden enger zusammengeschoben um Platz für eine neue Spalte zu schaffen. Solange diese Eigenschaft vom Decoder nicht
+gemeldet wird ist das Aussehen gleich – die Spalte wird nicht angezeigt – jedoch die Darstellung ein wenig enger.
+Handhabung CV-Lesefehler
+CS-SW
+Bei DCC-CV-Lesefehler wird nicht wie bisher abgebrochen, sondern die CV-Liste weiter abgearbeitet und die verbleibenden CVs versucht zu lesen.
+Gleisbild: Darstellung der offen Gleisverbindungen
+CS-SW
+Die Darstellung der Verbindungen über Gleispläne hinweg wurde geändert. Die Verbindungspunktnummer wird nicht weiter gezeichnet.
+Verbindungspunkte auf Strecken entfallen. Weiterhin gezeichnet werden die Verbindungspunkte an offenen Enden. Die Darstellung wurde zu
+Plattenverweise abgewandelt. Somit wirken die offenen Verbindungen wie Plattenverweise. Man kann mit Ihnen die Platten wechseln.
+Einstellungsdialog Netzteile für GFP / Booster
+CS-SW
+Für alle Geräte mit einem Gleisaufgang wurde ein Dialog geschaffen welcher die Einstellung des verwendeten Schaltnetzteils zusammenfasst.
+Schlanke C-Gleis DKW und 2025er Signale
+CS-SW
+Die schlanke C-Gleis DKW 24720 mit dem Digitaldecoder 74467 wird nun korrekt eingebunden. Die neuen 2025er Formsignale 70395, 70396 sowie
+70415 und 70416 wurden eingepflegt.
+Verbesserungen
+Hinweis zu Schaltfehler in Ereignissen
+CS-SW
+Meldung eines Kunden. Das Ereignislogging zeigte, dass Schaltungen von Magnetartikel nicht nicht an den GFP gesendet werden konnten. Ursache
+ist, dass nur eine begrenzte Anzahl von Schaltbefehlen im Modelleisenbahn Digitalsystem abgearbeitet werden können. Als Hilfestellung zu diesem
+Problem ist ein Tipp erstellt worden, welcher das Problem erklärt und Lösungsansätze liefert.
+Aktuelle Decoderfirmware
+CS-SW
+Die aktuell freigegebene Decoderfirmware 3.3.1.0 wurde in den Updateumfang aufgenommen.
+Gruppieren und Filtern von Ereignissen
+CS-SW
+Das Filtern der Ereignisse kann nun auch nicht gruppierte Ereignisse zulassen. Diese Ereignisse sind unter der Filtereinstellung „Keine Gruppe“ zu
+finden.
+Dateimanager verbessert
+Lokicons
+Der Dateimanager wurde verbessert. Lokicons werden nun schneller geladen und angezeigt. Außerdem kann dieser nun über den Link
+/app/filemanager in einem eigenen Fenster geöffnet werden.
+
+PAGE 3
+Neue Supervisorsoftware
+Supervisor
+Im Auszustand wird der Supervisor in Stromsparmodus gesendet um Energie zu sparen.
+Linux UDEV-Erweiterungen
+Debian
+Für die Unterstützung des USB-Medien und Kameramanagements werden die Meldungen des Linux-UDEV-Systems ausgewertet. Die notwendigen
+SW-Pakete wurden installiert.
+Neuer Kernel V4.15.18
+Kernel
+Kernel mit Unterstützung für die neuen Geräte der UDEV-USB-Geräteverwaltung
+Fehlerbereinigungen
+Updateerkennung am Erweiterungsgerät
+CS-SW
+Am Erweiterungsgerät wird ein USB-Update nun erkannt und man kann diesen ohne Wechsel in den HG-Modus durchführen.
+Spielewelt Einstellung der Verbrauchswerte
+CS-SW
+Bei der Einstellung der Spielewelt-Verbrauchsfaktoren in der GUI der CS wurde korrigiert. Schreiben der Werte hat funktioniert, nur die Darstellung
+der aktuellen Faktoren hatte nicht funktioniert.
+Start der CS3 und STOP-Status
+CS-SW
+Beim Start der CS3 in Verbindung mit weiteren System-Einstellungen wurde der STOP-Zustand in den Prozessen nicht korrekt behandelt. Wurden
+die Optionen Loks automatisch anfahren, Ereignisse - Erweiterter Modus, Ereignisse weiterführen und Betrieb weiterführen alle aktiviert dann sind
+interne Abläufe in der CS gestartet worden, weil „GO“ mitgeteilt wurde, obwohl der GFP in STOP war. Die Ausführung dieser internen Prozesse
+schlug fehl (z.B. Aktivieren von mfx-Lokomotiven nach einem Restore). Das Feststellen des GO-Status und Wiederherstellen der korrekten Status
+wird nun zentral in Event gemacht und dadurch der Zustand des GFP korrekt synchronisiert. Die internen Prozesse die in Abhängigkeit von GO-
+Zustand sind werden nun korrekt ausgeführt.
+Umbenennung von Ereignissen und Artikeln mit gleichem Namen
+CS-SW
+Ereignisse und Artikel wurden bis dato unabhängig auf Namensgleichheit überprüft. Nur beim Einfügen in das Gleisbild wurde der Namen geprüft
+und eine entsprechende Überprüfung hat stattgefunden. Wurden aber im Gleisbild vorhandene Ereignisse oder Artikel nachträglich auf denselben
+Namen umbenannt, verschwanden die Artikel aus dem Gleisbild oder der Artikelliste. Beim Umbenennen von Ereignissen und Artikeln wird nun auf
+Namensgleichheit geprüft.
+Breite der Auswahlbox des Drop-Down Menüs
+CS-SW
+Die Breite des Popup-Menüs eines Drop Down Auswahlmenüs richtet sich nun nach den enthaltenen Texten. Damit ist lesbar welche Option
+eingestellt werden soll. Ist das Menü geschlossen kann man erkennen welcher Eintrag aktiv ist.
+Ereignisse: Einlesen Status beim Start, Laufzeitverbesserung
+CS-SW
+Eine Reklamation eines Kunden führte zur Optimierung des Startvorgangs beim Interpretieren der Zustände der Ereignisse. Die Zentrale benötigte
+rund 20 Minuten bevor die GUI sichtbar wurde, nun dauert der Start der Applikation mit dieser Zentrale weniger wie 60s.
+Ereignisse Weiterführen und gespeicherter STOP/GO Status
+CS-SW
+Beim Weiterführen der Ereignisse wurde der gespeicherte und nicht der tatsächliche STOP/GO Status verwendet. Das war nicht korrekt und führte zu
+Fehlern beim Startvorgang der CS. Es wird nun der tatsächliche Stop-Zustand der Zentrale verwendet.
+Ereignisse Korrekte Interpretation Lok Richtung umkehren
+CS-SW
+Die Antwort auf das Lokkommando „Fahrtrichtung umkehren“ wird nun korrekt in den Ereignissen verarbeitet. Speziell beim Pendelmakro führte
+dieses zu Problemen bei der Ausführung.
+Datenbank inkorrekte Einträge beim laden des CS-Status korrigiert
+CS-SW
+Es konnte vorkommen, dass eine CS3 den Status nicht mehr gelesen hat. Ursache war, dass eine nicht initialisierte Floating-Point Zahl in den Status
+eingetragen wurde und diese als Wert NAN das Laden verhindert hat. Dies wurde beim Laden des Status beachtet.
+Magnetartikelkonfiguration – Bestimmung nächste freie Adresse korrigiert
+
+PAGE 4
+CS-SW
+Bei der Bestimmung der nächsten freien Magnetartikeladresse wurde für MM diese nicht auf die maximale gültige Adresse geprüft und beim
+automatischen Einfügen wurde ungültige Adressen vergeben. Das wurde korrigiert.
+Wechsel zwischen WebApp und MobileWebApp
+Webserver
+Da beim Wechsel zwischen der WebApp und der MobileWebApp es auf einzelnen Geräten zu Fehler gekommen ist, ist die WebApp jetzt über /app
+und die MobileWebApp über /mobilewebapp erreichbar.
+Fehler beim Hochladen von Lokicons behoben
+Webserver
+Ein Fehler im Uploader der Lockicons hat dazu geführt, dass BMP Dateien nicht hochgeladen werden konnten. Dieser Fehler wurde behoben.
+Fehler beim Einspielen eines Backups behoben
+Webserver
+Ein Fehler beim Einspielen eines Backups hat dazu geführt, dass Backups nicht korrekt eingespielt wurden. Die Konfigurationen waren dann leer.
+Dieser Fehler wurde behoben.
+Version 2.5.2
+Fehlerbereinigungen
+Verbesserungen
+Aktualisierung Lokicons
+Lokicons
+Lokicons der Neuheiten 2024 wurden ergänzt.
+Fehlerbereinigungen
+S88 Rückmeldung für PC Programme
+CS-SW
+Die S88 Rückmeldung wurde funktionsfähig gemacht. Hintergrund ist eine inkorrekte Implementierung des CAN Befehls. Die Korrektur wurde
+inkompatibel für die PC Programme gemacht. Es konnte nur durch die CS3 ausgeführt werden.
+Mfx Fremddecoder Anmeldung und Bearbeitung
+CS-SW
+Bei der Bearbeitung / Anmeldung / Wiederanmeldung von fremden mfx-Decoder konnte es vorkommen, dass dies nicht beendet werden konnte
+und somit in einer Endlosschleife stecken blieb. Bei bereits vorhandenen Decodern erscheint die Meldung „Der Decoder hat eine geänderte
+Firmware Version und wird zur Sicherheit neu angemeldet“ Dieser Vorgang konnte aber nicht abgeschlossen werden und kam somit immer wieder.
+Ebenso ist das Anmelden neuer Decoder nicht vollständig möglich gewesen.
+Neu angelegte Traktionen
+CS-SW
+Neu angelegte Traktionen konnten nicht gesteuert werden. Die Ursache dafür wurde behoben.
+Erkennung von USB-Geräten
+Webserver
+Ein Fehler bei der Rückmeldung von USB-Geräten an die WebApp wurde behoben, sodass die USB-Geräte nun korrekt in der WebApp angezeigt
+werden.
+Fehlerhafte Anzeige der Booster Verbrauchswerte
+Webserver
+Die Verbrauchswerte der Booster wurden vom Webserver fehlerhaft interpretiert, wodurch die WebApp die inkorrekten Werte angezeigt hat.
+Wechsel zwischen WebApp und MobileWebApp
+Webserver
+Beim Wechseln zwischen der WebApp und der MobileWebApp ist ein Fehler aufgetreten. Der Aufruf /app über Mobile Geräte hat weiterhin auf
+/mobilewebapp gezeigt. Der Fehler in der Browserweiche wurde behoben. Außerdem haben beide Apps versucht, auf denselben Browsercache
+zuzugreifen, wodurch die MobileWebApp nicht mehr geladen wurde. Dieses Problem wurde auch behoben.
+Liste der Lokicons im Dateimanager leer
+Webserver
+
+PAGE 5
+Wenn sich korrupte Lokicons im Ordner der Lokicons befanden, wurde zuvor eine leere Liste zurückgegeben. Nun werden diese Icons ignoriert, und
+es wird eine Liste ohne diese Icons zurückgegeben.
+Fehler beim Zurücksetzen der Loks behoben
+Webserver
+Ein Fehler im WebServer hat dazu geführt, dass das Auslesen der Lok nach einem Zurücksetzen nicht ausgeführt wurde.
+Fehler bei der Anzeige der Ereignisse behoben
+Webserver
+Durch einen Fehler bei der Interpretation der Ereignisdaten wurden lediglich leere Ereignisse angezeigt.
+Fehler beim Hochladen von Lokicons behoben
+Webserver
+JPEG und GIF Dateien konnten nicht hochgeladen werden, da die Dateiendung nicht korrekt in PNG geändert wurde.
+Version 2.5.0
+Sonstiges und Fehlerbereinigung
+Einführung einer Modellzeit
+Web-Applikation komplett überarbeitet.
+Neuigkeiten
+Komplettüberarbeitung der Web Applikation
+Webserver
+Die komplette Webapplikation wurde restrukturiert und das Erscheinungsbild wurde verändert. Beim Aufruf der Webapplikation kommt man sofort
+in die Bedienoberfläche der CS-WebApplikation. Die vorgelagerten Seiten und Funktionen wurden in die Bedienoberfläche integriert.
+Behandlung Stellpulte des Central Station Gleisbildes
+Webserver
+Im Web App werden die Stellpulte nun korrekt dargestellt.
+Darstellung der Ereignisse
+Webserver
+Im Web App können die Ereignisse und der Inhalt dargestellt werden. Steuerung der Ereignisse ist ebenso möglich. Damit sind Ereignisse komplett
+bedienbar.
+MobileWebApp
+Webserver
+MobileWebApp (CS3-IP/mobilewebapp) hinzugefügt. Diese Oberfläche ist für Smartphones optimiert und gestattet die Verwendung von kleinen
+mobilen Bediengeräten zur Steuerung einer Modellbahnanlage.
+Verbesserungen
+Darstellung des Kurzschluss-Zustandes
+CS-SW
+Tritt in der CS3-Geräteumgebung eine Überlastsituation auf, wird eine entsprechende Meldung mit der Ursache angezeigt und die Stopptaste fängt
+daraufhin zu blinken an. Der Anwender kann die Ursache des Kurzschlusses nun beseitigen. Durch doppeltes Betätigen der Stop-Taste oder durch
+ein Ereignis das GO sendet kann der Betrieb wieder aufgenommen werden. Die Kurzschlussmeldung auf dem Bildschirm wird gelöscht sobald Stop
+oder Go empfangen wird.
+Neuer Ansichts-Filter bei Magnetartikelkonfiguration
+CS-SW
+Im Konfigurationsdialog für Magnetartikel wurde ein neuer Filter "Neue mfx" hinzugefügt. Ist dieser aktiv, werden nur neu gefundene mfx-Artikel
+angezeigt. Diese neuen Artikel können nun Anwenderspezifisch eingerichtet werden.
+Hosenträger auf einer Platte
+CS-SW
+Der Hosenträger wird nun im gewählten Raster skaliert gezeichnet. Die Anschlüsse sind nun im horizontalen Raster ausgerichtet.
+Soundwiedergabe in Ereignissen
+CS-SW
+Bei den Eigenschaften eines Soundelements in Ereignissen kann nun neben Wiedergabequelle auch die Wiedergabelautstärke eingestellt werden.
+Somit kann jeder Sound mit einer dedizierten Lautstärke abgespielt werden.
+
+PAGE 6
+Drehscheibe Bedienung und in Ereignissen
+CS-SW
+Die Drehscheibe wurde überarbeitet und von Ungereimtheiten beseitigt. Bei der Bedienung der Drehscheibe ist die Verfolgung des Bedienhauses
+nicht möglich. Damit die Pfeile der Drehrichtungswahl nicht mit der Position des Bedienhauses verwechselt wird, wurden die Pfeile auf allen vier
+Seiten gezeichnet und bedienbar gemacht. Um die Bedienung der Drehrichtung zu erleichtern ist das Verdrehen der Bühne nur im grauen Kreis
+erlaubt. Damit die Gleise besser direkt angefahren werden können, wurde der Bedienbereich der Gleise leicht vergrößert. In den Ereignissen wurde
+zur besseren Verdeutlichung der Funktionalität der Drehscheibe neue Icons eingeführt. Bei Ereignissen kann die Drehrichtung, ein Schritt links oder
+rechts sowie ein Turn mit vorgewählter Drehrichtung gewählt werden. Dargestellt für die Drehrichtungswahl wurde das Icon für 180° Drehung links
+und 180° Drehung rechts. Das ist nun eindeutiger zu unterscheiden. Ein Fehler in der Drehscheibe mit 48 Abgängen wurde behoben und bei dieser
+kann nun in den Ereignissen eine 180° Drehung durchgeführt werden.Drehscheiben unter DCC mit gleichzeitig aktivierten erweiterten Ereignissen
+konnten nicht vollständig gesteuert werden. Step wurde nicht korrekt angezeigt. Dies wurde behoben.
+Decodermapping: Auslösebedingung einer Aktion
+CS-SW
+Im Mapping des Decoders wird die Auslösebedingung einer Aktion grafisch dargestellt. Nun ist sofort ersichtlich welche Bedingungen erfüllt sein
+müssen damit eine Aktion ausgelöst wird. Die Anordnung der Elemente wurde mit dem Ziel mehr Platz zur Darstellung der Auslösebedingungen zu
+haben reorganisiert. Hinzufügen von Aktionen ist gesammelt in einem Dialog untergebracht.
+Einführung einer Modellzeit
+CS-SW
+Die Central Station kann nun eine Modellzeit anzeigen. Die Uhr kann als Anzeigeelement in das Gleisbild eingefügt werden. Der Modellzeitfaktor
+lässt sich in den Einstellungen einstellen.
+Modellzeit in Ereignissen: Start eines Ereignisses
+CS-SW
+Die Modellzeit kann verwendet werden Ereignisse zu voreingestellten Modellzeiten zu starten, zu wiederholen und die Wiederholung zu einem
+bestimmten Zeitpunkt auch wieder zu beenden.
+Modellzeit in Ereignissen: Pause bis Zeitpunkt
+CS-SW
+Ein neues Makro kann die Ausführung eines Ereignisses bis zu einem bestimmten Modellzeitpunkt anhalten. Es wird gewartet bis dieser Zeitpunkt
+erreicht ist und dann wird weiter gemacht.
+Anzeige des Status von Hintergrundprozessen
+CS-SW
+Unter dem Systemmenüpunkt "Status der Hintergrundprozesse" wurde der Status der Prozesse "cs3web" und "vncserver" aufgenommen.
+Susi Teilnehmer - CV-Einstellungen
+CS-SW
+Das Bearbeiten von SUSI-CVs wurde vereinfacht. Für die SUSI CV-Einstellungen der 3 Susi Teilnehmer wurde ein angepasster Dialog zum
+Programmieren der Werte erstellt. Parallel wurde die Darstellung des Dialogs für die Geschwindigkeitskurve dem Aussehen der Lokeinstellungen
+angepasst und schwarz eingefärbt.
+Unterstützung Artikel 60654 - WICA
+CS-SW
+Die Unterstützung des Artikels 60654 wurde in der CS3 erweitert. Zuweisen von Lokomotiven zu einem IR-Handregler und Einstellung des WLAN-
+Adapters können gemacht werden.
+Kopieren von Ereignissen
+CS-SW
+Ereignisse können nun dupliziert werden. Es wird eine Kopie des Ereignisses mit demselben Inhalt und einem neuen Namen erstellt. Das Ereignis
+kann folgend den Anforderungen angepasst werden. Sinnvoll ist dies, wenn Abläufe Lokbezogen ausgeführt werden sollen und nur die zu steuernde
+Lokomotive geändert werden muss.
+Visualisierung der mfx-Anmeldung
+CS-SW
+Zahlreiche Probleme bei der mfx-Anmeldung werden auf ein falsches mfx-Discovery zurückgeführt. Dieses kann bis dato der Anwender nicht
+erkennen und entsprechende Maßnahmen ergreifen. Daher wird nun im Stop-Icon der Discovery-Zustand dargestellt. Wenn ein Discovery
+stattfindet, dann wird der Stop-Button mit einem mfx-Symbol erweitert.
+Verbesserung Anmeldung mfx-Lokomotiven
+CS-SW
+Der CS3-Prozess welcher die mfx-Anmeldung von mfx-fähigen Decodern übernimmt wurde verbessert.
+- Beim Auslesen der zur Anmeldung benötigten Werte wird eine bekannte Position im Decoder angenommen. Diese Werte werden gezielt gelesen.
+Stimmt die Lage der Werte nicht, dann wird auf das bisherige Verfahren zurückgeschaltet.
+- Nach der Anmeldung einer Lokomotive wird das Suchen nach weiteren Loks sofort ausgelöst. Dadurch entfällt die Wartezeit bis zum Start den
+
+PAGE 7
+folgenden Lok.
+- Nach einem Restore wird bei allen vorhandenen Loks ein Binden an die neue mfx-Umgebung gesendet. Je nach Anzahl der Lokomotiven kann dies
+eine gewisse Zeit in Anspruch nehmen. Wird während des Vorgangs versucht eine mfx-Lok zu bearbeiten erscheint stattdessen eine
+Fortschrittsanzeige des Vorgangs.
+- Während eines laufenden Discovery war es sehr schwierig in den mfx-Bearbeitungsdialog zu gelangen. Die dafür relevanten Sperrzeiten wurden
+verbessert.
+Märklin-Bus-Geräte Konfiguration
+CS-SW
+Nach einem SW-Update eines Märklin-Bus-Gerätes werden die Konfigurations- und Einstelloptionen neu eingelesen. Die können sich durch einen
+SW-Update verändern.
+Fehlerbereinigung und Überarbeitung Spieleweltführerstände
+CS-SW
+Bei der Erstellung der neuen Führerstände sind Fehler aufgefallen und behoben worden:
+- Die Anzeige der Bremsstufe wurde erweitert.
+- Die Einstellung des Wertebereiches des Balkentachos der Monitoranzeige wurde korrigiert.
+- Regler werden nun nur ausgeblendet, wenn dies auch so eingestellt ist. Diese Abhängigkeit wurde erweitert.
+- Eine Analoganzeige / Tacho mit schwarzer Schrift und hellem Hintergrund wurde erweitert.
+Neue Führerstände
+Spielewelt
+Neue Führerstände wurden für folgende Loks erstellt:
+- SBB Ae 3/6
+- SJ RC6
+- NS Reihe 1600/1700, SNCF BB7200 BB22000
+- SBB Giruno RABe 501
+- DB E 71.1
+- DR V 200
+- DB ET 85
+Aktualisierung Lokicons
+Lokicons
+Lokicons der Sommerneuheiten 2023 wurden ergänzt.
+MS2 - Fehler bei Lokomotiven aus interner Datenbank und Funktionssymbol auf F0
+Busgeräte
+Wurde bei der MS2 eine Lokomotive aus der internen Datenbank angelegt und diese hatte auf F0 ein Funktionssymbol F0 wurde dieses nicht
+korrekt angezeigt. Dieser Fehler wurde behoben.
+MS2 - Bedienung der Lokdatenbank mit Geräten der ersten Generation
+Busgeräte
+Die Geräte der ersten Generation hatten eine sehr zähe Bedienung bei der Auswahl von Lokomotiven aus der internen Lokdatenbank. Die
+Performance wurde verbessert.
+MS2 aktuelle interne Lokdatenbank
+Busgeräte
+Die Lokdatenbank wurde auf den Stand von 2021 aktualisiert.
+MS2 und MS-WLAN
+Busgeräte
+Im Zuge der Entwicklung der WLAN gebundenen Mobile Station wurde die interne Struktur überarbeitet und von Fehlern bereinigt. Diese
+Verbesserungen sind auch in die MS2 übernommen worden.
+Auslieferung des Gleisbildes an MainStation und MobileStation App.
+CS-SW
+Die Auslieferung des Gleisbildes an die alten IOS und Android Apps wurde realisiert. Dabei werden die Routinen des Exports der Daten an die CS2
+verwendet.
+Die mobilen Applikationen werden jedoch nicht mehr gewartet und nicht weiter an die neuen Fähigkeiten der CS3 angepasst. Daher kommt es bei
+der Darstellung zu Einschränkungen und unbekannte Gleisbauelemente werden nicht dargestellt.
+Soll die mobile Applikation weiterverwendet werden, muss gegebenenfalls auf der CS3 eine für die Mainstation taugliches Stellpult erstellt werden
+und damit die Anlage bedient werden.
+Dasselbe gilt für unbekannte Magnetartikel wie die doppelte Gleiswechselverbindung. Diese ist zwar bedienbar - wird aber nicht dargestellt.
+Es wird empfohlen auf das neue Webbrowser basierende App der CS3 umzusteigen und dieses zu verwenden.
+Fehlerbereinigungen
+
+PAGE 8
+Falsche DCC-Fahrstufeneinstellungen
+CS-SW
+Ein Fehler bei der Meldung zu unterschiedlichen Fahrstufeneinstellungen zu einer DCC-Adresse wurde korrigiert. Diese Meldung wird nun
+vollständig angezeigt.
+Paralleles Bearbeiten von Einstellwerten
+CS-SW
+Wurden CVs an mehreren Bediengeräten gleichzeitig bearbeitet konnte es passieren, dass dies inkonsistente Einstellungen erzeugt hat. Das ist nun
+nicht mehr möglich.
+Eingabe Werte bei CV-Programmierung
+CS-SW
+Das Eingabefeld bei einer CV-Variablen konnte durch eine Codeoptimierung nicht mehr gelesen werden. Dies wurde korrigiert und das Eingabefeld
+zu einer Werteabfrage gemacht.
+Einstellungen und Decoder-SW-Update
+CS-SW
+Nach einem SW-Update eines Decoders kann es sein, dass die gepufferten Daten zu den Einstellwerten im Reiter "Einrichten" wie Lautstärke etc
+nicht mehr stimmen. Nach einen SW-Update wird ein Decoder nun komplett wieder angemeldet und die gepufferten Werte werden aktualisiert.
+Anmeldeprobleme mfx-Decoder
+CS-SW
+Ein Grund für Anmeldeprobleme mit mfx-Decoder wurde behoben. Die interne Verwaltung der Befehlsqueue hatte einen Fehler bei der Bearbeitung
+des Wiederholungszählers was dazu führte, dass ein erfolgloser Befehl dauerhaft in der Befehlsqueue geblieben ist und die Abarbeitung nicht
+endete. Weitere damit verbundene Fehler wurden behoben.
+Artikelliste Momentartikel
+CS-SW
+In der Artikelliste für die Momentartikel der Sounds wurde das Auswahlfeld für die Zuweisung zum Ausgang deaktiviert. Das wurde nun korrigiert
+und es kann nun der Ausgang Rot oder Grün gewählt werden.
+Wiedergabelautstärke eines Erweiterungsgerätes
+CS-SW
+Beim Start eines Erweiterungsgerätes wurde die lokale Soundeinstellung nicht wiederhergestellt. Dies wurde behoben.
+Magnetartikelkonfiguration Zubehördecoder Mapping
+CS-SW
+Im Mapping der Zubehördecoder wurde die Auswahl der Periode beim m84 korrigiert. Diese kann nun passend zur ausgewählten Betriebsart
+geändert werden
+Magnetartikelkonfiguration Zubehördecoder
+CS-SW
+Bei Magnetartikeln wurde versehentlich die Ausgangskonfiguration nicht gepuffert. Das wurde behoben.
+Ausgangskonfiguration m84
+CS-SW
+Bei Auswahl der Betriebsart eines Ausgangs des m84 wurde die falsche Betriebsweise in den Decoder geschrieben.
+Farben Formsignal in Artikelliste
+CS-SW
+Die gelbe Lampe des Formsignals in der Artikelliste wurde versehentlich rot eingefärbt. Diese ist nun wieder gelb.
+Selektion vorhandener Eingaben im Eingabefeld
+CS-SW
+Wird eine Bildschirmeingabe geöffnet, ist der vorherige Text nicht mehr selektiert. Der Cursor steht am Ende der Eingabe. Die bestehende Eingabe
+kann entweder mit dem Löschkreuz am Ende des Eingebfeldes oder mittels Escape von der externen Tastatur zurückgesetzt werden. Ein Enter der
+externen Tastatur beendet den Dialog. Die externe Tastatur kann im aktivierten Fenster mit TAB durch die Eingabefelder wechseln.
+Funktionsicon für Mute / Fade
+CS-SW
+Das Funktionsicon für Mute / Fade wurde versehentlich bei den mechanischen Icons einsortiert. Es ist nun bei Ton 2 zu finden.
+Warten bei Modulen in Ereignissen
+CS-SW
+Das Warten auf Abarbeitung eines Moduls in Ereignissen ist korrigiert worden. Bei der Eingabe kann dies bei Modulen die es erlauben eingestellt
+werden. Module die es nicht zulassen wurde die Einstellung gesperrt.
+
+PAGE 9
+Weiterführen Ereignisse
+CS-SW
+Weiterführen von Ereignissen ohne Lokbezug wurde korrigiert und die Ereignisse werden bei einem Neustart nun fortgesetzt. Nach Go durch die
+Zentrale wird der aktuelle Schritt im Ereignis angezeigt.
+Momentartikel in Ereignissen
+CS-SW
+Beim Einfügen von Momentartikel in Ereignisse mittels Drag und Drop wird nun der korrekte Zustand zu diesem Artikel eingefügt.
+Programmabsturz Automatik
+CS-SW
+Ein Grund der zum Absturz des Programms Automatik beim Eintritt in die Ereigniskonfiguration führte ist behoben worden.
+Einfrierende Bedienoberfläche bei Lokbedienung
+CS-SW
+Ein Grund für eine einfrierende Bedienung bei den Lokomotiven wurde behoben. Ursache waren Bilder in Originalgröße die viel Zeit bei der
+Aufbereitung gebraucht haben. Diese Art der Lokicons werden nun gesondert behandelt und somit wurde die Ursache für die Verzögerung
+umgangen.
+Englische Übersetzung
+CS-SW
+Ein Fehler in der englischen Übersetzung bei der Auswahl der Regelung des Motors wurde behoben. Es wird nun die korrekte Einstellung angezeigt.
+Absturzursache beim Löschen aller Elemente eines Gleisbildes.
+CS-SW
+Wurden alle Elemente eines Gleisbildes selektiert und gemeinsam gelöscht konnte ein Absturz der GUI vorkommen und das bisherige Ergebnis der
+Konfiguration ist verloren gegangen. Die Ursache hierfür wurde behoben.
+CV-Konfiguration von 16Bit Werten mit Biteingabe
+CS-SW
+Ein Fehler in der CV-Bearbeitung von CV-Werten mit einer Breite von 16Bit in Verbindung mit einer Biteingabemöglichkeit wurde behoben.
+Versehentlich wurde an einer Stelle der Wert auf 8 Bit begrenzt.
+Offene Pull Down Menüs
+CS-SW
+Es konnten mehrere Pull Down Menüs geöffnet werden. Dies ist korrigiert worden und es ist nun nur noch ein Pull Down Menü offen.
+Drehscheibe: fehlende Icons
+CS-SW
+Es konnte vorkommen, dass bei der mfx-Drehscheibe die Icons zum Bedienen der Zusatzfunktionen für Licht und Sound gefehlt haben. Dies wurde
+behoben.
+Gleisbilder: Elemente außerhalb des Bereichs
+CS-SW
+Durch Ungereimtheiten in der Entwicklungshistorie konnte es passieren, dass Elemente außerhalb der Zeichenfläche positioniert wurden. Solche
+Elemente konnten u.U. nicht mehr gegriffen und verschoben werden. Diese werden nun beim Laden des Gleisbildes erkannt und in den
+Zeichenbereich verschoben.
+Bedienen fixierter Gleisbilder
+CS-SW
+Wenn fixierte Gleisbilder eingeschaltet sind, ist nun die Zoomfunktion mit Doppeltap ausgeschaltet. Bei schnellem Bedienen des Gleisbildes wird
+dieses nun nicht mehr verschoben.
+Bedienen und Verschieben im Gleisbild
+CS-SW
+Beim Bedienen des Gleisbildes konnte es vorkommen, dass Artikel trotz treffen des korrekten Feldes nicht geschaltet wurden. Hintergrund war das
+zu schnelle aktivieren der Verschiebefunktion. Verschieben wird nun später aktiviert.
+Ändern Lokeinstellungen durch die CS2
+CS-SW
+Wurden Einstellungen einer Lokomotive durch die CS2 geändert, fehlten an der CS3 die Einstellungen für Vmin, Vmax, Lautstärke und gewähltem
+Spieleweltführerstand. Nach einem Neustart der CS3 waren die Einstellungen wieder vorhanden. Dieser Fehler wurde behoben und die Einstellungen
+gehen nun nicht weiter temporär verloren.
+Ändern Magnetartikel durch die CS2
+CS-SW
+
+PAGE 10
+Wurden Einstellungen von Magnetartikel durch die CS2 geändert, wurden dies auf der CS3 erst nach einem Neustart der CS3 sichtbar. Dieser Fehler
+wurde behoben und Änderungen an Magnetartikeln werden nun sofort an der CS3 angezeigt und übernommen.
+Filtern der Loks
+CS-SW
+Bei der Filterung der Loks kann nun in 2 Stufen nach Typ der Lokomotive (Dampf Diesel Elektrolok) und folgend dieses Ergebnis nach fahrenden und
+stehenden Loks gefiltert werden. Vorher konnten Fahrende Loks und Dampf-Loks gefiltert werden. Angezeigt wurde die Summe aller Lokomotiven
+die diesen Bedingungen erfüllten, z.B. auch fahrende Diesellokomotiven.
+DCC-POM-Programmierung
+CS-SW
+Bei DCC-POM-Programmierung wurde versehentlich versucht vor der Programmierung den aktuellen Wert aus dem Decoder auszulesen. Das ist bei
+dieser Programmierart nicht möglich und führte zu Fehlern.
+Einstellungsprobleme Lautstärke intern und externem Lautsprecher
+CS-SW
+Bei der Umstellung auf verteilte Soundwiedergabe wurde die Einstellung der Wiedergabeeigenschaften des eigenen Gerätes gestört. Dies betraf
+speziell die Einstellung des externen Anschlusses. Dieser Fehler wurde behoben.
+Startprobleme NGINX behoben
+Webserver
+Ein Startproblem das bei einigen Kunden den Start des Webservers der CS3 verhinderte wurde gefunden und eliminiert.
+Version 2.4.0
+Sonstiges und Fehlerbereinigung
+Das Erweiterungsgerät verwendet nun die Ressourcen Hauptgerätes
+Überarbeitung der DCC-CV Programmierung
+Darstellung der Labels von Elementen in Gleisbildern
+Programerweiterungen
+Verbesserungen
+Fixieren der Gleisbilder.
+CS-SW
+Gleisbilder können nun fixiert werden. Bei fixierter Gleisbildansicht kann der sichtbare Ausschnitt nicht verschoben werden. Zoom ist weiterhin
+möglich. Wird ein Gleisbild mittels der Gleisbildauswahl gewechselt, wird das neue Gleisbild in einer zu 90% bildschirmfüllenden Darstellung
+angezeigt.
+Gleisbildeditor: Erweiterung der Lassoselektion
+CS-SW
+Wird im Gleisbildeditor von einer Selektionsmethode in eine andere gewechselt, werden alle Elemente wieder deselektiert und somit frei. Das wurde
+bei der Lassoselektion geändert. Wird von der Lassodarstellung in eine andere Selektionsmethode gewechselt, dann bleiben die selektierten
+Elemente des Lassos erhalten und kann nun erweitert oder verringert werden.
+Ressourcen - Hauptgerät und Erweiterungsgerät
+CS-SW
+Im Verbund der Zentralen gibt es Ressourcen, die sowohl auf dem Hauptgerät wie auf einem Erweiterungsgerät verwendet werden. Dazu zählen z.B.
+die Benutzer-Lokicons zur Darstellung der Lokomotiven. Ein Erweiterungsgerät sucht diese Dateien zuerst lokal und fordert diese im Bedarfsfall beim
+Hauptgerät an. Das Hauptgerät überträgt folgend die Datei an das Erweiterungsgerät und die Darstellung der Lok kann korrekt erfolgen. Somit
+müssen Benutzericons nicht mehr manuell auf alle Geräte gespielt werden. Es ist ausreichend diese auf das Hauptgeräte zu speichern, die Verteilung
+erfolgt bei der ersten Verwendung durch ein Erweiterungsgerät. Werden Dateien von einer SD-Karte am Hauptgerät verwendet, muss nun das
+Erweiterungsgerät nicht mehr mit einer SD-Karte versehen sein. Weitere Ressourcen die verteilt werden sind Bilder zur Kennzeichnung eines
+Ereignisses, Sounddateien und CV-Vorlagen. Bei Verwendung dieser Ressourcen im Verbund ist die Anzeige somit einheitlich. Verliert ein
+Erweiterungsgerät die Verbindung zum Hauptgerät dann wird dies festgestellt und dem Benutzer angezeigt.
+Abspielen von Sounds - Wiedergabeziel.
+CS-SW
+Basierend auf der zentralen Haltung von Daten ist es nun möglich beim Abspielen von Sounds in Ereignissen das Wiedergabegerät anzugeben.
+Mehrere CS können somit zeitgleich Geräusche wiedergeben und den Ablauf untermalen. Die Wiedergabe von Sounds auf einer CS2 ist nicht
+möglich.
+Lokomotiven Full Screen: Alle Funktionen im Funktionspopup
+CS-SW
+
+PAGE 11
+In der Full-Screen Ansicht der Loksteuerung werden bei den Funktionen nun die gesamte Anzahl sichtbar und können ohne Umzuschalten sofort
+bedient werden.
+Neue Filteroptionen für Lokomotiven
+CS-SW
+Lokomotiven können zusätzlich nach Fahrend oder Stehend gefiltert werden. Die Anzeige der Lokliste bleibt bis zu einer Änderung der Filterung
+oder des Umfangs der Lokliste konstant.
+Lokkonfiguration von Loks auf Fahrregler
+CS-SW
+Der Einstieg in die Konfiguration von Loks auf einem Fahrregler ist erleichtert worden und die Bedienung verändert. Bisher konnte im Bedienmodus
+wie im Konfigurationsmodus mittels eines Longpress auf das Lokicon im Regler die Konfiguration der Lok aufgerufen werden. Ein einfacher Klick auf
+das Lokicon hat den Regler geschlossen. Dies wurde nun geändert: Im Bedienmodus der Loks ist die Bedienung des Reglers unverändert, ein Klick
+auf das Lokicon schließt den Regler. Im Konfigurationsmodus der Loks bleibt der Regler nun geöffnet und es wird die Konfiguration dieser Lok
+aufgerufen. Somit sollte es leichter und ersichtlicher sein, in den Konfigurationsmodus von Loks zu gelangen.
+Anlegen Artikel aus unbelegter Adresse
+CS-SW
+Wird aus einer freien Adresse ein Artikel erstellt, wird nun ein gesetztes Bezeichnungsschema verwendet. Damit lassen sich Artikel einfacher
+erstellen.
+Behandlung der Lokkarten im Hauptgerät und Erweiterungsgerät
+CS-SW
+Die Behandlung der Lokkarten wurde verbessert. Eine neue Lok von der Lokkarte gelangt nun beim ersten Aufruf in den Regler. Lokkarten auf den
+Erweiterungsgeräten werden nun auch auf den Erweiterungsgeräten korrekt verwendet. Eine Lokkarte am Hauptgerät belegt nun nur die Regler am
+Hauptgerät und nicht zusätzlich auch die am Erweiterungsgerät. Das Schreiben von Lokkarten wird auch am Erweiterungsgerät ermöglicht. Sind
+neue Lokicons auf der Lokkarte werden diese an das Hauptgerät gesendet und dort im Benutzerordner gespeichert.
+Netzwerkeinstellungen von Erweiterungsgeräten
+CS-SW
+Netzwerkeinstellungen von Erweiterungsgeräten mussten gemacht werden, bevor die Verbindung zum Hauptgerät eingerichtet wurde. Eine
+nachträgliche Änderung wirkte sich eventuell auch auf das Hauptgerät aus. Dies wurde korrigiert, die Einstellung des Netzwerkes ist nun lokal für
+das jeweilige Bediengerät. Die Einstellsystematik der statischen IP-Adresse ist jetzt als zusätzliche Option realisiert. Für eine sichere Funktion wird
+immer versucht eine dynamische IP-Adresse zu bekommen. Eine getroffene statische Einstellung wird als zusätzliche Adresse auf den Ethernet-
+Anschluss gelegt.
+Systemressourcen von Erweiterungsgeräten
+CS-SW
+Der aktuelle Verbrauch von Systemressourcen wie Belegung des Speichers oder Auslastung der CPU werden von jedem Gerät erfasst und können
+nun in der GUI dargestellt werden.
+Auswerfen von Wechselmedien
+CS-SW
+Wechselmedien am Erweiterungsgerät lassen sich nun dort korrekt auswerfen.
+Darstellung der Labels in Platten und Stellpulten
+CS-SW
+Für die Position, Drehung und Darstellung der Labels in Gleisbildern wurde die Darstellungssystematik erweitert. Labels werden nun abhängig vom
+Artikel gedreht, platziert und längenbegrenzt dargestellt. In Stellpulten werden die Labels in Textboxen platziert. Um die Darstellung zu ermöglichen
+wurden einige Elemente des Stellpultes geändert.
+Hilfefunktion
+CS-SW
+Die Hilfefunktion der Central Station wurde überarbeitet. Sind zu einem Thema im WEB Anleitungsvideos vorhanden, wird bei der Hilfeseite durch
+einen QR-Code darauf verwiesen. Diesen QR-Code kann man mit der Kamerafunktion eines Tablets oder Handys abfilmen und man erhält die
+Möglichkeit diesen Film auf dem mobilen Gerät anzuschauen und parallel dazu die Schritte an der Central Station nachzumachen.
+Sortierung CS3-Hilfe
+CS-SW
+Die Hilfeseiten der CS3 wurden thematisch sortiert und in eine sinnvolle Reihenfolge gebracht.
+Spontansteuerung einer Lok in der Lokliste
+CS-SW
+Wird ein Popup-Fahrpult einer Lok geöffnet sind nun alle Funktionen sichtbar. Ein separates Öffnen der Funktionsleiste ist nicht notwendig.
+DCC CV Programmierung
+CS-SW
+
+PAGE 12
+Die Systematik der DCC CV Programmierung wurde überarbeitet.
+- Die Liste der CVs wird beim Eintritt in das Menü nicht mehr automatisch gelesen. Wenn dies erwünscht ist, muss dies mit dem Menüeintrag
+"Decoder auslesen" angestoßen werden.
+- Wenn eine Zeile mit einer CV angewählt wird und der Wert noch nicht gelesen wurde, dann wird der CV-Wert gelesen.
+- Wenn der CV-Wert verändert werden soll, so wird dieser auf jeden Fall vor dem Verändern neu gelesen und der aktuelle Wert kann verändert
+werden.
+- Wird die Nummer der CV verändert, so wird diese Änderung sofort übernommen und der neue CV-Wert wird bearbeitet.
+- Das Lesen der kompletten CV-Liste und Schreiben der Vorlagenwerte kann unterbrochen werden. Der Platz im Menü wird durch das Unterbrechen
+des Vorgangs ersetzt.
+- Wird ein CV-Wert verändert, dann wird dieser geschrieben. Ein zusätzliches Anstoßen zum Schreiben des neuen Wertes ist nicht notwendig.
+- Eine Bedienung mit einer optional angeschlossenen Tastatur wurde erweitert. Mit Tab kann zwischen CV-Nummer und CV-Wert gesprungen
+werden. Mit der Leertaste kann eine neue CV-Zeile hinzugefügt werden. Veränderte Werte in einer CV-Zeile werden sofort übernommen. Somit ist
+ein Programmieren mittels des Ablaufs: CV-Nummerneingabe - Tab - Anzeige des aktuellen Wertes - Tab - Schreiben des neuen Werte - Eingabe der
+nächsten CV möglich.
+- CV-Vorlagen werden im Ressourcenverbund von Hauptgerät und Erweiterungsgerät gehalten. Ein Erweiterungsgerät speichert und holt sich die
+Vorlagen auf dem Hauptgerät. Somit hat jedes Erweiterungsgerät den Zugriff auf dieselben Einstellungen des Verbundes.
+- Die Synchronisation der Adresse und Schreiben einer geänderten Adresse in den Decoder wird nun nicht mehr gemacht. Da bei DCC keine Norm
+zum Einstellen der Adresse bei Zubehördecodern existiert oder durch die Hersteller eingehalten wurde kann diese Programmierung nicht korrekt
+durchgeführt werden.
+Neue Führerstände
+Spielewelt
+Der Führerstand für VT 92.5 und Reihe 1189 wurden ergänzt.
+Darstellung Automatiklogging
+Webserver
+Im Web App kann nun bei aktivierten Logging am Hauptgerät das Ereignislogging dargestellt werden.
+MS2 Anzeigefehler behoben und Optimierungen.
+Busgeräte
+Fehlerbereinigung der Displaydarstellung. Darstellungsartefakte mit speziell neueren MS2en ist auf ein Minimum verringert worden. Das
+Beschreiben des Displays wurde so abgeändert, dass dieses nun nicht mehr vorkommen sollte.
+Neue MS2-Hardwarevariante: Aufgrund der allgemeinen Situation auf dem Markt für elektronische Bauelemente wurde die MS2 überarbeitet um
+weiterhin produziert werden zu können. Für die Unterstützung dieser neuen Hardwareplattform wurden die Varianten angepasst und mit der
+jeweiligen Updatefähigkeit versehen.
+Erweiterung zum Einstellen der Hintergrundhelligkeit des Displays. Damit kann man die MS2 für den Anwendungsfall im Gebäude oder Freien
+besser einrichten.
+Anzeige der Versionsnummer einer Ressourcendatei. Die Update- und Sprachdateien im Dateisystem der MS2 werden nun mit der Versionsnummer
+angezeigt. Damit kann kontrolliert werden, ob diese veraltet oder aktuell sind.
+Optimierung der Programgröße: Entfernen unbenutzter Codeteile, Verlagern von Speicherbereichen.
+Anzeige der Fahrtrichtung beim Aufruf einer Lokomotive. Die Anzeige der Fahrtrichtung eine Lok konnte falsch sein, solange diese noch nicht
+gefahren wurde. Dieser Fehler wurde behoben.
+Anzeige des STOP-Zustandes. In einigen Betriebssituationen wurde der STOP-Zustand nicht korrekt dargestellt. Gefundene Stellen wurden korrigiert.
+Beim SW-Update werden die benötigten Dateien zum korrekten Arbeiten der MS2 nun weitestgehend automatisch geholt und in der MS2
+gespeichert.
+Aktualisierung Lokicons
+Lokicons
+Lokicons Sommerneuheiten und Herbstneuheiten 2021 erweitert sowie fehlende Icons ergänzt.
+Fehlerbereinigungen
+Artikelkonfiguration Schalten bei Auswahl des Artikels
+CS-SW
+Ist in der Artikelkonfiguration ein Artikel angewählt worden, dann wurde dieser Artikel, wenn möglich, geschaltet. Dies ist entfernt worden.
+Artikelkonfiguration Erreichbarkeit des Löschkreuzes
+CS-SW
+Der sensitive Bereich des Löschkreuzes in der Artikelkonfiguration wurde vergrößert. Damit ist das direkte Löschen von Artikeln einfacher.
+Neustart der Datenbank
+CS-SW
+Sollte es vorkommen, dass die Datenbank neu gestartet werden muss, werden danach nun die S88-Kontakte neu eingelesen und der Status korrekt
+dargestellt.
+Fehlende Darstellung ausgeschaltetes Vorsignal im Stellpult
+
+PAGE 13
+CS-SW
+Das Vorsignal am Mast wird durch das Hauptsignal dunkelgetastet. Diese Stellung des Vorsignals fehlte in den Stellpulten und wurde ergänzt.
+Schalten von Vorsignal / Hauptsignalkombinationen
+CS-SW
+Wurden Vor- und Hauptsignale mittels derselben Adresse gekoppelt, konnte bei einem dunkelgetasteten Vorsignal das Hauptsignal nicht geschaltet
+werden. Dies wurde behoben. Weitere Abhängigkeiten bei dieser Kombination wurden bereinigt.
+Erstellen von Arealen
+CS-SW
+Ein Areal konnte nur von links oben nach rechts unten erstellt werden. Andere Areale wurden nicht korrekt erstellt und waren nur temporär sichtbar.
+Dieser Fehler mit der Ursache in der Lassoauswahl wurde nun behoben.
+Anzeige für Momentartikel
+CS-SW
+Die Anzeige der Momentartikel ist wieder korrekt.
+Umschaltung der DCC-Fahrstufen auf 14 oder 126 Fahrstufen
+CS-SW
+Die Fahrstufenumschaltung bei DCC-Loks wurde beim Steuern nicht beachtet und der GFP wurde nicht korrekt eingestellt. Dies wurde korrigiert.
+Anzeige aktiver Darstellungs- und Filteroptionen
+CS-SW
+Die Darstellung aktiver Anzeigefilter in der Bedienleiste der Artikelliste wurde korrigiert. Wenn eine Option aktiv ist wird der rote Punkt gezeichnet.
+Sind Anzeigefilter aktiv, wird die Anzahl der Filter im roten Punkt aufgeführt.
+Decoder Zugehörigkeit von mfx-Artikeln
+CS-SW
+In der Datenbank wurde die Artikelanzahl von Mehrfachdecodern falsch bestimmt. Dies führte bei mfx-Artikeln mit Bezug auf Mehrfachdecodern zu
+Fehler. Wurde ein solcher Artikel geändert, konnte dies aufgrund der Fehlermeldung "Der gewählte Artikel passt nicht (mehr) in den Decoder" nicht
+durchgeführt werden. Dies wurde korrigiert. Die Datenbank speichert nun die korrekte Anzahl ab. Bestehende Konfigurationen werden geprüft und
+es wird versucht die korrekte Anzahl der Artikel im Mehrfachdecoder zu bestimmen.
+Lokkarten in der vereinfachten Oberfläche
+CS-SW
+In der vereinfachten Oberfläche werden Lokkarten nun behandelt und Loks können mit Lokkarten angelegt und auf einen Regler genommen
+werden.
+Plattennamen und Verweise
+CS-SW
+Werden Platten umbenannt, dann werden nun auch permanent alle zugehörigen Verweise mit umbenannt und gespeichert. Bisher wurde die
+Änderung des Verweises nur während des Bearbeitens sichtbar und beim Verlassen des Editors nicht gesichert und somit verworfen. Es ist der alte
+Verweis weiterhin enthalten gewesen. Sollten alte Verweise in Konfigurationen enthalten sein, können diese durch Umbenennen auf den Namen des
+Verweises und wieder zurück auf den ursprünglichen Namen korrigiert werden.
+Speichern von Kommentaren bei CV-Vorlagen
+CS-SW
+Bei CV-Vorlagen kann in der Maske zum Speichern ein Kommentar angegeben werden. Dieser wird nun auch in der Vorlagendatei gespeichert.
+Veränderung der Einstellungen bei einem Märklin-Bus-Gerät
+CS-SW
+Ändert man die Einstellung der Stromversorgung eines GFP ändert dieser intern die Werte der Statusdarstellung. Diese müssen beim Wechsel der
+Einstellung neu gelesen werden. Ändert man in der GUI ein Konfigurationskanal, wird folgend das Gerät neu ausgelesen um Festzustellen ob sich
+Änderungen ergeben haben.
+GFP-Start und mfx Neuanmeldezähler
+CS-SW
+Nach einem Neustart der CS oder nur des GFP muss der Neuanmeldezähler gesetzt werden bevor die Anlage unter Strom gesetzt werden kann.
+Ansonsten sehen mfx-Loks eine veränderte Systemumgebung und nehmen am Anmeldeprozess teil und lassen sich bis zur Anmeldung nicht mehr
+steuern. In den Fällen in denen sich ein GFP neu meldet und die mfx-Systemumgebung noch nicht wieder hergestellt ist kann kein Go ausgelöst
+werden. Der GFP muss zuerst eingerichtet sein bevor ein GO gemacht werden kann.
+mfx-CV-Bearbeitung
+CS-SW
+Ein Fehler in der Behandlung der Pufferdateien hat dazu geführt, dass eine alte Pufferdatei für das Mapping des Decoders nicht gelöscht wurde. Um
+das Mapping zu aktualisieren muss sich der Decoder neu anmelden oder der Decoder muss in der CV-Bearbeitung mit dem Optionspunkt Decoder
+
+PAGE 14
+auslesen erneut ausgelesen werden. In diesem Zusammenhang wurde auch die Parametereingabe des Auslösers Zufall korrigiert. Es sind nun alle 3
+Einstellmöglichkeiten des Auslösers einzustellen.
+mfx-CV-Mapping für Märklin Lokdecoder mLD
+CS-SW
+Ein Fehler der im Mapping eines mLD Nachrüstdecoders auftreten konnte und zum Absturz der GUI führte wurde behoben.
+Aufruf Webserver
+Webserver
+In einigen Netzwerkumgebungen konnte der WEB-Server der CS3 nicht aufgerufen werden. Die Ursache dafür wurde dank tatkräftiger
+Unterstützung eines betroffenen Kunden gefunden und behoben.
+Version 2.3.1
+- Eine wesentlich vereinfachte alternative Bedienweise der CS3
+- Sonstiges und Fehlerbereinigung
+- diverse Optimierungen
+- Konfigurationsfähigkeiten im WEB-App
+- Neue Software für Link-S88 und MS2
+Verbesserungen
+Einstelloptionen für mfx-Weichendecoder
+CS-SW
+Für die mfx-Weichendecoder Spur1 - 59080 und die C-Gleis Weichendecoder wurden Einstelloptionen auf der Einrichten Seite realisiert:
+Die Steuerung / Einstellung der Weichenlaterne für die C-Gleis Weichendecoder.
+Die Schaltrichtungsumkehr für den Spur1 - Decoders 59080.
+Signalisierung der CV Schreib / Lesevorgänge
+CS-SW
+Die CV-Schreib Lesevorgänge werden auf der Oberfläche angezeigt. Ein geschlossenes Schloss bei einem MFX-Decoder bedeutet, dass er nicht
+geantwortet hat und kann nicht bearbeitet werden kann. Ein DCC oder MM Decoder kann nicht geprüft werden und ist an dieser Stelle immer
+geschlossen. Ein offenes Schloss bedeutet, dass der mfx Decoder hat geantwortet hat und bearbeitet werden kann. Ein Pfeil von der Lok bedeutet,
+dass vom Decoder gelesen wird. Solange gelesen wird, erscheinen auch die Lese-Fortschritts-Meldungen. Nach dem Lesen wird das geöffnete
+Schloss wieder angezeigt. Ein Pfeil auf eine Lok bedeutet, dass geschrieben wird. Nach dem Beendigen des Schreibens wird das geöffnete Schloss
+dargestellt und somit das Ende des Schreibens signalisiert.
+Menü zur Steuerung der CV-Schreib-Leseoperationen
+CS-SW
+Alle Optionspunkte sind in ein Menü zusammengefasst worden. Dieses Menü ist – in Anlehnung an aktuelle WEB-Funktionen – in einem Menüpunkt
+versammelt. Ist das Menü geschlossen, werden 3 Balken dargestellt. Ist es geöffnet wird ein Schließen-Kreuz dargestellt.
+Unterstützung für Lokicons von Fremdherstellern
+CS-SW
+Lokicons von Fremdherstellern werden bei der automatischen Suche nach einem geeigneten Lokicon bei der mfx-Anmeldung unterstützt.
+Die Lokicons müssen die erforderlichen Informationen in den Metadaten des Bildes enthalten und auf einer SD-Karte im dafür vorgesehenen
+Verzeichnis /cs3/lokicons/ in der CS3 vorhanden sein.
+Beim Start wird eine Datenbank aus allen mit korrekten Informationen versehenen Lokicons aufgebaut.
+Bei der Suche nach einem Lokicon werden diese Lokicons auch bedacht.
+Lokicons - Reorganisation in Unterverzeichnisse.
+Lokicons
+Bei der Auswahl eines Lokicons wird der Hersteller des Modells mit ausgewertet. Dadurch wurde es möglich, alle LGB-Lokicons in ein eigenes
+Verzeichnis zu verlegen. Die Auswahl eines LGB-Lokicons ist dadurch leichter möglich. Die Suche nach einer Artikelnummer ist davon nicht betroffen.
+Überarbeitung des Decodermappings
+CS-SW
+Die neuen Eigenschaften der mfx-Decoder wurden in der SW nachgezogen. Das Mapping richtet sich nun nach den mitgeteilten Eigenschaften des
+Decoders. Die Anzahl der Ausgänge, Eingänge, Sounds, logischen Verknüpfungen etc. wird aus dem Decoder ausgelesen und können im Mapping
+korrekt eingesetzt werden.
+Traktionsunterstützung für die MS2 im Zentralenmodus.
+CS-SW
+
+PAGE 15
+Einer MS2 werden nun Traktionen zur Auswahl in der Lokliste angeboten. Diese können durch die MS2 im Zentralenmodus gesteuert werden. Die
+notwendige Übersetzung der Traktionskommandos übernimmt die CS3.
+Geänderte Plattendarstellung des Gleisbildes
+CS-SW
+Die Darstellung der Platten und Pulte in der CS3 wurden geändert. Der Rand um die Zeichenfläche wurde entfernt, der Name der Zeichenfläche als
+Fahne angefügt.
+Rettung einer CS3 mit vollem Dateispeicher.
+CS-SW
+Durch Kopieren von Daten von einem Wechsel-Speicher (SD-Karte oder USB-Stick) kann der Benutzer den Dateispeicher der CS3 vollständig füllen
+und somit den korrekten Betrieb der CS3 verhindern. Bis dato mussten die Zentralen eingesendet werden und der Service musste händisch die
+Zentrale Freiräumen und dem Benutzer diese wieder zurücksenden.
+Wenn beim Start der Zentrale festgestellt wird, dass zu wenig Dateispeicher für den Betrieb der CS3 frei ist, wird ein Rettungsprogramm zur
+Verwaltung des internen Speichers gestartet. Dieses versetzt die CS3 in einen Art Servicemodus und es kann nur der Speicher verwaltet werden.
+In dieser Betriebsart sieht der Benutzer nur die eigenen von ihm selbst aufgespielten Dateien. Dateien können gelöscht oder auf einen anderen
+vorhandenen Speicher verschoben werden. Beim Verschieben der Dateien wird der korrekte Ablageort auf dem Wechselspeicher beachtet und die
+Datei landet im korrekten Verzeichnis.
+Wenn wieder genügend freier Speicher zur Verfügung steht kann der Filemanager verlassen und die CS3 Applikation gestartet werden.
+Neue Supervisorsoftware
+Supervisor
+Eine Änderung in der Supervisor-SW erlaubt das Betreiben der CS3 bei niedrigeren Spannungen. Dadurch wird ein Fehlverhalten der CS3 mit dem
+neuen SNT 60041 beseitigt.
+Stop / Go Button in der Lokkonfiguration
+CS-SW
+Aufgrund einer Anwenderanregung wurde in der Lokkonfiguration ein STOP-Button realisiert. Nun kann innerhalb der Lokkonfiguration der Stop-
+Status geändert werden und der Dialog muss nicht verlassen werden.
+Verbesserung Ereignislogging
+CS-SW
+Durch ein Long-Press auf die Titelleiste der Ereignisübersicht ist eine Ereignislogging erreichbar. Das wurde überarbeitet und in den Fähigkeiten
+erweitert. Die Einträge lassen sich filtern und die Meldungen wurden vervollständigt und erweitert.
+Geänderter Systemreset / Werksreset
+CS-SW
+Ein Werksreset wird durch Laden der Konfiguration „Startconfig.zip“ realisiert. Dies wurde erweitert, dass nun auch die Spracheinstellung und die
+Betriebsweise zurückgesetzt werden.
+Updateprozess
+CS-SW
+Das Programm für den Paketupdater wurde um zusätzliche Informationen erweitert. Die Installationsquelle wird nun angezeigt. Der Startbutton für
+den Installationsbeginn wurde vergrößert und passend beschriftet. Achtung: Das neue Paketinstallationsprogram wird erst in nachfolgenden Upates
+aufgerufen.
+Wechsel in Erweiterungsgeräte Modus
+CS-SW
+Der Wechsel beim Zusammenschalten von CS3en in den EG-Modus wurde mit mehr Zeit versehen. Ein Wechsel ist nun leichter möglich. Die
+Einstelloptionen für das Hauptgerät sind nun sinnvoller angeordnet.
+Einrichten von Magnetartikeln
+Webserver
+Das Anlegen, Einrichten und Konfigurieren von Zubehörartikeln ist in der WEB-Applikation nun genauso möglich wie in der CS3-Applikation.
+Einrichten von Loks
+Webserver
+Das Anlegen, Einrichten und Konfigurieren von Lokomotiven ist in der WEB-App eingeführt worden.
+Version 1.1 für den Link-S88
+Busgeräte
+Die Version 1.1 ist für den Link-S88 ist erstellt worden. Fehler die durch eine zu lange Laufzeit des Programms entstanden sind werden durch die
+aktivierte Optimierung beim Erstellen der SW behoben. Das Phänomen, dass Kontaktgruppen kurzfristig um eine Position versetzt gemeldet werden,
+tritt nun nicht mehr auf.
+Version 3.121 für die MS2
+Busgeräte
+
+PAGE 16
+- Die MS2 kann nun zentralengesteuerte Traktionen ansteuern. Wenn diese durch die Zentrale zur Verfügung gestellt werden, kann die MS2 diese
+verwenden und Kommandos an die Zentrale senden. Die Zentrale übersetzt die Traktionssteuerkommandos in die passenden Lokkommandos und
+übernimmt somit die Übersetzungsfunktion. Eine MS2 kann keine Traktionen anlegen oder steuern.
+- Wird die Lokliste schnell durchgerollt, können die mfx-Befehle nicht schnell genug ausgeführt werden. Daher wurde die Meldung "Mfx-Lok hat
+nicht geantwortet" beim Blättern durch die Liste unterdrückt.
+- Eine MS2 besitzt nur einfache Möglichkeiten zur mfx-CV-Bearbeitung. Da die MM2-Adress-CV nicht an einer einfach zu bestimmenden Adresse
+steht und damit falsche Werte beschrieben wurden, entfällt die Möglichkeit einer MM2-Adresseprogrammierung bei mfx.
+- Bei 32 Lok-Funktionen werden immer 8 Funktionen Ebenenweise zum Steuern angeboten. Das alte System sah vor immer eine Ebene weiter zu
+schalten. Betätigte man eine Funktion landete man immer in der ersten Ebene. Nun werden die Ebenen während der Bedienung fest eingestellt. Ein
+Wechsel in die höhere Ebene kann mit Shift stattfinden, ein Wechsel in die tiefere Ebene mit Escape. Solange eine Ebene aktiv ist können die
+Funktionen der Ebene geschaltet werden. Der automatische Wechsel in die erste Ebene entfällt. Wird eine Lok gewechselt landet man in der ersten
+Ebene.
+- Beim Bearbeiten von Loks wurde der STOP-Zustand nicht korrekt beachtet. Nun wird Stop korrekt beachtet und Programmieren wird gesperrt.
+- Wird eine DCC-Lok erkannt, werden nun die Funktionen bedienbar gemacht und mit F-Symbol gekennzeichnet. Vorher waren die Funktionen leer
+und nicht bedienbar.
+- Ein Fehler beim Schalten von Artikeln an der Zentrale ermöglichte nur die ersten 256 Magnetartikel zu schalten und korrekt darzustellen. Die CS-
+Info ist nun auch korrekt für Artikel ab Adresse 256.
+- Die Hauptgeräte Erweiterungsgeräte Bezeichnungen wurden entsprechend der Zentrale angepasst.
+- Nach Einstecken oder Neustart der MS2 konnte es passieren, dass die MS2 in den falschen Betriebsmodus geraten konnte und an einer Zentrale in
+den MS2-Erweiterungsgeräte-Modus eintrat. Das wurde behoben. Die Umgebung wird nun korrekt erkannt.
+- Die Fahrstufeneinstellung wurde so geändert, dass die Fahrstufe 1 nun sicher eingestellt werden kann.
+- Im Menü der MS2 waren Optionspunkte aktiviert, obwohl diese im Zentralenbetrieb nicht möglich sind. Bei mfx Loks wurde angeboten, die
+Adresse zu ändern. Beim Programmieren konnte eine „Protokoll nicht aktiv“ Meldung erscheinen, obwohl die Protokolleinstellung durch die Zentrale
+verwaltet wird.
+Zusammenfassung aller CAN-Bus Geräteupdates
+Busgeräte
+Alle Can-Bus Geräteupdates wurden in ein Paket zusammengefasst. Dies dient der Übersichtlichkeit der zur Verfügung stehenden Updatepakete.
+Enthalten sind folgende Updatestände:
+- GFP (für CS2 und Booster) Version 3.81
+- 6021 Adapter Version 1.0
+- MS2 Version 3.121
+- Link S88 Version 1.1
+- GFP3 (für CS3) Version 12.113
+Fehlerbereinigungen
+Korrektur Motorparameter bei mfx-CVs
+CS-SW
+Bei der Auswahl der mfx Motorparameter für Regler Digital, Regler Analog und Motor wurde die falsche Anzahl von Auswahlparametern angezeigt.
+Dieses wurde korrigiert.
+Geschwindigkeitssendungen des Lok-Geschwindigkeitsbalkens
+CS-SW
+Die Senderate des Lok-Geschwindigkeitsbalkens der CS3 wurde begrenzt. Massenhafte Sendungen konnten zum Überfahren des CAN-Busses und
+des GFP führen.
+Löschen der mfx-Pufferdatei bei der Anmeldung
+CS-SW
+Bei der erneuten Anmeldung eines mfx-Decoders wird eine eventuell vorhandene CV-Pufferdatei gelöscht. Beim Einstieg in die mfx CV-Bearbeitung
+wird nun mit den aktuellen Daten gearbeitet.
+Optimierung der Darstellungsgeschwindigkeit
+CS-SW
+Die Zeichenoperationen der Artikelliste und des Gleisbildes wurden überarbeitet. Zeichenoperationen werden nun schneller durchgeführt.
+Beim Schalten eines Artikels wird in der Artikelliste nur dieser eine dargestellte Artikel neu gezeichnet.
+Im Gleisbild wird beim Schalten eines Artikels nur diejenigen Zeichenflächen (Platte oder Pult) neu gezeichnet, welche den Artikel verbaut hat.
+Beim 100% Zoom (Doppelklick) wird die Zeichenfläche nun Bildfüllend ausgerichtet. Davor wurde der Rand nicht korrekt beachtet.
+Sortierung von Loks
+CS-SW
+Die Systematik zum Sortieren von Loks wurde in der CS3 und der Web App einheitlich gleich gelöst.
+Verbesserung der Touchbedienung: Doppeltap
+CS-SW
+
+PAGE 17
+Die Geste zum Zoom des aktuellen Gleisbildes, der Doppeltap, wurde verbessert. Der Radius der Geste wurde korrekt eingestellt. Schalten von nah
+beieinanderliegenden Artikeln löst die Geste nun nicht mehr versehentlich aus.
+Verbesserung der Mausbedienung: Zoomen mit dem Scrollrad
+CS-SW
+Beim Zoomen mit dem Scrollrad der Maus wird nun der aktuelle Cursorpunkt als Fixpunkt genommen. Das Skalieren findet nun mit diesem Fixpunkt
+statt.
+Verbesserung der Touchbedienung: Zoomgeste
+CS-SW
+Die Zoomgeste mittels 2 Fingern wurde verbessert. Die Geste ist so lange aktiv wie mindestens ein Finger auf dem Bildschirm ist. Der Mittelpunkt
+beim Vergrößern wird beachtet und das Gleisbild entsprechend passend positioniert.
+Wechseln der Seiten in Listen
+CS-SW
+Der Pager unterhalb von Listendarstellung wurde bedienbarer gemacht. Ein Wechsel der Seiten ist nun durch Hin- und Herfahren auf dem Pager
+möglich.
+Änderungsmitteilungen zur CS2 bei Adressänderung eines Artikels
+CS-SW
+Wenn sich die Adresse eines Artikels ändert wird die Artikelliste der CS2 entsprechend passend korrigiert.
+Robusterer Startvorgang
+CS-SW
+Beim Starten der CS3 konnte es passieren, dass der CAN-Sendepuffer übergelaufen ist. Durch Begrenzung der Senderate und Vergrößerung des
+Sendepuffers wurde es behoben.
+Hinzufügen von S88-Kontakten
+CS-SW
+Beim direkten Hinzufügen von S88-Kontakten mittels des Menüdialogs wird nun ein Rückmeldegerät als Default genommen. Die Steuerkontakte
+werden nur als Notfallebene verwendet.
+Magnetartikel-Bearbeiten Dialog
+CS-SW
+Das Speichern und Verlassen des Magnetartikel-Bearbeiten-Dialoges wird nun mit einem OK-Symbol statt mit Schraubenschlüssel und Kennung für
+Bearbeiten dargestellt.
+Initialisierung des Hauptgeräte-GFPs
+CS-SW
+mfx-Einstellungsparameter und Auswahl der Digitalprotokolle werden nun vor dem ersten GO erzwungen. "Verlorene" und damit nicht zu steuernde
+mfx-Loks nach dem Systemstart sollten somit weniger häufig vorkommen.
+Drag&Drop aus dem Gleisbild in ein Ereignis
+CS-SW
+Drag&Drop von Elementen aus dem Gleisbild in Ereignisse funktioniert wieder. Nach einer Umstellung der Koordinatenberechnung wurde
+übersehen, dass bei Drag&Drop ebenso die Umstellung gemacht werden muss.
+Absturz bei Drag&Drop von Lokomotiven
+CS-SW
+Ein Absturz der GUI beim Einrichten der Ereignisse im Zusammenhang mit dem Einfügen von Lokomotiven aus der Lokliste wurde behoben.
+Einrichten von Funktionen im mfx-Konfigurationsdialog
+CS-SW
+Wurden im mfx-Programmieren Dialog die Icons der Lokfunktionen geändert sind diese nur in den Decoder geschrieben worden. Die Darstellung
+der Lok in der CS3 wurde nicht aktualisiert. Diese wird nun synchronisiert.
+Einstellungen bei Magnetartikeln verloren
+CS-SW
+Ein Grund für verlorene Einstellungen bei Magnetartikeln wurde in der Datenbank behoben. Wurde sowohl Adresse wie Name eines Magnetartikels
+geändert, konnte diese Änderung durch die Datenbank nicht verarbeitet werden und stürzte ab. In Folge sind alle Änderungen während der
+Konfiguration von Magnetartikeln rückgängig gemacht worden und sind verloren gegangen. Dieser Umstand wurde behoben.
+Version 2.2.0
+- C-Gleis Drehscheibe 74861
+- Updates für SD-Karten
+
+PAGE 18
+- Neue Makros in Ereignissen
+- Export von Gleisbildern zur CS2
+- Sonstiges und Fehlerbereinigung
+Verbesserungen
+Pendelmakro
+CS-SW
+Die Makros der CS3 wurden um ein spezielles Pendelmakro erweitert um pendelnde Lokomotiven einfacher erstellen zu können. Dieses Makro kann
+einer Lok bei der Funktionstasteneinrichtung direkt als Ablauffunktion zugewiesen werden und erlaubt damit unterschiedliche Loks auf einer
+Pendelstrecke einzusetzen. Es ist ausreichend ein Pendelmakro pro aufgebauter Pendelstrecke einzurichten. Zum Starten der Pendelfunktion ist die
+Lok in die Pendelstrecke zu fahren und folgend die Funktionstaste mit der Pendelfunktion zu aktivieren. Im Pendelmakro sind alle notwendigen
+Einträge zusammengefasst um eine Lokomotive mit Zwischenhalt pendeln zu lassen. Die Logik des Makros behandelt Starten, Pausieren, Beenden
+und Neustart eines Pendels.
+Export Stellpulte an CS2
+CS-SW
+Stellpulte der CS3 können nun an einer CS2 verwendet werden. Dazu ist in den Einstellungen der CS2 die Synchronisation des Layouts zu aktivieren.
+Platten werden bestmöglich umgerechnet, aufgrund der unterschiedlichen Systematik ist aber das Ergebnis stark abhängig von der Platte der CS3.
+Neue mfx-Drehscheibe
+CS-SW
+Die neue Drehscheibe 74861 mit 30 Anschlüssen wird unterstützt.
+SD-Kartenupdate
+CS-SW
+Ein Update von Daten auf SD-Karten wurde eingeführt. Eine in der CS3 vorhandene SD-Karte wird mit Sounds zur Untermalung des Anlagenbetriebs
+und Bildern zur Kennzeichnung von Ereignissen bespielt. Das Update wird nur mit gesteckter SD-Karte angeboten.
+Auswahlmenüs der CS3
+CS-SW
+Die Auswahlmenüs der CS3 wurden auf eine einheitliche Struktur umgestellt. Sollten zu viele Auswahlpunkte enthalten sein, wird das Menü 2-
+spaltig. Wenn es am unteren Rand dargestellt werden soll, klappt es nun nach oben auf.
+Neue Funktionsicons für Lokomotiven
+CS-SW
+Für eine bessere Erkennbarkeit welche Aktion eine Funktion in einer Lokomotive auslöst wurden die Funktions-Icons erweitert. Die Geräusche einer
+Lok wurden beim Mapping für eine bessere Übersichtlichkeit in zwei Gruppen unterteilt.
+Zentraler Shutdown
+CS-SW
+Ein Verbund aus mehreren Zentralen kann nun gemeinsam am Hauptgerät heruntergefahren werden. Dies muss im Hauptgerät und
+Erweiterungsgerät aktiviert werden.
+Neue Magnetartikel
+CS-SW
+Magnetartikelicons für die Signale "Ra 11 - Warten" "Bü 100/101 - Blinklicht Überwachungssignal" und "Zp 9 - Abfahren" wurden hinzugefügt.
+Vorsignale von 76495, 76496 und 76497
+CS-SW
+Die Vorsignale am Mast der Artikel 76495, 76496 und 76497 können unter DCC nun eingerichtet werden. Dazu ist das Profi Vorsignal zu verwenden.
+Die Adresse des Vorsignals kann unter Angabe des Hauptsignals programmiert werden. Unter MFX werden die Signale nun mit Haupt und
+Vorsignalen angemeldet und die Adresse beider Artikel kann bearbeitet werden. Die Stellung des Vorsignals wird anhand des verknüpften Signals
+und des Hauptsignals am Mast bestimmt.
+Neue Systematik Vorsignale und Hauptsignale.
+CS-SW
+Eine Systematik zur Kopplung von einem Vorsignal zu einem Hauptsignal wurde geschaffen. Bei einem Vorsignal ist es nun möglich das zugehörige
+Hauptsignal einzustellen. Wird das Hauptsignal gestellt, stellt sich das Vorsignal ebenfalls. Bei der Kopplung ist es nur möglich passende Signale
+auszuwählen. Ein Form VR01 lässt sich nur mit einem Form HP01 koppeln. Ebenso bei ein Form VR012 mit einem Form HP012. Bei Lichtsignalen wird
+die Kopplung unabhängig vom Signaltyp angeboten.
+Decoderreset für mfx Magnetartikel
+CS-SW
+Eine Möglichkeit zum Zurücksetzen von mfx-Decodern wurde im "Einrichten" Dialog von Magnetartikeln realisiert.
+
+PAGE 19
+Lokicons - Sommerneuheiten 2020
+Lokicons
+Lokicons aus dem Neuheiten Katalog 2020 wurden hinzugefügt.
+Fehlerbereinigung mfx-Format
+Busgeräte
+Ein Fehler im Aussenden von mfx-Kommandos konnte zu einem falschen mfx-Gleis-Format führen. Dieser Fehler wurde behoben.
+Fehlerbereinigungen
+Momentfunktionen in Ereignissen
+CS-SW
+Momentfunktionen müssen in Ereignissen nicht weiter dediziert ausgeschaltet werden. Momentfunktionen werden in Ereignissen automatisch
+ausgeschaltet.
+Loopmakro Erweiterung Startpause
+CS-SW
+Ein Loopmakro das nur Auswertungen von Zuständen vornimmt läuft ungebremst durch und verbraucht die komplette Rechenzeit des Prozessors.
+Das Loopmakro hat eine zusätzliche Einstellung einer Pause bekommen, die vor einem Neustart verstreichen muss.
+Systemstart Trigger.
+CS-SW
+Durch einen internen Umbau wurde der Ereignis Trigger "Systemstart" versehentlich deaktiviert.
+Bremsmakro
+CS-SW
+Ein Fehler im Bremsmakro wurde behoben.
+Systemstart
+CS-SW
+Der zeitliche Ablauf der S88-Anfragen an eine CS2 wurde an das Startverhalten der CS2 angepasst. S88-Kontakte werden nun beim Starten nun
+zeitlich korrekt von der CS2 abgefragt.
+SD-Karten
+CS-SW
+Eine SD-Karte mit mehreren Partitionen wird nun in der CS3 korrekt unterstützt.
+Kunden Lokicons
+CS-SW
+Lokicons konnten wesentlich größer sein als diese auf der CS3 angezeigt werden. Diese konnten durch Kopieren auf die CS3 übertragen werden.
+Diese zu großen Icons führen aber zu einer hohen Rechenbelastung und Verlangsamen die CS3. Lokicons werden beim Kopieren auf eine geeignete
+Größe skaliert.
+Lok Funktionseinrichtung
+CS-SW
+Wird eine Ablauffunktion auf eine Funktion ohne Icon gelegt, dann wurde das Ereignisicon erst beim Verlassen des Dialogs sichtbar. Nun wird es
+sofort nach der Zuweisung einer Ablauffunktion sichtbar. Es kann durch andere Funktionsicons aber überschrieben werden.
+Ansichtswiederherstellung beim Starten
+CS-SW
+Ansichten mit geöffneten Artikel- oder Loklisten werden nach dem Start wiederhergestellt.
+Ereignisse - Sortierung Gruppenliste
+CS-SW
+Die Gruppenliste in Ereignissen wird beim Öffnen der Liste nun alphabetisch sortiert.
+Auswerfen von USB-Medien
+CS-SW
+USB-Medien im Hauptgeräte / Erweiterungsgeräte Verbund können nun nur noch am eigenen Gerät ausgeworfen werden.
+Einführungsassistent
+CS-SW
+Der Einführungsassistent zum Kennenlernen der Bedienung der CS3 ist entfernt worden.
+Updateverfahren
+
+PAGE 20
+CS-SW
+Das Updateverfahren des Paketupdates wurde überarbeitet und unnötige Ausgaben korrigiert.
+mfx-Neu Kennung
+CS-SW
+Die Kennzeichnung neuer mfx-Artikel wurde von jeder GUI separat verwaltet. Das Löschen der Kennungen funktionierte somit nicht konsistent mit
+mehreren Zentralen. Das Verfahren wurde umgestellt und das Löschen der Kennungen wird nun zentral realisiert.
+Status Datei Größenbeschränkung
+CS-SW
+Durch Ereignisse konnte die Statusdatei der CS3 enorm anwachsen und den zur Verfügung stehenden Speicher füllen. Das Anwachsen der
+Statusdatei wird nun verhindert und das Füllen des Speichers ist somit nicht mehr möglich
+Geändertes Verfahren Lok-Decoder-Reset
+CS-SW
+Beim Reset eines Lokdecoders wird die Lokomotive nicht aus der Lokliste entfernt. Nach der Anmeldung sollte sich die Lok wieder mit den nun
+aktualisierten Parametern steuern lassen.
+mfx-Anmeldeprobleme
+CS-SW
+mfx-Anmeldeprobleme bei Restore und mfx-Loksuche wurde verbessert. Das Handling der mfx-Netzkennung wird nun korrekter gehandhabt und
+bei einem Restore werden Kennungen so gesetzt, dass weniger Probleme entstehen. Bei einem Restore wird die Verwaltungsliste des GFP
+zurückgesetzt.
+Version 2.1.0
+Lokicons Neuheiten 2020
+Spielewelt Führerstände Neuheiten 2020
+Traktionen mit richtungsabhängigen Loks
+Sonstiges und Fehlerbereinigung
+Verbesserungen
+GO-Funktion in Ereignissen
+CS-SW
+In den Ereignissen ist es nun möglich ein "Go" Kommando zu senden. Damit besteht die Möglichkeit einen Booster nach einer
+Kurzschlusserkennung wieder in Betrieb zu nehmen ohne den gesamten Anlagenbetrieb stoppen zu müssen. In Verbindung mit dem HALT-Befehl
+kann im Fehlerfall auf großen Anlagen der Betrieb sicher angehalten, der Kurzschluss beseitigt und folgend der Betrieb wieder fortgeführt werden.
+Fügt man in den Ereignissen als Auslöser ein S88-Kontakt ein kann man auf der Anlage Taster realisieren welche die HALT und GO Funktionalität
+auslösen.
+Erweiterung Traktionen um Richtung der Lok
+CS-SW
+Die Fahrtrichtung einer Lokomotive wird beim Zusammenstellen einer Traktion beachtet und beim Steuern entsprechend gesendet. Somit ist es nun
+möglich in einer Traktion Lokomotiven mit Fahrtrichtung vorwärts und rückwärts zu haben.
+Einrichtung Lokfunktionen
+CS-SW
+Sinnvolle Icons wurden bei "Häufige Icons" der Lokfunktionseinrichtung ergänzt.
+Lokicons Neuheiten 2020
+Lokicons
+Die Lokicons der Messeneuheiten von 2020 wurden ergänzt.
+Neue Führerstände
+Spielewelt
+Die Führerstände für ICE4, SBB RAm TEE und BR 648 Lint wurden ergänzt.
+Fehlerbereinigungen
+Speichern Andocken von Elementen
+CS-SW
+Der Fehler welcher das Abspeichern angedockter Elemente verhinderte wurde behoben.
+
+PAGE 21
+CV-Synchronisation bei Lokeinstellungen
+CS-SW
+Das Synchronisieren der CV-Einstellungen und Schreiben der Werte in den Decoder wurde fehlerbereinigt und korrigiert. Lange DCC-Adressen
+werden korrekt in den Decoder übertragen.
+Anzeige der Adresse mittels DIP-Schalter
+CS-SW
+Die Anzeige der Schalterstellung der DIP-Schalter wurde korrigiert. Für Motorola Decoder werden DCC-Schalterstellungen ausgeblendet.
+Lokicon bei mfx-Anmeldung
+CS-SW
+Das Lokicon bei der Anmeldung einer mfx-Lok wurde mit einem falschen Pfadnamen bestimmt. Das wurde korrigiert und das korrekte Icon wird nun
+angezogen.
+Lokfunktionen Einrichten
+CS-SW
+Ein Fehler, der zu hoher CPU-Last führte, wurde im Lokicon-Dialog korrigiert. Das Bedienen des Dialogs ist nun flüssiger.
+Absturz bei Gleisbildkonfiguration
+CS-SW
+Beim Einfügen eines S88-Kontaktes und nachfolgendem Konfigurieren konnte ein Absturz stattfinden. Das ist behoben.
+Fehlende Icons bei Bedienelementen
+CS-SW
+Beim Aufräumen wurden einige Systemicons zu viel gelöscht. Diese sind nun wieder verfügbar.
+CS2 und Ereignisse der CS3
+CS-SW
+Eine CS2 im Systemverbund mit der CS3 konnte das Anfahren der Loks und die Freigabe der Ereignisse verhindern. Das ist behoben.
+Einrichten von S88 Kontakten
+CS-SW
+Ein S88 Kontakt eines Link-S88 konnte an ein Gerät verschoben werden welches Bus und Modulnummer so nicht unterstützte und somit konnte der
+Kontakt nicht funktionieren. Dieser Umstand ist behoben worden.
+Bug Fix VNC-Server der CS3
+Webserver
+Ein Fehler in den Einstellungen zum VNC-Server der CS3 wurde korrigiert.
+Uploadgröße Dateien mittels WEB-Server
+Webserver
+Das Limit für Dateien wurde angepasst an die Anforderungen beim Programmieren von Decodern. Übertragen von Decoderprojekten zur CS3 ist
+nun möglich.
+Bootloader 2020
+Kernel
+Ein neuer Bootloader mit geänderter HW-Aktualisierung verbessert Stabilität und Startverhalten der CS3. Auswirkung konnten ein instabiler Betrieb
+sowie Startprobleme sein.
+Version 2.0.0
+Vereinfachung beim Einrichten der Lokfunktionen
+Vereinfachung beim Anlegen und Einrichten von Artikeln
+Erweiterungen des Gleisbildes um Stellpulte
+Erweiterung der WEB-Applikation um Gleisbildeditor zum Erstellen von Platten
+Erweiterung der WEB-Applikation um Systemansicht zur Geräteverwaltung
+Fehlende Schriftart Japanisch
+Sonstiges und Fehlerbereinigung
+Verbesserungen
+Lesen von Decoder-CVs
+CS-SW
+
+PAGE 22
+Das Lesen unter mfx von angeschlossener SUSI-Decoder-CVs wurde realisiert.
+Einrichten der Lok Funktionsicons
+CS-SW
+Das Vorgehen zum Einrichten der Lokfunktionen ist vereinfacht worden. Mit Drag&Drop oder mit Anwahl der Funktionen und Icons können alle
+Lokfunktionen nun mit Icons versehen werden.
+Einrichten von Artikeln
+CS-SW
+Der Dialog zum Einrichten von Artikeln wurde überarbeitet und der Ablauf zum Einrichten von Artikeln effizient gestaltet. Durch die Erweiterung der
+"unbelegten Adressen" lässt sich die Artikelliste schnell und einfach einrichten.
+„Freie“ bzw. „Unbelegte“ Adressen
+CS-SW
+Kunden kritisieren an der Artikelliste das nun notwendige Anlegen von Artikeln um diese Bedienen zu können. Zweiter Kritikpunkt ist, dass dazu die
+notwendigen Daten aufwendig eingegeben und erst dann kann geschaltet werden kann. Durch die Darstellung von freien Adressen können nun
+Artikel bedient werden ohne diese vorher anlegen zu müssen.
+Datenbank
+CS-SW
+Die Datenbank wurde erweitert und an die Anforderungen von WEB-App und GUI angepasst.
+Einführung von Stellpulten
+CS-SW
+Die Gleisbilder können nun neben Platten auch Stellpulte beinhalten. Platten sind eine Abbildung der Anlage, Stellpulte eine abstrakte Darstellung
+des Streckenverlaufs.
+Gleisbildeditor
+CS-SW
+Der Gleisbildeditor wurde überarbeitet und optimiert. Die interne Betriebsweise wurde verbessert. Das Einfügen von Gleisbild-spezifischen
+Elementen wurde vereinfacht und neue Elemente können nun mittels Drag und Drop aus dem Editordialog eingefügt werden.
+Umbenennen von Platten und Stellpulten
+CS-SW
+Platten und Stellpulte können umbenannt werden. Dazu den Namen der Platte anwählen und im Dialogfeld den Namen ändern.
+Beschreibungstexte im Gleisbild
+CS-SW
+Es ist nun möglich Freitext zur Beschriftung eines Gleisbildes einzufügen.
+Platzierung von Ereignissen im Gleisbild
+CS-SW
+Ereignisse können nun in ein Gleisbild eingefügt werden. Somit können Fahrwege direkt aus dem Gleisbild heraus aufgerufen werden.
+Tunnel und Brückenstrecken
+CS-SW
+Tunnelportale und Brückenköpfe sind nun mit Streckenverbinder und können fest in Strecken eingefügt werden. Die folgende Strecke wird als
+Brücke oder Tunnel gezeichnet. Bei Stellpulten wird diese Systematik nicht realisiert, Brücken und Tunnels werden als Dekoelemente platziert.
+Neue Artikeltypen in der Artikelliste und dem Gleisbild.
+CS-SW
+Für Stellpult und neue Zubehörartikel wurden neue Artikeltypen eingeführt.
+Die doppelte Gleiswechselverbindung (Hosenträger-Gleisverbindung) hat eine spezielle Abbildung in Stellpulten
+Die neue Drehscheibe führt Sounds in der Artikelliste ein.
+Für die Stellpulte wurden neue Gleisbauelemente eingeführt. Pult-Brücke, Pult Tunnel und Pult Unterführung sind für Stellpulte zum symbolischen
+Darstellen des Streckenverlaufs. Brückenauffahrt und Tunnel werden in Stellpulten als Gleisstützpunkte gezeichnet.
+Zum Anzeigen eines Zugnamens wurde für Stellpulte der spezielle Kontakt "Zuganzeige" eingeführt. In einem Stellpult wird ein Feld zur Anzeige des
+Zugnamens dargestellt. Die Anzeige des Zugnamens muss durch selbst erstellte Ereignisse erfolgen.
+Die Drehscheibe wird in Stellpulten durch die Abgänge dargestellt. Jeder platzierte Abgang in einem Stellpult sowie ein angeschlossener Abgang in
+einer Platte kann durch die Drehscheibe angefahren werden.
+Systemübersicht CS3
+CS-SW
+Die zusammengeschalteten CS3en erscheinen in der Systemübersicht der CS3. Für die eigene CS3 können alle Einstellungen bedient werden, für die
+Erweiterungsgeräte und das Hauptgerät können nur bestimmte Einstellungen verändert werden. Durch die Änderung wird das Erstellen eines
+Backups von jeder CS-SW aus möglich. Ein Erweiterungsgerät führt in diesem Fall ein Backup auf dem Hauptgerät aus. Erweiterungsgeräte haben in
+diesem Betriebsmodus keine eigenen Einstellungen.
+
+PAGE 23
+Gleisbildeditor Undo / Redo / Verwerfen
+CS-SW
+Im Gleisbildeditor können nun schrittweise die Änderungen rückgängig und wiederhergestellt werden. Auch ein Verwerfen aller Änderungen und
+Neubeginn ist möglich.
+Neue Führerstände
+Spielewelt
+Einen Führerstand für V320 und Köfferli hinzugefügt. Der Führerstand des Unimog wurde verbessert.
+Update Lokicons
+Lokicons
+Lokicons Neuheiten 2019
+Erste Konfigurationsmöglichkeiten im WEB-App
+Webserver
+Gleisbilder können in der WEB-Applikation bearbeitet werden.
+CS3-Systemsteuerung in der WEB-Oberfläche
+Webserver
+Funktionen der CS3-Systemsteuerung sind in der WEB-Oberfläche nun verfügbar. Einstellungen der CS3 können ebenso in der WEB-Oberfläche
+getroffen werden.
+Behebung eines Fehlers in der WEB-Kamera Handhabung
+Webserver
+Ein Fehler in der Installationsroutine der Web-Applikation bereitet Problem beim Verwenden von USB-Kameras.
+Bug Fix Japanischer Font
+Debian
+Im Zuge der Deinstallation des Pakets "Imagemagik" wurde versehentlich auch der für Japan benötigte Font deinstalliert. Dieser Font wird nun
+einzeln nachinstalliert.
+Bootloader 2019
+Kernel
+Ein neuer Bootloader mit geänderter HW-Aktualisierung verbessert die Stabilität der CS3. Auswirkung konnten ein instabiler Betrieb sowie
+Schreibfehler im Dateisystem sein. Dies wird durch den neuen Bootloader behoben.
+Behebung eines Absturzes der MS2
+Busgeräte
+Die Ursache für einen Absturz in der MS2 wurde gefunden und behoben.
+Intensivierung Motorola Lok Suche
+Busgeräte
+Für empfindliche Decoder wurde der Vorgang verbessert und das Senden der Informationen vervierfacht.
+Fehlerbereinigungen
+Ereignisse mit Lokomotiven
+CS-SW
+Wird eine Lokomotive aus der Lokliste gelöscht, dann wird dies in den Ereignissen auch bedacht.
+Gleisbild
+CS-SW
+Beim Zoomen des Gleisbildes bleibt die Lage der Platten zueinander konstant. Das Vergrößern der Entfernung der Platten beim Hineinzoomen in
+das Gleisbild wurde behoben.
+Korrektur der Lage von Platten
+CS-SW
+Durch die Verschiebung von Platten konnte es vorkommen, dass diese weit auseinander platziert worden sind. Dieses wird erkannt und die Platten
+wieder zueinander platziert.
+Inaktive Darstellung von Weichen und Signalen
+CS-SW
+Werden Weichen und Signale durch den Ansichtsfilter ausgeblendet, dann hat sich die Darstellung der Icons im Gleisbild nicht geändert. Diese
+werden nun korrekt ausgegraut dargestellt.
+Verlorene S88-Geräteeinstellungen
+
+PAGE 24
+CS-SW
+Im Zusammenspiel mit einer MS2 konnte es beim Starten der CS3-Applikation vorkommen das die Geräteeinstellungen der Geräte mit S88
+Anschluss überschrieben wurden. Dieser Fehler ist nun korrigiert.
+Wiederaufnahme des Betriebs bei Reboot
+CS-SW
+Eine Option zur Fortführung des Betriebs nach Ausfall der CS3 wurde hinzugefügt.
+Verbrauchseinstellung Spielewelt
+CS-SW
+Die Einstellung der Verbrauchsfaktoren der Spielewelt bei aktiver Verbrauchsberechnung durch den Decoder wurde korrigiert. Eine Veränderung der
+Einstellungen wird nun korrekt in den Decoder übertragen.
+Ansteuerung Drehscheibe durch PC-Programme
+CS-SW
+Eine mögliche Ursache des Absturzes von Event beim Schalten der Drehscheibe wurde behoben.
+mfx-Bearbeitung Einschaltverzögerung von Funktionen
+CS-SW
+Die Einschalt- und Ausschaltverzögerung wurden vertauscht bearbeitet. Dies wurde korrigiert.
+Version 1.4.1
+Pufferverwaltung mfx-CV-Bearbeitung
+Decoderupdate und aktuelle Decodersoftware
+MS2 mit 32 Funktionen
+Sonstiges und Fehlerbereinigung
+Verbesserungen
+Reorganisation der CS3 Prozesse - Decoderupdate
+CS-SW
+Die Anzahl der Prozesse der CS3 wurde reduziert. Der Prozess remoteupdate wurden in einen bestehenden Prozess migriert und es werden
+Ressourcen gespart.
+Decoderupdate für Märklin Sound und Lokdecoder
+CS-SW
+Die CS3 kann Märklin Decoder updaten. Dies gilt sowohl für den Update mit der Zentrale (SW-Update im Konfigurationsmodus) wie auch im
+Zusammenspiel mit dem Decodertool (Ferngesteuerter SW-Update).
+Anpassungen an mDT-Tool
+CS-SW
+Für die Einrichtung und Programmierung von Decodern mit dem Märklin Decoder Tool wurden in der CS3 Erweiterungen realisiert. Die
+Fernsteuerfähigkeit zu dem Decoder wurde erweitert und den neuen Fähigkeiten des Decoders angepasst.
+mfx-CV-Zwischenpuffer - Steuerung der Speicherung
+CS-SW
+Bei der CV-Bearbeitung einer mfx-Lokomotive wurde schon jetzt eine Pufferdatei gespeichert, die einen performanten Zugang zu den Einstellungen
+der Lokomotive bietet. Neu ist, dass diese Speicherdatei beim Verlassen des Konfigurationsmodus mit OK generell gespeichert wird und mit
+Abbrechen nun generell gelöscht wird. Hiermit hat man eine Einflussnahme auf das Speicherverhalten der Pufferdatei.
+Statuswerte in mfx-CV
+CS-SW
+Ein mfx-Decoder hat CV-Werte die durch den Decoder verändert werden. Diese CV-Werte werden nun beim Einstieg in die Konfiguration und beim
+Antippen der CV-Variablen erneut aus dem Decoder ausgelesen.
+CV-Puffer bei Magnetartikeln
+CS-SW
+Bei Magnetartikel wurde dieser Speicher nun ebenso eingeführt.
+Changelog beim Paket-Updater
+CS-SW
+Der Paketupdater kann nun die Updateinformationen zum aktuellen Update darstellen. Für den Update muss der Updater auf dem aktuellen Stand
+sein - somit können die Änderungen erst bei weiteren Updates angezeigt werden.
+
+PAGE 25
+Datensicherung und Restore
+CS-SW
+Datensicherung und Restore werden nun durch den CS3-Kontrollprozess ausgeführt. Dadurch wird die Zuverlässigkeit des Sicherns und
+Wiederherstellens erhöht.
+Korrekturen Output-Konfiguration bei mfx-Zubehördecoder
+CS-SW
+Bei mfx-Zubehördecoder ist das Outputmenü an die Fähigkeiten des Decoders angepasst. Die unterschiedlichen Eigenschaften der Decoder wird
+nun passend im Outputmenü angeboten.
+Durchnummerierung gleichartiger Funktionsicons
+CS-SW
+Gleichartige Lokfunktionen mit derselben Darstellung werden nun in der Darstellung durchnummeriert.
+32 Funktionen
+Busgeräte
+Die MS2 und GB2 können nun 32 Funktionen unter mfx schalten
+mfx-CV-Bearbeitung
+Busgeräte
+Die wichtigsten mfx-CVs können nun mit der MS2 bearbeitet werden.
+Mehrgerätebetrieb
+Busgeräte
+Der Mehrgerätebetrieb mit dem MS2-Terminal wurde stabilisiert.
+Update Gleisbox 2
+Busgeräte
+Schalten von 32 Funktionen wurde realisiert.
+Fehlerbereinigung Decoderupdate
+CS-SW
+Der Decoder-Updateprozess des GFP wurde untersucht und stabilisiert.
+Fehlerbereinigungen
+Klarstellung beim Fehlerfall Hauptgerät Erweiterungsgerät Verbindungsaufbau
+CS-SW
+Die Fehlermeldung im Erweiterungsgeräte-Modus zum erfolglosen Verbindungsaufbau zum Hauptgerät wurde um Hinweise zur möglichen
+Fehlerursache erweitert.
+Korrektur Mapping beim Lokdecoder
+CS-SW
+Bei einem Lokdecoder (ohne Sound) ist es nun nicht mehr möglich, Soundslots zu mappen.
+Korrekturen Mapping mfx-Decoder für Lokomotiven
+CS-SW
+Beim mfx-Mapping können nun 20 Susi-Funktionen gemappt werden.
+Update Lokicons
+Lokicons
+Einige weitere Lokicons und alle Lokicons wurden in der Größe reduziert um Platz zu sparen.
+Optimierte Spieleweltressourcen
+Spielewelt
+Alle Ressourcen der Spielewelt wurden komprimiert um Platz zu sparen und die Geschwindigkeit zu steigern.
+Korrekturen Schaltvorgänge
+CS-SW
+Zu schnell aufeinanderfolgende Schaltvorgänge konnten zu einer Stockung führen. Dies wird erkannt und die Blockade aufgelöst.
+Version 1.4.0
+Erweiterungen Ereignisse
+
+PAGE 26
+Sonstiges und Fehlerbereinigung
+Verbesserungen
+Darstellung Ziffer 7 im Nummernfahrpult
+CS-SW
+Die Ziffer 7 hatte einen weißen Rand. Die Darstellung wurde korrigiert und den anderen Ziffern angepasst.
+Korrekte Abfolge Schaltsequenzen
+CS-SW
+Es konnte vorkommen, dass Schaltungen überlappend an den GFP gesendet werden. Schaltfolgen werden nun sequenziert und korrekt an den GFP
+gesendet.
+DCC Auslesen der Adresse eines Decoders
+CS-SW
+Das Auslesen der Adresse eines Decoders wurde wieder funktional gestellt. Durch Änderungen in der mfx-Anmeldung wurde das automatische
+Auslesen von DCC-Loks unterbunden.
+Nachfrage beim Schreiben von DCC CV-Vorlagen
+CS-SW
+Beim Schreiben der CV-Vorlagenwerte stellt eine Nachfrage sicher, dass dies auch gewünscht ist. Hintergrund ist, dass Anwender einen CV-
+Schreiben Button gesucht haben und den Vorlagenwerte-Schreiben-Butten dazu verwendet haben. Die getroffenen Einstellungen wurden dadurch
+auf Standard zurückgesetzt und getroffene Einstellungen zunichte gemacht.
+Löschen Eingabefeld bei alphanumerischen Eingaben
+CS-SW
+Das mühsame Löschen einzelner Buchstaben durch Backspace wird nun unterstützt durch eine Löschfunktion des gesamten Eingabefeldes.
+Änderung Software ABV: Reduktion auf Motorola Loks
+CS-SW
+Eine Software ABV findet nur noch für Motorola Loks statt. DCC-Loks und mfx-Loks werden ohne Software ABV angesteuert. mfx Loks wurden schon
+länger ohne ABV gesteuert, nun erfolgt auch bei DCC-Loks eine direkte Ansteuerung.
+Geschwindigkeitsanzeige
+CS-SW
+Darstellungsfehler wurden in der Geschwindigkeitsanzeige richtiggestellt.
+Ereignisse: Einführung von Makros zur Ausführung von Ereignissen.
+CS-SW
+Die Ereignisse wurden erweitert um Makrofunktionen. UND, ODER, IF, LOOP, BRAKE und RANDOM
+Ereignisse: Erweiterung um eine Anzeigefunktion einer Lokomotive im Gleisbild.
+CS-SW
+Zu den Elementen eines Ereignisses kann in der Aktion festgelegt werden, ob der Artikel geschaltet wird oder im Gleisbild die gesteuerte
+Lokomotive dargestellt werden soll. Dadurch lässt sich eine Positionsanzeige einer Lokomotive realisieren.
+Ereignisse: Wiederaufnahme des Betriebs nach einem Neustart.
+CS-SW
+Beim Beenden des Fahrbetriebs wird die Anlage kontrolliert heruntergefahren und der Status der Ereignisse wird gesichert. Beim Einschalten der CS3
+wird der Status wiederhergestellt und der Fahrbetrieb fortgeführt.
+System: Helligkeit der Stop-Taste bei Stop
+CS-SW
+Die Helligkeit der Stoptaste wird mit der Helligkeit des Bildschirms gesetzt.
+Drehgeber: Dynamisierung
+CS-SW
+Die Auswertung der Drehgeber wurde so erweitert, dass alle Fahrstufen erreicht werden können und eine Dynamisierung des Drehgebers erfolgt.
+Geschwindigkeitsanzeige: Umschaltung zwischen km/h, Prozentanzeige und Fahrstufe.
+CS-SW
+Die Anzeige der Geschwindigkeit kann nun umgestellt werden. Prozentanzeige: Zur Anzeige eines prozentualen Wertes den Wert 10 in den
+Maximalwert des Tachos eingeben
+Dies wird durch ein folgendes Prozentzeichen hinter dem eingestellten Wert dargestellt. Fahrstufenanzeige Zur Anzeige der Fahrstufe die
+Fahrstufenanzahl des Decoders in den Tacho eintragen.
+Bei mfx Loks entspricht dies 126, bei Motorola der Wert 14
+
+PAGE 27
+Bei DCC-Loks muss der eingestellte Wert unter Fahrstufen eingestellt werden. Kilometeranzeige Alle anderen Werte im Tacho zeigen den gefahrenen
+Kilometerwert an.
+Spieleweltführerstand für alle Loks
+CS-SW
+Der Spieleweltführerstand kann nun für nicht Spieleweltloks eingesetzt werden. Da die Decoder dieser Loks keine Verbrauchsberechnung
+durchführen, ist diese deaktiviert.
+Gleisbilder
+CS-SW
+Bei der Erstellung der Gleisbilder kann ein Raster eingestellt werden, um die Platzierung zu erleichtern. Sinnvolle Werte für das Raster können sein:
+Horizontal 12, Vertikal 7
+Horizontal 60, Vertikal 35
+Horizontal 120, Vertikal 70
+Horizontal 19, Vertikal 11
+Horizontal 33, Vertikal 19
+Horizontal 53, Vertikal 30
+Horizontal 97, Vertikal 56
+Horizontal 104, Vertikal 60
+Horizontal 118, Vertikal 68
+Das Raster berechnet sich anhand des verwendeten Weichenwinkels von 30°. Die Drehung der Weichen sollte in diesem Raster erfolgen. Und richtet
+sich auch nach dem gewünschten Parallelabstand im Gleisbild.
+Bearbeiten einer Gleisbild Konfiguration
+CS-SW
+Bearbeiten einer Konfiguration von unterschiedlichen Geräten aus wird nun unterbunden.
+Unterstützung für MS2 mit 32 Funktionen
+CS-SW
+Die Unterstützung für die MS2 mit 32 Funktionen wurde erweitert.
+Zusätzliche Tachoanzeige: Runder Tacho
+CS-SW
+Eine weitere Möglichkeit zur Darstellung eines runden Tachos wurde realisiert. Nach der Darstellung mit 4 Funktionsspalten und vor der Darstellung
+des Spieleweltführerstandes kann der runde Tacho aufgezogen werden. Die Anzeige von 2 runden Tachos ist möglich.
+Neue Spieleweltführerstände
+Spielewelt
+Es wurden neue Spieleweltführerstände hinzugefügt:
+TGV
+Robel
+Ardelt
+Update Lokicons
+Lokicons
+Die Neuheiten wurden ergänzt.
+GFP: Fehlerbereinigung DCC Bit Write
+Busgeräte
+DCC Bit Write wird nun zur GUI korrekt bestätigt.
+Neue GFP Funktionalität: Auslesen mfx NAZ
+Busgeräte
+Ein gesetzter NAZ kann nun aus dem Hauptgeräte-GFP ausgelesen werden.
+Verbesserter GFP CAN-Puffer
+Busgeräte
+Der CAN-Message Puffer wurde überarbeitet. CAN-Meldungen sollten nun nicht mehr verloren gehen können.
+GFP MM2 Adresserkennung
+Busgeräte
+Die Erkennung von MM2 Adressen wurde verbessert. Diese sucht nun genauer nach der Reaktion einer Lokomotive
+GFP Überarbeitung des Befehls Lok Halt
+Busgeräte
+Der Befehl Lok Halt wurde erweitert. Lok Halt sendet nun Fahrstufe 0 an alle Loks ohne die gespeicherten Fahrstufen zu zerstören. Bei einem GO
+werden die gespeicherten Fahrstufen wieder an die Loks gesendet.
+
+PAGE 28
+GFP UID_bug bei Broadcast-UID 00000000 beseitigt
+Busgeräte
+Bei der Auswertung der Broadcast UID wurde ein Fehler beseitigt. In seltenen Fällen konnte es passieren, dass der GFP nicht reagierte, obwohl es
+sein sollte.
+GFP Motorola 27 Fahrstufen
+Busgeräte
+Das Verhalten von Motorola 27 Fahrstufen wurde der CS3 angeglichen.
+GFP Multibyte mfx CV Read
+gfp V2
+Bei schwierigen mfx-Umgebungen kann ein Multibyte mfx-Read fehlschlagen. In diesem Fall findet ein Fallback auf einen sichereren Ein-Byte Read
+statt.
+Browsen der Hilfe
+Webserver
+In der Webanwendung ist ein Browsen der Hilfe der CS3 möglich. Durch die wesentlich größere Darstellungsfläche ist ein angenehmeres Lesen der
+Hilfe möglich.
+Videoüberwachung der Anlage
+Webserver
+Die CS3 ist in der Lage, mittels USB-Kameras oder IP-Kameras eine Livestreamüberwachung des Zugbetriebs zu realisieren. Die Darstellung erfolgt
+auf dem WEB-Browser. Aufgrund der hohen Rechenbelastung der CS3 wird die Anzahl der USB-Kameras auf eine aktive begrenzt, mehrere Kameras
+können angeschlossen werden. IP Kameras können mehrere eingesetzt werden, da diese die CS3 nicht in demselben Maße belasten. Bitte beachten
+Sie, dass dies eventuell nicht mit älteren Modellen funktioniert.
+Version 1.3.3
+Erweiterungen Ereignisse
+Sonstiges und Fehlerbereinigung
+WEB Applikation zum Steuern der CS3
+Verbesserungen
+Drehscheibe
+CS-SW
+Aufgrund älterer Konfigurationen konnte es vorkommen, dass Drehscheiben einen Absturz beim Konfigurieren verursachten. Dies ist behoben
+(Ursache war, dass die Drehscheibe in der Konfiguration fälschlicherweise einem Mehrfachdecoder zugewiesen war).
+Übersetzungen
+CS-SW
+Einige nicht markierte Stellen im Bereich der Gleisbildkonfiguration werden nun korrekt übersetzt.
+Fehlerbereinigung in Ereignissen
+CS-SW
+Wurde eine Variable am Ende eines Ereignisses gesetzt, ist eine unmittelbar folgende Auswertung der Variable fehlgeschlagen. Das wurde Korrigiert.
+Fehlender Updatekenner
+CS-SW
+Die Updatekennung für einen anstehenden Update für die CS3 wurde unter bestimmten Umständen nicht angezeigt. Dieser Fehler wurde behoben,
+anstehende Updates von Stick oder Netzwerk werden angezeigt.
+Falsche Darstellung des Lichtsignals HP02
+CS-SW
+Die Darstellung des Lichtsignals HP02 in der Artikelliste und dem Gleisbild wurde korrigiert. Bei der Umstellung auf schnellere Darstellung wurde das
+falsche Signalbild gezeichnet.
+Traktionen
+CS-SW
+Wurde eine Lok verändert, so konnte deren Zugehörigkeit zur Traktion verloren gehen. Dies ist behoben.
+Ereignisansicht
+CS-SW
+
+PAGE 29
+Bei der Ansicht der Ereignisse lässt sich nun der Inhalt aufgerufener Ereignisse darstellen. Somit bekommt man einen wesentlich besseren Überblick
+über die Zusammenhänge verschachtelter Ereignisse und kann Fehlerzustände schneller finden.
+Gruppierung von Ereignissen
+CS-SW
+Einem Ereignis lässt sich eine "Automatisierungsgruppe" zuordnen, nach dem die Ansicht der Ereignisse gefiltert werden kann. Somit lassen sich
+Gruppen von Ereignissen, die einen zusammenhängenden Ablauf steuern, zusammenfassen und gesammelt darstellen.
+Abbruch von Ereignissen
+CS-SW
+Bei Ereignissen konnte bis dato das Starten neuer Ereignisse gesperrt werden. Nun ist ebenso möglich, laufende Ereignisse abzubrechen oder den
+Ablauf von Ereignissen anzuhalten.
+Lokbezogene Ereignisse
+CS-SW
+Wird in einem Ereignis mit Lokbefehlen ein weiteres Ereignis mit Lokbefehlen aufgerufen, so wird dieser Lokbezug an das aufgerufene Ereignis
+weitergegeben und zum Bezug der derzeitigen Lok ausgeführt.
+Neue Trigger und Aktionen in Ereignissen
+CS-SW
+In Ereignissen können zusätzliche Systemrelevante Aktionen ausgelöst werden und somit auf unerwartete Ereignisse der Anlage reagiert werden.
+Aktionen sind: Stop und Ereignisse anhalten. Trigger sind: CS3 Systemstart, Go und Ereignisse Go.
+Steuerung der erweiterten Fähigkeiten der Ereignisse
+CS-SW
+Die erweiterten Möglichkeiten der Ereignisse können in der Systemsteuerung freigegeben werden. Diese können nun in einer überschaubaren
+Version mit eingeschränkten Möglichkeiten oder aber in der erweiterten Variante verwendet werden. Die Möglichkeiten der erweiterten Variante
+können zu recht komplexen Konfigurationen führen. Da dies ebenfalls die Bedienung der CS3 erheblich erschweren kann wurde dieser Weg gewählt.
+Die leichte Bedienung der CS3 für den Einsteiger muss sichergestellt sein.
+Neue S88-Magnetartikelicons
+CS-SW
+für die Erweiterten Fähigkeiten der Ereignisse wurden neue S88-Darstellungen hinzugefügt.
+Lokliste: Neue Sortierung
+CS-SW
+Die Lokliste kann nun zusätzlich nach den Adressen der Loks sortiert werden. Die Reihenfolge der Steuer-Protokolle ist fest MM2, mfx und DCC
+Version 1.3.2
+Flüssigere Bedienung der CS3
+Fehlerbereinigung
+Neuigkeiten
+Websteuerung
+Webserver
+Das erste Release der Web Steuerung in online
+Verbesserungen
+Zentralen ABV
+CS-SW
+Die Berechnung der Zentralen-ABV wird bei Richtungswechsel beendet
+Initiale Abfrage der CS2-Kontakte nach CS2 Systemneustart
+CS-SW
+Die S88-Kontaktabfrage einer CS2 kann beim ersten Versuch fehlschlagen. Sollte dies passieren, wird der Vorgang gemeldet und wiederholt.
+Laufende Ereignisse verursachen träge Bedienung
+CS-SW
+Ursache war die Animation des Ablaufs. Dies ist optimiert worden.
+Wertebereich bei MM2-Variablen
+
+PAGE 30
+CS-SW
+Der Wertebereich bei MM2-Variablen war auf 79 begrenzt. Dafür hat es keinen Grund gegeben. Die Einschränkung wurde entfernt.
+CV-Bearbeitung
+CS-SW
+Einige Fehler und Blockaden bei der CV-Bearbeitung wurden behoben.
+Startabfrage S88-Kontakte
+CS-SW
+Sind im Keyboard keine reale S88.Kontakte enthalten wird der rote Strich im Keyboard nun nicht mehr gezeichnet. Ursache war eine fehlende
+Datenbank-Information zum Fortschritt der Abfrage.
+MS2: Übernahme Loks von der CS3
+CS-SW
+Ein Fehler ist behoben welcher eine inkompatible Lokliste an die MS2 zur Folge hatte. Hintergrund war eine fehlende Statusinfo zu den betroffenen
+Lokomotiven. Sobald diese nicht vorhanden war, fehlte die Lok in der MS2-Liste.
+Lok Funktionseditor: Momenteigenschaft einer Funktion
+CS-SW
+Beim Setzen der Momentfunktion wird diese Eigenschaft auch in den Decoder geschrieben
+Formatkonvertierung von Gleisbilddateien
+CS-SW
+Gleisbilddateien in alten Formaten wurden beim Laden nicht konvertiert. Dieser Fehler ist nun behoben und alte Formate werden in aktuelle
+gewandelt.
+Initiale S88-Statusabfrage von Kontakten an CS2
+CS-SW
+Beim Start der CS2 kann es vorkommen, dass diese das Auslesen der S88-Kontakte ignoriert. Sollte dieses vorkommen, so versucht es die CS3
+erneut.
+mfx-Bearbeitung von Funktionen größer F16
+CS-SW
+Ein Fehler wurde behoben, der die Bearbeitung von Funktionen größer 16 in der mfx-CV-Bearbeitung verhinderte.
+Zuordnung von Artikeln zu Mehrfachdecodern
+CS-SW
+Ein Fehler wurde behoben, bei dem eine fehlerhafte Zuordnung zu einem Mehrfachdecoder zu einem Absturz führte.
+Flüssigere Bedienung
+CS-SW
+Die interne Struktur wurde geändert, um eine flüssigere Bedienung zu ermöglichen. In diesem Zuge wurden einige Darstellungsfehler korrigiert.
+Bildschirmfüllende Dialoge sind nicht mehr verschiebbar.
+Schnelleres Darstellen von Artikeln
+CS-SW
+Zum schnelleren Zeichnen von Artikeln werden nun nicht per SVG-Bild sondern durch im Programm enthaltenen Code gezeichnet. Dies bringt eine
+Erhöhung der Darstellungsgeschwindigkeit.
+Synchronisation Artikeladresse bei mfx-Artikeln
+CS-SW
+Wird bei mfx-Artikeln die Adresse geändert, so wird diese nun mit dem Gerät synchronisiert (Sofern dies möglich ist).
+Anlegen von Entkupplern
+CS-SW
+Das Anlegen von Entkupplern wurde vereinfacht und ist nun auf beiden Ausgängen eines Anschlusses möglich.
+Melden von Fehlerzuständen auf den Märklin Bus
+CS-SW
+Wird vom CAN-Bus eine zu hohe Anzahl an Kommunikationsfehlern gemeldet, wird der Benutzer darüber informiert.
+Melden von Fehlern des internen Speichers
+CS-SW
+Treten im Betrieb Probleme bei der Behandlung des FLASH-Speichers auf, so wird der Benutzer darüber informiert.
+Melden von Speicherproblemen
+CS-SW
+
+PAGE 31
+Kann eine Datei nicht mehr gespeichert werden (z.B. aufgrund eines zu vollen Speichers) wird der Benutzer darüber informiert.
+Benutzer Fehler Logging
+CS-SW
+Zur Unterstützung von Benutzern und zur Suche von Fehlern wurde ein Benutzerlogging realisiert. Das Ergebnis des Loggings hilft der Entwicklung,
+Fehler zu lokalisieren.
+Gesperrte Gleisprotokolle
+CS-SW
+Gesperrte Gleisprotokolle werden in der CS3 nun beachtet. Führt der Anwender eine Funktion zu einem gesperrten Gleisprotokoll (mm2, mfx oder
+dcc) aus so wird dieses gemeldet und führt nicht zu einer Blockade der CS3. Soll die Funktionalität ausgeführt werden, muss der Anwender zuerst
+die Einstellung zum Gleisprotokoll in den Systemeinstellungen ändern und den Vorgang wiederholen.
+Artikelliste: Neuzeichnen
+CS-SW
+Die Artikelliste wird nur dann neu gezeichnet falls das geänderte Element sichtbar ist.
+CV-Bearbeitung bei gesperrten Gleisprotokollen
+CS-SW
+Ist eine CV-Bearbeitung aufgrund eines gesperrten Gleisprotokolls nicht möglich, wird dies dem Benutzer gemeldet. Des weiteren war dies eine der
+Ursachen für eine Blockade bei der CV-Bearbeitung.
+Backup
+CS-SW
+Beim Erstellen des Backups werden nun die zusätzlich aufgespielten Lokicons mitgesichert.
+Neue Funktionsicons für Lokfunktionen
+CS-SW
+Die Anzahl der Lokfunktionen wurde erweitert. 54 neue Funktionsicons für viele unterschiedliche Anwendungszwecke wurden erweitert. Auf eine
+Kompatibilität zu CS2 und MS2 wurde geachtet, diesen wird ein kompatibles vorhandenes mitgeteilt.
+Artikelnummernsuche beim manuellen Zuweisen von Lokicons
+CS-SW
+Im Dateidialog zum Suchen nach Lokicons kann nun nach einer Artikelnummer durch Eingabe der entsprechenden Märklin-Artikelnummer in das
+Suchfeld gesucht werden. Die Auflösung erfolgt nach derselben Systematik wie bei der Anmeldung von mfx-Loks.
+Aktuelle Lokicons
+Lokicons
+Die aktuellen Lokicons wurden hinzugefügt.
+Loks automatisch anfahren
+CS-SW
+Die Ausführungsgeschwindigkeit bei der Funktion "Loks automatisch anfahren" wurde erhöht und der Geschwindigkeit der S88 Kontakte angepasst.
+Debian Installationsumfang
+Debian
+Zusätzliche Debian Softwarepakte wurden installiert.
+Version 1.3.1
+Drehscheibe
+Sonstiges und Fehlerbereinigung
+Verbesserungen
+S88 - Geräte
+CS-SW
+Bei fehlenden S88-Geräten wird der Name der noch offenen Geräte ausgegeben.
+Statusanzeige Stoptaste beim Systemstart / Neustart
+CS-SW
+Für die Beleuchtung der Stoptaste wird nur noch die Rückmeldung des Hauptgeräte-GFPs verwendet. Somit ist der Status konsistent zum Gleis.
+Übersetzungen
+CS-SW
+
+PAGE 32
+Bei der mfx-CV-Bearbeitung wurden weitere Texte übersetzt.
+Performance Flaschenhals
+CS-SW
+Eine Meldungsflut konnte dazu führen, dass Schritte in einem Ereignis nicht ausgeführt wurden. Diese Meldungsflut wurde beseitigt.
+Anzeige der Pausenzeit bei Elementen in Ereignissen
+CS-SW
+Die Pausenzeiten wurden grundsätzlich in Sekunden angezeigt. Bei Eingabe von Zeiten kleiner 1 Sekunde wurden diese nicht angezeigt.
+Pausenzeiten werden nun korrekt angezeigt.
+Animierungen von Anzeigen
+CS-SW
+Animierte Anzeigen wurden wegen hoher CPU-Last temporär unterbunden.
+Ereignisse auf Lokfunktionen / Ablauffunktionen
+CS-SW
+Ein Fehler wurde behoben, der bewirkt, dass Loks mit Sonderzeichen im Namen keine Ereignisse auf den Lokfunktionen ausführen konnten. Die
+Behandlung der Sonderzeichen an dieser Stelle fehlte – die Lok konnte nicht zugeordnet werden.
+Ereignisse Editieren
+CS-SW
+Im Modus Ereignisse editieren ist ein Longpress schon immer aktiv gewesen. Damit kann man mehrere Elemente löschen oder Elemente innerhalb
+des Ereignisses verschieben. Damit dies bedienbar ist, wurde die Longpresszeit auf 500ms eingestellt.
+Drehscheibenbehandlung überarbeitet
+CS-SW
+Die Abbildung der Drehscheibe in der CS3 wurde erweitert und überarbeitet. Diese hat nun 2 Betriebsmodi: Stellungsgesteuert (ohne eine
+Programmierung des Drehscheibendecoders) und Anschlussgesteuert (mittels programmierten Drehscheibendecoders).
+Neuer Drehscheibenmodus: Stellungsgesteuert.
+CS-SW
+In diesem Modus wird ein nicht eingerichteter Drehscheibendecoder vorausgesetzt. Die Drehscheibe wird im Gleisbild gezeichnet und die dort
+angeschlossenen Gleise werden angefahren. Die Step Taste fährt das nächste angeschlossene Gleis an. Bedienung der Drehscheibe mittels
+Stellungswahl der Bühne ist direkt möglich. Bei direkter Bedienung der Bühne wird die Drehrichtung passend zur Bedienung gesetzt.
+Vorhandener Drehscheiben-Modus: Anschlussgesteuert
+CS-SW
+In diesem Modus wird ein eingerichteter Drehscheibendecoder vorausgesetzt. Um dieses einrichten zu können, wurde der "Programmieren"-Tab der
+Drehscheibe dieser Anforderung angepasst. Der Drehscheibendecoder ist dafür zuständig, nur die gewünschten Positionen anzufahren. Der
+Anwender hat die Aufgabe, die Drehscheibe passend zum Aufbau und zur Abbildung im Layout einzurichten und die 3 Bereiche aufeinander
+abzustimmen.
+Einrichten der Drehscheibe
+CS-SW
+Zur Einrichtung der Drehscheibe wurde der Tab "Programmieren" der Anforderung angepasst. In diesem Tab wurden 2 Aufgaben angesiedelt:
+Position 1 Korrektur und Einrichtung des Drehscheibendecoders. Durch Anwahl der entsprechenden Funktionalität wird der Drehscheibendecoder in
+den passenden Modus versetzt und der Anwender kann manuell den Vorgang zu Ende bringen.
+Einrichten der Drehscheibe: Bestimmen der Anschlüsse
+CS-SW
+Welche Anschlüsse die Drehscheibe anfährt wird über das Gleisbild bestimmt. Beim Zeichnen der Anschlussgleise werden die aktiven Anschlüsse
+bestimmt. Anschlüsse ohne Anschlussgleis werden im Modus Stellungsgesteuert nicht angefahren. Im Modus Anschlussgesteuert wird durch die
+gezeichneten Anschlüsse bestimmt, welche Gleise angefahren werden und welche Stellung diese haben.
+Hilfe zur Drehscheibe
+CS-SW
+Zur Drehscheibe wurde eine neue Hilfefunktionalität und Hilfeseiten erstellt.
+Ablagesystematik Lokicons
+CS-SW
+Eine Möglichkeit wurde geschaffen, Lokicons in Unterverzeichnissen zu halten und genau eine Ebene tief zu verschachteln. Diese Erweiterung ist
+auch für die SD-Karte gültig.
+Suche in den Lokicons
+CS-SW
+Das Ausgabefeld zur Darstellung der Suchmaske kann nun auch zur Eingabe verwendet werden.
+
+PAGE 33
+MFX-CV-Bearbeitung
+CS-SW
+Abschnitte in der CV-Bearbeitung lassen sich nun ein / ausklappen. Die Liste wird dadurch wesentlich übersichtlicher.
+MFX-CV-Bearbeitung: Funktionssymbolzuordnung
+CS-SW
+Innerhalb der Bearbeitung der Funktionen lässt sich nun auch ein Funktionsicon der Funktion zuordnen. Man muss für diese Aufgabe nun nicht
+mehr den Dialog verlassen und dies bei Einrichten machen.
+Neue Rückmeldertypen
+CS-SW
+S88-Rückmelder vom Typ Druckschalter und Drehschalter wurden hinzugefügt. Damit können die Funktionen der S88-Kontakte besser abgebildet
+werden.
+Bilder für Ereignisse
+CS-SW
+Neue Bilder für Ereignisse wurden hinzugefügt. Hierfür wurde ein eigenes Verzeichnis aufgenommen: pics. Im Zuge dessen wurde auch die
+Darstellung der Ereignisse leicht verändert.
+Sortieren von Ereignissen
+CS-SW
+Ereignisse können nun nach dem zugewiesenen Bild sortiert werden. Das Bild kann dadurch zu einem Sortierkriterium werden.
+Sortieren von Loks
+CS-SW
+Neue mfx Loks erscheinen nun als erstes in der Lokliste - unabhängig von der gewählten Sortierung.
+Hilfeseiten
+CS-SW
+Zahlreiche Hilfeseiten wurden zu diversen Themen aufgenommen. Diese sind im Bereich "System" gelistet und können dort aufgerufen werden.
+Webserver Zusammenarbeit mit Firefox
+CS-SW
+Ein Fehler bei der Zusammenarbeit mit Firefox beim Betrachten der Lokbilder wurde behoben.
+Nummernfahrpult
+CS-SW
+Die Eingabegrenzen beim Nummernfahrpult wurden korrigiert.
+Version 1.3
+- Fehlerbereinigungen bekannter und lokalisierter Fehler
+- Einige notwendige Erweiterungen, damit gemeldete Fehler behoben werden konnten
+- Neue Führerstände
+- Unterstützung des Decodertools
+Verbesserungen
+Fahrpult-Darstellung bei Stopp
+CS-SW
+Im Zustand Stopp werden nun die Richtungspfeile ebenso in Rot dargestellt.
+Adapter 6021 – 60128
+CS-SW
+Ein Fehler beim Senden der initialen Konfiguration wurde behoben. Die Daten werden nun bei jedem Neustart korrekt gesendet.
+S88 Status nach Neustart
+CS-SW
+Der Status nach Neustart wird zuerst aus der Datenbank aktualisiert und folgend wird der Status der Anlage eingelesen. Die Ausführung von
+Ereignissen bis zum Ende des Vorgangs ist unterbunden. Bis zum Ende des Einlesens werden Kontakte mit Status "unbekannt" (rot) gekennzeichnet.
+Der Vorgang wird durch eine Fortschrittsanzeige signalisiert.
+Link-S88 Konfig nach Neustart
+CS-SW
+
+PAGE 34
+Ein Fehler, der verhinderte, dass der Link S88 beim Systemstart die benötigten Einstellwerte bekommt, wurde behoben. Die Einstellungen werden
+nun an das Gerät gesendet und nachfolgend der jetzt aktuelle Status der Kontakte eingelesen. Dasselbe passiert auch, wenn ein Link-S88
+nachträglich gestartet wird.
+Ausführungsstopp von Automatiken während des S88-Status-Einlesen
+CS-SW
+Solange der Status der S88-Kontakte gelesen wird, ist die Ausführung von Automatikfunktionen unterbunden. Dies wird im Automatikmenü
+signalisiert. Sollte versucht werden, die Automatiken in diesem Zustand zu aktivieren, wird eine entsprechende Meldung ausgegeben.
+Automatisches Anfahren von Loks
+CS-SW
+Automatisches Anfahren von Loks wird nun ebenfalls durch eine Fortschrittsanzeige signalisiert. Ein Beenden des Anfahrens wird nicht mehr durch
+eine Meldung mitgeteilt.
+Abbruch eines Ereignisses anhand eines S88-Kontaktes
+CS-SW
+Die Bezeichnung, ob ein Ereignis abgebrochen oder fortgeführt wurde, war inkompatibel zur Realisation der CS2. Jetzt ist dieses einheitlich zur CS2.
+Kennzeichnung Aktion eines S88 Kontaktes
+CS-SW
+Eine Kennzeichnung, ob ein S88 Kontakt wartet oder abbricht wurde hinzugefügt.
+Zeitfunktion bei Lok-Funktionen
+CS-SW
+Dieses Feature wurde analog der CS2 nachprogrammiert.
+Schnittstelle PC-Steuerprogramme
+CS-SW
+Die Broadcast-Schnittstelle wurde analog der CS2 nachgebildet. Damit sollten die PC-Steuerprogramme wieder funktionieren.
+Absturz durch doppelte Dialoge
+CS-SW
+Durch diverse Aktionen konnten Dialoge doppelt geöffnet werden und führten danach zu einem GUI Absturz.
+Absturz beim Einfügen von Gleisbauartikeln
+CS-SW
+Bei wiederholtem Einfügen von Gleisbauartikeln konnte es zu einem Absturz kommen. In der Folge konnte dieser Absturz zu einem leeren Gleisbild
+führen. Der Fehler wurde unterbunden.
+Absturz der GUI am Erweiterungsgerät durch Spieleweltloks in der Anzeige
+CS-SW
+Eine GUI am Erweiterungsgerät konnte Probleme beim Starten haben wenn sowohl links wie rechts dieselbe Lok mit aktivierter Spielewelt im Regler
+war. Dieser Fehler ist behoben.
+Absturz GUI bei mfx-Anmeldung während aktivem Spieleweltführerstand
+CS-SW
+Die GUI ist abgestürzt, wenn eine mfx-Anmeldung beendet wurde und man sich zur selben Zeit im Spieleweltführerstand befunden hatte. Dieser
+Fehler wurde behoben.
+Magnetartikelstellung an einer angeschlossenen MS2
+CS-SW
+Die aktuelle Magnetartikelstellung wird an einer MS2 nun korrekt angezeigt.
+Doppeltapp auf Lokfunktion
+CS-SW
+Doppeltapp auf Lokfunktion veränderte dauerhaft den Status.
+Loknamen mit Sonderzeichen
+CS-SW
+Loknamen dürfen nun eine kleine Auswahl an dringend benötigten Sonderzeichen enthalten. Zulässig sind: "(", ")", "/", ".", "+", "[", "]", "{", "}", "\", "<",
+">".
+Magnetartikel mit Sonderzeichen
+CS-SW
+Auch Magnetartikel dürfen nun eine kleine Auswahl an dringend benötigten Sonderzeichen enthalten. Es sind dieselben wie bei den Lokomotiven.
+Löschen von Artikeln/Lokomotiven mit Sonderzeichen
+
+PAGE 35
+CS-SW
+Das Löschen von Artikeln/Lokomotiven mit Sonderzeichen war nicht vollständig möglich. Auf dem Layout wurden Elemente mit Fragezeichen
+eingefügt und konnten nicht gelöscht werden. Dies wurde im Zuge der Einführung von Sonderzeichen behoben.
+Anlegen von Artikeln
+CS-SW
+Beim Anlegen von Artikeln ist das Auswahlfenster offengeblieben und musste separat geschlossen werden. Dies wird nun korrekt geschlossen.
+Neue mfx-Artikel m83 (60832) und m84 (60842)
+CS-SW
+Die Unterstützung der neuen mfx-fähigen Zubehörartikel wurde hinzugefügt. Die DCC-CVs in der Vorlage für m83 und m84 wurde erweitert.
+Bearbeiten von mfx-Zubehör-Artikeln
+CS-SW
+Die CV-Beschreibungen zu den Einträgen wurden überarbeitet und erweitert.
+Vorgaben von Einträgen beim Anlegen von Artikeln
+CS-SW
+Bei der Vorbelegung von Adressen und Namen von Artikeln werden nun, sofern dies erkennbar ist, sinnvolle Vorbelegungen vorgeschlagen. Somit
+ist das Anlegen von Artikeln schneller und leichter möglich.
+Fahrstufenanzahl DCC-Loks
+CS-SW
+Die Fahrstufenanzahl von DCC-Loks ist nun einstellbar und wird beim Steuern verwendet.
+Verschieben von Fenstern
+CS-SW
+Das Verschieben von Fenstern ist nun flüssiger. Der Paket-Updater wurde ebenso überarbeitet. Der Nebeneffekt, dass die Fenster nun zum Teil
+ungünstig platziert werden, wird in V1.4 behoben sein.
+CS2 Datenimport
+CS-SW
+Beim Import der Memory-Konfiguration der CS2 werden die lokalen CS2 Kontakte nicht mehr als Steuerkontakte importiert. Diese werden nun dem
+Gerät mit der Rückmeldekennung 1 zugewiesen.
+Einrichten von mfx-Funktionen.
+CS-SW
+Beim Einrichten von mfx-Funktionen wurden die falschen Werte in den Decoder geschrieben. Das wurde berichtigt.
+Einstellung und Sortierung nach Art der Lokomotive
+CS-SW
+Beim Manuellen Anlegen von Loks ist Art der Lokomotive zuweisbar. Dadurch können die Loks nach der Art sortiert werden.
+Schaltungswiederholung
+CS-SW
+Bei Moment- und Dauerartikeln wird nun korrekt eine Schaltungswiederholung gesendet.
+Übersetzungen
+CS-SW
+In der mfx-Konfiguration werden die Texte nun übersetzt. Einige Übersetzungen müssen noch nachgereicht werden.
+Verschwinden von Einträgen aus Ereignissen
+CS-SW
+Eine Ursache wurde lokalisiert: Beim Löschen von Dubletten wird sofort der Eintrag in den Ereignissen gelöscht. Ein Umbau, dass das Ereignis-
+Element erst nach dem Löschen des letzten Artikels mit dieser Adresse automatisch gelöscht wird, löst das versehentliche Verschwinden von
+Elementen.
+Darstellung Spieleweltloks Verbrauchsmenü rechts
+CS-SW
+Wurde auf dem rechten Regler das Verbrauchswertemenü einer Spieleweltlok aufgerufen, dann ist dies außerhalb des Bildschirms dargestellt
+worden. Das wurde korrigiert und ist nun sichtbar.
+Bedienung Spielewelt-Bremse mittels Drehknopf
+CS-SW
+Die Bedienung der Bremse im Spielewelt-Führerstand ist feinfühliger möglich.
+Zoom Gleisbild
+
+PAGE 36
+CS-SW
+Das Zoomen des Gleisbildes wurde beschleunigt.
+Adressanzeige Adapter 6021
+CS-SW
+Bei der Anzeige der zugewiesenen Loks zu einem Adapter 6021 wird jetzt im Adressfeld die Adresse angezeigt, die an der 6021 einzugeben ist.
+Sachen gibt's
+mfx - Bearbeitung bei aktiven Spieleweltlokomotiven
+CS-SW
+Ein Fehler, der bei einer fehlgeschlagenen Ausleseversuch von Verbrauchswerten das Auslesen von mfx-CVs abgebrochen hat, ist behoben.
+Anlegen von Motorola Loks aus der Datenbank
+CS-SW
+Beim Anlegen von Loks aus der Datenbank konnten Loks mit einer Zeitfunktion angelegt werden. Die aktiven Zeiten wurden jedoch inkorrekt in der
+Lok abgelegt - was zum Teil zu recht verwirrenden Phänomenen führte. Zum Teil ist das Erscheinungsbild, dass sich Funktionen von selbst wieder
+deaktivieren - da die Zeiten auch recht groß sein konnten.
+Löschen von Loks aus Traktion
+CS-SW
+Wurde eine Lok aus einer Traktion gelöscht oder generell gelöscht, dann konnte dieselbe Lok nicht neu in die Traktion übernommen werden, das
+diese noch in unsichtbar in der Traktion hinterlegt war. Dieses Verhalten wurde geändert.
+Neue Spieleweltführerstände
+Spielewelt
+Es wurden neue Spieleweltführerstände hinzugefügt:
+Turmtriebwagen mit Bühnensteuerung
+Schienenbus
+Re 4/4 I
+Moderne Diesellok
+Altbau Diesellok z.B. V140 / V16, V188
+Ae 8/14
+Dieselschnelltriebzüge VT08, VT11
+F7
+BR 628
+BR 103
+Unterstützung Decodertool
+CS-SW
+Unterstützung für Märklin Decoder Tool wurde hinzugefügt.
+Decoderupdate mit der CS3
+CS-SW
+Ein Decoderupdate mit der CS3 wurde implementiert.
+Restart Web Server nach Paketupdate
+CS-SW
+Nach einem Paketupdate wird der Webserver neu gestartet.
+Neue Lokicons
+Lokicons
+Die Lokicons der Neuheiten 2017 und weitere LGB Icons wurden hinzugefügt. 1850 Lokicons
+Erweiterungen Ereignisse
+CS-SW
+Im Test befinden sich Erweiterungen zu Ereignissen. Diese sind vorläufig und werden im Release nicht enthalten sein. Dazu gehören:
+Setzen des Status von S88 Kontakten.
+Zubehörartikel und Lokomotivansteuerung als Konditionen zum Warten oder Abbrechen.
+Update Hardwaresupervisor
+Supervisor
+Durch das Update wird das Starten der CS3 sicherer und ein Neustart nach dem Herunterfahren ist möglich.
+Version 1.2
+Zwischenupdate Betatest
+
+PAGE 37
+Verbesserungen
+Verzögerter CS3-Start durch Einrichtung Netzwerkschnittstelle
+CS-SW
+Bei der Einrichtung der Netzschnittstelle in der GUI wurde Aktivieren der Schnittstelle beim Systemstart erzwungen. Wenn kein Ethernet-Kabel
+angeschlossen war, wurde der Systemstart erheblich verzögert.
+Lokicons - Neue Modelle 2017
+Lokicons
+Lokicons aus dem Neuheitenkatalog 2017 wurden hinzugefügt. LGB-Icons wurden soweit als möglich vervollständigt. 1660 Lokicons
+Lokkarten schreiben
+CS-SW
+Ein Fehler bei der Behandlung von Lok mit 32 Funktion und dem Schreiben von Lokkarten wurde behoben.
+Bugfix MS2 Update
+CS-SW
+Der MS2 Update funktioniert nun – Updatedateien wurden in Auslieferungsumfang aufgenommen.
+Datenimport CS2
+CS-SW
+Ein Hotfix für den CS2-Import wurde realisiert. Ursache ist ein gelöschtes Verzeichnis, dadurch stimmen die Zugriffsrechte nicht mehr. Warum das
+Verzeichnis gelöscht wird, konnte nicht festgestellt werden, die Auswirkung wurde aber behoben.
+Adapter 6021 – Lokliste
+CS-SW
+Die Lokliste für den Adapter 6021 wird bei jedem Start an das Gerät gesendet. Bisher wurde es nur nach dem Editieren gesendet.
+Schalten Entkuppler
+CS-SW
+Entkuppler, bzw. Momentartikel, schalten nun korrekt. Schaltwiederholungen wurden nicht korrekt gesendet.
+DCC Lokadresse
+CS-SW
+Ein Fehler bei der Eingabe der DCC-Lokadresse wurde behoben.
+Keyboard - Neue Sortierfunktion: Areal
+CS-SW
+Im Keyboard lassen sich die Artikel nach den definierten Arealen sortieren.
+Sicherheitsabfrage bei mfx-Artikel Suche
+CS-SW
+Vor dem Start der mfx-Artikelsuche wurde eine Sicherheitsabfrage eingebaut. Dies verhindert ein versehentliches Durcheinanderbringen der
+eingestellten Konfiguration.
+Schnittstelle zu PC-Steuerungen
+CS-SW
+Die Schnittstelle zu PC-Steuerungen wurde auf den Stand der CS2 gebracht. Die Verbindung kann analog zur CS2 wieder hergestellt werden.
+Umstellung Startverfahren für Webserver
+Webserver
+Das Startverfahren des Web-Servers wurde auf Standard Linux umgestellt. Der Speicherverbrauch des Prozessmanagers „PM2“ kann somit von der
+Applikation verbraucht werden. Auslöser waren Kunden, deren umfangreiche Konfigurationen für einen Speicherüberlauf sorgten.
+Copyright Rechte für alle Applikationen
+CS-SW
+In jedem Programm wurde ein Hinweis zur legalen Benutzung aufgenommen.
+Debian Installationsumfang
+Debian
+Zusätzliche Debian Softwarepakte wurden installiert.
+Version 1.1
+Fehlerbereinigungen
+
+PAGE 38
+Gleisplan Abstimmung der Darstellung mit zukünftigen Anwendungen
+Austausch einzelner Programme ermöglicht
+Verbesserungen
+Schaltproblem Zubehördecoder
+CS-SW
+Schaltprobleme mit Zubehördecodern beseitigt. Schaltbefehle wurden zu schnell nacheinander gesendet, Ausschaltbefehl kurz nach Einschaltbefehl
+gesendet.
+Mfx - Anmeldung 60174 Booster
+CS-SW
+Ein aktualisierter GFP für CS2 und Booster verbessert die mfx-Anmeldung im Boosterstromkreis.
+Blockierter GFP3 bei Abschalten von mfx
+CS-SW
+Eine mfx-Anforderung bei abgeschaltetem mfx-Gleisprotokoll konnte zu einer Blockade des GFP3 führen. Dieses wurde behoben.
+Schaltzustände Zubehör
+CS-SW
+Ein Fehler wurde behoben der dazu führt, dass diese ihren Zustand nach dem Einschalten verloren hatten.
+Manuelle Auslösung S88 Kontakte
+CS-SW
+Eine Manuelle Belegung eines S88-Kontaktes wird korrekt an weitere Zentralen weitergeleitet.
+mfx-Neuanmeldung nach Konfigurationswiederherstellung
+CS-SW
+Eine mfx-Neuanmeldung wird für alle mfx-Teilnehmer nach einem Konfigurationswiederherstellung erzwungen. Ansonsten konnte es vorkommen,
+dass mfx-loks nicht steuerbar waren oder sich nicht erneut anmeldeten.
+Erstellen von Gleisplänen
+CS-SW
+Das Erstellen von Gleisplänen wurde vereinfacht, Fangen von Verbindungen verbessert.
+Sortierung von Loks und Magnetartikeln
+CS-SW
+Die nicht realisierten Sortieroptionen der Artikelliste und der Lokliste wurden deaktiviert.
+Artikelliste kann nach Adresse, Typ und Name sortiert werden.
+Die Lokliste kann nach Name, Typ, Verlauf und V/max sortiert werden.
+Darstellung Lokliste
+CS-SW
+Die Rasterung der Lokliste beim Aufziehen wurde korrigiert, Zwischenstellungen wurden behoben.
+Fehlerhafte Hauptgerät – Hauptgerät Einstellung führt zu unbedienbarer Oberfläche
+CS-SW
+Wird die Einstellung Hauptgerät/Erweiterungsgerät aktiviert, solange das Feld für die Hauptgeräte-IP-Adresse leer ist, hängte sich die Oberfläche
+auf. Dieser Fehler ist behoben.
+Neue Sprachen: Japanisch und Griechisch
+CS-SW
+Die Übersetzung der Bedientexte in Japanisch und Griechisch wurden hinzugefügt.
+S88 Kontakte
+CS-SW
+S88 Kontakte werden an einer Strecke angedockt (analog den Signalen). Bestehende Gleisbilder mit S88 Kontakten werden automatisch angepasst.
+Schnellsteuerung Loks
+CS-SW
+Eine Option in den Einstellungen der CS3 ermöglicht die Schnellsteuerung der Loks. Diese ist bei der Auslieferung ausgeschalten, damit die
+Schnellsteuerung nicht mit den Assistenten kollidiert.
+Konfiguration einer Lok
+CS-SW
+
+PAGE 39
+Die Menüs zum Einrichten einer Lok wurden verändert. Die Anordnung der Eingabefelder ist nun in einer sinnvolleren Reihenfolge.
+Keyboard Fullscreen
+CS-SW
+Eine Fullscreen Darstellung des Keyboards wurde realisiert.
+Abdunkelung Hintergrund bei Menüs
+CS-SW
+Der inaktive Hintergrund wird abgedunkelt, wenn ein Eingabemenü geöffnet wird.
+Ergänzung Lokicons
+Lokicons
+Weitere Lokicons wurden hinzugefügt. Gesamtanzahl ist nun bei 1584 Lokicons.
+Nicht bedienbare Oberfläche nach CS2-Datenimport
+CS-SW
+Dieser Fehler wurde schon im Hotfix V1.0.1 behoben und weiterhin Bestandteil des Updates.
+Assistenten
+CS-SW
+Bei den Assistenten wird der Punkt zum Betätigen angezeigt.
+Darstellung des Gleisplans
+CS-SW
+Die Darstellung des Gleisplans wurde abgestimmt und leicht verändert. Dies kann dazu führen, dass erstellte Gleispläne an bestimmten Stellen
+nachgearbeitet werden müssen.
+Linux Kernelupdate
+Kernel
+Ein zu hoch eingestelltes Timing beim Bildschirm konnte zu Instabilitäten des TFT-Displays führen.
+Version 1.0
+Auslieferungsversion V1.0.0
+Verbesserungen
+Systemsoftware CS3
+CS-SW
+Auslieferungsversion V1.0.0
+Spielewelt Führerstände
+Spielewelt
+Auslieferungsversion V1.0.0
+GFP 2
+Busgeräte
+Auslieferungsversion V3.53
+Link S88
+Busgeräte
+Auslieferungsversion V1.0.0
+GFP 3
+Busgeräte
+Auslieferungsversion V11.68
+Webserver
+Webserver
+Auslieferungsversion V1.0.0
+6021 Adapter
+Busgeräte
+Auslieferungsversion V1.0.0
+Lokicons
+
+PAGE 40
+Lokicons
+Auslieferungsumfang V1.0.0 - 1278 Icons

@@ -1,0 +1,44 @@
+ERSTSTROM | GEGENKOPF UND PAAR
+ARBEITSKARTE 33
+Gegenkopf anschließen, beide Fronten prüfen
+Die Einzelprüfung bestätigt die hintere Stromaufnahme und Verdrahtung. Die synchronisierte Lichtreaktion wird
+anschließend gemeinsam mit dem Master geprüft.
+VORHER Gegenkopf S. 29/S. 31 und Motorseite S. 32 bestanden; Laststufe zugelassen. Puffer ab, beide Köpfe zunächst
+ungekuppelt.
+1. Hinten im stromlosen Einzelzustand eigene S-/R-Stromaufnahme, B/GR-/0/GL-Zuordnung, Halter, Widerstände
+und einzelne Isolation von GE/unbenutzten Litzen abschließend kontrollieren. Versorgung und Rückleiter müssen
+aus den Anschlussprüfungen nachgewiesen sein.
+RICHTIGER PRÜFZWECK Ein synchronisierter ESU ist ohne Master nicht automatisch als eigene mfx-Lok bedienbar.
+Hier keine selbständige mfx-Anmeldung erzwingen. Motorloses DCC-Rücklesen ist kein Pflichtschritt; jede DCC-Änderung
+erfolgt auf der quittierenden Einzelaufnahme S. 9/S. 10.
+2. Beide Köpfe stromlos und ungekuppelt auf dasselbe getrennte Betriebsgleis setzen. Genau eine CS3-Quelle
+speist beide; jeder Kopf nutzt seine eigene geprüfte Aufnahme. Fahrstufe 0 und Automatik aus. Es werden keine
+Decoderparameter geändert.
+Nur den gemeinsamen ICE-Master bedienen
+Motorseite
+Gegenkopf
+F0 aus, vorwärts und rückwärts
+dunkel
+dunkel
+F0 an, vorwärts
+weiß
+rot
+F0 an, rückwärts
+rot
+weiß
+3. Mindestens fünf Richtungswechsel bei Fahrstufe 0 durchführen. Physische Farben und Verzögerung
+beobachten. Kein Anrollen nötig; keine unerwünschte Ein-/Ausblendung. Alte gespeicherte Slave-Zeile von einer
+aktiven, unabhängig steuerbaren Anmeldung unterscheiden.
+4. Versorgung abschalten und physisch trennen. Gegenkopf vom Gleis nehmen; im unveränderten geprüften
+Zustand wieder aufstellen. Beide neu starten und Lichtfolge wiederholen. Bei abweichendem Verhalten die
+geprüften Einschaltreihenfolgen des Vorabtests S. 11 vergleichen.
+STOPP Aktiv eigenständig steuerbarer Slave nach eindeutiger Zuordnung: Paartest nicht bestanden. Nichts durch
+Löschen/Ausblenden passend machen. Keine CV- oder Mappingänderung am gemeinsamen Zug.
+Ist vorwärts ______; rückwärts ______; F0 aus ______; fünf Wechsel ______; Neustart ______; Eintragsvergleich
+______; Datum/Projekt ______. Bei Fehler Versorgung trennen und nach S. 38 eingrenzen.
+WEITER, WENN Beide Fronten folgen im Stand und nach Neustart korrekt. Erst danach zulässige Wagenlasten auf S. 34
+ergänzen.
+REV11 | ICE 2976 | 11.09.2026
+33 / 40
+Quellen: Q1, Q6, Q7 (S. 40)
+Weiter: 34

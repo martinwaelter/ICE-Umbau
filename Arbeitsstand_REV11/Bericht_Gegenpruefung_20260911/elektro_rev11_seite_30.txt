@@ -1,0 +1,37 @@
+ERSTSTROM | STECKKARTE MOTORSEITE
+ARBEITSKARTE 30
+Vorn: 60977 gerade auf LoDi einsetzen
+Der Märklin 60977 gehört auf die rote LoDi 511. Diese Karte erst unmittelbar vor dem Einzeltest der Motorseite
+ausführen.
+VORHER Karte S. 29 für Motorseite vollständig. Kopf vom Gleis, Wagen/Bus und alle Versorgungen getrennt; beide
+60974 ab.
+Detail aus deinem Originalfoto: lange
+helle Fläche Richtung K1, Steckfeld,
+darunter LS1/LS2. Die schwarze Struktur
+bleibt unberührt.
+Vorgesehene Lage: Der lange Decoderkörper zeigt zur freien hellen
+Fläche Richtung K1, nicht über LS1/LS2. Die schwarze Buchsenleiste des
+Decoders zeigt nach oben und bleibt sichtbar.
+Steckmechanik: Stifte des Trägers treten von unten durch die Löcher der
+Decoderplatine in deren Buchse ein. Nicht von oben in die sichtbare
+Buchse drücken.
+INDEX ZUERST Die fehlende Stiftposition 11 am Träger und die zugehörige
+geschlossene Decoderposition müssen am echten Exemplar sichtbar
+zusammenpassen. Das Foto zeigt diesen Abgleich noch nicht.
+1. Nur an den Platinenkanten halten. Beide Stiftreihen, Fehlstelle und geschlossene Indexposition ansehen. Nicht
+nach einer geratenen Links-/Rechts-Zählung ausrichten. Langer Freiraum allein beweist keine richtige Stecklage.
+2. 60977 parallel über der Steckleiste halten. Beide Reihen und Index deckungsgleich setzen. Kein Stift darf auf
+der Decoderplatine oder an der geschlossenen Stelle stehen. Bei unklarer Sicht absetzen und Nahfotos beider
+Teile zur Identifikation aufnehmen.
+3. Gleichmäßig im Bereich der Steckleiste nach unten drücken; nicht auf Chips oder das freie Decoderende. Bei
+Widerstand abheben und Reihenversatz prüfen. Keine Pins biegen oder das Teil testweise umdrehen.
+4. Seitlich kontrollieren: alle Stifte eingeführt, Decoder parallel, keine Unterseiten-Metallberührung, keine Litze
+eingeklemmt. Tatsächlichen Platz zum späteren Dach mitprüfen. Erst danach offener Einzeltest S. 32.
+STOPP Wenn eine schwarze Struktur die Fehlstelle verdeckt, ist sie nicht automatisch eine Schutzkappe. Nichts
+abziehen, hebeln, anbohren oder durchdrücken. Decoder abgezogen lassen, genaue Revision und sichtbares
+Indexmerkmal klären.
+WEITER, WENN Index und beide Reihen stimmen; tatsächlicher Sitz und Freiraum sind im stromlosen Aufbau geprüft.
+REV11 | ICE 2976 | 11.09.2026
+30 / 40
+Quellen: Q1, Q3, Q8 (S. 40)
+Weiter: 31

@@ -1,0 +1,32 @@
+{
+  "original_scripts": {
+    "build_ice2976_rev5.py": "01b82b0f1383f979adb09ce4837e77f81b0064219d2a1b90d2a4a4df313214c2",
+    "build_ice2976_rev6.py": "a7d17c347283728c195e49ded6af3a9d81f3e99432e3d88c50dbf4e3c557c962",
+    "build_ice2976_rev6_final.py": "8a67103e72b22d827194b3825fca83157ad940f03bcc7fdcbf932a1f1084746c",
+    "build_ice2976_rev6_release.py": "2e79592c7c78a77dcfe8e675712ee68fd4833d2dd0bf409cc1e2293f6a03956d",
+    "build_ice2976_rev6_closure.py": "2976df462a4c995933d0bf516be2fa2689fcf3d9ed51979eda0be9de33e96fe2",
+    "build_ice2976_rev7.py": "df3c06c1fd5ad0e99085b22569977819dd943ba446ba881489ec43cfa8584076",
+    "build_ice2976_rev8.py": "8b17143656017b749157bc390958194797e0bb318b796dc90e7f6e7b9602ef90",
+    "build_ice2976_rev9.py": "9c5347a7e1cbe20ea73f2a1189d856e9435ea2cf5d7fee6749ac52238b030fd8",
+    "build_ice2976_cv_cs3_research.py": "12212a1256e29d0246a755e53495822d112bfacf2867b71e6578cc85539ff8b8",
+    "rev7_content.py": "f1d76b92b11005e9655a72ef7d3dfcc4d51bdcb23d22d2fbd03617235faed171",
+    "rev7_additions.py": "a95d5367673a4bd8dfe061d3e61ab7811136b3e42195a8fbadc34c792040857a",
+    "rev7_polish.py": "81d2aecbfc6340648abe61a2bf753518257f0f8979061689ae5868364023fefd",
+    "rev7_verified.py": "65bf48f355cc15a3daee89b4dacecfaf7f21f3c1043818c6eb9c29c7c132f1fb",
+    "rev7_closed.py": "261e12e07a4a25bf12ab1ae2603c16a8dd5d97dd6bf9f8494bc93291a70d0a0a",
+    "rev8_cv_integration.py": "7af2edd972c296bf5498cf788e6fb7cdc487c51f25963c2f02226fa507ef560d",
+    "rev9_concrete_closure.py": "c21f70f4a86c5000fbd0c09c684c7f341cad3cf6a188f25edc6b12bd1122b175"
+  },
+  "elements": 644,
+  "image_mapping": {
+    "/private/tmp/ice2976_stecken-006.png": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/ice2976_stecken-006.png",
+    "/private/tmp/ice2976_60977-p5-pads.jpg": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/ice2976_60977-p5-pads.jpg",
+    "/Users/martinwaelter/Downloads/image-3.jpg": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-3.jpg",
+    "/Users/martinwaelter/Downloads/image-2.jpg": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-2.jpg",
+    "/Users/martinwaelter/Downloads/image.jpg": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image.jpg",
+    "/Users/martinwaelter/Downloads/image-5.jpg": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-5.jpg",
+    "/Users/martinwaelter/Downloads/image-4.jpg": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-4.jpg",
+    "/Users/martinwaelter/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/0/0D2DC2F3-025D-48F9-8454-50A792498AD1_4_5005_c.jpeg": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/0D2DC2F3-025D-48F9-8454-50A792498AD1_4_5005_c.jpeg",
+    "/Users/martinwaelter/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/B/BAD231CB-B878-4D94-B5EE-CDAB1D69D455_4_5005_c.jpeg": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/BAD231CB-B878-4D94-B5EE-CDAB1D69D455_4_5005_c.jpeg"
+  }
+}

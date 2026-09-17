@@ -1,0 +1,55 @@
+BEIDE KÖPFE | FRONTLICHT
+ARBEITSKARTE 17
+Front-LEDs: Plus, Farben und Widerstände
+Vorn nutzt LoDi die vorgesehene Strombegrenzung. Hinten benötigt jeder Farbzweig einen eigenen berechneten
+Serienwiderstand.
+VORHER Beide Einsätze abgetrennt. Reale Artikel/Revision und sichere LED-Zweigdaten müssen vor Anschluss
+vorliegen.
+LoDi-Vergleichsfoto: red / VCC / white.
+Nur in dieser Fotoansicht; eigene
+Aufdrucke abgleichen.
+Vorn: Plus an Front-VCC; white/Weiß an L_WS; red/Rot an L_RT. Wirksame
+LoDi-Serienwiderstände zuerst bestätigen, R4/R5 nicht brücken.
+Hinten: Plus an +Ub. Rot über R Rot an LV; Weiß über R Weiß an LR. Diese
+Zuordnung setzt F0 vorwärts = LV und rückwärts = LR voraus. Keine zweite
+Richtungsumkehr einstellen.
+Diodentest nur mit nachweislich geeigneter Prüfspannung/-strom: Rot an
+dokumentiertes Plus, Schwarz an zugehörige Kathode. OL kann zu geringe
+Prüfspannung bedeuten; nicht mit höherer Spannung raten.
++Ub
+derselbe
+59649
+Ausgänge
+59649
+LED Rot
+R Rot separat
+LV
+LED Weiß
+R Weiß separat
+LR
+Zwei Farbzweige, zwei eigene Widerstände. Plus bleibt am selben Decoder.
+Dimmung ersetzt keine sichere Strombegrenzung.
+Vor Widerstandsauswahl bestätigen
+Weiß
+Rot
+Zweigaufbau, zulässiger Strom I, Quelle
+________
+________
+U maximal am LED-Zweig; U LED minimal
+________
+________
+R Nennwert / Toleranz / Belastbarkeit
+________
+________
+Berechnen: R mindestens = (U maximal - U LED minimal) / I zulässig. Mit R klein = R Nennwert × (1 - Toleranz)
+muss die Stromgrenze eingehalten sein. Verlustleistung: P = (U maximal - U LED minimal)² / R klein. Belastbarkeit
+und Wärmeabstand passend zum realen Einbau wählen.
+1. Beide Widerstände einzeln abgetrennt nachmessen; Ω und kΩ unterscheiden. Je Farbzweig einlöten, beide
+Drahtenden isolieren und Abstand des Körpers zu Kunststoff, LED und Litzen lassen. Noch keine Probe am Gleis.
+STOPP Keine festen Widerstandswerte sind für deine bisher nicht vollständig dokumentierten 514-Zweige
+freigegeben. Herstellerdaten/Messplan müssen Spannung, Strom und Zweigaufbau klären. PWM-Dimmung ersetzt
+den Widerstand nicht.
+REV11 | ICE 2976 | 11.09.2026
+17 / 40
+Quellen: Q1, Q3, Q5, Q6 (S. 40)
+Weiter: 18

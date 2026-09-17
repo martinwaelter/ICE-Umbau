@@ -1,0 +1,19 @@
+{
+  "pdf": "/Users/martinwaelter/ICE Umbau/output/pdf/ICE_2976_Umbauanleitung_REV14_ORIGINALPLATINE_62762.pdf",
+  "sha256": "524e448b964b183b55875d2e72089d940b5872ea18d3a2971bc90ecb5a48ad6a",
+  "pages": 47,
+  "bookmarks": 47,
+  "links": 385,
+  "figures": 26,
+  "photos": 16,
+  "vector_schematics": 10,
+  "sources": 35,
+  "min_content_bottom_pt": 63.58976377952768,
+  "outside_page_words": [],
+  "bad_internal_links": [],
+  "rev13_unchanged": true,
+  "hardware_tests_performed": false,
+  "visual_review_all_47_pages": true,
+  "changed_pages_rerendered_and_checked": true,
+  "final_pdf_bytes": 4546126
+}

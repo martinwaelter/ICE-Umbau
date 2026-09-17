@@ -1,0 +1,302 @@
+{
+  "output": "/Users/martinwaelter/ICE Umbau/output/pdf/ICE_2976_Umbauanleitung_REV13_WERKSTATTFASSUNG.pdf",
+  "pages": 46,
+  "sha256": "6a4afec36193952fa0a7040fc230c9c37356e71968e5b3dcd6244347d4308bce",
+  "links": 344,
+  "figure_placements": 28,
+  "figures": [
+    {
+      "page": 1,
+      "path": null,
+      "kind": "system",
+      "width": 519.2755905511812,
+      "height": 193
+    },
+    {
+      "page": 3,
+      "path": null,
+      "kind": "testtrack",
+      "width": 519.2755905511812,
+      "height": 108
+    },
+    {
+      "page": 4,
+      "path": null,
+      "kind": "coupler",
+      "width": 519.2755905511812,
+      "height": 130
+    },
+    {
+      "page": 5,
+      "path": null,
+      "kind": "nets",
+      "width": 519.2755905511812,
+      "height": 110
+    },
+    {
+      "page": 8,
+      "path": null,
+      "kind": "fixture",
+      "width": 519.2755905511812,
+      "height": 150
+    },
+    {
+      "page": 9,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV12/60970_schalter.png",
+      "kind": null,
+      "width": 322.95652364321137,
+      "height": 190.0
+    },
+    {
+      "page": 15,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/0D2DC2F3-025D-48F9-8454-50A792498AD1_4_5005_c.jpeg",
+      "kind": null,
+      "width": 387.98039215686276,
+      "height": 94.0
+    },
+    {
+      "page": 15,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60941_seite2_600dpi.png",
+      "kind": null,
+      "width": 400.23042348741194,
+      "height": 218.0
+    },
+    {
+      "page": 16,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/motor_a_2048.jpg",
+      "kind": null,
+      "width": 480.8971962616822,
+      "height": 201.0
+    },
+    {
+      "page": 17,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/motor_c_2048.jpg",
+      "kind": null,
+      "width": 496.94117647058823,
+      "height": 198.0
+    },
+    {
+      "page": 19,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-2.jpg",
+      "kind": null,
+      "width": 124.02031250000002,
+      "height": 493.0
+    },
+    {
+      "page": 20,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/front_led_kabel_1.jpg",
+      "kind": null,
+      "width": 126.33663366336633,
+      "height": 140.0
+    },
+    {
+      "page": 20,
+      "path": null,
+      "kind": "led",
+      "width": 519.2755905511812,
+      "height": 110
+    },
+    {
+      "page": 21,
+      "path": null,
+      "kind": "led_measure",
+      "width": 519.2755905511812,
+      "height": 148
+    },
+    {
+      "page": 22,
+      "path": null,
+      "kind": "screw",
+      "width": 519.2755905511812,
+      "height": 128
+    },
+    {
+      "page": 23,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/lodi_motor_montiert_original.jpg",
+      "kind": null,
+      "width": 489.9642857142857,
+      "height": 153.0
+    },
+    {
+      "page": 24,
+      "path": null,
+      "kind": "front",
+      "width": 519.2755905511812,
+      "height": 187
+    },
+    {
+      "page": 25,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/quellen_alt/tmp/pdfs/rev5/research/dummy_full.jpg",
+      "kind": null,
+      "width": 214.15982576646005,
+      "height": 138.84270450236275
+    },
+    {
+      "page": 25,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60977_600dpi-005.png",
+      "kind": null,
+      "width": 289.11576478472114,
+      "height": 222.644959184758
+    },
+    {
+      "page": 26,
+      "path": null,
+      "kind": "rear",
+      "width": 519.2755905511812,
+      "height": 172
+    },
+    {
+      "page": 27,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-4.jpg",
+      "kind": null,
+      "width": 519.2755905511812,
+      "height": 39.08832742061089
+    },
+    {
+      "page": 27,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-5.jpg",
+      "kind": null,
+      "width": 399.43894389438947,
+      "height": 133.0
+    },
+    {
+      "page": 28,
+      "path": null,
+      "kind": "coupler",
+      "width": 519.2755905511812,
+      "height": 150
+    },
+    {
+      "page": 34,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-2.jpg",
+      "kind": null,
+      "width": 131.42606707317074,
+      "height": 252.0
+    },
+    {
+      "page": 35,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60977_600dpi-006.png",
+      "kind": null,
+      "width": 170.92378547021247,
+      "height": 280.2998802579035
+    },
+    {
+      "page": 38,
+      "path": null,
+      "kind": "district",
+      "width": 519.2755905511812,
+      "height": 132
+    },
+    {
+      "page": 39,
+      "path": null,
+      "kind": "current_probe",
+      "width": 519.2755905511812,
+      "height": 113
+    },
+    {
+      "page": 42,
+      "path": null,
+      "kind": "closed_access",
+      "width": 519.2755905511812,
+      "height": 108
+    }
+  ],
+  "source_count": 36,
+  "rev12_to_rev13": {
+    "1": 1,
+    "2": 2,
+    "45": 3,
+    "46": 4,
+    "3": 5,
+    "4": 6,
+    "5": 7,
+    "6": 8,
+    "7": 9,
+    "8": 10,
+    "9": 11,
+    "10": 12,
+    "11": 13,
+    "12": 14,
+    "13": 15,
+    "14": 16,
+    "15": 17,
+    "16": 18,
+    "17": 19,
+    "18": 20,
+    "19": 21,
+    "20": 22,
+    "21": 23,
+    "22": 24,
+    "23": 25,
+    "24": 26,
+    "25": 27,
+    "26": 28,
+    "27": 29,
+    "28": 30,
+    "29": 31,
+    "30": 32,
+    "32": 33,
+    "33": 34,
+    "34": 35,
+    "35": 36,
+    "36": 37,
+    "38": 38,
+    "31": 39,
+    "37": 40,
+    "39": 41,
+    "40": 42,
+    "41": 43,
+    "42": 44,
+    "43": 45,
+    "44": 46
+  },
+  "words_by_page": [
+    317,
+    317,
+    416,
+    379,
+    405,
+    355,
+    382,
+    348,
+    288,
+    381,
+    438,
+    427,
+    434,
+    426,
+    244,
+    286,
+    281,
+    392,
+    298,
+    336,
+    366,
+    314,
+    307,
+    327,
+    270,
+    389,
+    265,
+    327,
+    364,
+    431,
+    394,
+    352,
+    312,
+    340,
+    268,
+    382,
+    363,
+    369,
+    392,
+    343,
+    306,
+    344,
+    359,
+    294,
+    339,
+    358
+  ]
+}

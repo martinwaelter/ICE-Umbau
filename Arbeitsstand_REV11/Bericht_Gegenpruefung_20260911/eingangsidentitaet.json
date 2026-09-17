@@ -1,0 +1,43 @@
+{
+  "bericht": {
+    "path": "/Users/martinwaelter/ICE Umbau/ICE2976_REV11_Pruefbericht.md",
+    "sha256": "f817607b44f7c37ac91ad15840532d05f6ba98c1816615a2c37d01f4e82a83a6",
+    "bytes": 43205
+  },
+  "rev11": {
+    "path": "/Users/martinwaelter/ICE Umbau/output/pdf/ICE_2976_Umbauanleitung_REV11_WERKSTATTFASSUNG.pdf",
+    "sha256": "3c67f596856f5403eac6f27f1f2512379555d3611749e4a7bd94f817cc7e41cb",
+    "bytes": 6996767,
+    "pages": 40,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260911004704+02'00'",
+      "/Creator": "anonymous",
+      "/Keywords": "",
+      "/ModDate": "D:20260911004704+02'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "Überarbeitete Originalanleitung mit Arbeitskarten, Anschlussbildern und Prüfungen",
+      "/Title": "ICE 2976 - REV11 | Bebilderte Werkstattanleitung ohne Händler",
+      "/Trapped": "/False"
+    },
+    "internal_links": 176,
+    "external_links": 23
+  },
+  "rev10": {
+    "path": "/Users/martinwaelter/ICE Umbau/ICE_2976_Umbauanleitung_REV10_MIT_SCHNELLANLEITUNG.pdf",
+    "sha256": "2a07914135e92b066701b02029ab4315c624083dd5cb5890774b7b629d7f0ec0",
+    "bytes": 4475033,
+    "pages": 92,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260910222129+02'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260910222129+02'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "Überarbeitete Prüffassung: konkrete Handgriffe, offene Nachweise, CS3-CV-Programmierung",
+      "/Title": "ICE 2976 - vollständige Umbauanleitung REV10 mit Schnellanleitung",
+      "/Trapped": "/False"
+    }
+  }
+}

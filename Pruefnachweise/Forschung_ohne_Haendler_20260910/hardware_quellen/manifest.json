@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2026-09-10",
+    "file": "esu_53900_2aufl_2019.pdf",
+    "url": "https://www.esu.eu/download/betriebsanleitungen/profi-pruefstand/?no_cache=1&tx_esudownloads_pi1%5BdownloadItem%5D=3e2cdb190091da48cc2030b2734bbd32",
+    "sha256": "fafca4f91668a621665cdeedf19fc7463267d10cb3a1ee43f05a8fc40ce2d860",
+    "pages": 4
+  },
+  {
+    "date": "2026-09-10",
+    "file": "esu_lokpilot5_8aufl_2023.pdf",
+    "url": "https://www.esu.eu/download/betriebsanleitungen/digitaldecoder/?tx_esudownloads_pi1%5BdownloadItem%5D=803bc0046a0244b6416c82c6abfd385e",
+    "sha256": "9884a0a07adf4ac1843154d6898bb9a7a2f6a16e465502541c1aefade5e1ad2a",
+    "pages": 96
+  },
+  {
+    "date": "2026-09-10",
+    "file": "maerklin_60970.pdf",
+    "url": "https://static.maerklin.de/damcontent/e3/85/e385c3c228363431569450fe58ba95481677562275.pdf",
+    "sha256": "244cd4c917b1a0b4666a4863c20f1ea631fe9294ff0ac6051f12bf3d449df5c9",
+    "pages": 32
+  },
+  {
+    "date": "2026-09-10",
+    "file": "maerklin_60977.pdf",
+    "url": "https://static.maerklin.de/damcontent/f5/a9/f5a967e35e5b3faa19d17d36c62f586a1762409392.pdf",
+    "sha256": "e3303c439d1bb9c157f598397bb98716b50daba7181e1279c60da3b5a0935b50",
+    "pages": 192
+  },
+  {
+    "date": "2026-09-10",
+    "file": "RCN-121_20241208.pdf",
+    "url": "https://normen.railcommunity.de/RCN-121.pdf",
+    "sha256": "30fe1c3ab199fa596b121066408e74afd100b578f3c831078f2761e140128aad",
+    "pages": 11
+  },
+  {
+    "date": "2026-09-10",
+    "file": "RCN-216_20251124.pdf",
+    "url": "https://normen.railcommunity.de/RCN-216.pdf",
+    "sha256": "bb5e0b7c9796e91158284701d84e654dbdb0e03b5af04124ca3940fb8a480347",
+    "pages": 8
+  },
+  {
+    "date": "2026-09-10",
+    "file": "lodi_ice1m.html",
+    "url": "https://lokstoredigital.jimdoweb.com/hardware/beleuchtung/lodi-motor-wib-ice1m/",
+    "sha256": "9112fe549e3da286194ab5ea2d92a00a43a88d21b7918c96dad4f61647ab98a5",
+    "pages": null
+  },
+  {
+    "date": "2026-09-10",
+    "file": "esu_53900_produkt.html",
+    "url": "https://www.esu.eu/produkte/profi-pruefstand/",
+    "sha256": "303c8194ba0464b60a8880d3959614478e042cd0a5aa890fce4b0c466c539848",
+    "pages": null
+  }
+]

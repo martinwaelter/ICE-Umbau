@@ -1,0 +1,4393 @@
+PAGE 1
+Central Station 3
+ab Softwareversion 2.5
+Kurzanleitung
+Artikelnummer 60216 und 60226
+
+PAGE 2
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 2
+Inhaltsverzeichnis               V orwort
+Grundlagen und Inbetriebnahme
+ Anschlüsse und Erweiterungen  3
+ Aufbauen und V
+erbinden
+ 4
+ 
+Bedienung
+ 5
+ 
+Bildschirmanzeige
+ 6
+ Erste Schritte und V
+orbereitung
+ 7
+Einfache Benutzeroberfläche  8
+ L oks anmelden und steuern    8
+ K
+eyboard nutzen und Einstellungen
+  9
+Schnellstart – Lokomotiven steuern  10
+ mfx-L oks anmelden und Fahrpulte einrichten    11
+ F
+unktionen schalten und Führerstand aufrufen
+  12
+ L
+oks manuell hinzufügen (DCC,MM)
+ 13
+ L
+ok-Eigenschaften und -Funktionen anpassen
+ 14
+Schnellstart – Artikel schalten   15
+ Artik el hinzufügen und Typ auswählen   16
+ Artik
+el bearbeiten und Kontakte anlegen
+ 17
+Schnellstart – Gleisbild anlegen   18
+ Platten/Stellpulte erstellen und Artik el platzieren  19
+ Streck
+en zeichnen und Signale ergänzen  
+ 20
+Schnellstart – Automatisieren  21
+ Ereignisse anlegen, Aktionen aufzeichnen  22
+ Abläufe einrichten, Rückmeldung nutzen 
+ 23
+Systemfunktionen 24
+ CS3 einrichten  25
+ Ger
+äte verwalten 
+ 26
+ Datensicherung und Aktualisierung
+ 27
+	
+Weboberfläche
+	
+und
+	
+Fernbedienung	 	 	 	 28
+ 
+Smartphone-Bedienung
+     30
+Service – Praxistipps  31
+ Umsteigen bzw . anbinden von 6021, CS2, MS2, MS WLAN  32
+ L
+oks – Adresssteuerung, Traktion
+  35
+	
+Lokliste
+	
+filtern,
+	
+sortieren
+	
+und
+	
+suchen		 36
+ L
+okbilder, Lokkarte und Webcam
+  37
+	
+Artikelliste
+	
+filtern,
+	
+Drehscheibe
+	
+einrichten	 	 38
+ Gleisbild – Auswahl, Areale und Ansichten
+  39
+ CS3 Bildschirm-Serv
+er
+  41
+ Hilfe bei Störungen
+  42
+Anhang 43
+ Glossar Symbole  44
+ 
+Funktions-Piktogramme
+ 45
+ 
+Digitalsysteme – Protokolle
+    46
+ Systemarchitektur: CS3 und CS3 plus 
+ 47
+Einleitung
+Mit dieser praktischen Kurzanleitung können Sie Ihr CS3-System im Handumdrehen einrichten sowie 
+einfach und komfortabel Lokomotiven und die gesamte Anlage steuern. Zuerst werden die Anschluss- 
+und Bedienmöglichkeiten vorgestellt und dann folgen die wichtigsten Grundfunktionen.
+Die Central Station 3 ist ein digitales Steuer  ger ät zum Betrieb von Modelleisenbahnen mit Märklin 
+Digital, Märklin Systems, Märklin MM oder DCC (mehr zu den Protokollen steht auf Seite 45). Sie bie-
+tet	Modellbahnern 	nicht 	nur 	aktuelle 	Digitaltechnik, 	sondern 	eine 	Bedienoberfläche, 	die 	Dank 	eines	
+modernen T ouchscreens eine intuitive Steuerung ermöglicht – einfach per Fingertipp. 
+Zudem bietet Central Station 3 mit Software-Update Verbesserungen und neue Funktionen. So wurden 
+Gleisbilder 	als 	Stellpult 	ergänzt. 	Mit 	der 	browserorientierten 	W eboberfläche 	ist 	sogar 	die 	Steuerung	
+über weitere Endgeräte, wie Computer, T ablets oder Smartphones möglich. Das kostenlose Update kann 
+einfach von der Internetseite der Firma Märklin (www.maerklin.de) heruntergeladen werden (Details 
+siehe Seite 27) oder über den Fachhandel bzw. die Märklin-Serviceabteilung installiert werden.
+Märklin bietet mit der Central Station 3 zwei Versionen der Steuereinheit an: die Central Station 3 plus 
+(Art. 60216) und die Central Station 3 (Art. 60226). Wichtig: Die Bedienung beider Geräte ist identisch. 
+Die vorliegende Anleitung gilt daher auch für beide Versionen, die sich im Wesentlichen durch ihre 
+Hardwareausstattung unterscheiden: die Central Station 3 plus verfügt über einen eigenen S88-An -
+schluss und damit über eine direkte Anschlussmöglichkeit für die Rückmeldemodule 60881 und 60882. 
+Bei der Central Station 3 sind die S88-Rückmeldemodule über den Link S88 (60883) anzuschließen 
+(siehe Seite 3).
+Weiterhin verfügt jede Central Station 3 über zwei eingebaute Lokkartenleser (zum Abspeichern der 
+Lokdaten auf einer Lokkarte bzw. zum schnellen Aufruf der Lokomotive durch Einstecken der Lokkarte), 
+einem SD-Kartenslot zur Speichererweiterung sowie einen integrierten Lautsprecher zum Abspielen 
+modellbahntypischer Geräusche, inklusiv der Möglichkeit auch externe Lautsprecher anzuschießen.
+Zur Versorgung der Anlage mit Fahr- und Schaltstrom ist ein leistungsfähiger Booster integriert. Zu-
+dem verfügt die CS3 über zwei eingebaute USB-Anschlüsse (für z. B. Maus, T astatur, USB-Stick), eine 
+USB-Ladebuchse, einen Netzwerkanschluss zur Kommunikation mit einem Router, Anschlüsse für zwei 
+Mobile Stations sowie weitere für das Märklin Bussystem. 
+Die Central Station 3 ist mehrgerätefähig, d.h. mit dem optionalen Kabel (60123) können zusätzliche  
+CS3 plus (60216) mit jeweiligem Netzwerkanschluss zusammen an einer Anlage betrieben werden. Zu -
+sätzliche Fahrpulte, weitere Layouts und Keyboards erweitern die Bedienung der Anlage (siehe Seite 46).
+Die CS3 ist kein Spielzeug. Stellen Sie sicher, dass dieses Gerät auch von Kindern nur als Steuerungs -
+gerät für die Modelleisenbahn genutzt wird. Wir wünschen Ihnen viel Freude beim Einsatz der Central 
+Station	an 	Ihrer 	Modelleisenbahnanlage. 	W eitere 	Informationen 	finden 	Sie 	im 	Märklin 	Magazin 	und 	auf	 
+www.maerklin.de        
+Ihr Märklin Service-
+T eam
+
+PAGE 3
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 3
+Die CS3 plus (60216 )verfügt 
+zudem an der Unterseite über 
+einen direkten S88-Anschluss:
+Anschlüsse und Erweiterungen
+Steckplatz  
+für Lokkarte
+Anschluss  
+Netzteil
+Steckplatz  
+für Lokkarte
+Anschluss  
+LAN-Netzwerk
+USB-Anschlüsse zur Steue-
+rung und zum Datenaustausch
+Slot für 
+SD-Speicherkarte 
+(max. 32 GB)
+USB-An-
+schluss zum 
+Laden von 
+Geräten
+Märklin 
+CAN-Bus 
+Ausgang 
+(9-polig)
+Anschluss 
+Lautsprecher/
+Kopfhörer
+Märklin CAN-Bus 
+Eingang (6-polig) 
+nur 60216
+Programmiergleis
+Hauptgleis
+Märklin 
+Geräte- 
+anschluss 
+(7-polig)
+2 bei 60226
+Das bedeuten die Anschluss-Symbole:
+Spannungsversorgung: Nur zu verwenden 
+mit den aktuellen Schaltnetzteilen von 
+Märklin für den richtigen Einsatzzweck.
+Gleisanschluss (max. 5 A)
+Programmiergleis-Anschluss (max. 1,5 A);
+Anschlussschema wie beim Gleisanschluss
+Märklin CAN-Bus Eingang
+(6-polig; nur bei 60216)
+Märklin Geräteanschluss (7-polig) für 
+Booster (60175), Adapter 6021 (60128), 
+Link S88 (60833) oder T erminal (60145).
+Märklin CAN-Bus Ausgang (9-polig)
+USB: Anschluss z.B. für PC-Maus, T astatur, 
+Speicher, Hub, ...
+USB: nur zum Laden (max. 1 A)
+LAN, direkte Verbindung zu einem Router
+Line Out, Anschluss eines aktiven
+Lautsprechers
+Anschluss auf der Geräteunterseite für
+Decoder S88 60881/60882, (nur bei 60216)
+Einschränkungen der Central Station 60226:
+Da die Central Station 3 (60226) über keinen Märklin CAN-Bus Eingang verfügt, kann sie im gemeinsamen 
+Betrieb mehrerer CS3 nicht als zusätzliches Gerät eingesetzt werden. Anstelle des Märklin CAN-Bus 
+Eingangs besitzt diese einen zweiten Märklin Geräteanschluss. Der S88-Anschluss auf der Geräteunterseite 
+entfällt. So können Rückmeldemodule nur über den Link S88 (60883) angeschlossen werden (siehe Seite 46). 
+nur Laden
+Erweiterungen: So lassen sich Geräte an die CS3 anschließen
+Anschlüsse  
+Mobile Station
+Wichtig: Durch einen langen Druck auf die STOP-T aste (bis zu 10 Sek.) können Sie das Herunterfahren der  
+CS3 erzwingen. Ein weiterer Druck auf die STOP-T aste führt dann wieder zum Start der Central Station 3.
+
+PAGE 4
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 4
+Aufbauen und Verbinden
+Folgende Komponenten werden zum Start benötigt 
+Central Station 3 (60216 bzw. 60226), Schaltnetzteil 60041 (60 VA; für Märklin H0, Trix H0 und Minitrix; 
+60043 für AU; 60046 für JP; 60042 für UK; 60045 für US) oder Schaltnetzteile 60151 bzw. 51095 (100 VA; für 
+Märklin Spur 1 bzw. LGB), Gleisanschlusskabel, Gleisanlage, Rollmaterial und/oder Magnetartikel. Es können 
+ausschließlich die aufgeführten Schaltnetzteile oder Nachfolger an der Central Station 3 verwendet werden. 
+Transformatoren sind nicht mehr zulässig!
+Inbetriebnahme 
+Fürs Erste genügt es, Gleise und das Schaltnetzteil an die Central Station anzuschließen:
+ 1. Fahrgleis und ggf
+. Programmiergleis an die Central Station anschließen (siehe rechte Seite).
+ 2. Centr
+al Station mit dem Schaltnetzteil verbinden.
+ 3. 
+ Schaltnetzteil mit dem örtlichen Stromnetz v
+erbinden. 
+Wir empfehlen die Verwendung einer schaltbaren Steckdosenleiste, an der alle Netzteile der 
+Modellbahn
+ anlage angeschlossen werden. Allerdings sollte zuerst das Haupt-Steuerger
+ät einge-
+schaltet werden und dann die weitere Komponenten.
+ 4. Die Centr
+al Station 3 startet automatisch (alternativ hilft ein Druck auf die STOP-T aste der CS3).
+Zum Abschalten muss die CS3 heruntergefahren werden (siehe Seite 25) und dann müssen alle Versorgungs -
+geräte vom Netzanschluss getrennt werden, was mit einer schaltbaren Steckdosenleiste einfach geht.
+60041 (Märklin, Trix)
+60151 (Märklin Spur 1)
+51095 (LGB)
+Anschluss an Programmiergleis
+Das Programmiergleis darf keinen direkten elek-
+trischen Kontakt zur Anlage haben und es dürfen 
+keine weiteren Verbraucher (z.B. Beleuchtung, 
+Weichendecoder, beleuchteter Prellbock usw.) 
+angeschlossen sein. Es wird benötigt zum Auslesen, 
+Programmieren und Bearbeiten von Fahrzeugen im 
+DCC- oder Motorola (MM2)-Format. Für die Anmel-
+dung von mfx-Loks ist kein Programmiergleis nötig.
+Um Funktionsstörungen zu vermeiden  
+auf richtige Polarität achten: 
+Rot = Bahnstrom (B), Braun/Blau = Masse (0)
+Anschluss C-Gleis
+Anschluss K-Gleis 
+Anschluss Spur 1
+Anschluss Spur G, N
+Anschluss an einer Anlage
+Jedes Gleisstück kann als Anschlussgleis für die  
+Versorgung der Anlage eingesetzt werden. Verbun-
+den wird die Central Station 3 mit den Gleis über 
+zwei Anschlüsse, die wie folgt gekennzeichnet sind:
+B = Bahnstrom (rote Kennzeichnung). Dieser An-
+schluss ist der Hinleiter für die Versorgung der Loks 
+über die Schienen.
+0 = Masse/Rückleiter (braune Kennzeichnung bzw. 
+bei LGB blau). Dieser Anschluss dient beim Fahr
+-
+betrieb als Rückleiter
+.
+
+
+PAGE 5
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 5
+Bedienung        
+Bildschirm, Drehregler und Stop-T aste
+Tipp: Einfacher als mit 
+den Fingern gelingt die 
+Displaybedienung mit 
+einer Computermaus  
+am USB-Anschluss.
+Die Central Station 3 ist sehr anwenderfreundlich aufgebaut. Das wichtigste Element ist der zentrale 
+Bildschirm in der Mitte des Geräts, der sich ganz einfach bedienen lässt, wie Sie auf den nächsten Seiten 
+erfahren. 
+Am unteren Geräterand der CS3 sind zwei hochwertige Drehregler positioniert, die sich mittels der 
+seitlich	angebr achten 	Haftringe 	oder 	der 	fingergroßen 	V ertiefung 	auf 	der 	Oberseite 	in 	beide 	Richtungen	
+präzise drehen lassen, beispielsweise um die Fahrgeschwindigkeit zu steuern. Zudem ist ein Drückkon -
+takt integriert, der bei Herunterdrücken einen Nothalt bei fahrenden Loks ausführt und die Fahrtrich-
+tung der jeweiligen Lokomotive umdreht. 
+Wenn die ganze Anlage zum Stillstand kommen soll, genügt ein Druck auf die große STOP-T aste zwischen 
+den Drehreglern. Im aktivierten Stop-Modus wird die T aste mit roten LEDs beleuchtet und dann ist die 
+Gleisstromversorgung der Anlage unterbrochen. Vorsicht: Auch bei Unterbrechung des Gleisstroms 
+rollen	die	in	Fahrt	befindlichen	Lokomotiven	noch	aus.
+Über die Drehregler lässt sich die Ge-
+schwindigkeit der Lokomotiven (platziert 
+in den seitlichen Fahrpulten) steuern. 
+Ein Druck auf den Drehregler ändert die 
+Fahrtrichtung.
+Die zentrale STOP-T aste dient als „Not-Aus“ – 
+in kritischen Situationen wohl die wichtigste 
+Funktion der Central Station 3 mit der die 
+Gleisspannung ausgeschaltet wird.
+Wichtig: Durch einen langen Druck auf die STOP-T aste (bis zu 10 Sekunden) können Sie das Herunterfahren der 
+CS3 erzwingen. Ein weiterer Druck auf die STOP-T aste führt dann wieder zum Start der Central Station.
+Antippen und Wischen: Arbeiten mit dem T ouchscreen
+Dank des berührungssensi-
+tiven Bildschirms genügt ein 
+Fingerkontakt, um das Gerät zu 
+bedienen Wie bei Smartphone 
+oder T ablet sind verschiedene 
+Fingergesten möglich:
+(An-)Tippen: Berühren Sie den T ouchscreen kurz mit der Fingerspitze und heben Sie den Finger 
+dann wieder an. Diese Geste wird zum Auswählen eines Objekts oder Aktivieren einer T aste/
+eines Symbols verwendet.
+Drücken: Berühren Sie den T ouchscreen mit der Fingerspitze und bleiben Sie einige Sekunden 
+drauf. Diese Geste wird zum Aktivieren eines T extfeldes verwendet.
+Scrollen (Blättern), Streichen, Wischen: Streichen Sie mit einem Finger nach oben oder unten 
+bzw. nach links oder rechts, um beispielsweise Objekte außerhalb des sichtbaren Bereichs zu 
+sehen oder um weitere Optionen in einer Liste anzuzeigen. 
+Ziehen (Drag-&-Drop): Sie können ein Objekt bewegen oder die Position eines Gleisbilds durch 
+Ziehen ändern. Legen Sie zum Bewegen einen Finger auf ein Objekt und ziehen es dann an die 
+gewünschte Position, wo Sie den Finger dann vom Display lösen. 
+Statt der T ouchscreenbedienung mit den Fingern, 
+empfiehlt
+	
+sich
+	
+der
+	
+Einsatz
+	
+einer
+	
+Computermaus
+	
+am
+	
+USB-
+Anschluss. Vorteil: Der eingeblendete Mauszei-
+ger ermöglicht das präzise Bedienen ohne die Sicht 
+durch die Hand einzuschränken.
+3 sec
+Zoomfunktionen: 
+Hineinzoomen durch Auseinanderziehen der Finger: Legen Sie zwei Finger auf 
+den T ouchscreen und bewegen Sie sie auseinander. Mit dieser Aktion können 
+Gleisbilder in einer Art Nahaufnahme angesehen werden. 
+Hinauszoomen durch Zusammenziehen der Finger: Legen Sie zwei Finger ge-
+spreizt auf den Bildschirm und bewegen Sie sie aufeinander zu. Mit dieser Aktion 
+werden die Gleisbilder kleiner und mehr Inhalte sind sichtbar.
+Hinweis: Ab einer bestimmten Größe werden Beschriftungen und T exte in einem 
+Gleisbild nicht mehr angezeigt.
+
+PAGE 6
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 6
+Bildschirmanzeige
+Lokliste:
+Vom unteren Bildschirmrand lässt sich mit dem roten Querbalken die 
+Lokliste nach oben aufziehen. Hier wird das Rollmaterial verwaltet. 
+Neben
+	
+verschiedenen
+	
+Ansichtsfiltern
+	
+können
+	
+hier
+	
+auch
+	
+Lokomotiven
+	
+k
+onfiguriert
+	
+werden
+	
+–
+	
+mit
+	
+eigenen
+	
+Bildern
+	
+und
+	
+Namen.
+	
+Zudem
+	
+lassen
+	
+sich L
+oks auch direkt steuern (siehe ab Seite 10).
+Fahrpulte: 
+Aus der Lokliste können Lokomo-
+tiven in die seitlichen Fahrpulte 
+gezogen werden, wo sie sich durch 
+die beiden haptischen Drehregler 
+steuern lassen. Durch ziehen der 
+roten Kreise mit Lok-Symbol vom 
+Rand in die Bildschirmmitte werden 
+die Fahrpulte immer größer und 
+können zusätzliche Funktionen wie 
+den T acho (siehe links) oder sogar 
+den Führerstand darstellen (siehe 
+Seite 12). 
+Menüleiste und Artikelliste:
+Vom oberen Bildschirmrand den grünen Querbalken nach unten ziehen 
+blendet erst die Menüzeile und dann immer mehr von der Artikelüber-
+sicht ein. Mit dem Bearbeiten-Symbol lassen sich einfach Artikel und 
+Gleisbilder anlegen. Über System gelangt man zu den Einstellungen 
+und das Ereignis-Symbol ermöglicht Automatisierungen – zum Beispiel 
+durch Aufzeichnen der Bedienschritte. Das Fragezeichen führt direkt zu 
+den passenden Hilfsseite. Unter dem Menü wird die Artikelliste ange-
+zeigt, in der alle Elemente der Anlage (beispielsweise Weichen, Signale, 
+Kontakte, etc.)angelegt sind (siehe ab Seite 15).
+Gleisbild:
+Im Hintergrund der Anzeige werden die angelegten  
+Platten und Stellpulte angezeigt. Die Gleisbilder dienen zur 
+visuellen Abbildung der Anlage – ganz oder teilweise. Neben 
+der Ansicht der aktuellen Artikelstellung lassen sich durch 
+Antippen die Signale, Weichen und weitere Artikel direkt 
+schalten. Die Ansicht der verschiedenen Gleisbilder kann 
+verkleinert bzw. vergrößert werden. Zudem lassen sich 
+Gleisbilder neben oder auch übereinander darstellen (siehe 
+ab Seite 18).
+Struktur der Bedienoberfläche
+Im Hintergrund des CS3-Bildschirms wird immer das Gleisbild ange-
+zeigt, über das sich aus allen vier Richtungen Fenster einblenden lassen. 
+Je weiter die Fenster vom jeweiligen Bildschirmrand über das Gleisbild 
+gezogen werden, desto größer werden sie und verdecken das Gleisbild. 
+Vom linken und rechten Bildschirmrand lassen sich mit dem Loksymbol 
+im roten Kreis die seitlichen Fahrpulte einblenden. Vom oberen 
+Bildschirmrand schiebt sich die Menüleiste mit Artikelliste über das 
+Gleisbild, während sich von unten die Lokliste nach Oben einblenden 
+lässt. Können in einem Fenster nicht alle Elemente dargestellt werden, 
+tauchen am unteren Fensterrand graue Balken für jede Inhaltsseite auf.
+Hinweis: Durch Antippen der Fenster-Aufziehsymbole (grüner und 
+roter Querbalken sowie die roten Kreise mit Lok-Symbol) können die 
+entsprechenden Fenster direkt ein- oder ausgeblendet werden.
+
+PAGE 7
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 7
+Erste Schritte        Vorbereitung
+Sprache wählen
+Die Software in der Central Station 3 wird für Aktualisierungen, Fehlerbeseitigung und die Umsetzung zusätz-
+licher Möglichkeiten ständig weiterentwickelt. Diese Neuerungen werden in Form von kostenlosen Updates 
+zur Verfügung gestellt. Daher sollte vor der Nutzung die neuste Version auf der CS3 installiert werden.
+Nach dem Einschalten begrüßt Sie die CS3 mit dem 
+Sprachauswahl-Dialog (Bild rechts). Hier können 
+Sie
+	
+die
+	
+Sprache
+	
+der
+	
+Benutzeroberfläche
+	
+einstellen.
+	
+Bestätigen Sie Ihre Auswahl mit Fingertipp auf das 
+Pfeil-Symbol. Anschließend müssen die Sicherheits
+-
+hinweise gelesen und akzeptiert werden.
+Hinweis: Die Sprache kann jederzeit in den System- 
+einstellungen geändert werden (siehe Seite 25).
+Aktuelle Software aufspielen
+Im Auslieferungszustand ist in der Central Station 3 zu Demonstrationszwecken eine Startpackung angelegt – 
+mit einer wenige Magnetartikel umfassenden Artikelliste und einem Gleisstellbild (siehe Bild).
+Beispiel entfernen durch leeren Werkszustand
+Um Artikel zu entfernen, tippen Sie zunächst in 
+der Symbolleiste der Artikelliste auf das Werk-
+zeug-Symbol („Bearbeiten“)  und wählen dort 
+„Artikelliste bearbeiten“  . 
+Einen Artikel löschen Sie, indem Sie jeweils auf 
+das „X“ in der rechten oberen Ecke der Symbole 
+  oder auf das Mülleimer-Symbol („Löschen“)  
+tippen. Anschließend die Frage bestätigen.
+Beispielobjekte manuell löschen
+Damit auch das Gleisbild bereinigt wird, tippen 
+Sie erneut auf das Werkzeugsymbol  und 
+wählen dann „Gleisbild bearbeiten“ . Nun wird 
+eine weitere Symbolleiste eingeblendet, auf der 
+Sie die Flächenauswahl  aktivieren können. 
+Markieren Sie im Gleisbild die zu entfernenden 
+Artikel und tippen Sie auf das Mülleimer-Symbol 
+(„Löschen“)  . Alternativ können Sie auch jedes 
+einzelne Element im Gleisbild löschen.
+Wenn Sie das Gleisbild und die Artikel nicht 
+benötigen, sollten Sie in jedem Fall die Artikel 
+löschen. Damit bleibt die Artikelliste über-
+sichtlich und Sie beugen zudem unnötigen 
+Konflikten
+	
+durch
+	
+bereits
+	
+belegte
+	
+Adressen
+	
+vor.
+Tipp: Mit einer Datensicherung werden die  
+aktuellen Einstellungen der CS3 gespeichert 
+und können jederzeit wiederhergestellt wer-
+den (siehe Seite 27).
+Damit
+	
+Sie
+	
+auf
+	
+der
+	
+Central
+	
+Station
+	
+3
+	
+einen
+	
+besseren
+	
+Überblick
+	
+über
+	
+Ihre
+	
+Anlage
+	
+haben,
+	
+empfiehlt
+	
+es
+	
+sich
+	
+die
+	
+v
+orinstallierten
+	
+Beispiele
+	
+zu
+	
+löschen.
+	
+Das
+	
+gelingt
+	
+am
+	
+einfachsten
+	
+durch
+	
+Einspielen
+	
+einer
+	
+leeren
+	
+Konfiguration,
+	
+die serienmäßig auf der CS3 v
+orhanden ist. Dazu gehen Sie wie beim Wiederherstellen von Daten auf Seite 27 
+beschrieben vor, nur wählen Sie in dem CS3-Backup-Ordner die Datei „leer.zip“ aus (siehe Bild). 
+Hinweis: Durch das Einspielen der Datei „leer.zip“  
+wird
+	
+die
+	
+aktuelle
+	
+Konfiguration
+	
+ersetzt,
+	
+wodurch
+	
+beispielsweise auch bereits angelegte L
+okomoti-
+ven, Artikel und Gleisbilder nicht mehr vorhan-
+den sind. 
+Ein Update kann entweder direkt in die CS3 
+geladen werden (eine Verbindung zum Internet 
+über einen Router ist erforderlich), oder die Daten 
+werden von der Märklin Webseite zunächst auf 
+einen USB-Stick geladen und dieser dann zum 
+Update an die CS3/CS3 plus angesteckt. 
+Standardansicht: Ein Roter Punkt beim System- 
+Symbol und dem CS3-Symbol weist auf ein 
+verfügbares Update für die Central Station 3 hin 
+– der Updatevorgang wird erklärt auf Seite 27.
+Hilfe: Erklärung zum Updateverfahren lässt sich 
+über
+	
+die
+	
+Hilfe-Schaltfläche
+	
+einblenden.
+1
+2
+Die vorinstallierten Beispielelemente können Sie 
+auch mit folgenden Schritten einzeln entfernen:
+3
+Hinweis: Mehr Details zur Aktualisierung der 
+CS3-Software stehen auf Seite 27.
+Einfache Benutzeransicht: Auch in der vereinfach-
+ten
+	
+Benutzeroberfläche
+	
+kann
+	
+die
+	
+Aktualisierung
+	
+der CS3-Software v
+orgenommen werden. Falls ein 
+Update vorhanden ist, erscheint ein Fenster (Bild 
+links). Sollte die Abfrage nicht automatisch 
+eingeblendet
+	
+werden,
+	
+kann
+	
+über
+	
+die
+	
+Schaltfläche
+	
+„Setup
+“ die Systemeinstellung geöffnet werden.
+Hilfe
+Zentraleneinstieg:	 Die 	 Central 	 Station 	 3 	 bietet 	 zwei 	 Bedienoberflächen 	 in 	 Form 	 der 	 Standardbedienung 	 oder 	
+einer
+	
+reduzierten
+	
+Darstellung
+	
+mit
+	
+Schnelleinstieg
+	
+(siehe
+	
+Seite
+	
+8).
+	
+Die
+	
+Bedienoberfläche
+	
+lässt
+	
+sich
+	
+jederzeit
+	
+in
+	
+den Systemeinstellungen der CS3 zwischen Standard und v
+ereinfacht umstellen (siehe Seite 25).
+1
+2
+3
+3
+
+PAGE 8
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 8
+Einfache Benutzeroberfläche     V ereinfachte Lokverwaltung
+Schnelleinstieg
+Neben der Standardbedienung 
+lässt sich auf der CS3 auch eine 
+vereinfachte
+	
+Benutzeroberfläche
+	
+einstellen, die optimal für Einsteiger 
+ist. Beim ersten Starten kann der 
+Schnelleinstieg ausgewählt wer
+-
+den, der mit Hinweistexten beim 
+einrichten von Lokomotiven und 
+Magnetartikeln unterstützt. 
+Hinweis: Durch das Einspielen der 
+Backupdatei
+	
+„startconfig.zip“
+	
+lässt
+	
+sich der Auslieferungszustand wie
+-
+der herstellen (siehe Seite 27).
+Anmelden von Lokomotiven
+Der	Schnelleinstieg	führt	unmittelbar	zur	Oberflä-
+che, um die erste L
+okomotive mit der CS3 zu erfas-
+sen. Dort haben Sie die nächste Entscheidung zu 
+treffen, ob Sie eine Lokomotive mit mfx-Fähigkeit 
+automatisch oder eine nicht mfx-fähige Lok manu-
+ell anlegen wollen. Neue Lokomotiven sind heute 
+meist mfx-fähig, was die Einrichtung erleichtert. 
+Auf den folgenden Seiten brauchen Sie nur der 
+Anleitung auf dem Display folgen. Nach Vollendung 
+der Suche öffnet sich die Fahrpultansicht im einfa-
+chen Modus. Zukünftig auch bei jedem Start.
+Fahrpulte im einfachen Modus
+Das Cockpit ist bewusst nicht 
+überfrachtet und zeigt die wesent-
+lichen Dinge des Fahrbetriebs für 
+zwei Loks (linke und rechte Hälfte). 
+Unten im Display ist das Bild der 
+ausgewählten Lok zu sehen. Durch 
+Antippen des Bildes  kann eine 
+Lok aus der Lokliste ausgewählt 
+werden. 
+Im Nummernfahrpult (Bild rechte 
+Hälfte) kann eine Lokomotive direkt 
+über die Adresse gefahren  werden. 
+Einfach das richtige Protokoll 
+wählen, die Lokadresse über die 
+virtuelle T astatur eingeben und be-
+stätigen. Die Lok ist einsatzbereit, 
+aber nicht in der Lokliste.
+1 1
+Lokomotiven hinzufügen
+Durch Antippen der Lokbilder  
+öffnet sich die Lokliste (Bild rechts). 
+Über
+	
+die
+	
+Schaltfläche
+	
+„mfx-Lupe“
+	  
+kann eine mfx-fähige L
+ok hinzuge-
+fügt werden.  Der Vorgang verläuft 
+automatisch. Dagegen müssen 
+Loks mit DCC- oder MM-Protokoll 
+manuell angelegt werden. Dazu 
+das „Plus-Symbol“  antippen und 
+im folgendem Fenster die entspre-
+chenden Parameter eingeben (siehe 
+Seite 13). 
+Tipp: In der Lokliste lässt sich mit 
+dem Balken und Pfeilen blättern.
+Tipp: Am oberen Displayrand werden mittig Banner mit Informationen 
+angezeigt, die für Neuanwender der CS3 eine Erleichterung darstellen.
+Lokbearbeitung
+Einstellungen einer Lok können 
+über das Schraubenschlüssel- 
+Symbol unterhalb des T achos auf-
+gerufen
+	
+werde.
+	
+Bei
+	
+der
+	
+Oberfläche
+	
+zur L
+okbearbeitung sind manche 
+Felder ausgeblendet. Bei anderen 
+lassen sich beispielsweise Lokname, 
+Loktyp, das Bild sowie die T acho-
+geschwindigkeit ändern. Über die 
+Registerkarte „Einrichten“ lassen 
+sich weitere Parameter und auch 
+die Lokfunktionen anpassen. Mehr 
+dazu auf Seite 13.
+Loksteuerung vereinfachte Bedienung
+Die angezeigten Loks können 
+mit den Anzeigeinstrumenten 
+gefahren und bedient werden. Alle 
+Bedienelemente sind berührungs-
+empfindlich.
+	
+Ein
+	
+Fingertipp
+	
+auf
+	
+den T
+acho (Rund und Balken) lässt 
+die Lok anfahren. Die Pfeiltasten 
+dienen der Fahrtrichtungsumkehr. 
+Unabhängig davon kann die Lok mit 
+dem jeweiligen Drehregler gefah-
+ren werden. Lokfunktionen werden 
+durch Antippen aktiviert und 
+befinden
+	
+sich
+	
+meist
+	
+auf
+	
+mehreren
+	
+Reitern. Mehr dazu auf Seite 12.
+1 1
+3
+3 3
+Tipp
+2
+
+
+PAGE 9
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 9
+Vereinfachte Artikelverwaltung    Vereinfachte Einstellungen
+Artikelliste
+Das „Keyboard“ ist eine vereinfach-
+te
+	
+Benutzeroberfläche
+	
+mit
+	
+sensi-
+tiver
+	
+Oberfläche,
+	
+wo
+	
+sämtliches
+	
+Artik
+elzubehör zusammengefasst 
+dargestellt wird. Sie dient dazu, 
+alle Weichen, Signale, Drehschei-
+ben oder sonstiges Zubehör zu 
+stellen bzw. schalten. Im Gegensatz 
+zum Standardbetrieb enthält die 
+Artikelliste keine Schaltkontakt-
+symbole. 
+Die
+	
+Schaltfläche
+	
+für
+	
+das
+	
+„Keyboard“
+	
+  ist im Fahrpult oben links er
+-
+reichbar. Damit kann die Fahrpult- 
+ansicht auf die Magnetartikelliste 
+umgestellt werden.
+In den Systemeinstellungen lässt 
+sich unter CS3 das Steuergerät 
+Herunterfahren oder neu Starten. 
+Sie können dort ebenfalls Daten-
+sicherungs- oder Wiederherstel-
+lungsaufgaben auswählen. Zudem 
+lässt sich hier die Benutzerober-
+fläche
+	
+zwischen
+	
+„Vereinfacht“
+	
+und
+	
+„Standard“wechseln.
+Hin
+weis: Durch das Einspielen der 
+Backupdatei
+	
+„startconfig.zip“
+	
+lässt
+	
+sich der Auslieferungszustand 
+wieder herstellen (siehe Seite 27).
+Artikel verwalten
+Wie Loks müssen auch Zubehörartikel angelegt 
+werden. Angeschlossene mfx-fähige Weichen-, 
+Signal- oder Mehrfachdecoder melden sich in der 
+Artikelverwaltung nach einer Suche  selbst an. 
+Nicht mfx-fähige Artikel müssen manuell angelegt 
+werden. Zur Bearbeitung der Magnetartikel tippen 
+Sie in der Artikelliste auf das Plus-Symbol  . Es 
+öffnet sich die  Artikelverwaltung (Bild links). Dort 
+müssen
+	
+die
+	
+Artikel
+	
+mit
+	
+den
+	
+Einstellungen
+	
+konfigu-
+riert werden. Mehr dazu steht auf Seite 16.
+Schalten von Artikeln
+Im einfach Modus werden 32 
+Adressplätze angezeigt. Die Schal-
+tartikel belegen in Abhängigkeit 
+von ihren schaltbaren Funktionen 
+zwischen einem Adressplatz und 
+mehreren Adressplätzen. Sie sind 
+auf mehreren Seiten verteilt. Für 
+den Bildwechsel zwischen den 
+Fenstern wird der Balken am unte-
+ren Rand der Artikelliste genutzt. 
+Jeder Adressplatz ist bereits voll 
+funktionsfähig, sodass der Model-
+leisenbahner die Weichen, Signale, 
+oder Drehscheibenschaltung sofort 
+auslösen kann. 
+Einfache Bedienung
+Eine umfangreiche Steueransicht 
+ohne Anzeigenwechsel kann man 
+mit
+	
+der
+	
+einfachen
+	
+Bedienoberfläche
+	
+einstellen, wie rechts im Bild zu se
+-
+hen. So lassen sich die angezeigten 
+Artikel per Antippen direkt schalten 
+und gleichzeitig zwei Lokomotiven 
+steuern. Während die Lok-Funkti-
+onen im Display aktiviert werden, 
+erfolgt die Geschwindigkeitssteue-
+rung über die Drehregler der CS3. 
+Tipp: Durch Drücken der 
+Drehregler stoppt die Lok und 
+ändert die Fahrtrichtung.
+Oberfläche und Herunterfahren
+Hilfe
+1
+2 3
+Systemeinstellungen und Hilfe
+Unter „Setup“ öffnet sich das Sys-
+temfenster in dem sich wichtige 
+Einstellungen
+	
+befinden.
+	
+Darunter
+	
+lassen sich neben der Centr
+al Sta-
+tion 3 auch die Netzwerkverbin-
+dung und angeschlossenen Geräte 
+verwalten. Der Softwarestand 
+wird ebenfalls hier angezeigt.
+Hilfe: Auf der rechten Seite 
+stehen mehrere Hilfethemen zur 
+Auswahl die sich durch Antippen 
+aufrufen lassen.
+
+
+PAGE 10
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 10
+ 
+Schnellstart – Lokomotiven steuern
+So einfach ....
+... mfx-Loks anmelden und Fahrpulte aufrufen
+... Lok-Funktionen schalten und im Führerstand fahren
+... Loks manuell hinzufügen (MM, DCC)
+... Lok-Einstellungen und -Funktionen anpassen
+
+
+PAGE 11
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 11
+Loks anmelden         Fahrpulte
+Loks ins Fahrpult ziehen
+Auf der CS3 werden Lokomotiven in der Lokliste verwaltet. Dort werden sie angelegt, konfiguriert und gesteuert. 
+Um die Lokliste einzublenden, ziehen Sie den roten Querbalken von unten nach oben (siehe Seite 6). Wenn nicht 
+alle Loks im Fenster angezeigt werden können, erscheinen am unteren Rand graue Balken für weitere Seiten. 
+Um eine Lok auszuwählen, ziehen Sie diese mit dem Finger aus der Lokliste zum linken oder zum rechten Bild- 
+schirmrand. Über dem automatisch eingeblendeten Fahrpult lösen Sie den Finger vom Display. Im seitlichen 
+Fahrpult werden nun die ausgewählte Lok, das Protokoll, der grüne Fahrtrichtungspfeil, der Geschwindigkeits-
+regler, die Geschwindigkeit und am oberen Bildschirmrand das STOP-Bedien
+ element angezeigt. 
+Lokliste: Übersicht der Lokomotiven
+In der Lokliste zeigt ein kleiner roter Punkt die Position der beiden in 
+den seitlichen Fahrpulten aktiven Loks an. Zudem wird bei jeder Lok der 
+grüne Fahrtrichtungspfeil und der Geschwindigkeitsregler angezeigt.
+Anmelden von mfx-Loks
+Aufstellen: Die mfx-Lok vollständig auf das Gleis stel-
+len. Die Anmeldung von mfx-Loks ist sowohl auf dem 
+Haupt- als auch auf dem Programmiergleis möglich.
+Die neu angelegte 
+mfx-Lok erscheint rot 
+umrandet in der Lokliste. 
+Tipp: Ein rotes „m“ im 
+Querbalken der Lokliste 
+weist ebenso auf die 
+Neuanmeldung einer  
+mfx-Lok hin.
+Wichtig: Achten 
+Sie darauf, dass die 
+STOP-T aste nicht  
+aktiviert ist. Im Stop- 
+Modus sind keine 
+mfx-Anmeldungen 
+möglich. 
+Wichtig
+Hinweis: Es können meh-
+rere mfx-Loks zugleich 
+angemeldet werden. Emp-
+fehlenswert ist es aber, 
+sie nacheinander hinzuzu-
+fügen. Dies geht erfah-
+rungsgemäß schneller.
+Tipp
+Praxistipp Schnellzugriff: Zuvor muss die Option 
+„Popup-Fahrpult“ in den Systemeinstellungen akti-
+viert werden, siehe Seite 25. Dann brauchen Sie in 
+der Lokliste nur auf ein beliebiges Loksymbol tippen 
+und ein Fahrpult-Fenster öffnet sich (Bild oben). 
+Schließen Sie das Fahrpult-Fenster, indem Sie links 
+oder rechts daneben tippen.
+Schnellzugriff auf das Fahrpult Fahrpult-Ansicht
+Wenn Sie den roten Querbalken an den oberen 
+Bildschirmrand ziehen, wird aus der Lokliste eine 
+Fahrpult-Ansicht in der Sie mehrere Loks direkt 
+steuern können.
+Tipp: Über die grauen Querbalken am unteren 
+Bildschirmrand gelangen Sie zu den weiteren Seiten.
+Tipp: Durch Antippen der roten Kreise 
+mit Lok-Symbol werden die seitlichen 
+Fahrpulte ein- und ausgeblendet. 
+Tipp
+Einlesen: Nach wenigen Sekunden beginnt die CS3 
+automatisch mit dem Auslesen der Decoder-Daten, 
+wenn der Stop-Modus nicht aktiv ist.
+Zu Beginn empfiehlt es sich, zunächst alle mit mfx-Decoder ausgerüsteten Loks anzumelden (siehe unten). 
+Das manuelle Hinzufügen und Einrichten von Loks mit DCC- oder MM-Protokoll steht auf Seite 13.
+Tipp
+Tipp: Durch Antippen des 
+roten Querbalkens wird die 
+Lokliste ein- und ausgeblendet. 
+Um die Größe zu ändern, müs-
+sen Sie den roten Querbalken 
+nach oben oder unten ziehen.
+Tipp
+Tipp
+
+PAGE 12
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 12
+Fahren und Funktionen schalten    T acho und Führerstand
+Spielewelt-Modus: Bei Loks mit mfx+-  Decoder k önnen Sie in den Lok-Einstellungen 
+auf der Registerkarte „Einrichten“ den gewünschten Spiele
+ welt-Modus über das 
+Aufklappmenü „Spielmodus“ einstellen (siehe Seite 14). V
+oreingestellt ist „ohne Ver-
+brauch“ (Führerstand, ohne Simulation des Betriebsmittelverbrauchs). Alternativ gibt 
+es die Optionen „mit Verbrauch“ (Führerstand mit Simulation des Betriebsmittelver-
+brauchs) und „BW-T anken“ (Simulation des Betriebsmittelverbrauchs plus Nachtanken 
+im Betriebswerk mittels Rückmeldekontakten). Details zu verschiedenen Führerstän-
+den gibt es auf www.maerklin.de im Service-Bereich unter „Spielewelt Anleitungen“ .
+Führerstand und Spielewelt
+Funktionen einblenden und schalten 
+Zum Einblenden der Funktionsübersicht ziehen Sie den roten Kreis mit der 
+weißen Lok in Richtung Bildschirmmitte: Die Lok-Funktionen werden sichtbar, 
+acht Funktionen pro Spalte. Wenn Sie die Liste weiter aufziehen, können bis zu 
+32 Funktionen auf einmal dargestellt werden.
+Durch Antippen der Funktionssymbole werden die Funktionen geschaltet und 
+Gelb dargestellt, wenn sie aktiv sind. Ein Überblick aller Funktionen sehen Sie 
+auf Seite 40.
+Nothalt / Stop-Modus
+Wenn die Geschwindigkeits- 
+balken und Fahrtrichtungs- 
+pfeile Rot angezeigt wer-
+den, ist der Stop-Modus 
+aktiviert und damit die 
+Gleisspannung  
+abgeschaltet. Um den Stop- 
+Modus aufzuheben, drücken 
+Sie die STOP-T aste oder 
+tippen auf das STOP-Symbol 
+am oberen Ende der 
+Fahrpulte. Die Geschwin-
+digkeit lässt sich auch im 
+Stop-Modus ändern.
+Praxistipp: In der 
+Lokliste öffnet sich durch 
+Antippen das Popup- 
+Fahrpult (wenn in den 
+Systemeinstellungen akti-
+viert, siehe Seite 25) und 
+blendet die vorhandenen 
+Lok-Funktionen ein. 
+Fahren mit Fahr- und Drehregler
+Ein Fingertipp auf den Ge- 
+schwindigkeitsbalken   
+stellt das T empo ein. Alter-
+nativ legen Sie den Finger 
+auf den Balken und bewe-
+gen ihn hoch oder runter. 
+Antippen der Richtungs-
+pfeile  oder Drücken der 
+Drehregler wechselt die 
+Fahrtrichtung. Mit dem 
+Drehregler steuern Sie 
+Loks auch bei ausgeblende-
+ten  Fahrpulten. 
+T acho einblenden
+Wenn Sie den 
+roten Punkt mit 
+kleiner weißer 
+Lok weiter in  
+Richtung Bild- 
+schirmmitte 
+ziehen erscheint 
+nach den Lok- 
+Funktionen eine  
+T acho-Ansicht.  
+Gesteuert wird 
+mit Fingertip auf 
+die gewünschte 
+Geschwin-
+digkeit oder 
+Fahrtrichtung 
+(Dreiecke).
+Der Führerstand
+erscheint, wenn 
+Sie ein seitliches 
+Fahrpult voll-
+ständig zum ge-
+genüberliegen-
+den Displayrand 
+aufziehen. Das 
+Layout ist bei 
+mfx+-Loks 
+vorgegeben und 
+kann bei allen 
+anderen in den 
+Einstellungen 
+ausgewählt 
+werden (siehe 
+Seite 14).
+1
+2
+
+
+PAGE 13
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 13
+Loks manuell hinzufügen      L ok-Einstellungen und Bilder ändern
+Die Lok-Einstellungen werden eingeblendet (Bild unten). Im aktiven „Info“-Reiter werden die notwendigen 
+Steuerdaten eingerichtet. Zuerst wählen Sie den Decoder-Typ der Lokomotive (DCC oder MM). 
+Eine Märklin Lokomotive mit MM-Decoder lässt sich mithilfe der inte-
+grierten Lokdatenbank sehr komfortabel in der CS3 anlegen. Zunächst 
+wählen Sie am linken oberen Rand der Registerkarte „Info“ im Feld „De-
+coder-Typ“ die Option „MM“  . Dann tippen Sie direkt daneben auf das 
+mit „Datenbank“ bezeichnete Symbol  . Eine Suchmaske öffnet sich. 
+Im Suchdialog tippen Sie auf das Lupensymbol  und blenden damit 
+eine T astatur ein. Auf dieser geben Sie die Artikelnummer oder den 
+Loknamen ein: Das System beginnt sofort mit der Suche. Jedes weitere 
+eingegebene Zeichen macht die Suchergebnisse genauer (Live-Suche). 
+Anschließend wählen Sie die gesuchte Lok aus und bestätigen mit „Ok“ .
+Tipp: Ziehen Sie die Suche nach Artikelnummer vor, da diese eindeutig ist. 
+Lok-Einstellungen aus MM-Datenbank übernehmen
+So fügen Sie Loks mit MM- oder DCC-Protokoll hinzu:
+Schließlich geben Sie im Feld „Lok-Name“  eine eindeutige Bezeichnung der Lok ein. Die CS3 verfügt bereits 
+ab Werk über eine Vielzahl von Lokbildern und sucht automatisch nach dem passenden Bild und fügt es ein. 
+Tipp: Falls die CS3 kein passendes Bild zuordnen kann oder Sie ein anderes Lokbild wünschen, hilft unter 
+Umständen ein direkter Blick in die Lokbilder-Datenbank.
+Durch tippen auf das Lokbild oder den drei 
+Fragezeichen (siehe Bild unten) öffnet sich 
+die Lokbilder-Datenbank (siehe Bild rechts). 
+Am einfachsten ist es in der Suchmaske die 
+Artikelnummer einzugeben, aber Sie können auch 
+den Loknamen eintippen und wählen aus den an-
+gebotenen Alternativen. Zum Schluss bestätigen 
+mit dem „Ok“-Haken.
+Neben dem Decoder-Typ  stellen Sie 
+im Feld „Lok-Adresse“  mit Tippen 
+auf „Minus“ bzw. „Plus“ oder direkt 
+über das Wertefeld die entsprechende 
+Lok-Adresse ein (siehe Lok-Anleitung). 
+Wichtig: Wenn die Adresse in Rot 
+angezeigt wird, ist diese bereits verge-
+ben. Dann sollten Sie diese ändern, bis 
+die Farbe auf Schwarz wechselt. Die 
+Anzahl der angezeigten Lok-Funktio-
+nen definieren Sie im gleichnamigen 
+Feld  . Im Feld „T acho“ legen Sie die 
+Höchstgeschwindigkeit fest, die im 
+Fahrpult angezeigt wird   und dane-
+ben wählen Sie das Loksymbol  . 
+Eigene Lokbilder verwenden
+Die Lokbilder-Datenbank der CS3 können Sie auch 
+mit eigenen Lokbildern erweitern. Der einfachste 
+Weg führt über die Weboberfläche der CS3. Details 
+dazu finden Sie auf Seite 32. Alternativ speichern Sie 
+die gewünschten Lokbilder auf ein USB-Stick und 
+wählen diese dann in der Lokbilder-Datenbank aus.
+Im Aufklappmenü „Decoder-Typ“ kann zwi-
+schen MM und DCC gewählt werden.
+5
+6
+Tipp
+Lokbilder-Datenbank
+Tipp: Neben der internen CS3-Lokbilder-Da-
+tenbank können Sie auch auf externe Medien, 
+wie einem USB-Stick zugreifen und eigene 
+Lokbilder auswählen (siehe Bild unten).
+Tipp
+1
+6
+Tipp
+2
+3
+2
+4
+Adresse des Lok-Decoders auslesen
+Wenn Sie die Lok-Einstellungen über „OK“ schließen und erneut öffnen, erscheint bei MM- und DCC-Loks 
+anstelle der „Datenbank“-Schaltfläche die Option „Auslesen“ . Tippen Sie darauf und die CS3 übernimmt die im 
+Lok-Decoder eingestellte Adresse, wenn die Lok auf dem Programmiergleis steht (Stop-Modus deaktiviert).
+1
+Lokomotiven legen Sie durch tippen auf das Plus-Symbol am Ende der Lokliste   an. Alternativ tippen Sie auf 
+das Werkzeug-Symbol („Bearbeiten“)  in der Lokliste und wählen im Menü „Lok hinzufügen“  aus.
+Die Registerkarte „Info“ ist aktiv.
+Lok-Einstellungen manuell festlegen:
+Hinweis: Bei manchen Lok-Decodern, wie beispiels-
+weise Delta, funktioniert das Auslesen nicht. Dann 
+muss die Adresse manuell eingestellt werden.
+3
+45
+
+PAGE 14
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 14
+Lok-Eigenschaften bearbeiten 
+Den Bearbeitungsmodus aktivieren Sie mit Fingertipp auf das 
+Werkzeugsymbol  und dann auf „Loks bearbeiten“  . Als 
+Kennzeichen erscheint dann ein grün hinterlegter Haken am Fuß 
+des Werkzeugsymbols und alle Loks besitzen eine gestrichelten 
+Umrandung. 
+Vorsicht: Durch Antippen des „X“ wird eine Lok gelöscht. 
+In den Bearbeitungsmodus wechseln
+Im Bearbeitungsmodus können Sie die Lokomotiven 
+bearbeiten: Tippen Sie dazu auf die gewünschte Lok 
+ und die Lok-Einstellungen werden angezeigt:
+Registerkarte „Einrichten“: Wichtige Lok-Einstellungen und Funktionen ändern
+In den Lok-Einstellungen Tippen Sie auf die Registerkarte „Einrichten“ , um die Lok-Parameter anzupassen.
+Wichtig: Änderungen werden sofort im Lokdecoder gespeichert. Loks mit MM- und DCC-Decoder müssen zur 
+Bearbeitung auf dem Programmiergleis stehen.
+Sie sehen nun die Lok-Einstellungen mit der ausge-
+wählten Registerkarte „Info“ , die bei den Lok-Einstel-
+lungen auf der Seite 11 erklärt wird. 
+Hinweis: Auch bei mfx-Loks können Sie hier – falls 
+gewünscht – den Namen, das Symbol und die auf dem 
+Fahrpult angezeigte Höchstgeschwindigkeit ändern.
+Tipp: Wenn Sie beim T acho den Wert „10“ eintragen, 
+wird die Geschwindigkeit nicht in km/h sondern in 
+Prozent angezeigt. Für die Anzeige der Fahrstufen 
+ist diese einzugeben (126 bei mfx, 14 bei MM und bei 
+DCC: 14, 28 oder 126).
+Registerkarte „Info“: Hauptdaten ändern
+Einrichten der 
+Lok-Funktionen. 
+Lok-Daten auf 
+eine Lokkarte 
+übertragen.
+Spielmodus 
+einstellen (bei 
+mfx+-Decoder) 
+sonst Führer-
+stand-Ansicht 
+auswählen.
+Minimal- und 
+Maximalge-
+schwindigkeit 
+einstellen.
+Anfahr- und 
+Bremsverzög- 
+erung festlegen.
+Lok auf Werksein- 
+stellung zurücksetzen.
+Lautstärke 
+einstellen.
+1
+2
+mfx-Lokdecoder  
+aktualisieren.
+Lok-Funktionen konfigurieren
+Funktionen einrichten
+Um der Lok eine Funktion zuzu- 
+weisen, tippen Sie bei den Lok- 
+Einstellungen in der Registerkarte 
+„Einrichten“ auf ein Funktionsfeld 
+auf der linken 
+ Seite, zum Beispiel 
+„F4“  . Nun erscheint in der 
+Mitte die F
+unktionsübersicht nach 
+Themen gegliedert.
+Aufgeteilt auf die Registerkarten „Licht“ , „T on1 und 2“ ,„Mechanik“ und „Häufige Icons“ stehen 
+hier zahlreiche unterschiedliche Funktionssymbole zur Auswahl zur Verfügung. Im Beispiel tip-
+pen Sie auf den Reiter „Mechanik“  und wählen das Rauchgenerator-Symbol  . Nun ersetzt die 
+CS3 das „F4“-Platzhaltersymbol mit dem Icon der neu gewählten Aktion  . Alternativ können Sie 
+Funktionssymbole auch durch Fingerauflegen zu einer Funktionstaste ziehen (Drag-&-Drop). 
+Hinweis: Eine Übersicht aller Funktionssymbole finden Sie auf Seite 44.
+Funktionstyp auswählen und testen
+Wollen Sie die Aktion an- und abschalten können, wählen Sie „Schalt-
+funktion“ . „Impulsfunktion“ aktiviert den Befehl für die Dauer des 
+Drucks. Die „Zeitfunktion“ wird durch aufrufen gestartet und schaltet 
+sich nach einer definierten Zeit zwischen 0 und 100 Sekunden wieder 
+ab. Mit der Option „Ablauffunktion“ haben Sie Zugriff auf selbst defi-
+nierte Funktionsabläufe (siehe Kapitel „Ereignisse“ ab Seite 21). 
+Tipp: Um das neu eingerichtete Funktionsfeld zu testen, tippen Sie auf das unten angeordnete„T est“-Element.
+Tipp
+Zusätzlich können Sie festlegen, auf welche Weise die ausgewählte Funktion geschaltet werden soll: 
+1
+3
+23
+Tipp
+
+PAGE 15
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 15
+Schnellstart – Artikel schalten
+So einfach ....
+... Artikel in der CS3 anlegen
+... Magnetartikel schalten
+... Kontakte einrichten
+
+
+PAGE 16
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 16
+Artikel anlegen        Artikel-Typ wählen
+Bevor Sie Elemente der Anlage, wie Weichen, Signale, Gebäudebeleuchtung, S88 etc. mit der CS3 schalten 
+können, müssen sie als Artikel angelegt werden. Angezeigt werden diese in der Artikelliste, die durch ziehen 
+des grünen Querbalkens von oben nach unten erscheint (siehe Seite 6).  
+Tipp: Durch Antippen des grünen Querbalkens wird die Artikelliste schnell ein- und ausgeblendet.
+Artikelliste: Übersicht sämtlicher Artikel
+Im Artikel-Bearbeitungsfenster können die Details aller Artikel eingestellt werden:
+„Bearbeiten“ 
+schließt das 
+Fenster.
+Artikel manuell hinzufügen
+Anschließend 
+öffnet sich das 
+Artikel-Bear-
+beitungsfenster 
+(siehe rechte 
+Seite).
+Im Auslieferungszustand sind bereits 
+Artikel angelegt (siehe Bild links). Damit die 
+Artikelliste übersichtlich bleibt und um Kon-
+flikten vorzubeugen, sollten Sie diese Artikel 
+löschen – wie auf Seite 7 beschrieben.
+3
+Um einen neuen Artikel anzulegen tippen Sie auf das Werkzeug-Symbol („Bearbeiten“)   und öffnen damit 
+ein Aufklappmenü in dem Sie „Artikel hinzufügen“  auswählen. Ein weiteres Aufklappmenü wird angezeigt. 
+Dort wählen Sie den gewünschten Artikeltyp, beispielsweise „Signale“  . 
+Tipp
+1
+2
+Tipp: Über das Plus-Symbol in der Artikelliste können Sie ebenfalls neue Artikel hinzufügen.
+Hier wird der Artikel-Typ 
+aus mehreren Registern 
+ausgewählt (siehe unten).
+Jeder Artikel lässt sich in der 
+CS3 einfach definieren: Dazu 
+muss zuerst der gewünschte 
+Artikel aktiviert werden (Bild 
+oben  ). Dann kann über die 
+verschiedenen Registerkar-
+ten (Häufige, Licht, Weichen, 
+Lichtsignale, Formsignale und 
+Sonstige) durch Antippen aus 
+den verfügbaren Artikel-Typen 
+gewählt werden.
+Hinweis: Jede Auswahl wird 
+sofort gespeichert und über 
+„Bearbeiten“ (siehe Bild oben)
+wird das Fenster geschlossen.
+Tipp
+mfx-Artikel hinzufügen
+An der Anlage angeschlossene mfx-fähige Zubehördecoder werden 
+– im Gegensatz zu den Lokomotiven – von der CS3 nicht automa-
+tisch gefunden, sondern müssen aktiv gesucht werden. Die Funktion 
+starten Sie durch tippen auf das Werkzeug-Symbol der Artikelliste 
+(„Bearbeiten“)  und dann im Aufklappmenü auf „mfx-Artikel 
+suchen“  . 
+Daraufhin fragt die CS3, ob die gefundenen Artikel eine neue Adres-
+se bekommen oder ihre Adresse behalten sollen  . Letzteres ist bei 
+vorhandenen Anlagen mit eingestellten Adressen empfehlenswert. 
+Dann mit „Ok“ bestätigen  . Hinweis: Es ist empfehlenswert bei 
+mfx-Artikeln mit den Dip-Schaltern ein Protokoll und eine Adresse 
+einzustellen, damit diese besser identifiziert werden können.
+1
+2
+Die mfx-Artikel werden in der Artikelliste aufgenom-
+men. Bei Weichen- oder Mehrfachdecodern muss  
+der Artikel noch manuell im Bearbeitungsfenster 
+angepasst werden (siehe rechte Seite).  
+Tipp: Ein „m“ im Querbalken der Artikelliste weist 
+auf die Neuanmeldung eines mfx-Artikels hin.
+Tipp
+3
+4
+Artikel bearbeiten
+Beim Hinzufügen eines neuen Artikels öffnet sich 
+direkt das Artikel-Bearbeitungsfenster. Um bereits 
+vorhandenen Artikel zu bearbeiten, tippen Sie auf 
+das Werkzeug-Symbol („Bearbeiten“)  und dann 
+auf „Artikelliste bearbeiten“  . 
+1
+2
+3
+Die obere Hälfte zeigt die 
+Artikelliste mit Filter- und 
+Suchmöglichkeiten. Hier 
+muss der zu bearbeitende 
+Artikel durch Antippen aus-
+gewählt werden, beispiels-
+weise Weiche „W 1R“  .
+Konfiguration des Artikels  
+(siehe nächste Seite).
+Artikel-Typ definieren
+Vorsicht: 
+Fingertipp 
+auf das „X“ 
+löscht den 
+Artikel.
+Legt neuen 
+Artikel an.
+
+PAGE 17
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 17
+Neben der Auswahl des Artikel-Typs (siehe vorherige Seite) können im Artikel-Bearbeitungsfenster auch alle 
+Einstellungen (Name, Protokoll, Adresse, Anschluss und Schaltzeit) vorgenommen werden:
+Die Registerkarte 
+„Konfigurieren“ 
+ist nur für Exper-
+ten vorgesehen 
+und für den 
+normalen Betrieb 
+nicht relevant.
+Über die schwarze Pfeilspitze  öffnet sich die 
+Registerkarte „Einrichten“ , auf der als Hilfsmittel die 
+korrekten Dip-Schalterstellungen für verschiedene 
+Decoder-Typen bei der gewählten Artikel-Adresse an-
+gezeigt werden. Darunter kann die Schaltfunktion des 
+Artikels durch Antippen   getestet werden und wird 
+daneben im Gleisbild angezeigt – falls eingebaut.
+„Bearbeiten“ schließt 
+dieses Fenster.
+Artikel konfigurieren       K ontakte einrichten
+1
+Hinweis: Der untere 
+Fensterbereich gilt  
+immer nur für den  
+im oberen Bereich  
+aktivierten Artikel  
+(blau hinterlegt)  . 
+2 3 4
+Jeder Artikel benötigt eine eindeutige Bezeichnung  ,  
+die idealerweise auch die Position/Funktion beschreibt.
+Zwei Schaltprotokolle (MM und DCC) stehen zur Wahl   – siehe Seite 45.
+Im Feld „Adresse“  stellen Sie mit Tippen auf Minus bzw. Plus oder direkt 
+über das Wertefeld die entsprechende Adresse des Decoders ein. Wenn die 
+Adresse in Rot erscheint, ist sie bereits vergeben. Dann solange weiter auf 
+„Plus“ tippen, bis die Farbe auf Schwarz wechselt. Tipp: Über den Ansicht- 
+filter in der Menüleiste lassen sich die unbelegten Adressen anzeigen.
+Tipp
+S88 ist ein Rückmeldesystem in digitalisierten Modellbahnanlagen, in dem beispielsweise Kontakte einen 
+Gleisabschnitt als „besetzt“melden. Rückmeldung ist besonders wichtig bei automatisierten Abläufen. 
+S88-Kontakte hinzufügen
+1
+Einstellungen der Artikel anpassen
+2
+Um S88-Kontakte in der CS3 anzulegen, tippen Sie in der Artikel- 
+liste auf das Werkzeug-Symbol („Bearbeiten“)   und öffnen 
+damit ein Aufklappmenü. Dort wählen Sie „Artikel hinzufügen“  . 
+Im folgenden Menü tippen Sie auf die „S88-Kontakte“  .
+Es öffnet sich das von den Artikel bekannte Bearbeitungsfenster,  
+wo Sie die Details des neuen S88-Kontakts einrichten.
+Im Bearbeitungsfenster muss zuerst der gewünsch-
+te Kontakt aktiviert werden  . Dann wählen Sie 
+den Typ des verbauten Rückmeldekontakts aus den 
+verschiedenen Registerkarten (Gleiskontakte oder 
+Schalterkontakte)  durch Antippen einer verfüg-
+baren Variante  .
+Hinweis: Für den mfx+-Spieleweltmodus stehen wei-
+tere Kontaktarten wie Dieseltankstelle, Kohlebunker, 
+Sandbunker und Wasserkran zur Wahl.
+Kontakt-Typ auswählen
+Das wichtigste ist den Anschlussweg des Kontakts 
+korrekt einzustellen. Dazu wählen Sie im Feld 
+„Transfer an“  aus den der CS3 bekannten Geräte 
+(siehe Seite 24). Dabei sind Steuerkontakte nur 
+virtuell in der CS3 angelegte Ein-/Ausschalter.
+Tipp: Über das Geräte-Auswahlmenü können Sie 
+zwischen den Geräten wechseln. 
+Jedem Kontakt geben Sie einen eindeutigen Namen 
+und wählen die Anschlussart (Bus). Beim Einsatz 
+des Link S88 können Sie Rückmeldekontakte auf 
+folgenden Wegen anschließen  :
+•
+ direkt am Link S88
+•
+ an weiteren S88-Modulen, die am Link S88 an
+-
+geschlossen sind (über Bus 1, Bus 2 oder Bus 3)
+•
+ über eine T
+astenmatrix
+Zudem geben Sie die Nummer des S88-Moduls (1-32) 
+und die Nummer des Schaltkontakts am Modul ein.
+Die ideale Schaltzeit von 200 ms 
+sollte nur in Ausnahmefällen geändert 
+werden.
+Artikel-Einstellungen testen
+6
+Tipp: Über das Auswahl-
+menü können Sie zwischen 
+Magnetartikel und Kontakten 
+wechseln. So öffnen Sie dieses 
+Bearbeitungsfenster von den 
+Artikel-Einstellungen. 
+Tipp
+4
+6
+5 5
+Kontakt konfigurieren
+7
+Tipp
+8
+5
+3
+
+PAGE 18
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 18
+Schnellstart – Gleisbild anlegen
+So einfach ....
+... Platten/Stellpulte erstellen
+... Gleisartikel positionieren
+... Strecken zeichnen
+... Signale ergänzen
+
+
+PAGE 19
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 19
+Platten/Stellpulte anlegen     Artikel positionieren
+Platte/Stellpult hinzufügen
+In der Gleisbild-Symbolleiste 
+tippen Sie zuerst auf „Gleisbild/
+Areal“  und im Aufklappmenü 
+auf „Platte oder Stellpult hin- 
+zufügen“  . Im eingeblendeten  
+Dialogfenster geben Sie dem 
+neuen Gleisbild einen eindeuti-
+gen Namen  und bestätigen mit 
+„Ok“ . Später kann durch Antippen 
+des Namens in der linken oberen 
+Ecke der Zeichenfläche die 
+Bezeichnung geändert werden. 
+Über das Vierpfeilesymbol   
+daneben lässt sich die Position 
+der Zeichenfläche gegenüber 
+anderen Gleisbildern verändern. 
+Die Größe der Zeichenfläche 
+kann mit den unteren und  
+rechten Pfeilsymbolen  ent-
+sprechend verändert werden.
+Tipp: Mit Fingertipp auf das 
+Mülleimersymbol in der Mitte 
+lässt sich diese wieder löschen – 
+aber nur wenn sie leer ist.
+Artikel auf ein Gleisbild ziehen
+Um Artikel auf ein angelegtes Gleis- 
+bild zu platzieren, muss die Artikel- 
+liste eingeblendet werden  . Dann  
+ziehen Sie die gewünschten Artikel 
+daraus mit dem Finger auf Platte 
+oder Stellpult und lassen los  
+– beispielsweise W1 und W2  . 
+Wichtig: Der Gleisbild-Bearbeit- 
+ungsmodus muss für diese Schritte 
+weiterhin aktiviert sein (grüner 
+Haken am Werkzeug-Symbol).
+Hinweis: Platzierte Artikel erhalten 
+in der Artikelliste eine Farbmarkie-
+rung  . 
+In diesem Abschnitt lernen Sie alle Schritte kennen, die für den Aufbau eines Gleisbilds in der CS3 nötig sind.  
+Mit den Gleisbildern kann die Anlage ganz oder teilweise abgebildet werden. Dabei gibt es zwei Darstellungs- 
+arten: Platten und Stellpulte. Erstere können den Gleisverlauf möglichst realitätsnah zeigen, weil Artikel beliebig 
+angeordnet werden können. Dagegen zeigen Stellpulte eine symbolhafte Darstellung des Streckenverlaufs nach 
+Vorbild der DB-Stellwerke und erlauben nur Platzierungen im Raster mit 45 Grad Winkeln.
+Artikel positionieren
+1
+2
+4
+Tipp
+Modus „Gleisbilder bearbeiten“
+Änderungen an Gleisbildern können nur im Bearbeitungsmodus vorge-
+nommen werden. Zum Aktivieren tippen Sie im Menü der Artikelliste 
+auf das Werkzeug-Symbol „Bearbeiten“  und anschließend auf 
+„Gleisbild bearbeiten“  . Den aktivierten Gleisbild-Bearbeitungsmodus 
+erkennen Sie an einer zusätzlichen Symbolleiste und dem grünen Punkt 
+am Werkzeug-Symbol „Bearbeiten“  . Durch Antippen dieses Symbols 
+beenden Sie den Bearbeitungsmodus auch wieder.
+Tipp: Die zusätzliche Symbol- 
+leiste können Sie verschieben, 
+wenn Sie das 9-Punkte-Symbol 
+an deren rechtem Ende mit 
+dem Finger an die Zielposition 
+ziehen.
+3
+5
+6
+Tipp
+8
+8
+7
+122
+Wichtig
+Im Gleisbild können Elemente ver- 
+schoben werden, indem sie erst 
+durch Antippen ausgewählt (sichtbar 
+am blauen Kreis  ) und dann durch 
+draufbleiben bewegt werden. 
+Tipp: Mit aktiviertem Raster lassen 
+sich Artikel einfacher auf Platten 
+strukturiert anordnen. Die individu-
+elle Rastereinstellung wird im System  
+unter „Gleisbild“ vorgenommen.
+3
+Tipp
+Artikel drehen
+Zum Drehen muss ein Artikel zuerst 
+durch Antippen ausgewählt werden 
+ . Dann tippen Sie auf das Rotati-
+onssymbol  und lassen den Finger 
+auf dem Display. Statt dem Artikel 
+wird der Rotationssymbol blau um-
+randet dargestellt. Nun können Sie 
+auf dem Display mit dem Finger auf- 
+und abfahren. Der Artikel dreht sich 
+entsprechend ihrer Fingerbewegung, 
+parallel dazu wird auf dem Artikel 
+der aktuelle Winkel angezeigt.
+3
+Sobald Sie allerdings den Finger vom Display lösen, endet der Drehmodus und der Artikel wird entsprechend 
+der im System definierten Rastereinstellung platziert. Bei Stellpulten immer in 45 Grad Winkeln.
+Tipp: Je weiter Sie Ihren Finger auf dem Display von der Weiche entfernen, desto langsamer erfolgt die  
+Drehung: Der Zielwinkel lässt sich so einfacher einstellen.
+4
+4
+Tipp
+Hinweis: Sie können die Ansicht rein- und raus-zoomen (siehe Seite 6).
+
+PAGE 20
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 20
+Strecken zeichnen Signale andocken und schalten
+Artikel im Gleisbild verbinden
+Wenn Sie einen Artikel im Gleisbild 
+durch Antippen auswählen, sehen 
+Sie neben dem Rotationssymbol 
+auch Streckenverbinder, mittels 
+derer zwei Elemente miteinander 
+verbunden werden. Wenn Sie einen 
+Streckenverbinder antippen, wird 
+dieser blau markiert  .
+Ziehen Sie diesen blau markierten 
+Streckenverbinder in die Nähe ei-
+nes anderen Elements, dort werden 
+mögliche Verbindungsstellen mit 
+einem blauen Kreis angezeigt  .
+Tipp: Sie können die Zieh-Bewe-
+gung an beliebiger Stelle auf dem 
+Display ausführen, sodass Sie freie 
+Sicht auf die Verbindungsstelle 
+haben.
+Sobald die beiden Verbindungsstel-
+len sich überlappen, lösen Sie den 
+Finger vom Display. Die CS3 stellt 
+eine Streckenverbindung zwischen 
+den Verbindungsstellen her.
+Hinweis: Wenn an einer Stelle mit 
+dem Finger verharren, wird dort ein 
+Gleisverlaufartikel erstellt.
+1 1
+2 2
+Tipp
+Gleisverlauf gestalten
+Um ein optisch ansprechendes  
+Gleisbild zu erstellen, gibt es Gleis- 
+verlaufartikel als Gestaltungs- 
+elemente. Mittels der „Hinzufügen“- 
+Schaltfläche  in der Gleisbild- 
+Symbolleiste öffnet sich ein 
+Aufklappmenü. Rechts von „Gleisbau“ 
+können Sie durch Fingerwischen  
+verschiedene Artikel wählen  
+– beispielsweise Gleisverlauf  .  
+Nach dem Antippen lassen sich diese 
+wie Artikel aus der Artikelliste ins 
+Gleisbild ziehen und dort platzieren, 
+drehen und verbinden  .
+Hinweis: Nach demselben Prinzip 
+fügen Sie auch andere Gleisbau-
+artikel wie Tunnel, Brücken oder 
+Prellböcke   hinzu. 
+3
+4
+5
+5
+6 6
+Tipp
+Tipp: Mit der „Vor/Rück“-Schaltfläche können Sie Änderungen rückgän-
+gig machen oder wiederholen.
+Zunächst ziehen Sie ein Signal aus 
+der Artikelliste auf das Gleisbild 
+und lassen los. Dann wählen Sie 
+das Signal durch Antippen aus 
+und ziehen es zum gewünschten 
+Streckenabschnitt, wo Sie den  
+Finger vom Display lösen. Das 
+Signal dockt automatisch am 
+gewünschten Gleis an  . Wenn 
+das Gleis gewechselt werden soll, 
+kann über das Andocksymbol  ein 
+anderer Streckenabschnitt gewählt 
+werden. 
+Sind die Signale am richtigen 
+Streckenabschnitt angedockt, 
+können Sie mit dem Rotations- 
+symbol  gedreht werden, um die 
+Gleisseite zu wechseln. Hinweis: 
+Nach diesem Prinzip werden auch 
+Kontakte, Streckenausleuchtung 
+und T exte im Gleisbild integriert.
+Signale einfügen
+2
+2
+1 1
+3
+3
+Zum Abschluss beenden Sie den Bearbeitungsmodus, in dem Sie auf das Werkzeug-Symbol tippen  . Dadurch 
+werden die Gleisverlauf-Artikel ausgeblendet.
+Gleisstellbild benutzen
+4
+5
+5
+5
+Auf Ihren Gleisstellbildern oder in der Artikelliste können Sie sämtliche Artikel direkt schalten: Tippen Sie 
+einfach auf das jeweilige Symbol. Sollten mehrere Schaltzustände möglich sein, erscheint eine Auswahl  .
+
+PAGE 21
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 21
+Schnellstart – Automatisierung
+So einfach ....
+... Ereignisse anlegen
+... Aktionen aufzeichnen
+... Abläufe einrichten
+... Rückmeldung nutzen
+
+PAGE 22
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 22
+Ereignisse anlegen        Aktionen aufzeichnen
+Die Automatisierung von Abläufen ist für viele Modelleisenbahner die Krönung ihres Hobbys. Auf der CS3 
+werden Fahrstraßen, Lokabläufe und die automatische Steuerung gesamter Anlagen als Ereignisse bezeichnet.  
+Dank Drag-&-Drop müssen die einzelnen Elemente nur in die Ablaufleiste gezogen werden oder wer es noch 
+einfacher möchte, zeichnet die Steuerungsbefehle für die Automatisierung einfach auf.  
+So einfach starten Sie die Programmierung
+Ereignisse finden Sie im Menü 
+der Artikelliste, die sie am grü-
+nen Querbalken von oben nach 
+unten ziehen  . Um Ereignisse 
+anzulegen oder vorhandene zu 
+bearbeiten, tippen Sie auf das 
+Symbol „Ereignisse“  . Es öff-
+net sich ein neues Fenster. Ein 
+neues Ereignis fügen Sie über 
+den Menüpunkt „Bearbeiten“ 
+  und „Ereignis hinzufügen“  
+oder über das „+“-Zeichen in der 
+Liste hinzu. 
+ 
+Tipp: Das Fenster lässt sich 
+durch ziehen in freien Berei-
+chen der Kopfzeile verschieben.
+Wichtig: Hilfe zu Ereignissen
+Hier kontrollieren Sie die Ereignisse: 
+Bei „sperren“ werden keine neuen gestartet, „abbrechen“ 
+beendet laufende und „anhalten“ pausiert Abläufe.
+Alternative zur manuellen 
+Eingabe: die Abläufe im Betrieb 
+aufzeichnen.  
+Jeder Ablauf 
+kann optisch mit 
+einem Foto un-
+terlegt werden. 
+Individuelle Ver-
+gabe von Namen 
+für Fahrstraßen, 
+Abläufe etc. 
+Möglichkeit, um 
+Sound-Dateien, 
+T ext oder Modell-
+zeit zu integrieren. 
+Das Hauptmenü zur Ablaufsteuerung im Überblick 
+1
+2
+4 4
+3
+Sortieren, suchen 
+und filtern von 
+Ereignissen Ablauf starten
+Tipp: Fenster lassen sich per  
+Fingerauflegen in freien Berei-
+chen der Kopfzeile verschieben.
+Tipp
+Pfeilspitze öffnet das folgende Ereignis-Bearbeitungsfenster:
+Startet 
+das  
+Ereignis
+Aufnahmefunktion benutzen 
+Die einfachste 
+Möglichkeit Ereig-
+nisse anzulegen 
+gelingt über die 
+Aufnahmefunkti-
+on. Dabei wird die 
+CS3-Bedienung 
+aufgezeichnet.  
+ 
+Hinweis: Die Auf-
+nahmefunktion  
+speichert jeden 
+Steuerbefehl.  
+Diese können dann 
+anschließend bear-
+beitet werden.
+Nach „Ereignis hinzufügen“ öffnet sich automatisch das Ereignis-Bearbeitungsfenster (alternativ per 
+Fingertipp auf die Pfeilspitze  ). Das Aufzeichnungsverfahren wird gestartet durch ein Fingertipp auf das 
+Symbol „Aufnahme“  . Ein roter Punkt signalisiert die laufende Aufnahme. Es empfiehlt sich, nicht benötigte 
+Fenster beiseite zu ziehen, damit die Steuerungsbefehle ausgeführt werden können – beispielsweise im Bild 
+oben bei der V200 die Lokfunktionen Schaffnerpfiff und Lüfter. Nachdem alle gewünschten Aktionen ausge-
+führt wurden, kann die Aufnahme beendet werden (wiederum auf das „Aufnahme“-Symbol  tippen). 
+Tipp
+6
+Ereignisbefehle einbinden
+Statt der Aufnahmefunktion können alle Steuerbefehle auch direkt in die Ereignis-Elementliste gezogen wer-
+den (Drag-&-Drop) – zum Beispiel von der Lok V200 die Geschwindigkeit 45 und das Kompressorgeräusch  . 
+Wie die Lokbefehle lassen sich 
+auch Magnetartikel oder Kontak-
+te aus der Artikelliste oder direkt 
+vom Gleisbild in die Ereignis-Ele-
+mentliste ziehen – zum Beispiel 
+die Weiche W1R und das Signal 
+S1  . 
+Schritt für Schritt lässt sich so per 
+Drag-&-Drop ein Ereignis zusam-
+menstellen. Um die Reihenfolge 
+zu ändern, kann jedes einzelne 
+Element (Lokfunktion, Signal- und 
+Weichenstellung etc.) mit dem 
+Finger ausgewählt und an eine 
+andere Position gezogen werden.
+8
+5
+9
+Tipp
+Tipp: Ein Ereignis-Element löschen Sie, indem Sie auf das „X“ in der rechten oberen Ecke des Elements tippen. 
+Hinweis: Zum Start eines Ereignisses muss der Bearbeitungsmodus beendet werden (Bearbeiten-Symbol  ). 
+8 7
+7
+Legt eine Kopie vom ausge-
+wähltem Ereignis an.
+
+PAGE 23
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 23
+Bei jedem Ereignis-Element lässt sich 
+der Wert einstellen, der ausgeführt 
+werden soll – beispielsweise den 
+Schaffnerpfiff aktivieren (gelb) oder 
+die Weiche W1R auf gerade stellen 
+(grün). Um Aktionen zeitlich aufeinander 
+abzustimmen, gibt es die Möglichkeit, 
+im Feld Verzögerung die Zeitspanne 
+einzugeben, wann das nächste Ereignis 
+ausgelöst werden soll. 
+Ablauffunktion anpassen 
+Ereignisschritte bearbeiten     Automatisierung
+Im Ereignis-Bearbeitungsmodus kann 
+jedes Element in der Elementliste bear-
+beitet werden. Wenn Sie das entspre-
+chende Element antippen  , öffnet sich 
+ein neues Fenster (siehe Bilder).
+1 1
+Ereignisse starten 
+Um ein Ereignis auszuführen, 
+muss der Bearbeitungsmodus 
+durch Antippen des „Bearbeiten“- 
+Symbols  beendet werden. 
+Dann lässt sich in der Ereignis-
+übersicht  oder im Ereignis 
+über das „Start“-Symbol  der 
+gesamte Ablauf abspielen.
+Hinweis: In der Ereignis-Ele-
+mentliste zeigt der rote Pfeil an, 
+welche  Aktion gerade ausgeführt 
+wird und  die Zahl im grünen 
+Punkt gibt die noch auszuführen-
+den Schritte an.
+2
+3
+4
+Ereignisse verknüpfen
+Ereignissteuerung über Rückmeldekontakte 
+Auch das Verknüpfen beliebiger Ereignisse 
+wie Fahrstraßen und Abläufe funktioniert 
+untereinander. Dazu über „Bearbeiten“ ein 
+neues Ereignis erstellen und die entspre-
+chenden Ereignisse in die Elementliste 
+ziehen  . Jedes einzelne Ereignis lässt 
+sich dabei über Drücken (Finger länger 
+auflegen) wieder individuell anpassen. 
+Allerdings werden Ereignisse parallel 
+abgearbeitet, wenn nicht der Haken bei 
+„Warten“ aktiviert ist  , was durch ein  
+„W“ im Ereignis-Symbol angezeigt wird.
+Ablaufsteuerung
+Mit Kontrolle  kann der 
+Ablauf der Ereignisse gesteuert 
+werden. Dabei können laufende 
+Ereignisse entweder sofort ab-
+gebrochen oder nur angehalten 
+werden. Bei Sperren werden 
+diese zu Ende gebracht, aber 
+keine neuen gestartet.
+Tipp: Zur besseren Identifizie-
+rung kann neben der Bezeich-
+nung jedes Ereignisses auch ein 
+Bild als Erkennungsmerkmal 
+zugewiesen werden.
+Im Ereignis-Ablauf selbst 
+können  wiederum weitere 
+Rückmeldekontakte aufgenom-
+men werden (beispielsweise K2 
+ ), indem man sie in die Ereig-
+nis-Elementliste zieht. In den 
+Bedingungen kann neben der 
+Stellung auch die Kondition   
+eingestellt werden. Bei „warten“ 
+wird der weitere Ereignisablauf 
+pausiert, bis dieser Kontakt 
+die definierte Stellung meldet. 
+Bei der Kondition „fortfahren“ 
+wird das Ereignis bei falscher 
+Stellung abgebrochen.
+Sollen Kontakte als Auslöser für 
+Fahrstraßen oder automatisier-
+te Abläufe verwendet werden, 
+kann man wie folgt vorgehen: 
+Kontakt in das Auslöserfeld am 
+linken Rand der Elementliste 
+ziehen – beispielsweise K1  . 
+Anschließend dieses Kontakt- 
+Symbol antippen und die Auslö-
+se-Bedingungen definieren  . 
+Der Ereignis-Ablauf wird dann 
+gestartet, wenn der Kontakt die 
+definierte Stellung meldet. 
+2
+Rückmeldekontakte als Bedingung
+3
+4
+5
+5
+6
+5
+Tipp
+1
+
+PAGE 24
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 24
+Systemeinstellungen
+So einfach ....
+... CS3 einrichten
+... Geräte verwalten
+... Datensicherung
+... Aktualisierung
+... Weboberfläche
+
+PAGE 25
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 25
+Systemeinstellungen
+Netzwerk: Übersicht der  
+angeschlossenen Geräte (siehe Seite 26). 
+Einstellungen der CS3 öffnen.
+Schnellzugriff auf Bereiche der  
+CS3-Systemeinstellungen.
+Auf die Einstiegsseite der Systemeinstellungen (Bild 
+rechts) gelangen Sie, indem Sie in der Menüleiste der 
+Artikelliste links auf die Schaltfläche „System“ tippen 
+ . Dort sehen Sie die Geräteübersicht, bei der Sie mit 
+Fingertipp auf die einzelnen Komponenten jeweils deren 
+Einstellungen öffnen.
+Aufruf des System-Menüs Zugriff auf die Einstellungen der CS3
+Sprache ändern.
+Mit Schieberegler Bildschirmhellig-
+keit bzw. Lautstärke anpassen.
+Wahl zwischen eingebautem 
+und externem Lautsprecher.
+Mit gesetztem Haken prüft die CS3 
+regelmäßig, ob Updates verfügbar sind.
+Fahrpult-Fenster in der Lokliste
+an- und abschalten (siehe Seite 12).
+Tipp: Über die grauen Querbalken am unte-
+ren Rand gelangen Sie zu weiteren Seiten.
+Tipp
+Tipp
+Bezeichnung dieser CS3 eingeben.
+System der Central Station 3
+Um die CS3-Systemeinstellungen zu öffnen, tippen Sie in der Netzwerkübersicht oder in der Menüspalte am 
+linken Rand auf das CS3-Symbol  . 
+Der sichere und  
+empfohlene Weg, die 
+CS3 herunterzufahren.
+Erstellt eine Sicherung ihrer aktuellen CS3-Daten (s. Seite 27). 
+Hinweis: Nutzen Sie diese Funktion regelmäßig, um Bearbei-
+tungsstände zu sichern – am besten auch mittels USB-Stick.
+Fährt das CS3-System herunter 
+und startet neu.
+Neustart der internen Anwendungen 
+wie z. B. der Benutzeroberfläche.
+Setzt die CS3 mithilfe einer zuvor 
+erstellten Sicherungsdatei auf 
+einen früheren Bearbeitungsstand 
+zurück (siehe auch Seite 25).
+Im Aufklappmenü 
+legen Sie die Belegung 
+der Drehknöpfe im 
+Spielewelt-Modus fest.
+Gleis-Einstellungen anpassen
+Setzt nach einem Neustart alle Loks 
+und/oder Ereignisse automatisch auf 
+den letzten bekannten Status.
+Weitere Einstellungen
+Hier können Sie nicht benutzte  
+Proto
+ k
+olle abschalten (siehe Seite 45).
+Tipp
+Der volle Umfang 
+von Ereignissen 
+sollte nur bei 
+Bedarf aktiviert 
+werden.
+1
+2
+2
+Tipp: Die unteren 
+Elemente errei-
+chen Sie durch 
+Fingerwischen auf 
+der freien Fläche.
+Wechsel zwischen Vereinfachter oder 
+Standard CS3-Anzeige (siehe Seite 8).
+Tipp: Unter Einstellungen Ethernet wird die Verbindung zu einem 
+Router konfiguriert. Mit der IP-Adresse öffnen Sie die CS3-Web- 
+oberfläche auf einem Endgerät im gleichen Netz (s. Seite 28).
+Stop-Modus bei Abbruch der MS Wlan.
+Bei aktivierter Modellzeit Faktor und 
+Zeit definieren. Deaktiviert läuft Uhr 
+normal (bei Internetverbindung live).
+Wahl zwischen eingebautem 
+und externem Lautsprecher.
+Hilfe: Mehr Erläuterungen über das Fragezeichen-Symbol (s. Seite 9).
+Einstellungen für ein System mit 
+mehreren Steuergeräten.
+Details zur Softwareversion.
+Einstellung für Geräte im CAN-Bus.
+
+PAGE 26
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 26
+Geräte verwalten
+Löschen nicht mehr benötigter Geräte-Einstellungen
+Die CS3 merkt sich die Einstellungen von jedem Gerät, das einmal angeschlossen war.  
+Der Vorteil: Sie können sämtliche Geräte von der CS3 trennen, ohne deren Einstellungen zu 
+verlieren. Mit dem Papierkorb-Icon können Sie diese Einstellungen dennoch löschen, falls 
+nötig. Das Icon finden Sie in den Systemeinstellungen jeweils im Abschnitt „Einstellungen“ bei 
+jedem Gerät. Mit Fingertipp auf das Icon entfernen Sie die Gerätedaten, das Gerät wird in den 
+Systemeinstellungen nicht mehr angezeigt.
+Die Netzwerkübersicht  informiert über alle ver-
+bundenen Geräte. Deren Einstellungen erreichen Sie 
+per Fingertipp direkt in der Übersicht oder über die 
+Geräteklassen in der Menüspalte am linken Rand. Mit 
+Fingerwisch nach oben gelangen Sie zu den unteren Ab-
+schnitten der Seite (Bild unten). Inaktive Geräte werden 
+ausgegraut dargestellt.
+Netzwerk: Übersicht der angeschlossenen Geräte
+Hinweis: Ein roter 
+Punkt an einem 
+Gerät weist auf 
+ein verfügbares 
+Update hin  
+(siehe Seite 27).
+Tipp
+In den Booster-Einstellungen  können Sie 
+die Zeitspanne zwischen zwei Statusabfragen 
+ändern. Standard: alle fünf Sekunden. 
+Zudem können Sie die Bezeichnung des 
+Boosters sowie das verwendete Schaltnetzteil 
+anpassen. Um die unteren Seitenabschnitte 
+zu sehen, wischen Sie mit dem Finger zum 
+oberen Bildschirmrand.  
+Tipp: Durch Tippen auf die Pfeilspitze öffnet 
+sich der entsprechende Menüpunkt.
+Konfigurieren von Booster-Anschlüssen
+Tipp
+In den Einstellungen zum Link S88   haben 
+Sie die Möglichkeit, den Namen zu ändern. Die 
+Kennung vergibt die CS3 automatisch. Wenn Sie 
+einen defekten Link S88 ersetzen, merken Sie 
+sich die Kennung, bevor Sie das alte Gerät mit-
+hilfe des Papierkorb-Icons löschen. Übernehmen 
+Sie dann diese Kennung für das neue Gerät.
+Die CS3 erkennt angeschlossene Kontakte an 
+einem Bus und stellt ein Modul mehr ein.
+Link S88
+Über GFP3 (Gleis Format Prozessor 3)  erhalten Sie Auskunft über aktuelle Messdaten der Anlage und der 
+CS3. Bei mehreren Geräte kann in der Kopfzeile jedes individuell ausgewählt und konfiguriert werden  .  
+Hinweis: Da die CS3+ (20216) einen S88-Anschluss besitzt, werden zusätzliche Einstellungen angezeigt.
+GFP3
+Aktuell an Haupt- und 
+Programmiergleis 
+anliegende Stromstärke.
+Festlegung der Zeitspanne, wann 
+die Messwerte erfasst werden.
+Momentane Spannungs- 
+und T emperaturwerte der CS3.
+Bezeichnung ändern.
+Anzahl der Module 
+am S88 Bus. Jedes 
+Modul hat 16 
+Kontakte. Bei der 
+CS3 60226 ohne 
+S88-Anschluss den 
+Wert „0“ eintragen.
+Die Auswahl des genutzten 
+Netzteils bestimmt das Abschalt-
+verhalten der CS3.
+Einstellparameter für alte 6095 
+Decoder im gemischten DCC/mfx 
+Betrieb.
+Periode und Schnelligkeit der 
+Abfragezyklen des S88 Bus.
+Tipp
+Geräte- 
+Einstellungen  
+löschen.
+1
+2
+3
+4
+Tipp: Mit Fingerwisch nach 
+oben gelangen Sie zu den  
+unteren Abschnitten der Seite.
+5
+Wichtig: Stellen Sie bei Länge die Anzahl der am 
+Link angeschlossenen S88-Decoder an jedem 
+Anschluss (Bus) korrekt ein, sonst können diese 
+nicht von der CS3 erkannt werden.
+Tipp
+Tipp: Über den QR-Code lässt sich die Weboberfläche 
+direkt öffnen (siehe Seite 28).
+
+PAGE 27
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 27
+So sind Sie auf dem neusten Stand: Update der CS3-Software
+Wenn Sie die Update-Schaltfläche  in den CS3- 
+Einstellungen bei System sehen, aktivieren Sie diese 
+mittels Fingertipp. Nun fragt die CS3, ob Sie das Update 
+durchführen wollen. Bestätigen Sie, indem Sie auf den 
+Haken tippen  . Es erscheinen Detail-Informationen 
+zum Update – bestätigen Sie rechts oben mit Fingertipp 
+auf „Start“ . Die CS3 führt daraufhin das Update durch. 
+Zum Schluss bestätigen Sie rechts oben mit „Ok“ .
+Hinweis: Vor einem Update empfiehlt sich eine 
+Datensicherung vorzunehmen (s. linke Seite) und alle 
+zusätzlichen Geräte (MS2, T erminal, S88, etc.) sollten 
+von der CS3 getrennt werden.
+Märklin entwickelt die Software der CS3 kontinuierlich 
+weiter. Sobald eine aktuellere Version verfügbar ist,  
+signalisiert dies ein roten Punkt am Fuß des „System“- 
+Symbols  in der Artikelliste, die Sie am grünen  
+Querbalken von oben nach unten ziehen können. 
+Hinweis: Die CS3 sucht nur nach Aktualisierungen, 
+wenn die Auto-Update-Prüfung aktiviert ist (s. Seite 25).  
+Wichtig: Falls Ihre CS3 nicht mit dem Internet verbun-
+den ist, können Sie Updates auch mittels USB-Stick 
+durchführen (siehe unten).
+Um die CS3-Software zu aktualisieren, tippen Sie 
+auf das „System“-Symbol  . Der rote Punkt leitet Sie 
+durch die Systemeinstellungen. Tippen Sie jeweils 
+auf die CS3-Symbole mit dem roten Punkt  .
+Datensicherung/Wiederherstellung    Aktualisierung der CS3 
+1
+3
+4
+2
+Wichtig: Wenn der rote Punkt nicht bei der CS3 sondern bei einem anderen Gerät erscheint, ist für dieses eine 
+Aktualisierung verfügbar. Gehen Sie wie beim CS3-Update vor und starten Sie die Aktualisierung von dem Gerät.
+Die CS3 speichert Eingaben und Anpassungen stets selbstständig innerhalb weniger Sekunden. Ihre Daten 
+sind daher auch bei Stromausfall sicher. Hinweis: Regelmäßige Backups, auch auf USB-Sticks, sind dennoch 
+sehr empfehlenswert. Dadurch wird es beispielsweise sehr einfach möglich, umfangreichere Änderungen 
+rückgängig zu machen, indem man einen früheren Bearbeitungsstand wiederherstellt.
+Falls die CS3 nicht mit dem Internet verbunden ist,  
+können Sie auch mithilfe eines USB-Sticks ein Update 
+auf die neueste Softwareversion aufspielen. Laden 
+Sie auf einen Computer im Internet von der Website 
+www.maerklin.de/de/service/downloads/cs3-updates/ 
+die aktuelle Image-Datei herunter und speichern Sie 
+diese im Hauptverzeichnis eines USB-Sticks. Nachdem 
+Sie den USB-Stick an der CS3 angeschlossen haben, 
+gedulden Sie sich einen Moment. Die CS3 erkennt die 
+neue Softwareversion auf dem USB-Stick automatisch 
+und signalisiert dies mit einem kleinen roten Punkt am 
+„System“-Icon. Die übrigen Schritte sind dieselben wie 
+bei der Aktualisierung über das Netzwerk – siehe oben.
+Update per USB-Stick
+Backup: Erstellen von Datensicherungen
+Bei der Datensicherung werden alle Einstellungen der Central Station 3 
+gesichert. Dies umfasst auch die Einstellungen aller jemals gefundener 
+Geräte. Um ein Backup anzulegen, tippen Sie in der CS3-Systemeinstel-
+lung (siehe Seite 25) auf die Schaltfläche „Sichern“ . Dann wählen Sie den 
+Speicherort für die Sicherungsdatei. Hinweis: Aussagekräftige Datein-
+amen (eventuell mit Datum) erleichtern die Identifizierung.
+Bei der Wiederherstellung werden die in der Datensicherung enthaltenen  
+Einstellungen der CS3 wiederhergestellt. Dazu Tippen Sie in der CS3- 
+Systemeinstellung „Wiederherstellen“ und wählen die Backup-Datei aus.
+Hinweis: Beim Einspielen einer fremden Konfiguration oder T ausch der 
+CS3 wird das Wiederherstellen nicht zu einer funktionierenden Umge-
+bung führen, da meist die Geräte-Konfigurationen nicht korrekt sind. 
+Grundsätzlich sollten Sie die Einstellungen dann nochmal prüfen.
+Wiederherstellung: Backup einspielen
+Mit einer SD-Karte (SDHC) können Sie den internen Speicher (4 GB) um 
+bis zu 32 GB Speicherplatz erweitern. Es genügt, die Karte in den Kar-
+tenslot zu stecken. Sie müssen keine weiteren Einstellungen vornehmen.
+Hinweis: Märklin empfiehlt, SD-Karten nicht als Wechselmedium zu 
+nutzen, sondern ausschließlich für den hier beschriebenen Zweck der 
+Speichererweiterung. Ziehen Sie USB-Sticks vor, um Dateien wie bei-
+spielsweise Lokbilder auf die CS3 zu kopieren.
+SD-Karte: Erweiterung des internen Speichers
+LinkS88
+In diesem Menü sehen Sie die Speichermedien. Mit  
+Fingertipp in der Kopfzeile wechseln Sie zwischen  
+den Geräten. Tippen Sie auf das Namensfeld, um 
+einen aussagekräftigen Namen zu vergeben.
+USB-Anschluss & Speicher verwalten
+Tipp
+Hinweis: Die Central Station 3 verfügt über drei USB-Anschlüsse, wobei zwei zum Datenaustausch genutzt 
+werden können, während einer nur zum Laden dient. 
+Tipp: Um 
+Datenverlust 
+auf Ihrem 
+USB-Stick zu 
+vermeiden, 
+nutzen Sie 
+die Auswurf- 
+Option, bevor Sie den USB-Stick ausstecken.
+2
+
+PAGE 28
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 28
+Aufrufen der CS3-Weboberfläche
+Weboberfläche aufrufen
+Um die Weboberfläche zu starten, müssen Sie 
+zunächst die IP-Adresse Ihrer CS3 herausfinden. 
+Dazu rufen Sie die CS3-System
+ einstellungen auf 
+(siehe auch Seite 25) und öffnen dort den Abschnitt 
+„Einstellungen Ethernet“
+. Im DHCP-Modus bekommt 
+die CS3 vom angeschlossenen Router automatisch 
+eine IP-
+ Adresse zugewiesen. Diese wird im F
+eld 
+„IP-Adresse“ angezeigt  . 
+Auf Ihren Geräten im gleichen Netzwerk starten 
+Sie einen gängigen Webbrowser, wie etwa Mozilla 
+Firefox, Internet Explorer, Apple Safari oder Google 
+Chrome. In der Adresszeile geben Sie nicht wie 
+sonst üblich die Adresse einer Webseite, sondern 
+die IP-Adresse der CS3 ein (in unserem Beispiel 
+„192.168.1.19“)   und drücken die Eingabetaste.  
+Bevor sich die Startseite der CS3 Weboberfläche 
+öffnet, ist den Nutzungsbedingungen und Sicher-
+heitshinweisen zuzustimmen.
+ 
+Alternativ ist im Abschnitt „Netzwerk“ auch ein QR-
+Code, der direkt zum „Browser Zugang“ 
+
+ führt.
+Voraussetzung für die Nutzung der Weboberfläche ist eine Verbindung der CS3 mit einem LAN-Kabel an 
+einen Router. Da keine besonderen Anforderungen an den Router gestellt werden, sind auch ältere Geräte 
+einsetzbar. Schalten Sie erst den Router an, danach die CS3. Wenn DHCP am Router aktiviert ist, erhält die 
+CS3 automatisch eine IP-Adresse zugewiesen (sonst in die Anleitung vom Router schauen). Anhand dieser 
+IP-Adresse können sich die anderen Geräte mit der CS3 verbinden. 
+Wichtig: Die CS3 muss sich im gleichen Netzwerk wie das Bediengerät sein – egal ob per Kabel oder WLAN. 
+Hinweis: Ein Internetzugang ist nicht erforderlich.
+WLAN- 
+ROUTER
+WLAN
+WLAN
+Steuern Sie Ihre Anlage ganz einfach am Computer, am Notebook 
+oder mit einem Mobilgerät: Diese schematische Übersicht veran-
+schaulicht die dafür nötigen Verbindungswege. Sowohl die CS3 als 
+auch alle weiteren Steuergeräte werden einfach mit dem Router 
+verbunden – per Netzwerkkabel (LAN) oder per Funknetz (WLAN).
+WLAN
+LAN
+LAN
+Bedienung über das Netzwerk
+Hinweis: Die Anzahl der zusätzlichen „Bediengeräte“ wird von der CS3 nicht begrenzt. Es können beliebig viele 
+Instanzen der Weboberfläche geöffnet werden, pro Webbrowserfenster einmal. Es ist dabei gleichgültig, ob die-
+se auf verschiedenen Geräten oder alle auf demselben Gerät laufen, aber sie müssen im Netzwerk der CS3 sein.
+Bedienung wie auf der CS3 (siehe Seite 6):  
+Das Gleisbild befindet sich im Hinter-
+grund, rechts und links befinden sich die 
+Fahrpulte, die aus- und eingeklappt wer-
+den können. Am unteren Rand lässt sich die 
+Lokliste einblenden, und am oberen Rand 
+befindet sich die einblendbare Artikelliste. 
+Sie können die CS3 sofort steuern, 
+je nach Gerät mit der Maus oder mit 
+Fingerberührungen wie auf der CS3. 
+Hinweis: Zum Nothalt genügt ein Klick auf 
+ein Stop-Symbol.
+Es gibt zwei Varianten der Weboberfläche 
+mit den Bezeichnungen „WebApp“ , auch 
+wenn es sich dabei um kein Programm 
+handelt, sondern diese automatisch im 
+Browser öffnen. Neben der Ansicht für 
+große Monitore und Displays ist eine mo-
+bile Variante, für kleine Bildschirme und 
+Smartphones optimiert (s. Seite 30).
+Hinweis: Sie können die Steuerung auch 
+in einem neuen T ab oder Fenster öffnen, 
+damit sind mehrere Instanzen möglich.
+Wichtig: Mit den Weboberflächen können alle Steuerungsaufgaben rund um den Fahrbetrieb, das Schalten 
+der Artikel sowie des Gleisbilds und das Auslösen von Ereignissen von jedem der zusätzlichen Bediengeräte 
+aus durchgeführt werden. Diese Änderungen erscheinen dabei automatisch und zeitgleich auf allen anderen 
+Bediengeräten. Dabei gibt es Unterschiede zwischen der Weboberfläche auf Computer und Smartphones.
+Je nach Fenstergröße werden in der 
+Weboberfläche mehr Elemente in der 
+Artikel- oder Lokliste angezeigt. 
+Hinweis: Die Ansicht von jedem Fenster 
+der Weboberfläche kann unterschiedlich 
+gewählt werden. So können Sie beispiels-
+weise einmal das Gleisbild anzeigen und 
+in einem weiteren Fenster oder Gerät die 
+Loksteuerung im Blick behalten. 
+Wichtig: Die seitlichen Fahrpulte müssen 
+dabei in jeder Weboberfläche unabhängig 
+voneinander bestückt werden.
+StopStop
+1
+2
+3
+
+PAGE 29
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 29
+System der CS3-Weboberfläche
+Web-Steuerung 
+Die Weboberfläche öffnet sich mit einer Darstellung 
+wie auf der CS3 (siehe Bild rechts). Alternativ kann 
+die Bildschirmfläche auch vollständig mit einer 
+Anzeige ausgefüllt werden. Dafür gibt es in der 
+Weboberfläche bei den System-Einstellungen den 
+Menüpunkt „Browser Zugang“  . Dort werden die 
+möglichen Anzeigefenster in einem Browser aufge-
+führt: Weboberfläche standard und mobil, die Hilfe, 
+Systemeinstellungen, Artikelliste, Lokliste, Ereignisse 
+und Gleispläne. Bei jedem Punkt ist ein direkter Link 
+hinterlegt und ein QR-Code, der beispielsweise mit 
+einem Smartphone gescannt werden kann. 
+Wird ein Link ausgewählt, wechselt die Darstellung 
+dieses Elements in den Vollbildmodus , beispielswei-
+se „System“  im Bild rechts.  
+Tipp: Bei den Vollbildseiten wird in der Browser- 
+adresszeile nach der IP-Adresse der Name der Seite 
+ergänzt, in diesem Fall „/system“ .
+Bei den Systemeinstellungen bietet die Weboberfläche  
+alle Möglichkeiten der CS3 und sogar noch einige 
+mehr. So befinden sich unter CS3-System  die 
+bekannten Schaltflächen zum Herunterfahren und 
+Neustart sowie zum Anlegen eines Backups und der 
+Wiederherstellung. 
+Zusätzlich gibt es in der Weboberfläche noch folgende 
+System-Optionen: 
+•
+ L
+okbilder  – zum Verwalten und Übertragen der 
+Lokbilder auf der CS3.
+•
+ Bildschirm Serv
+er  – zeigt den CS3-Bildschirm auf 
+einem anderen Gerät an.
+•
+ Screenshot f 
+– erstellt ein Bild von der aktuellen 
+CS3-Bildschirmanzeige.
+Zudem gibt es noch die Möglichkeit eine oder mehre-
+re Webcams g anzuschließen (siehe Seite 36).
+Hilfe: Sowohl auf der CS3 wie auch in der 
+Weboberfläche gibt es umfagreiche Erklärungen zu 
+verschiedenen Themengebieten. Diese lassen sich im 
+Vollbildmodus bequemer lesen.
+Tipp: Hilfeseiten lassen sich auch ausdrucken, wenn 
+das verwendete Gerät dafür eingerichtet ist.
+Steuern über die CS3-Weboberfläche
+Wie von der CS3 bekannt (siehe Seite 6), lässt sich 
+auch in der Weboberfläche von oben die Artikelliste 
+einblenden, von unten die Lokliste hochziehen und 
+auf beiden Seiten jeweils ein Fahrpult nutzen. Dabei 
+werden abhängig von der Bildschirmauflösung  ent-
+sprechend viele Elemente dargestellt.
+Hinweis: Wenn die Weboberfläche auf einem Com-
+puter oder Notebook genutzt wird, empfiehlt sich die 
+Bedienung mittels angeschlossener Maus .
+Da sich mehrere Instanzen der Weboberfläche öff-
+nen lassen, kann jedes Fenster für den Einsatzzweck 
+optimiert angepasst werden. Beispielsweise um meh-
+rere Fahrpulte anzuzeigen (siehe Bild rechts). Dabei 
+variiert die Anzahl je nach Bildschirmgröße.
+Hinweis: Hinzufügen, bearbeiten und verwalten von 
+Lokomotiven ist wie auf der CS3 möglich (ab Seite 10).
+Die Artikelliste lässt in der Weboberfläche ebenfalls 
+alle Möglichkeiten der CS3 zu, sodass eine Bearbei-
+tung auf größeren Anzeigen bequemer sein kann.
+Hinweis: Hinzufügen, bearbeiten und verwalten von 
+Artikeln ist wie auf der CS3 möglich (ab Seite 15).
+Besonders die Darstellung von Gleisbildern ist in gro-
+ßen Fenstern der Weboberfläche sehr komfortabel. 
+Zudem lassen sich alle eingebetteten Artikel durch 
+Antippen mit Finger oder Maus schalten.
+Tipp: Durch „Fixieren“ der ausgewählten Ansicht 
+wird diese nicht mehr verändert.
+Hinweis: Das Bearbeiten von Gleisbildern ist in der 
+Weboberfläche noch nicht möglich.
+Die Darstellung von Ereignissen ist für das Web opti-
+miert und ermöglicht das Starten und Stoppen.
+Tipp: Eingebettete Ereignisse lassen sich in der 
+Ansicht ausklappen.
+Hinweis: Das Bearbeiten von Ereignissen ist in der 
+Weboberfläche noch nicht möglich.
+1
+2
+Tipp
+3
+7
+4
+5
+6
+Tipp
+Tipp
+Loksteuerung mit der Weboberfläche
+Artikelverwaltung in der Weboberfläche
+Gleisbilder in der Weboberfläche
+Ereignisse in der Weboberfläche
+Tipp
+
+PAGE 30
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 30
+Mobile Loksteuerung
+Smartphone-Bedienung
+Artikelliste
+Wenn die Weboberfläche ein kleines Display erkennt 
+öffnet sich die mobile Version, die im Browser nach 
+der IP-Adresse den Zusatz „/mobilewebapp“ anzeigt.
+Die mobile Oberfläche 
+zeigt zwischen zwei 
+Stop-Feldern ein Menü 
+mit den Feldern: 
+Lokliste  , 
+Artikelliste  , 
+Gleisbilder  , 
+Ereignisse   
+und System  .
+In der Loklistenansicht  
+wird am unteren 
+Bildschirmrand die 
+Favoritenliste f einge-
+blendet. Nur Loks aus der 
+Favoritenliste können 
+zur Steuerung in der Bild-
+schirmmitte ausgewählt 
+werden.
+2 1 3 4
+6
+Wichtig: Wenn vom Gerät unterstützt, kann die 
+mobile Weboberfläche auch um 90 Grad gedreht 
+werden.Der Inhalt passt sich dann an.
+Durch Antippen des 
+Loklisten-Symbols  
+öffnet sich die Lokliste 
+und zeigt die der CS3 
+bekannten Lokomotiven. 
+In dieser Übersicht wird 
+durch Antippen eine Lok 
+als Favorit markiert, was 
+ein gelber Stern anzeigt, 
+und damit in der Favori-
+tenliste am unteren Rand 
+hinzugefügt. Ein erneutes 
+Antippen macht diesen 
+Vorgang rückgängig.
+Tipp: Über das Symbol 
+„Mfx-Suche“ lassen sich 
+aufgegleiste mfx-Loks 
+eingebinden.
+Lokliste
+Favoritenliste
+Loksteuerung
+5
+Gesteuert wird eine Lok 
+in der mobilen Ansicht 
+wie auf der CS3 oder der 
+Weboberfläche – einfach 
+Antippen.
+Hinweis: Die Funktionen 
+der Loks sind auf beiden 
+Seiten übereinander 
+angeordnet nach dem 
+System: Links 0-7, 16-23 
+und Rechts 8-15, 24-32.
+Nothalt: Durch Antippen 
+eines Stop-Feldes wird 
+der Fahrstrom unterbro-
+chen.
+Tipp
+7
+Über das ensprechende 
+Symbol g unten in der 
+Lokliste öffnet sich die 
+Favoritenliste . Dort 
+lassen sich die ausge-
+wählten Loks mit den 
+Pfeil-Schaltflächen sor-
+tieren. Durch Antippen 
+des Mülltonnen-Symbols 
+bei einer Lok wird diese 
+aus den Favoriten ent-
+fernt, bleibt jedoch in der 
+Lokliste. 
+Hinweis: Das „Leeren“- 
+Symbol unter der 
+Menüleiste löscht die 
+aktuelle Favoritenliste.
+Gleisbilder
+Ereignisse aufrufen
+Systemanzeige
+Wichtig: Unter „System“  
+lässt sich neben einem 
+Neustart auch die CS3 
+korrekt Herunterfahren.
+Auch in der mobilen 
+Weboberfläche lassen 
+sich in der Systemansicht 
+ einige Informationen 
+der CS3 abrufen, wie die 
+aktuelle Stromaufnahme 
+am Gleis oder die Version 
+der Software.
+Über das Artikellisten- 
+Symbol  öffnet sich 
+die Artikelliste und 
+zeigt alle an der CS3 
+eingerichteten Artikel. 
+In dieser Übersicht wird 
+durch Antippen der 
+entsprechende Artikel 
+geschaltet.
+Hinweis: Artikel können 
+nur direkt auf der CS3 
+angelegt und bearbeitet 
+werden.
+Tipp: Durch Wischbeweg- 
+ungen kann in den Listen 
+geblättert werden.
+2
+Tipp
+1
+Durch Antippen des 
+Gleisbild-Symbols 
+
+ wird ein Gleisbild 
+angezeigt. Über das „An-
+sicht“-Symbol kann zwi-
+schen den Gleisbildern 
+und Stellpulten gewech-
+selt werden.
+Hinweis: Durch Zoombe-
+wegungen und Wischen 
+kann der Bildausschnitt 
+angepasst werden.
+Tipp: Durch „Fixieren“ der 
+Ansicht wird der aktuelle 
+Ausschnitt beibehalten, 
+sodass nichts verschoben 
+werden kann.
+3
+Tipp
+5
+Ereignisse werden beim 
+entsprechenden Symbol 
+  angezeigt. In der 
+Übersicht können sie di-
+rekt durch Antippen des 
+Bildes gestartet und dann 
+auch pausiert werden.
+Durch den kleinen Pfeil 
+nach unten öffnen sich 
+Ereignisse in der Detail-
+ansicht (unteres Bild).
+Die Ereignis-Detailan-
+sicht zeigt sämtlliche 
+Schritte, die nacheinan-
+der ausgeführt werden.
+Sogar eingebundene 
+Ereignisse lassen sich 
+zur besseren Ansicht 
+ausklappen. 
+Hinweis: Ereignisse kön-
+nen nur direkt auf der CS3 
+angelegt und bearbeitet 
+werden.
+4
+
+PAGE 31
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 31
+Service
+Praxistipps ....
+... Umsteigen von 6021, CS2, MS2, MS WLAN
+... Lokomotiven verwalten
+... Artikel verwalten
+... Gleisbilder verwalten
+... Bildschirm-Server
+... Hilfe bei Störungen
+
+PAGE 32
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 32
+Umstieg von Control Unit 6021    Mobile St ation 2 einsetzen
+MS2 an der CS3 anschließen
+In den CS3-Systemeinstellungen tippen Sie in der 
+Geräteliste auf MS2  . Dort stehen alle der CS3 
+bekannten MS2 in der Kopfzeile zur Auswahl  .  
+Für jedes Gerät können Sie eine individuelle 
+Bezeichnung vergeben  . Zudem lässt sich das 
+Intervall anpassen, wie häufig der Gerätestatus 
+abgefragt wird. Die Standardeinstellung von fünf 
+Sekunden ist jedoch in den meisten Fällen optimal.
+Einstellungen der MS2
+Update der Mobile Station 2
+Die CS3 besitzt an der Gerätevorderseite zwei 
+Anschlüsse für je eine Mobile Station 2 (s. Seite 3). 
+Einstecken genügt, dann kann auch mit einer MS2 
+gesteuert werden. Dabei ist die CS3 die Zentrale 
+und gibt Loks und Magnetartikel vor, aus denen 
+sich alle angeschlossenen MS2 bedienen können. 
+Dennoch lassen sich die Lokplätze auf der MS2 in-
+dividuell bestücken. Beim Fahren und Schalten sind 
+alle Fahrregler gleichberechtigt, die Befehle werden 
+in der Reihenfolge des Eingangs abgearbeitet.  
+Wichtig: Eine Gleisbox darf nicht im CS3-System 
+eingesetzt werden.
+Hinweis: Weitere Mobile Stations lassen sich über 
+ein T erminal und Verbindungskabel an die CS3 
+anschließen (siehe Seite 46).
+Um die MS2-Software zu aktualisieren wird die 
+MS2 an einer CS3 mit aktuellem Softwarestand 
+angeschlossen. Die ersten Update-Meldungen auf 
+der MS2 sind zu ignorieren, stattdessen dauert es 
+einen Moment bis die CS3 das neue MS2-Update 
+mit einem roten Punkt in den Systemeinstellungen 
+anzeigt  . Dann die Symbole mit dem roten Punkt 
+antippen, bis die Update-Schaltfläche  zu sehen 
+ist. Damit wird auf der CS3 das MS2-Update 
+angestoßen und die aktuelle Software auf die MS2 
+übertragen, wenn dort die Zustimmung erteilt wird.
+Hinweis: Beim Aktualisieren der CS3 empfiehlt es 
+sich, alle Geräte (auch MS2) auszustecken.
+1
+2
+3
+4
+5
+4
+Von der Control Unit 6021 zur CS3
+Einbinden der Steuereinheiten Connect 6021
+In den CS3-Systemeinstellungen tippen Sie in der 
+Geräteliste auf Connect 6021  . In den Info- und 
+Einstellungen-Segmenten passen Sie den Namen 
+an und falls nötig auch das Status-Abfrage-Inter-
+vall.
+Wichtig: Beim Connect 6021 müssen Lokomo-
+tiven manuell zugeordnet werden. Dazu tippen 
+Sie im „Loks“-Segment auf das Pluszeichen  , um 
+Lokomotiven hinzuzufügen. Im eingeblendeten 
+Auswahlfenster wählen Sie die entsprechende 
+Lok mit Fingertipp. Hinzugefügte Loks erscheinen 
+daraufhin an unterster Stelle (Bild links).
+Beim Wechsel von einer Control Unit 6021 auf die CS3 gibt es 
+zwei Möglichkeiten: 
+Sie ersetzen Ihre Control Unit 6021 durch die CS3. Die Lok- 
+und Magnetartikeldecoder, die bisher schon im Einsatz waren, 
+können  von der CS3 problemlos angesteuert werden – diese 
+müssen nur in der CS3 eingerichtet werden. 
+Alternativ können Sie über ein Connect 6021 die Control Unit 
+6021 und die meisten der dort angeschlossenen Bediengeräte in 
+das Gesamtsystem der CS3 integrieren.  
+Sollte an der Control Unit ein Booster 6015 oder 6017 ange-
+schlossen gewesen sein, muss dieser ersetzt werden – beispiels-
+weise durch den Booster 60175.  
+Wenn Automatikschaltungen über das Memory bei der Control 
+Unit 6021 realisiert wurden, können die Rückmeldemodule 
+weiterhin genutzt werden. Jedoch ist die Rückmeldung nicht auf 
+der CS3 sichtbar, weshalb die Rückmeldemodule über ein Link 
+S88 an der CS3 angeschlossen werden sollten. 
+Wichtig: Nur eine Control Unit 
+6021 kann im Gesamtsystem 
+eingesetzt werden. Am Aus-
+gang der Control Unit darf kein 
+Verbraucher angeschlossen 
+werden. Weitere Bedienpulte wie 
+das Keyboard 6040, das Memory 
+6043 und die Fahrgeräte 6036 
+oder 6035 können angeschlossen 
+werden.
+Hinweis: Details zum Aufbau der 
+digitalen CS3-Systemarchitektur 
+sehen Sie auf Seite 46.
+1 2
+
+
+PAGE 33
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 33
+Mobile Station WLAN
+MS WLAN verbinden Update der MS WLAN
+Wie der Name schon vermuten lässt, baut die MS 
+WLAN (Art. 60667) auf dem bewährten Bedienungs-
+konzept der Mobile Station 2 auf. Statt über ein Kabel 
+werden Steuerbefehle per WLAN übertragen,  einem 
+lokalen kabellosen Netzwerk. Die Verbindung zur 
+Modellbahnanlage kann über zwei Arten erfolgen:
+•
+ über die WLAN Empfänger Bo
+x 60117 die an 
+einer Central Station 2 oder CS3 angeschlossen 
+ist.
+•
+ über einen handelsüblichen Router in einem 
+gemeinsamen WLAN-Netzwerk mit einer CS2 
+oder CS3.
+In beiden Fällen erfolgt die V
+erbindung auf die 
+gleiche Weise. Über einen langen Druck auf die 
+Stop-T aste der MS WLAN wird diese eingeschal-
+tet. Mittels gleichzeitigem Druck der „Shift“ und 
+„Artikel“-T asten öffnet sich das Menü. Dort kann 
+unter den WLAN-Einstellungen nach verfügbaren 
+WLAN-Netzen gesucht werden. 
+Nach der Auswahl des gewünschten Netzwerks muss 
+das Passwort eingegeben werden. Dafür mit „Shift“ 
+und dem Drehknopf den gesuchten Buchstaben 
+auswählen und mit einem Druck auf den Drehknopf 
+jedes Zeichen bestätigen. Am Ende mit dem Haken 
+rechts unten die Eingabe abschließen.
+Tipp: Das Passwort der WLAN Empfängerbox 
+(WICA) lautet „maerklin160“ und kann in den 
+CS3-Einstellungen geändert werden. Bei anderen 
+Netzwerken gibt es die Zugangsinformationen im 
+Router oder den entsprechenden Anleitungen. 
+Die Einstellungen werden in der Mobile Station 
+WLAN gespeichert. Wenn beim Einschalten der 
+Mobile Station WLAN sowohl das gewählte WLAN 
+als auch die gewählte Central Station verfügbar 
+sind, müssen diese nicht nochmals neu eingerichtet 
+werden.
+Hinweis: Wird die MS WLAN neben mehreren 
+Central Stations betrieben, kann unter „MSW Ein-
+stellungen - Hauptgerät auswählen“ eingestellt wer-
+den, welche der angeschlossenen Central Stations 
+das Hauptgerät sein soll.
+Wichtig: In den CS3-Systemeinstellungen sollte 
+bei Abbruch der Verbindung zur MS WLAN der 
+Stop-Modus aktiviert sein  (siehe Seite 25).
+Im Gegensatz zur MS2 kann die Software der 
+WLAN-Variante nicht über die CS3 aktualisiert 
+werden. Die Software-Updates für die MSW werden 
+einfach über ein Web-Interface aufgespielt. Über die 
+in einem beliebigen Browser angezeigte Oberfläche 
+lassen sich einige Einstellungen vornehmen sowie 
+Updates für die Mobile Station WLAN herunterla-
+den.
+Wenn die Mobile Station WLAN mit einer 
+WLAN-Empfängerbox oder einem Router verbunden 
+ist, kann auf das Web-Interface zugegriffen werden. 
+Das Gerät, mit dem das Web-Interface aufgerufen 
+werden soll, muss sich im selben Netzwerk wie die 
+Mobile Station WLAN befinden. Dann genügt die 
+Eingabe der IP-Adresse der MS WLAN in einem be-
+liebigen Browser, um die Weboberfläche aufzurufen. 
+Bei den WLAN-Einstellungen der Mobile Station 
+WLAN kann unter „WLAN anzeigen“ die aktuelle Ad-
+resse angezeigt werden. Im Werkszustand lautet die 
+Adresse: 192.168.1.1 oder msw-<seriennummer>
+Zum Shop Suchbegri/ eingebenErsatzteilsucheHändler
+Märklin  Service  Downloads  MSW-Updates
+Neuheiten
+Spur H0
+Spur 1
+Spur Z
+my world
+Start up
+Alle Spuren
+Produktdatenbank
+Produktdatenbank
+Anleitungen & Ersatzteile
+Technische Informationen
+Downloads
+Seminare/Workshops
+Informationstage
+Kundenservice
+Werbemodelle
+Händlersuche
+Extras
+Newsletter
+Märklineum
+Märklin TV
+Märklin Magazin
+Abo hier kündigen
+INSIDER-Club-Leistungen
+TRIX-Club-Leistungen
+LGB-Club-Leistungen
+Registrierung
+Login / Logout
+Kontakt
+Widerrufsrecht
+Mitgliedschaft hier kündigen
+AGB
+Datenschutz
+Über Märklin
+Auftragsfertigung
+Unsere Marken
+Märklin im Bild
+Standort Ungarn
+Karriere
+Presse
+AEB
+Kontakt
+Cookies | Inhaltsübersicht | Impressum | Datenschutz | Verbraucherschlichtung / Streitbeilegungsverfahren  |
+© 2024 Gebr. Märklin & Cie GmbH
+Deutschland DE EN
+Produkte Service Erlebnis Club Shop Karriere
+Produktdatenbank
+Anleitungen & Ersatzteile
+Technische Informationen
+Downloads
+Produktunterstützung
+MSW-Updates
+CS2 Updates
+CS3 Updates
+Nachrüst-Decoder mLD/mSD
+NEU: Nachrüst-Decoder
+mLD3/mSD3
+Soundbibliothek für mSD3
+Lizenzvereinbarung
+Seminare/Workshops
+Informationstage
+Kundenservice
+Werbemodelle
+Händlersuche
+Extras
+Newsletter
+Manuelles Update für MS WLAN und
+Empfängerbox WLAN
+Auf dieser Seite finden Sie eine einfache kompakte
+Anleitung, mit der Sie ein manuelles Update der MS
+WLAN und Empfängerbox WLAN vornehmen können.
+Die Update Server, von dem Sie sich das
+Updatepaket herunterladen können, finden Sie hier:
+MSW:
+msupdate.maerklin.com/msw/4.0.0.2/msw_firmware.bin
+Beachten Sie bitte folgende Punkte:
+1. Stellen Sie die WLAN Verbindung zur MS WLAN
+oder Empfängerbox her.
+2. Öffnen Sie die Weboberfläche der MS WLAN oder
+der Empfängerbox WLAN im Browser.
+Die MS WLAN ist im AP Modus unter
+<http://192.168.1.1> zu erreichen.
+Die Empfängerbox WLAN ist unter
+<http://192.168.160.1> zu erreichen.
+3. Gehen Sie unten rechts auf den Button
+Einstellungen [Zahnradsymbol]
+4. In den Einstellungen dann auf Firmware-Update
+klicken
+5. Danach klicken Sie auf den Button Manuelles
+Firmware-Update >
+6. Wählen Sie die heruntergeladene Datei aus ihrem
+Verzeichnis zum Upload aus.
+7. Drücken Sie den Button Update starten
+8. Nach dem Update sehen Sie neue Firmeware-
+Version unter Aktuelle Firmware-Version:
+Versionsnummer.
+Wir wünschen viel Freude mit der verbesserten
+Funktionen.
+Produkte Service Erlebnis Clubs Unternehmen
+Online Shop Newsletter
+Tipp
+Tipp
+Tipp: Weitere Details stehen auf www.maerklin.de 
+unter Service – Downloads – MSW-Updates
+1
+
+PAGE 34
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 34
+Von der Central Station 2 zur CS3 Import von vorhandenen Daten aus der Central Station 2
+Wenn Sie bereits mit der Central Station 2 Ihre 
+Anlage gesteuert haben, dann können Sie Ihre wert-
+vollen Daten von dort in wenigen Schritten in die CS3 
+übernehmen. Alles, was Sie dafür benötigen, ist ein 
+USB-Stick mit dem Backup Ihrer CS2-Daten.
+Hinweis: Ausführliche Informationen zur Erstellung 
+eines Backups Ihrer CS2-Daten finden Sie in der 
+Bedienungsanleitung Ihrer CS2. 
+Wichtig: Stecken Sie im ersten Schritt den USB-Stick 
+mit dem CS2-Backup in eine der beiden USB-Daten-
+buchsen auf der Rückseite der CS3.
+Auf der CS3 tippen Sie in der Artikelliste (grünen 
+Querbalken nach unten ziehen) ganz links auf die 
+„System“-Schaltfläche  . In der Systemübersicht 
+tippen Sie links unten auf „System“  . 
+So gelangen Sie direkt in die Systemeinstellungen der 
+CS3. Dort tippen Sie auf die Schaltfläche „Wiederher-
+stellen“  .
+Nun fragt die CS3 nach, ob Sie wirklich sicher sind. 
+Hinweis: Beim Einspielen einer fremden Konfigura-
+tion wird die aktuelle ersetzt. Grundsätzlich sollten 
+Sie vor der Wiederherstellung eine Datensicherung 
+durchführen (siehe Seite 25). 
+Den Import einer CS2-Sicherung starten Sie mit 
+Fingertipp auf den Haken  .
+Im Dateiauswahl-Dialog tippen Sie auf das richtige 
+„USB“-Laufwerk und auf das Verzeichnis, in dem 
+das CS2-Backup liegt. Wählen Sie die gewünschte 
+Backup-Datei aus  .
+Nun bestätigen Sie die Datenübernahme mit „Ok“  . 
+Nach wenigen Momenten sehen Sie den Startbild-
+schirm der CS3.
+Ergänzung zur CS2        CS2-Daten  in CS3 übernehmen
+Wichtig: Layouts der CS2 werden auch in die 
+CS3 importiert. Die Systematik der Gleisbilder 
+ist in der CS3 jedoch komplett unterschiedlich 
+zur CS2. Daher sind die Gleisbilder nach dem 
+Import auf der CS3 anzupassen. 
+1
+2
+3
+4
+5
+6
+Sobald mehr als eine CS3 eingesetzt werden, 
+bekommt dieser Abschnitt in der CS3-System- 
+einstellung Bedeutung: Hier stellen Sie ein, welche 
+CS3 das Hauptgerät ist und ob dieses Gerät ein 
+Erweiterungsgerät ist.
+Erweiterungsgeräte
+Die beiden Central Stations 
+müssen miteinander verbunden 
+werden. Das geschieht mit einem 
+Verbindungskabel Art. 60123. 
+Sollte das zu kurz sein, schafft das 
+Verlängerungskabel Art. 60126 
+Abhilfe. 
+Wichtig: Neben dem 
+Verbindungskabel sollten beide 
+Central Stations mit LAN-Kabel 
+an einem gemeinsamen Router 
+angeschlossen werden – ein Inter-
+netzugang ist nicht nötig. 
+Hinweis: Details zum Aufbau der 
+digitalen CS3-Systemarchitektur 
+sehen Sie auf Seite 47.
+Hinweis: Falls Sie ein Gerät ersetzen, merken Sie 
+sich die Kennung, bevor Sie das alte Gerät mithilfe 
+des Papierkorb-Icons löschen. Übernehmen Sie 
+dann diese Kennung für das neue Gerät.
+Wer mit einer Central Station 2 seine Anlage und umfangreiche Schaltungen bedient, kann diese durch 
+eine CS3 ersetzen. Doch beide Central Stations können auch gemeinsam eingesetzt werden, wodurch eine 
+zusätzliche Steuermöglichkeit an einer anderen Stelle der Anlage entsteht, beispielsweise für einen weiteren 
+Mitspieler.
+Sollten Sie eine CS2 mit der Artikelnummer 60215 besitzen, genügt es, die CS3 (Art. 60226) und ein 
+Schaltnetzteil (Art. 60061) zu ergänzen. Den Leistungsausgang dieser CS3 können Sie für die Versorgung ei-
+nes Bereichs Ihrer Anlage heranziehen. Zwischen den Bereichen, die von einer CS2, CS3 oder einem Booster 
+versorgt werden, muss nur der Mittelleiter isoliert werden. Der Einbau einer Trennwippe ist nicht notwendig. 
+An den bisher an die CS2 angeschlossenen Rückmeldemodulen brauchen Sie nichts zu ändern. Wenn Sie 
+weitere Rückmeldemodule ergänzen möchten, können Sie die bisherigen Rückmeldemodul-Ketten erweitern 
+oder ein Rückmeldemodul Link S88 (Art. 60883) an die CS3 anschließen. Der Vorteil dieses Systems gegen-
+über den früheren Rückmeldemodulen 6088 oder 60880 ist der höhere Spannungspegel von 12 Volt (früher 5 
+Volt), was eine geringere Anfälligkeit gegenüber Störimpulsen zur Folge hat. 
+Besitzen Sie hingegen eine CS2 mit der Artikelnummer 60213 oder 60214, müssen Sie sie um die CS3 plus 
+(Art. 60216) ergänzen. An die CS3 plus können die Rückmeldemodule S88 AC oder S88 DC direkt angeschlos-
+sen werden, das Rückmeldemodul Link S88 als erstes Rückmeldemodul ist nicht notwendig.  
+Master-Slave-Betrieb mit Central Station 2 und Central Station 3
+USB
+Sx
+Aux
+6017x B 0
+prog
+B 0
+power
+60123
+Master
+Central Station 3
+Slave
+Central Station 2
+© Gebr. Märklin & Cie. GmbH, D-73033 Göppingen, 0120/Sm1
+Central Station 3Central Station 3
+HauptgerätHauptgerät
+Central Station 2Central Station 2
+ErweiterungsgerätErweiterungsgerät
+
+PAGE 35
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 35
+Sobald Sie in den Lok-Ein-
+stellungen einer mfx-Lok die 
+Registerkarte „Konfigurieren“ 
+öffnen, werden alle Detail-Ein-
+stellungen des Lokdecoders 
+geladen. 
+WICHTIG: Die blauen Bereiche 
+sind nur für Experten gedacht. 
+Bitte ändern Sie nur etwas, 
+wenn Sie wissen, was Sie tun.Im 
+Normalbetrieb müssen Sie an 
+dieser Stelle keinerlei Anpas-
+sungen vornehmen.
+Nur für Experten: mfx-Loks konfigurieren
+Verlorene mfx-Loks finden
+Auf der eingeblendeten numerischen T as-
+tatur geben Sie die Adresse der Lok ein 
+und wählen das Protokoll des genutzten 
+Decoders. Im Fahrpult wird automatisch 
+die eingegebene Adresse übernommen 
+(im Beispiel rechts die Adresse 23) – nun 
+können Sie die Lok direkt fahren.
+Tipp: Adresse und Protokoll einer solchen 
+Adress
+ steuerungs-L
+ok können Sie jeder-
+zeit ändern: Tippen Sie einfach auf die 
+Adressdarstellung, die T astatur erscheint 
+dann erneut.
+Eine Doppel- oder Mehrfachtraktion legen Sie 
+mit dem Menüpunkt „Traktion erstellen“ an  . 
+Dazu öffnen Sie das Aufklappmenü mit einem 
+Fingertipp auf das Werkzeugsymbol („Bearbei-
+ten“)  in der Lokliste . In der daraufhin 
+eingeblendeten Eingabemaske (siehe Bild unten) 
+können Sie der neuen Traktion einen Namen 
+geben  . 
+In seltenen Fällen kann es vorkommen, dass eine mfx-Lok in der 
+Lokliste nicht mehr angezeigt wird. Dann ist folgendes Vorgehen 
+hilfreich, bei dem alle vorhandenen Daten überprüft und das 
+System auf fehlende mfx-Loks hin untersucht wird. 
+Die Funktion starten Sie in der Lokliste über die Schaltfläche 
+„Bearbeiten“  und anschließendem Fingertipp auf  
+„Verlorene mfx-Loks finden“  .
+Um die Traktion zu erstellen, 
+ziehen Sie die gewünschten 
+Loks mit einem Fingerwisch 
+aus der Lokliste in die 
+Eingabemaske herüber  . 
+Bestätigen Sie, indem Sie 
+auf „Ok“ tippen – und die 
+neue Traktion erscheint in 
+der Lokliste.
+Um eine Lok über ihre Adresse direkt 
+anzusteuern und zu fahren, tippen Sie 
+in der Lokliste auf das Werkzeugsymbol 
+(„Bearbeiten“)  und im sich öffnenden 
+Aufklappmenü wählen Sie „Adresssteue-
+rung hinzufügen“  .
+Loks zu einer Traktion zusammenfügen Lok mit Adresssteuerung fahren
+2
+1
+Tipp
+2
+1
+2
+1
+Loksteuerung mit Traktion und Adresse
+3
+4 4
+
+PAGE 36
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 36
+Lokliste filtern, sortieren und suchen
+Anzeige der angemeldeten Loks filtern
+Bestimmte Loks suchen / Live-Suche
+Sortiermöglichkeiten in der Lokliste
+Noch mehr Übersicht in der Lok liste 
+v
+erschaffen Sie sich mit einer Sortie-
+rung der Loks über das Aufklappmenü 
+am oberen Rand der Lokliste. Einfach 
+drauftippen und das Menü öffnet sich. 
+Sie können nach Loknamen sortie-
+ren, indem Sie auf „Name“ tippen. 
+Die Züge werden dann alphabetisch 
+sortiert (Bild links).
+Ein Tippen auf „Typ“ sortiert die Lokliste nach 
+dem Loktyp in der Reihenfolge Dampf, Diesel, 
+Elektro, Sonstige. Wählen Sie „Verlauf“ , so 
+werden die zuletzt genutzten Loks zuerst 
+angezeigt. „V/max“ sortiert die Lokliste nach 
+der bei den Einstellungen unter „T acho“ ange-
+gebenen Höchstgeschwindigkeit (s. Seite 13). 
+Wenn „Adresse“ ausgewählt ist, wird nach der 
+Lok-Adresse sortiert.
+Um Ihnen eine größere Übersicht zu geben, lässt sich die Lokliste anhand 
+der Antriebsart und dem Status filtern. Tippen Sie auf die Schaltfläche mit 
+dem Lok-Symbol „Ansicht“ in der Symbolleiste, um zahlreiche Filteroptionen 
+angezeigt zu bekommen. In der Standardeinstellung ist die Option „Alles 
+zeigen“ markiert. Mit Fingertipp auf die einzelnen Antriebsarten (Diesellok, 
+Dampflok, Elektrolok und Sonstige) oder dem Fahrzustand (Fahrend oder 
+Stehend) können Sie sich einen hervorragenden Überblick Ihrer Loks ver-
+schaffen. Den Filtermodus beenden Sie durch die Auswahl „Alles zeigen“ .
+Ein Fingertipp beispielsweise auf „Dampflok“ zeigt die entsprechenden Lo-
+komotiven mit Dampf-Antrieb an. Die übrigen sind ausgeblendet. Der kleine 
+rote Punkt weist auf aktive Filter hin, die darin abgebildete Zahl entspricht 
+der Anzahl der Kriterien. 
+Wichtig: Um einzelne Antriebsarten anzuzeigen, muss „Alles anzeigen“ 
+deaktiviert sein. 
+Hinweis: Nach einem Zustand (z. B. Fahrend/Stehend) blenden Sie mit „Alles 
+zeigen“ die gesamte Lokliste schnell wieder ein.
+Mit Hilfe der Suchfunktion suchen Sie gezielt nach dem Namen oder dem T eil des Namens einzelner oder 
+mehrerer Loks. Tippen Sie auf das Lupensymbol („Suche“) und geben Sie auf der eingeblendeten T astatur 
+den Suchbegriff ein. Die CS3 sucht jeweils direkt nach der Eingabe jedes Zeichens (Live-Suche). Ein kleiner 
+roter Punkt weist auf die aktive Suche hin, die darin abgebildete Zahl entspricht der Anzahl der eingegebenen 
+Zeichen. Hinweis: Den Suchmodus beenden Sie durch das Löschen des Suchbegriffs mit der Rücktaste oder 
+dem „x“ im Eingabefeld und anschließendem Tippen auf den Bestätigungshaken der T astatur.
+
+
+PAGE 37
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 37
+Exportiert werden Lokbilder, nachdem sie zuerst 
+ausgewählt und dann über die Option „Download“ 
+heruntergeladen werden.
+Haben Sie ein Bild ausgewählt, können Sie es in 
+einem Bildeditor 
+
+ öffnen, der zahlreiche Möglich-
+keiten der Bildbearbeitung bietet. Sie können Ihr 
+Motiv verschieben, in der Größe ändern, drehen 
+und spiegeln. Mit der Option „Vorschau“ (Au-
+gen-Symbol) 
+
+ können Sie das angepasste Motiv 
+nochmals 
+ prüfen. Zum Abschluss klick
+en Sie auf 
+„Hochladen“ (Haken-Symbol) g. 
+Das Lokbild wird nun unter dessen Dateinamen in 
+der Bild
+ datenbank gespeichert. 
+ 
+Hinweis: Eine kleine Einblendung informiert Sie 
+über das erfolgreiche Hochladen des Lokbilds.
+Importiert werden Lokbilder über die Option 
+„Upload“ . Ihr Lokbild können Sie nun ganz bequem 
+in das vorgesehene Feld hineinziehen. Alternativ 
+klicken Sie auf das Feld, um die Bilddatei auszuwäh-
+len.
+Wichtig: Die Datei darf maximal 5 MB groß sein. 
+Bildformat oder Bildgröße spielen dagegen keine 
+Rolle.
+Die CS3 wird bereits mit einer Vielzahl von Lokbildern ausgeliefert, die in den allermeisten Fällen den An-
+forderungen vieler Modellbahner genügen dürften. Darüber hinaus können Sie auch eigene Lokbilder in die 
+Bilddatenbank der CS3 (siehe Seite 13) importieren. Der einfachste Weg führt über die Weboberfläche der 
+CS3, die über einen beliebigen Webbrowser aufgerufen wird (siehe Seite 28).
+Auf die Lokbilder-Datenbank in 
+der CS3 können Sie bequem über 
+die Weboberfläche zugreifen 
+(siehe Seite 28). Einfach in den 
+Symboleinstellungen unter CS3  
+den Menüpunkt „Lokbilder“ 
+
+ aus-
+wählen und in dem Aufklappmenü 
+auf „Lokbilder“ 
+
+ gehen.  Es öffnet 
+sich ein Fenster mit der Überschrift 
+„Lok-Icon“ 
+ .
+ 
+Hinweis: Über die Suche finden Sie 
+schnell die gewünschten Lokbilder.
+Importieren und Exportieren von Lokbildern per Webbrowser
+Webcam
+Lokbilder          Lokkarte und Webcam
+Videoüberwachung der Anlage: Die CS3 ist in 
+der Lage, mittels USB-Kameras oder IP-Kameras 
+eine Livestreamüberwachung des Zugbetriebs 
+zu realisieren. Die Darstellung erfolgt in der 
+Weboberfläche unter dem Menüpunkt „System“ 
+im Auswahlfenster „Webcam“  . 
+Eine USB-Kamera einfach an der CS3 anschließen 
+(nur zwei der drei USB-Anschlüsse sind geeignet 
+siehe Seite 3). Diese wird automatisch erkannt 
+und angezeigt.
+IP-Kameras müssen unter Webcam über das 
+Plus-Symbol hinzugefügt werden. 
+Bei Bedarf lassen sich die Einstellungen jeder 
+Webcam individuell anpassen.
+Tipp: Über das Bildschirm-Symbol kann die 
+Webcam als Vollbild angezeigt werden.
+Wichtig: Aufgrund der hohen Rechenbelastung 
+der CS3 wird die Anzahl der USB-Kameras auf 
+eine aktive begrenzt, mehrere Kameras können 
+angeschlossen werden. IP-Kameras können meh-
+rere eingesetzt werden, da diese die CS3 nicht 
+in demselben Maße belasten. Die USB Webcam 
+muss den „USB Video Device Class“ (kurz: UVC) 
+Standard sowie das Motion JPEG-Format (kurz: 
+MJPEG) unterstützen.
+Sie können Lokdaten von vorhandenen Lokkarten in die Lokliste  
+übernehmen oder eine Lokkarte mit Daten neu beschreiben.
+Lesen: Stecken Sie die Lokkarte wie abgebildet in einen der beiden  
+Kartenleser ein. Die Daten werden in die Lokliste übernommen und die 
+Lok wird sofort im Fahrpult auf der eingesteckten Seite übernommen. 
+Wichtig: Achten Sie darauf, dass der Chip der Karte nach unten zeigt. 
+Schreiben: Stecken Sie die Lokkarte wie abgebildet in den rechten 
+Kartenleser ein. Tippen Sie in den Lok-Einstellungen im Reiter  
+„Einrichten“ auf das Symbol „Lokkarte“: Die CS3 schreibt die Lok- 
+Daten auf die Lokkarte.
+Spezialfall Lokkarte: Lokdaten auslesen und abspeichern
+1 4
+32
+1
+5
+6 7
+1
+Tipp
+
+PAGE 38
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 38
+Artikelliste filtern, sortieren und suchen  F reie Adressen und Drehscheibe einrichten
+Artikelliste sortieren
+Mit der Suchfunktion können Sie 
+gezielt nach dem Namen oder Na-
+mensteile einzelner oder mehrerer 
+Magnetartikel suchen. Tippen Sie auf 
+das Lupensymbol („Suche“) und geben 
+Sie auf der eingeblendeten T astatur 
+den Suchbegriff ein. Die CS3 sucht 
+jeweils direkt nach der Eingabe jedes 
+Zeichens (Live-Suche). Ein kleiner roter 
+Punkt weist auf die aktive Suche hin, 
+die darin abgebildete Zahl entspricht 
+der Anzahl der eingegebenen Zeichen.
+Mit dem Aufklappmenü am oberen Rand der Artikelliste sortieren Sie die Magnetartikel nach verschiedenen 
+Kriterien: Nach vergebener Adresse, der jeweiligen Artikelbezeichnung („Namen“), dem Artikel-Typ oder der 
+Zugehörigkeit zu einem Areal auf dem Gleisstellbild.
+Artikel suchen
+Artikelliste filtern
+Die Artikelliste lässt sich mit  
+„Filtern“ reduzieren. Dazu 
+tippen Sie am oberen Rand der 
+Artikelliste auf das entsprechende 
+Symbol  . Dann erscheint ein 
+Aufklappmenü mit verschiedenen 
+Kriterien, nach denen sich die 
+Artikelliste filtern lässt. Auch 
+eine Kombination von mehreren 
+Filtern ist möglich. Ein kleiner 
+roter Punkt weist auf aktive Filter 
+hin, die darin abgebildete Zahl 
+entspricht der Anzahl der Kriteri-
+en. Den Filtermodus beenden Sie 
+durch die Auswahl „Alles zeigen“ . 
+Drehscheiben konfigurieren
+Am einfachsten lassen sich die neuen Drehscheiben per mfx-Suche 
+nach Artikel auf der CS3 einrichten. Dann sind auch die Sound- und 
+Lichtfunktionen ohne manuelle Einstellungen verfügbar. 
+Eine Drehscheibe lässt sich auch ohne mfx anlegen: Tippen Sie in der 
+Artikelliste auf das Werkzeug-Symbol („Bearbeiten“)  und wählen im 
+folgenden Aufklappmenü „Artikel hinzufügen“  . Anschließend tippen 
+Sie auf „Drehscheiben“  .  
+Die CS3 kann Drehscheiben auf zwei Arten ansteuern  :  
+Stellungen 1-24: In diesem Modus werden alle Stellungen angefahren, 
+die im Gleisbild angeschlossen sind.
+1
+2
+3
+Anschließend ist in den Artikel- 
+Einstellungen unter „Konfigu-
+rieren“   die Programmierung 
+des Drehscheibendecoders 
+mit einer bestimmte Ablauf-
+sequenz von Stop-Go und 
+Bedientasten notwendig. Mit 
+der Gleis-1-Korrektur lässt sich 
+die exakte Position von Gleis 
+1 einrichten. Bei korrekter 
+Programmierung lässt sich die 
+Drehscheibe einfach über ein 
+Popup-Fenster bedienen (Bild 
+rechts).
+Unbelegte Adressen anzeigen
+In der Artikelliste lassen sich über 
+die Ansicht-Filterfunktion  
+auch freie Adressen  anzeigen, 
+wodurch Artikel bedient werden 
+können, ohne sie vorher anlegen  
+zu müssen. Dabei werden 
+unbelegte Adressen in der Über-
+sicht als Rot/Grün-Schalter mit 
+einem Warndreieck in der oberen 
+linken Ecke angezeigt  . 
+Tipp: Durch Drag-&-Drop können 
+die freien Adressen mit Artikeln 
+einfach belegt werden. Dazu das 
+gewünschte Artikelsymbol auf 
+den Adress-Platzhalter ziehen.
+Tipp: Den Suchmodus beenden Sie durch das Löschen des Suchbegriffs mit der Rücktaste oder  
+dem „x“ im Eingabefeld und anschließendem Tippen auf den Bestätigungshaken der T astatur.
+Hinweis: Über den Filter lassen sich auch unbelegte Adressen anzeigen, die so einfach bestückt werden können. Ein aufwendiges Programmieren des 
+Drehscheibendecoders entfällt.  
+Gleisanschlüsse: Die Programmierung des 
+Drehscheibendecoders bestimmt, welche Stellun-
+gen die Drehscheibe anfahren kann. Hinweis: Das 
+Gleisbild muss der realen Drehscheibe entsprechen.
+5
+4
+1
+2
+3Tipp
+1
+
+
+PAGE 39
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 39
+Auswahl einzelner und mehrerer Artikel
+Flächenauswahl
+Für verschiedene Aktionen ist 
+es notwendig, zuvor einen oder 
+mehrere Artikel auszuwählen. 
+Erster Schritt dafür ist stets, den 
+Bearbeitungsmodus zu aktivieren, 
+indem Sie auf das Werkzeugsymbol 
+in der Artikellisten- Symbolleiste 
+tippen  und „Gleisbild bearbeiten“ 
+wählen  .
+Einzelne Artikel wählen Sie aus, indem Sie sie kurz antippen: Ein hellblauer Kreis signalisiert die Auswahl, 
+der Doppelpfeil für den Drehmodus und die Andockstellen für den Verbindungsmodus werden sichtbar. Im 
+Aufklappmenü „Auswahl“ links oben in der Bearbeitungs-Symbolleiste ist diese Option voreingestellt  . 
+Eine ganze Platte oder einen beliebigen Ausschnitt davon können Sie mit der Flächenauswahl markieren. 
+Dazu tippen Sie auf die „Auswahl“-
+ Schaltfläche links oben in der Bearbeitungs-Symbolleiste. Im Aufklappmenü 
+wählen Sie die unterste Option, die mit einem Quadr
+at dargestellt ist  . Nun tippen Sie auf einen Eckpunkt 
+der Fläche, die Sie auswählen möchten, ziehen den Finger zum gegenüberliegenden Eckpunkt und lösen den 
+Finger vom Display.
+Mehrere Artikel wählen Sie 
+aus, indem Sie in der Bearbei-
+tungs-Symbolleiste ganz links auf 
+die Schaltfläche „Auswahl“ tippen 
+und im Aufklappmenü die zweite 
+Option wählen, die umkreiste 
+Hand  . Anschließend tippen Sie 
+der Reihe nach auf alle Objekte, 
+die Sie in die Auswahl einschlie-
+ßen möchten (Bild rechts).
+1
+2
+Gleisbild: Artikel- und Flächenauswahl  Areale er stellen
+3
+5
+4
+Areal aus Auswahl erstellen
+Sobald Sie mehrere Artikel oder 
+eine Fläche ausgewählt haben, 
+sind im Aufklappmenü der 
+Schaltfläche „Gleisbild/Areal“ 
+weitere, zuvor ausgegraute 
+Optionen aktivierbar: „Areal aus 
+Auswahl erstellen“ , „Auswahl 
+auf Platte verschieben“ und 
+„Auswahl auf Platte kopieren“ .
+Dabei ist ein Areal ein Bereich 
+eines Gleisbildes, mit einer eige-
+nen Bezeichnung und Farbe.
+Um ein Areal zu erstellen, 
+müssen Sie eine Fläche 
+ausgewählt haben. In diesem 
+Beispiel erstellen wir aus dem 
+flächig ausgewählten Bahnhof 
+ein Areal. Dazu öffnen Sie mit 
+Fingertipp auf die Schaltfläche 
+„Gleisbild/Areal“ das entspre-
+chende Aufklappmenü und 
+wählen dort „Areal aus Auswahl 
+erstellen“ . In der eingeblende-
+ten Eingabemaske geben Sie 
+dem Areal einen Namen, wäh-
+len seine Farbe und bestätigen 
+mit „Ok“ .
+Daraufhin wird der ausgewähl-
+te Ausschnitt dauerhaft in der 
+gewählten Farbe markiert. 
+Auch in der Artikelliste lassen 
+sich anhand der Farbe alle 
+Artikel eines Areals leicht 
+erkennen.
+ 
+Tipp: Das Löschen eines 
+Areals ist ebenfalls sehr 
+einfach: Im aktivierten 
+Gleisbild-Bearbeitungsmodus 
+tippen Sie auf den Arealnamen 
+in der linken oberen Ecke des 
+Areals. Im daraufhin eingeblen-
+deten Fenster wählen Sie die 
+Option „Löschen“ .
+Tipp
+
+
+PAGE 40
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 40
+Gleisbild: Auswahl und Ansichten
+Gleisbild-Ansichtfilter
+Aktives Gleisbild wechseln
+Tippen Sie auf die Schaltfläche „Ansicht“ in der Artikellisten-Menüleiste, um zahlreiche Filteroptionen 
+angezeigt zu bekommen. In der Standardeinstellung ist die Option „Alles zeigen“ markiert. Mit Fingertipp 
+auf die einzelnen Artikel-Kategorien können Sie sich einen hervorragenden Überblick auf Ihren 
+Gleisbildern verschaffen, da die anderen Elemente ausgegraut werden. Ein kleiner roter Punkt weist auf 
+aktive Filter hin, die darin abgebildete Zahl entspricht der Anzahl der Kriterien. Den Filtermodus beendet 
+die Auswahl „Alles zeigen“ .
+Sobald Sie Gleisbilder auf mehreren Platten oder Stellpulten verwalten, ist die Schaltfläche „Gleisbilder“ 
+sehr nützlich, um zwischen Platten und Stellpulten hin- und herzuschalten. Um das aktive Gleisbild zu 
+wechseln, tippen Sie auf die Schaltfläche „Gleisbilder“ und anschließend auf die gewünschte Platte oder 
+das Stellpult: Das gewählte Gleisbild ist nun im Vordergrund. 
+Auswahl kopieren und verschieben
+Größere Übersicht gerade bei 
+komplexeren Anlagen erreichen Sie 
+mit der Funktion, eine Auswahl auf 
+eine neues Gleisbild zu kopieren 
+(Bild rechts oben) oder zu verschie-
+ben (Bild rechts Mitte). Das neue 
+Gleisbild wurde „Südbahnhof“ ge-
+nannt und besteht aus dem unteren 
+Bereich der Strecke.
+Die Anlage wird dadurch auf zwei 
+Gleisbildern verteilt, bleibt aller-
+dings logisch miteinander verknüpft 
+– an der Funktion ändert sich 
+nichts. Die Übergänge zwischen 
+beiden Gleisbildern werden hier 
+durch die beiden Zahlen „1“ und „2“ 
+symbolisiert. Durch Antippen der 
+Zahlen wird zur anderen Seite der 
+Verbindung gesprungen. 
+Gleisbild-Typ wechseln
+Mit der Möglichkeit Bereiche oder 
+ganze Gleisbilder zu kopieren, las-
+sen sich auch Platten zu Stellpulten 
+und umgekehrt wandeln. Dazu müs-
+sen Sie den gewünschten Bereich 
+markieren und beim Einfügen den 
+gewünschten Gleisbild-Typ wählen. 
+Hinweis: Da Platten und Stellpulte 
+eine unterschiedliche Platzierungs-
+logik besitzen, muss manuell noch 
+nachgearbeitet werden. 
+Wichtig: Wenn identische Artikel 
+auf verschiedenen Gleisbildern 
+eingesetzt werden, müssen auch die 
+Verbindungen identisch sein.
+Hinweis: Tippen Sie doppelt auf das aktive Gleisbild, um dieses großflächig anzuzeigen.
+
+PAGE 41
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 41
+Bedienen Sie Ihre CS3 von den unterschiedlichsten Geräten aus – von PC und Mac bis hin zur drahtlosen Steu-
+erung mit T ablet oder Smartphone unter Android und iOS. Möglich macht diese Flexibilität der CS3 Bildschirm 
+Server, der die Benutzeroberfläche der CS3 über das Netzwerk bereitstellt – mit allen Funktionen. 
+Um den CS3 Bildschirm Server zu starten, müssen Sie zunächst die Weboberfläche der CS3 aufrufen. Dazu 
+können Sie jeden beliebigen Webbrowser benutzen. Auf der Seite 28 ist im Detail beschrieben, wie Sie zur 
+Weboberfläche gelangen.
+Um auf den nun aktiven CS3 Bildschirm Server von Ihrem Steuerungsgerät aus zugreifen zu können, benö-
+tigen Sie einen VNC-Viewer (Virtual Network Computing). Märklin empfiehlt die Verwendung des Real-
+VNC-Viewers. Diesen können Sie unter https://www.realvnc.com/de/connect/download/viewer/ für alle 
+gängigen Plattformen herunterladen (Bild unten).  
+In den Systemeinstellungen der 
+Weboberfläche bewegen Sie den 
+Mauszeiger im oberen Seitenbe-
+reich auf den Menüpunkt „CS3“ . 
+Daraufhin wird ein Menüliste 
+eingeblendet, bei der Sie auf 
+„Bildschirm Server“ den kleinen 
+schwarzen Pfeil anklicken.
+Den CS3 Bildschirm Server star-
+ten Sie nun mit einem Klick auf 
+die Schaltfläche „CS3 Bildschirm 
+Server starten“ am unteren 
+Seitenrand. 
+Die Installation des RealVNC-Viewers unterscheidet sich zwischen den verschiedenen Plattformen system-
+bedingt erheblich. Bitte haben Sie daher Verständnis dafür, dass an dieser Stelle nicht auf die verschiedenen 
+Installationsprozesse eingegangen werden kann. Ziehen Sie stattdessen bitte für Ihre Plattform geeignete 
+unterstützende Literatur zu Rate.
+Nach dem Programmstart erwartet der 
+RealVNC-Viewer, dass Sie die IP-Adresse 
+des CS3 Bildschirm Servers eingeben. Es ist 
+dieselbe IP-Adresse, mit der Sie zuvor auch die 
+Weboberfläche Ihrer CS3 aufgerufen haben 
+(siehe Seite 28). Zusätzlich müssen Sie diese 
+IP mit dem Port 5900 ergänzen. Wenn Ihre 
+IP-Adresse beispielsweise „192.168.1.19“ 
+lautet, geben Sie in den RealVNC-Viewer 
+also „192.168.1.19:5900“ ein. Bestätigen Sie 
+dann Ihre Eingabe. Im Bild links sehen Sie als 
+Beispiel den RealVNC-
+ Viewer für Mac.
+Direkt nach der Eingabe bzw
+. 
+Bestätigung von korrekter 
+IP-Adresse und Port zeigt 
+das Programmfenster den 
+aktuellen Inhalt Ihres CS3 
+Displays an: Sie können die 
+CS3 direkt steuern, je nach 
+Gerät mit der Maus oder mit 
+Fingerberührungen wie auf 
+der CS3.
+Am oberen Rand des Programmfensters blendet sich 
+eine Symbolleiste ein, über die Sie zwischen verschie-
+denen Anzeigemodi wählen sowie Detaileinstellungen 
+vornehmen können. Links sehen Sie die Symbolleiste.
+Wichtig: Auf Smartphone und T ablet weicht der 
+RealVNC-Viewer von der üblichen T ouch-Bedienung ab: 
+Mit dem Finger verändern Sie die Position des Mauszei-
+gers und können so genauer steuern. Ein Fingertipp löst 
+dann wie gewohnt eine Aktion aus – an der Position des 
+Mauszeigers.
+Vollbildmodus an- 
+und abschalten
+Eigenschaften- 
+Menü öffnen
+Vollbild auf 
+Bildschirm-
+größe 
+aufziehen
+Anzeige von Verbin-
+dungsinformationen
+Verbindung beenden
+Fernsteuern der CS3 mit dem Bildschirm Server
+Herunterladen der Betrachtungs-Software
+Starten der Betrachtungs-Software
+CS3 Bildschirm Server
+Auf der Webseite wählen Sie mit 
+einem Mausklick die entsprechen-
+de Plattform aus. Direkt über der 
+Download-Schaltfläche stehen Ih-
+nen – abhängig von der jeweiligen 
+Plattform – weitere Auswahlmög-
+lichkeiten zur Verfügung. 
+Unten auf der Seite gibt es wei-
+tere Hilfe zur Installation und der 
+Verwendung eines VNC-Viewers.
+Unter Konfiguration lassen sich in der Weboberfläche noch Details zum Bildschirm Server einstellen.
+
+PAGE 42
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 42
+CS3 startet nicht  K eine Versorgungsspannung   Netzsteck er einstecken 
+ 
+  CS3 nach dem Herunterfahren
+  V
+erbindung zum Stromnetz trennen
+ 
+  nicht v
+om Hausstromnetz getrennt
+ und anschließend wieder herstellen
+CS3 funktioniert nach 
+ Nicht alle Ger
+äte wurden aktualisiert
+ Im Menüpunkt „System
+“ bei Geräten
+Update nicht mehr korrekt
+     mit rotem Punkt am Ger
+ätesymbol, 
+ 
+       
+das Update durchführen (s. Seite 27)
+Lok meldet sich nicht an
+ Abhängig v
+om Lok-Decoder:
+   
+mfx: 
+ 
+  Die mfx-L
+ok ist bereits in der Lokliste
+ Eintr
+ag in der Lokliste nutzen
+ 
+  K
+ein Strom auf dem Programmiergleis
+ Stop-
+T aste betätigen, so dass der 
+ 
+   
+und der Anlage
+   
+Betriebsstrom eingeschaltet wird
+ 
+  Probleme bei der automatischen
+ F
+unktion „Verlorene mfx-Loks
+  
+   Anmeldung v
+on mfx-Loks
+  wiederfinden
+“ nutzen (s. Seite 34)
+   
+MM, DCC: 
+ 
+  L
+oks melden sich nicht automatisch an 
+ L
+ok manuell anlegen (s. Seite 13)
+ 
+  Die L
+ok-Parameter wie Datenformat,
+ Eintr
+ag in der Lokliste korrigieren,
+ 
+  Adresse, etc. stimmen nicht
+  Adresse im Decoder progr
+ammieren
+Lok reagiert nicht auf Befehle L
+ok steht im stromlosen Bereich
+ Betriebsstrom bei L
+ok einschalten
+ 
+  Nicht alle Fahr- oder Schaltfunktionen
+ Überprüfung des Modells durch
+   
+lassen sich nutzen
+   
+einen Fachmann
+Artikel mit mfx-Decoder 
+ mfx-
+Artikel nicht aktiv gesucht
+  Suche nach mfx-
+Artikel ausführen
+meldet sich nicht an
+      (siehe Seite 16)
+Hilfe bei Störungen
+Fehler   Mögliche Ursachen   L ösung
+Nach jedem Neustart  Hak en bei „Loks automatisch anfahren“  Einstellungen anpassen
+müssen alle Fahrbefehle 
+ in der Systemeinstellung unter CS2 –
+ Wichtig: L
+oks ohne Fahrbefehle
+neu eingegeben werden
+ Gleis nicht gesetzt (s. Seite 25)
+  erhalten gespeicherte F
+unktionen  
+       erst zugewiesen, wenn auch ein  
+       Fahrbefehl eingegeben wird
+Decoder wie m83, m84 oder  Falsch eingestellte P arameter   Die Artik el-Einstellung korrigieren
+Einbaudecoder funktionieren 
+nicht   Verbindungsunterbrechung  Decoder-Anschluss und separate 
+       Leistungsversorgung überprüfen
+ 
+  K
+ein Grund erkennbar
+  Decoder auf die Adresse eines funk-
+ 
+       tionierenden Decoders umstellen.  
+       W enn er dann auch nicht reagiert,   
+       ist ein Defekt wahrscheinlich
+Funktionsprobleme mit  Falsch eingestellte Buslänge   In den Systemeinstellungen am 
+GFP3, Rückmeldedecodern
+     Link S88 oder sonst einem System 
+ 
+       die eingestellte Buslänge korrigieren
+   Falsch eingestellte Zuordnung   In den Artik el-Einstellungen bei den  
+       Kontakten die Parameter prüfen und  
+       korrigieren
+ 
+  Unterschiedliches Bezugspotential
+ Zwischen dem ersten Rückmelde-
+ 
+       modul und dem Masseanschluss (0)  
+       des Versorgungssystems eine  
+       Verbindung herstellen. 
+Gleisbilder nicht sichtbar
+ Bildschirmausschnitt v
+erschoben
+ Die Ansicht zentriert zwei Mal 
+  
+       
+schnell hintereinander im Gleisbild
+ 
+       tippen oder der Menüpunkt   
+       „Gleisbilder“ (s. Seite 39) 
+Die Antworten auf häufig gestellten F
+ragen finden Sie auch unter www.maerklin.de/service/kundeservice oder 
+im Märklin Magazin (www.maerklin-magazin.de).
+Fehler   Mögliche Ursachen   L ösung
+
+PAGE 43
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 43
+Anhang
+Auf einem Blick ....
+... Glossar – Symbole
+... Funktions-Piktogramme
+... Digitalsysteme – Protokolle
+... Systemarchitektur
+
+PAGE 44
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 44
+Glossar
+Symbole der Central Station 3
+Hilfe  Seite 7
+ Suche Seite 11, 35, 37
+Nothalt/Stop Seite 5, 11, 12
+ Nothalt/Stop-Modus aktiv   Seite 5,11, 12
+Fahrpult (leer) Seite 6, 11
+ Fahrpult mit Lok Seite 6, 11
+System Seite 7, 25, 31
+ Central Station 3 Seite 7, 25, 26, 27
+Assistenten Seite 7
+Schließen 
+Gleisbild Seite 38
+Auswahl, Filter aktiv 
+Gleisbild-Ansicht Seite 39
+Artikel-Ansicht Seite 17, 33
+Lok-Ansicht Seite 34
+Bearbeiten 
+Ereignis
+ Seite 22
+Gleisbild bearbeiten Seite 19
+Artikelliste bearbeiten Seite 16
+Lok-Funktionen
+Aufklapp-Menü 
+Hinzufügen, ergänzen 
+Eingabe löschen 
+Lok hinzufügen Seite 13
+Eingabe bestätigen 
+Lokdaten laden Seite 13, 36
+Lok auslesen Seite 13
+Update Seite 7, 27, 30 
+Modus aktiv 
+mfx-Lok finden Seite 34
+Lok Reset Seite 14
+ Lok-Update Seite 14
+Von Gleis laden 
+ Auf Gleis schreiben 
+Adresssteuerung Seite 34
+Laden 
+ Speichern 
+Traktion erstellen Seite 34
+Areal erstellen Seite 38
+Löschen 
+Ereignis hinzufügen Seite 22
+Drehmodus Seite 19
+Raster Seite 19
+mfx-Artikel suchen Seite 16
+Artikel hinzufügen     Seite 16, 16, 20, 33
+Platte/Pult hinzufügen         Seite 19
+Flächenauswahl Seite 38
+Auswahl kopieren Seite 39
+Aufnahme stoppen Seite 22
+Auswahl verschieben          Seite 39
+Aufnahme starten Seite 22
+Verbindungsmodus Seite 20
+Auswahl-Areal erstellen     Seite 38
+Einzelauswahl Seite 38
+ Mehrfachauswahl Seite 38
+Die wichtigsten Symbole auf einem Blick – das bietet Ihnen diese Seite.  
+Damit Sie sehen, was die Symbole bedeuten und auch auf welcher Seite die F
+unktionen erklärt werden.
+ Symbole der Lokliste
+ Symbole im Gleisschaubild
+ Symbole beim Ereignis Symbole der Artikelliste
+ Symbole der Systemsteuerung
+ Allgemeine Symbole
+Änderungen rückgängig/wiederherstellen 
+
+PAGE 45
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 45
+Symbole
+To n
+Mechanik
+Licht
+Funktion 
+0-31 
+Licht Licht 
+hinten
+Licht 
+vorne
+Licht vorne 
+hinten
+Innenlicht
+Alle auf der CS3 verfügbaren Piktogramme auf einen Blick – das bietet Ihnen diese Seite. Es sind dieselben
+Funktionssymbole, aus denen Sie beim Einrichten der Funktionen in den Lok-Einstellungen auswählen können
+(siehe Seite 14) – unterteilt in die Abschnitte Licht, Mechanik und T on. 
+Verfügbare Funktions-Piktogramme
+Führer-
+stand
+Licht 
+Generator
+Licht Gen.
+hinten
+Licht Gen.
+vorne
+Licht 
+T echnik
+Licht 
+Konsole
+Decken-
+licht
+Tisch 3 Tisch 2 Tisch 1 Party 
+Licht
+Abteile Gang Küche
+Gepäck Bar Aussen- 
+licht
+Aussen 
+vorn
+Nummern- 
+schild
+Linien-
+licht
+Triebwerk Licht Licht 
+Rangier
+Blinker Warnlicht
+Tritt- 
+stufen
+Blinklicht Feuer- 
+büchse
+CH- 
+Wechsel
+Fernlicht Fernlicht 
+hinten
+Fernlicht 
+vorn
+Fernlicht 
+vorn+hinten
+Funktion 
+0-31 
+Zahnrad 
+Antrieb
+Rangier- 
+gang ein
+ABV aus Bock-
+sprung
+Zug- 
+gattung
+T elexWischer Rangier- 
+freigabe
+ABV aus
+T elex 
+Walzer
+T elex 
+hinten
+T elex Walzer 
+hinten
+T elex  
+vorn
+T elex Walzer 
+vorn
+Rauch- 
+generator
+Panto Panto 
+hinten
+Panto 
+vorn
+Türen 
+schließen
+Fenster 
+auf/zu
+Aktion 
+Schaffner
+Lüfter Kran Kran  
+neigen
+Kran 
+Höhe
+Drehen 
+links
+Kran 
+verfahren
+Kranhaupt- 
+haken
+Kran 
+Magnet
+Kran  
+auf
+Kran 
+ab
+Kran 
+rechts
+Drehen 
+rechts
+Kran 
+aus
+Shift CV +Kran  
+links
+Kranhaken Kran  
+ein
+CV - Pendel Ablauf Zufall Verzweigen Ablauf 
+sounds
+Sicherheit Zeit 
+Ablauf
+Ereignis
+Funktion 
+0-31 
+Betriebs- 
+geräusch
+Auf-/ 
+Abbügeln
+Schlämmen Schalt-  
+stufen
+Zylinder/ 
+Dampf
+Diesel- 
+heizung
+Bremsenq. 
+aus
+Schienen- 
+stoß
+Schaffner- 
+pfiff
+Sicherheits-  
+ventil
+Schüttel- 
+rost
+Generator Puffer-
+stoß
+Party T anz- 
+musik
+Pressluft Maschine 
+vorschm.
+Kessel 
+Heizung
+Hilfs 
+Aggregat
+Zug- 
+heizung
+Ansage 
+Pfiff
+Zufall  
+aus
+Sifataster Not aus Schalter Kipp- 
+Schalter
+Dreh- 
+Schalter
+Kurbeln Not Halt
+Klackern 
+T acho
+Sound 
+Wischer
+Ablass 
+Ventil
+Bremsen- 
+quietschen
+Segeln Sound 
+Zahnrad
+GlockeKurven 
+quietschen
+Sanden Fahr- 
+geräusch
+Glocke 
+kurz
+Glocke 
+lang
+Horn  
+kurz
+Pfeife Pfeife  
+lang
+Lüfter
+Stark- 
+lüften
+Horn/ 
+Typhon
+Horn 
+lang
+Pfeife  
+kurz
+Schwach- 
+lüften
+Luftpumpe Luftpumpe 
+manuell
+Kompressor Vakuum- 
+pumpe
+Injektor Wasser- 
+pumpe
+Ölpumpe Schmier- 
+pumpe
+Diesel- 
+pumpe
+Sonst. 
+Pumpe
+Kohle 
+schaufeln
+Kombi 
+Kohle
+Kohlestaub Sprach-  
+ausgabe
+Bahnhofs- 
+durchsage
+Bahnsteig- 
+durchsage
+Zugziel 
+Ansage
+Funk-  
+gespräch
+Wartende 
+Passagiere
+Ansage 
+Schaffner
+Sprach- 
+wolke
+Info 
+Durchsage
+Information 
+Zug
+Wartende 
+Passagiere
+allg. Zug-  
+durchsage
+Türen 
+schließen
+Gespräch 
+Lokführer
+Warn-  
+ansage
+Ansage 
+Zug
+Türen 
+schließen
+Falttüre Mehrfach 
+Türe
+Schiebe 
+To r
+Türe zu 
+links
+Rauch- 
+kammer
+Mute/
+Fade
+Klapptüre Rolltor Geräusch 
+Fenster
+Hammer Säge Bohrer Schweißen Schleifen Bürsten Kettenzug Flex Schaufel Laden
+Hämmern Abspielen Pause Vor Zurück Lauter Leiser Stop T anken Wasser
+Diesel Kohle Kohlestaub Öl Sand Ambiente 
+Stadt
+Ambiente 
+Tunnel
+Ambiente 
+Stahl
+Ambiente 
+Beton
+Bahn- 
+übergang
+
+PAGE 46
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 46
+Protokolle
+Die verschiedenen Digitalsysteme im Überblick
+Märklin hat 1984 das Digitalsystem „MM“ vorge- 
+stellt, das es erstmals erlaubte, bis zu 80 Loks 
+gleichzeitig auf einer Anlage zu fahren. Zur Über-
+tragung der Informationen 
+ diente ein Protok
+oll, 
+das von Moto
+ rola (T) ent
+ wick
+elt wurde. Dement-
+sprechend steht MM für „Märklin Motorola (TM)“ . 
+Das System war noch relativ einfach aufgebaut. 
+Auch die Anzahl der Funktionen war übersichtlich:  
+Es gab nur eine Funktion, die meist für die Stirn- 
+beleuchtung der Lokomotive verwendet wurde. 
+1993 kam bereits das überarbeitete MM (MM2) 
+mit dem entsprechenden Steuergerät (6021) auf 
+den Markt. Zu den Fähigkeiten von MM kamen 
+vier zusätzliche Funktionen dazu, es 
+ wurde die 
+Motorregelung eingeführt und es 
+ wurde v
+on 14 
+auf 28 Fahrstufen erweitert. MM2 (vielfach auch 
+als fx bezeichnet) kann bis zu 250 Lokadressen 
+verwalten.
+MM ist das klassische Digital-System für Märklin 
+H0, das aber ab 1993 bereits seinen Siegeszug 
+auch in der Spur 1 fortsetzte. 
+In den 90er Jahren kam das DCC-System (Digital 
+Command Control) auf den Markt. Es basiert auf 
+Entwicklungen der Firma Lenz für das Ende der 
+80er Jahre angebotene Märklin Digital-System. 
+DCC wurde in den USA durch die NMRA in seinen 
+Eigenschaften definiert. Die Normung umfasst 
+allerdings nur das Protokoll, so dass die Eigen-
+schaften von DCC-Decodern oder -Fahrgeräten 
+weit streuen. So kommt es zu der oft kritisierten 
+Inkompatibilität verschiedener Gerätekombina-
+tionen.
+Davon abgesehen, bietet DCC dem Anwender 
+weitreichende Möglichkeiten, die Fahrzeuge 
+an die individuellen Bedürfnisse anzupassen – 
+angefangen bei der Programmierbarkeit bis hin zu 
+einem Adressumfang von über 10.000 verschiede-
+nen Adressen. Allerdings ist es nicht immer leicht, 
+die gewünschten Einstellungen vorzunehmen. 
+DCC hat sich im Zweileiter-Markt wie zum Bei-
+spiel bei Trix etablieren können.
+MM DCC
+2004 wurde von Märklin ein neues Digitalsystem 
+namens „mfx“ vorgestellt. Es war ein komplett 
+neues System mit neuen Eigenschaften: So wie bei 
+DCC sind die Decoder auch unter mfx program-
+mierbar, ohne dazu die Lok öffnen zu müssen. 
+Die Einstellungen in den Decodern erfolgen über 
+sogenannte CV (Control Variables).
+Die wichtigste Neuerung durch mfx ist aber die 
+automatische Anmeldung im Stil von Plug-&-Play: 
+Wird eine Lokomotive mit mfx-Decoder auf das 
+Gleis gestellt, meldet sie sich von selbst bei der 
+CS3 mit einer eindeutigen Kennung an.  
+Hinweis: Die Lok-Adresse ist bei mfx nicht mehr 
+notwendig und braucht somit auch nicht mehr 
+verändert oder angepasst werden. 
+mfx ist das aktuelle System bei Märklin, das für 
+alle Spurweiten (H0, 1, G) und für alle dort übli-
+chen Gleissysteme eingesetzt wird. 
+Start 1984: Märklin Digital mit dem Fahr-
+pult 6035 und der Steuereinheit 6020. 
+Fahrerlebnis: Im virtuellen Führerstand können alle 
+Loks auf der CS3 vorbildgerecht gesteuert werden 
+– sogar abhängig von Betriebsmitteln (Spielewelt).
+2013 erweiterte Märklin das bestehende 
+Basisprotokoll mfx um weitere Anwendungs
+-
+möglichk
+eiten: Das Format „mfx+“ war geboren. 
+Es erlaubt das Fahren und 
+ Steuern v
+on Lokomo-
+tiven im sogenannten „Spielewelt-Modus“ . Damit 
+ist es möglich, eine mit einem mfx+Decoder 
+ausgestattete Lokomotive nicht nur mit dem 
+herkömm
+ lichen Fahrpult zu betreiben, sondern 
+auch in der CS3 in den F
+ührerstand-Modus zu 
+wechseln und so die Lok über die im Vorbild üb-
+lichen Armaturen zu bedienen. Inzwischen kann 
+der Führerstand bei jeder Lok auf der Central 
+Station 3 eingeblendet werden. 
+Grundsätzlich verhält sich ein mfx+-Deco
+ der wie 
+ein mfx-Decoder
+. Allerdings kann der Anwen-
+der bei mfx+ zusätzlich unter drei Spiel
+ arten 
+wählen: „
+Ohne Verbrauch“ , „Mit Verbrauch“ und 
+„BW-T anken“ , was für zusätzlichen realitätsnahen 
+Spielspaß sorgt. 
+Hinweis: Nicht benötigte Protokolle sollten deaktiviert werden, um Störungen zu vermeiden (s. Seite 25).
+Bei der digitalen Steuerung von Modellbahnen benötigt man eine Sprache (Protokoll), um Befehle zwischen 
+den einzelnen Komponenten auszutauschen. Die Central Station 3 beherrscht folgende Formate/Protokolle:
+Kommunikationsmittel: Über Adressen werden 
+die Decoder direkt mit Befehlen angesprochen.
+Plug & Play: Lokomotiven mit mfx-Decoder 
+melden sich automatisch an der CS3 an.
+Wichtig: Das System mit den meisten Möglichkeiten ist das höchstwertige Digital-Protokoll. Die Rei-
+henfolge der Digital-Protokolle ist in der Wertung fallend:
+ Priorität 1: mfx 
+ –
+ Priorität 2: DCC 
+ –
+ Priorität 3: MM
+W
+enn mehr Digital-Protokolle erkannt werden, wählt der Decoder das höchstwertige Protokoll.
+Hinweis: Die Decoder-Adresse ist für jedes Protokoll (MM, DCC) getrennt einzustellen.
+
+PAGE 47
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 47
+Systemarchitektur Central Station 3
+Die schematische Darstellung zeigt beispielhaft die Systemarchitektur von Märklin Digital mit aktuellen Geräten. Da Märklin stets auf Kompatibilität achtet, können auch ältere digitale Komponenten integriert werden. 
+Die genaue Anschlussbelegung entnehmen Sie bitte den Bedienungsanleitungen der jeweiligen Geräte.
+MS2 (60657)
+CS3  
+(60226)
+WLAN- 
+Router
+WLAN-Anbindung
+T erminal 
+(60145)
+Link S88 
+(60883)
+S88 
+(60881/60882)
+Booster 
+(60175)
+T erminal 
+(60145)
+LAN-Anbindung
+Schalt- 
+netzteil 
+(60041)
+Schalt- 
+netzteil 
+(60041)
+Schalt- 
+netzteil 
+(66360)
+Adapterkabel (60124)
+MS2 (60657)
+USB-
+Maus
+Booster 
+(60175)
+ Schalt- 
+netzteil 
+(60041)
+Link S88 
+(60883)
+Schalt- 
+netzteil 
+(66360)
+S88 
+(60881/60882)
+Märklin Bus (7-polig)
+Märklin CAN-Bus (9-polig)
+Märklin MS-Bus (10-polig)
+S88-Bus
+LAN-Anbindung
+USB
+MS WLAN (60667)
+Verlängerungskabel 
+(60126)
+Empfängerbox 
+WLAN (60117)
+MS WLAN (60667)
+Empfängerbox 
+WLAN (60117)
+
+
+PAGE 48
+Kurzanleitung Central Station 3 ab Softwareversion 2.5 48
+Systemarchitektur Märklin Digital
+Die schematische Darstellung zeigt beispielhaft die Systemarchitektur von Märklin Digital. Da Märklin stets auf Kompatibilität achtet, können natürlich auch manche älteren digitalen Komponenten integriert werden.  
+Die genaue Anschlussbelegung entnehmen Sie bitte den Bedienungsanleitungen der jeweiligen Geräte.
+Schaltnetzteil
+66360
+Decoder  
+m83 60832
+Decoder k83 
+60830
+Decoder k84 
+60840
+Decoder m84 
+60842
+Universalversorgungseinheit 
+60822
+MS2 (60657) CS3 
+(60226)
+T erminal 
+(60145)
+Booster 
+(60175)
+Connect 6021
+ (60128)
+T erminal 
+(60145)
+Adapterkabel (60124)
+MS2 
+(60657)
+CS3+ 
+(60216)
+WLAN- 
+Router
+WLAN-Anbindung
+LAN-Anbindung
+USB-
+Maus
+Gleisanschluss
+Märklin Bus
+Märklin Can-Bus
+Märklin MS-Bus
+S88-Bus
+LAN-Anbindung
+USB
+Schalt- 
+netzteil 
+(60041)
+Verbindungskabel (60123)
+Schalt- 
+netzteil 
+(60061)
+S88 
+(60881/60882)
+Link S88 
+(60883)
+S88 
+(60881/60882)
+Schalt- 
+netzteil 
+(66360)
+Verbindungskabel 
+(60123)
+Trans- 
+formator 
+(60052)
+Schalt- 
+netzteil 
+(60041)
+s88
+CS2
+(60215)
+MS2 (60657) MS2 (60657)
+Haupt- 
+gerät
+Schalt- 
+netzteil 
+(60041)
+Verlängerungskabel 
+(60126)
+MS WLAN 
+(60667)
+Empfängerbox 
+WLAN (60117)
+MS WLAN 
+(60667)
+Empfängerbox 
+WLAN (60117)
+Adapterkabel (60124)

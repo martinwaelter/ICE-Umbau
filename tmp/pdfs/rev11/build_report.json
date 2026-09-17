@@ -1,0 +1,250 @@
+{
+  "output": "/Users/martinwaelter/ICE Umbau/output/pdf/ICE_2976_Umbauanleitung_REV11_WERKSTATTFASSUNG.pdf",
+  "pages": 40,
+  "sha256": "3c67f596856f5403eac6f27f1f2512379555d3611749e4a7bd94f817cc7e41cb",
+  "original_rev10_sha256": "2a07914135e92b066701b02029ab4315c624083dd5cb5890774b7b629d7f0ec0",
+  "original_unchanged": true,
+  "links": 199,
+  "figure_placements": 22,
+  "figures": [
+    {
+      "page": 1,
+      "path": null,
+      "kind": "system",
+      "width": 519.2755905511812,
+      "height": 193
+    },
+    {
+      "page": 3,
+      "path": null,
+      "kind": "nets",
+      "width": 519.2755905511812,
+      "height": 149
+    },
+    {
+      "page": 6,
+      "path": null,
+      "kind": "fixture",
+      "width": 519.2755905511812,
+      "height": 159
+    },
+    {
+      "page": 12,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/0D2DC2F3-025D-48F9-8454-50A792498AD1_4_5005_c.jpeg",
+      "kind": null,
+      "width": 387.98039215686276,
+      "height": 94.0
+    },
+    {
+      "page": 12,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60941_seite2_600dpi.png",
+      "kind": null,
+      "width": 400.23042348741194,
+      "height": 218.0
+    },
+    {
+      "page": 13,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/motor_a_2048.jpg",
+      "kind": null,
+      "width": 480.8971962616822,
+      "height": 201.0
+    },
+    {
+      "page": 14,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/motor_c_2048.jpg",
+      "kind": null,
+      "width": 496.94117647058823,
+      "height": 198.0
+    },
+    {
+      "page": 16,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-2.jpg",
+      "kind": null,
+      "width": 124.02031250000002,
+      "height": 493.0
+    },
+    {
+      "page": 17,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/front_led_kabel_1.jpg",
+      "kind": null,
+      "width": 147.09193776520507,
+      "height": 163.0
+    },
+    {
+      "page": 17,
+      "path": null,
+      "kind": "led",
+      "width": 519.2755905511812,
+      "height": 126
+    },
+    {
+      "page": 18,
+      "path": null,
+      "kind": "screw",
+      "width": 519.2755905511812,
+      "height": 140
+    },
+    {
+      "page": 19,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/lodi_motor_montiert_original.jpg",
+      "kind": null,
+      "width": 489.9642857142857,
+      "height": 153.0
+    },
+    {
+      "page": 20,
+      "path": null,
+      "kind": "front",
+      "width": 519.2755905511812,
+      "height": 187
+    },
+    {
+      "page": 21,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/quellen_alt/tmp/pdfs/rev5/research/dummy_full.jpg",
+      "kind": null,
+      "width": 214.15982576646005,
+      "height": 138.84270450236275
+    },
+    {
+      "page": 21,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60977_600dpi-005.png",
+      "kind": null,
+      "width": 289.11576478472114,
+      "height": 222.644959184758
+    },
+    {
+      "page": 22,
+      "path": null,
+      "kind": "rear",
+      "width": 519.2755905511812,
+      "height": 172
+    },
+    {
+      "page": 23,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-4.jpg",
+      "kind": null,
+      "width": 519.2755905511812,
+      "height": 39.08832742061089
+    },
+    {
+      "page": 23,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-5.jpg",
+      "kind": null,
+      "width": 399.43894389438947,
+      "height": 133.0
+    },
+    {
+      "page": 24,
+      "path": null,
+      "kind": "coupler",
+      "width": 519.2755905511812,
+      "height": 150
+    },
+    {
+      "page": 28,
+      "path": null,
+      "kind": "ammeter",
+      "width": 519.2755905511812,
+      "height": 119
+    },
+    {
+      "page": 30,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-2.jpg",
+      "kind": null,
+      "width": 131.42606707317074,
+      "height": 252.0
+    },
+    {
+      "page": 31,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60977_600dpi-006.png",
+      "kind": null,
+      "width": 170.92378547021247,
+      "height": 280.2998802579035
+    }
+  ],
+  "source_count": 23,
+  "old_to_new": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "21": 4,
+    "22": 5,
+    "4": 6,
+    "5": 7,
+    "6": 8,
+    "7": 9,
+    "8": 10,
+    "9": 11,
+    "10": 12,
+    "11": 13,
+    "12": 14,
+    "13": 15,
+    "14": 16,
+    "18": 17,
+    "15": 18,
+    "16": 19,
+    "17": 20,
+    "19": 21,
+    "20": 22,
+    "23": 23,
+    "24": 24,
+    "25": 25,
+    "26": 26,
+    "27": 27,
+    "28": 28,
+    "29": 29,
+    "30": 30,
+    "31": 31,
+    "32": 32,
+    "33": 33,
+    "34": 34,
+    "35": 35,
+    "36": 36,
+    "37": 37,
+    "38": 38,
+    "39": 39,
+    "40": 40
+  },
+  "words_by_page": [
+    277,
+    288,
+    288,
+    357,
+    306,
+    304,
+    390,
+    391,
+    367,
+    450,
+    426,
+    235,
+    276,
+    281,
+    373,
+    273,
+    308,
+    306,
+    291,
+    301,
+    269,
+    365,
+    263,
+    327,
+    354,
+    387,
+    367,
+    309,
+    287,
+    321,
+    268,
+    331,
+    313,
+    320,
+    297,
+    354,
+    308,
+    278,
+    329,
+    309
+  ]
+}

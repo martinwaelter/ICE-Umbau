@@ -1,0 +1,59 @@
+{
+  "output": "/Users/martinwaelter/ICE Umbau/output/pdf/ICE_2976_REV16_1_MFX_MIT_PLATINENDETAILS.pdf",
+  "pages": 20,
+  "cuts_required": 0,
+  "source_photo_mapping": "62762 foreign specimen only; own exact wire endpoint mapping remains unknown",
+  "pad_netlists": {
+    "sender": {
+      "RP1": [
+        "U",
+        "X1",
+        4700
+      ],
+      "RP2": [
+        "U",
+        "X2",
+        4700
+      ],
+      "RS1": [
+        "X1",
+        "K1",
+        1000
+      ],
+      "RS2": [
+        "X2",
+        "K2",
+        1000
+      ]
+    },
+    "receiver": {
+      "D1": [
+        "K1",
+        "P"
+      ],
+      "D2": [
+        "K2",
+        "P"
+      ],
+      "RR": [
+        "K1",
+        "red",
+        47000
+      ],
+      "RW": [
+        "K2",
+        "white",
+        47000
+      ],
+      "D3": [
+        "red",
+        "P"
+      ],
+      "D4": [
+        "white",
+        "P"
+      ]
+    }
+  },
+  "sha256": "6b7f153fe45e7c9343e8cea037f2a155b5aa0bfe1a395adf19891f6c5dd328c6"
+}

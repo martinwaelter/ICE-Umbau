@@ -1,0 +1,79 @@
+[
+  {
+    "file": "ebay_147416253187_bild1.webp",
+    "source_url": "https://i.ebayimg.com/images/g/Gy8AAeSwHWVqSUlg/s-l1600.webp",
+    "retrieved_date": "2026-09-12",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "sha256": "214be318f0bc3dc68c7c183fcbc331a4d8eea32a3cfdf0d120ae3d6a338ac6a6",
+    "visually_verified": true
+  },
+  {
+    "file": "ebay_147416253187_bild2.webp",
+    "source_url": "https://i.ebayimg.com/images/g/ia4AAeSwbg9qSUlk/s-l1600.webp",
+    "retrieved_date": "2026-09-12",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "sha256": "b6ede1c1b29fd6974453681f13451bba06e84ed58d854398a5e88e8624c09bf1",
+    "visually_verified": true
+  },
+  {
+    "file": "ebay_147416253187_bild4.webp",
+    "source_url": "https://i.ebayimg.com/images/g/azkAAeSw~VhqSUlu/s-l1600.webp",
+    "retrieved_date": "2026-09-12",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "sha256": "92dd0a527c697196c47f73155b0c89c8b0031a5355fe20b658517d64bd982f3c",
+    "visually_verified": true
+  },
+  {
+    "file": "ebay_147416253187_bild5.webp",
+    "source_url": "https://i.ebayimg.com/images/g/4tgAAeSwIrpqSUl5/s-l1600.webp",
+    "retrieved_date": "2026-09-12",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "sha256": "16d52bc050c2365c6cb61f86bce2e870cef02f59b8afa07580369aea9e2d9ab1",
+    "visually_verified": true
+  },
+  {
+    "file": "ebay_327161838339_62762_500.jpg",
+    "source_url": "https://i.ebayimg.com/thumbs/images/g/u~sAAOSwNk5hu7D6/s-l500.jpg",
+    "retrieved_date": "2026-09-12",
+    "dimensions": [
+      500,
+      375
+    ],
+    "sha256": "f17881e54dc9023780c57b48fad0e46e58244f28ff3eda2a97f441f5ec64b172",
+    "visually_verified": true
+  },
+  {
+    "file": "kleinanzeigen_3331585671_bild1.jpg",
+    "source_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6e765b4c-86fb-46f8-80f1-cd535b70a456?rule=%24_59.AUTO",
+    "retrieved_date": "2026-09-12",
+    "dimensions": [
+      960,
+      720
+    ],
+    "sha256": "96c55e05cafcadf0ddbc4649c6cef5f1ae4a227375a8f1e8ffa855ca04f4d559",
+    "visually_verified": true
+  },
+  {
+    "file": "kleinanzeigen_3331585671_bild2.jpg",
+    "source_url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ea/eae4a6ee-a230-4c46-83a9-d26c8e0bfb95?rule=%24_59.AUTO",
+    "retrieved_date": "2026-09-12",
+    "dimensions": [
+      960,
+      720
+    ],
+    "sha256": "97ed20dd555d20e45797a7f457c598582120ef1f5ce1c96e2c22fe39556deedb",
+    "visually_verified": true
+  }
+]

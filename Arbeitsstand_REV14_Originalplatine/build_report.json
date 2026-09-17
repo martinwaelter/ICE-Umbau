@@ -1,0 +1,290 @@
+{
+  "output": "/Users/martinwaelter/ICE Umbau/output/pdf/ICE_2976_Umbauanleitung_REV14_ORIGINALPLATINE_62762.pdf",
+  "pages": 47,
+  "bookmarks": 47,
+  "sha256": "524e448b964b183b55875d2e72089d940b5872ea18d3a2971bc90ecb5a48ad6a",
+  "links": 385,
+  "figures": [
+    {
+      "page": 1,
+      "path": null,
+      "kind": "system",
+      "width": 519.2755905511812,
+      "height": 155
+    },
+    {
+      "page": 3,
+      "path": null,
+      "kind": "testtrack",
+      "width": 519.2755905511812,
+      "height": 108
+    },
+    {
+      "page": 4,
+      "path": null,
+      "kind": "coupler",
+      "width": 519.2755905511812,
+      "height": 130
+    },
+    {
+      "page": 5,
+      "path": null,
+      "kind": "nets",
+      "width": 519.2755905511812,
+      "height": 110
+    },
+    {
+      "page": 8,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/0D2DC2F3-025D-48F9-8454-50A792498AD1_4_5005_c.jpeg",
+      "kind": null,
+      "width": 474.65686274509807,
+      "height": 115.0
+    },
+    {
+      "page": 8,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_Originalplatine/belege_62762/kleinanzeigen_3331585671_bild1.jpg",
+      "kind": null,
+      "width": 480.0,
+      "height": 115.0
+    },
+    {
+      "page": 8,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_Originalplatine/belege_62762/kleinanzeigen_3331585671_bild2.jpg",
+      "kind": null,
+      "width": 421.6666666666667,
+      "height": 115.0
+    },
+    {
+      "page": 9,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/BAD231CB-B878-4D94-B5EE-CDAB1D69D455_4_5005_c.jpeg",
+      "kind": null,
+      "width": 229.15384615384613,
+      "height": 90.0
+    },
+    {
+      "page": 10,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/0D2DC2F3-025D-48F9-8454-50A792498AD1_4_5005_c.jpeg",
+      "kind": null,
+      "width": 387.98039215686276,
+      "height": 94.0
+    },
+    {
+      "page": 10,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60941_seite2_600dpi.png",
+      "kind": null,
+      "width": 400.23042348741194,
+      "height": 218.0
+    },
+    {
+      "page": 11,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/motor_a_2048.jpg",
+      "kind": null,
+      "width": 480.8971962616822,
+      "height": 201.0
+    },
+    {
+      "page": 12,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/motor_c_2048.jpg",
+      "kind": null,
+      "width": 496.94117647058823,
+      "height": 198.0
+    },
+    {
+      "page": 14,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60977_600dpi-005.png",
+      "kind": null,
+      "width": 207.768109976245,
+      "height": 160.0
+    },
+    {
+      "page": 15,
+      "path": null,
+      "kind": "front",
+      "width": 519.2755905511812,
+      "height": 166
+    },
+    {
+      "page": 16,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60977_600dpi-005.png",
+      "kind": null,
+      "width": 289.83096533655777,
+      "height": 235.0
+    },
+    {
+      "page": 17,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_Originalplatine/maerklin_60972_p6.png",
+      "kind": null,
+      "width": 242.88849210135348,
+      "height": 180.0
+    },
+    {
+      "page": 18,
+      "path": null,
+      "kind": "rear",
+      "width": 519.2755905511812,
+      "height": 172
+    },
+    {
+      "page": 19,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/front_led_kabel_1.jpg",
+      "kind": null,
+      "width": 126.33663366336633,
+      "height": 140.0
+    },
+    {
+      "page": 26,
+      "path": null,
+      "kind": "relay",
+      "width": 519.2755905511812,
+      "height": 155
+    },
+    {
+      "page": 28,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60977_600dpi-006.png",
+      "kind": null,
+      "width": 175.9391231515546,
+      "height": 275.0
+    },
+    {
+      "page": 29,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_Originalplatine/maerklin_60972_p6.png",
+      "kind": null,
+      "width": 206.60514945411424,
+      "height": 265.0
+    },
+    {
+      "page": 31,
+      "path": null,
+      "kind": "led_measure",
+      "width": 519.2755905511812,
+      "height": 135
+    },
+    {
+      "page": 34,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-4.jpg",
+      "kind": null,
+      "width": 519.2755905511812,
+      "height": 39.08832742061089
+    },
+    {
+      "page": 34,
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-5.jpg",
+      "kind": null,
+      "width": 399.43894389438947,
+      "height": 133.0
+    },
+    {
+      "page": 35,
+      "path": null,
+      "kind": "coupler",
+      "width": 519.2755905511812,
+      "height": 150
+    },
+    {
+      "page": 42,
+      "path": null,
+      "kind": "closed_access",
+      "width": 519.2755905511812,
+      "height": 108
+    }
+  ],
+  "source_count": 35,
+  "old_to_new": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "9": 8,
+    "19": 9,
+    "15": 10,
+    "16": 11,
+    "17": 12,
+    "18": 13,
+    "22": 14,
+    "23": 15,
+    "24": 16,
+    "25": 17,
+    "26": 18,
+    "20": 19,
+    "8": 20,
+    "10": 21,
+    "11": 22,
+    "12": 23,
+    "13": 24,
+    "31": 25,
+    "32": 26,
+    "33": 27,
+    "34": 28,
+    "35": 29,
+    "36": 30,
+    "21": 31,
+    "37": 32,
+    "14": 33,
+    "27": 34,
+    "28": 35,
+    "29": 36,
+    "30": 37,
+    "38": 38,
+    "39": 39,
+    "40": 40,
+    "41": 41,
+    "42": 42,
+    "43": 43,
+    "44": 44,
+    "45": 45,
+    "46": 46,
+    "47": 47
+  },
+  "words_by_page": [
+    281,
+    282,
+    416,
+    376,
+    405,
+    355,
+    339,
+    229,
+    390,
+    245,
+    287,
+    281,
+    392,
+    377,
+    282,
+    261,
+    280,
+    397,
+    330,
+    362,
+    413,
+    437,
+    382,
+    493,
+    432,
+    370,
+    350,
+    246,
+    270,
+    439,
+    348,
+    398,
+    449,
+    260,
+    324,
+    298,
+    333,
+    302,
+    434,
+    360,
+    306,
+    344,
+    367,
+    320,
+    341,
+    195,
+    225
+  ]
+}

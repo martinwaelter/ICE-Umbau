@@ -1,0 +1,398 @@
+[
+  {
+    "page": 1,
+    "text": "Märklin 62762: Bildbefund und Umbaugrundlage"
+  },
+  {
+    "page": 1,
+    "text": "<b>Beide Seiten gefunden.</b> Zwei getrennte Angebote zeigen die Leiterbahnseite und die gegenüberliegende Schalterseite derselben Platinenbauart. Aufdruck: <b>62762 / 03/92 / VER 1.1</b>. Die Bilder liefern eine konkrete Grundlage für den Erhalt der Originalplatine. Die elektrische Zuordnung des eigenen Fahrzeugs bleibt davon getrennt.<super><link href=\"https://www.ebay.de/itm/147416253187\" color=\"#135A64\">[Q1]</link></super><super><link href=\"https://www.kleinanzeigen.de/s-anzeige/maerklin-h0-3370-ice-3x-leiterplatten/3331585671-249-611\" color=\"#135A64\">[Q2]</link></super>"
+  },
+  {
+    "page": 1,
+    "text": "Leiterbahnseite - im vorhandenen Fahrzeugfoto oben"
+  },
+  {
+    "page": 1,
+    "text": "Abb. 1: 62762, Ausschnitt aus Foto 1 des Angebots Q2. Nummer und Revision sind lesbar; keine nachgezeichneten Leiterzüge."
+  },
+  {
+    "page": 1,
+    "text": "Gegenseite - Schiebeschalter am U-förmigen Ende"
+  },
+  {
+    "page": 1,
+    "text": "Abb. 2: Dasselbe Exemplar, Foto 2 aus Q2. Die versetzten Randkerben und vier Bohrungen passen bei Seitenwechsel spiegelbildlich."
+  },
+  {
+    "page": 1,
+    "text": "<b>Ergebnis für den Umbau:</b> Die gezeigte 62762 ist ein passiver Verbindungsträger mit mechanischem Schalter. Das Foto begründet weder den Ausbau vermeintlicher Leistungselektronik auf dieser Platine noch einen pauschalen Leiterbahnschnitt. Die dicht bestückte Nachbarplatine in den Angeboten ist die <b>62761</b>."
+  },
+  {
+    "page": 1,
+    "text": "Umfang: forensische Bild- und Quellenprüfung als Grundlage der separaten Anleitung ohne LoDi-Motorplatine. Keine am Fahrzeug ausgeführten Messungen oder Umbauten. Quellenabruf und Auswertung: 12.09.2026."
+  },
+  {
+    "page": 2,
+    "text": "Zweites Bildpaar und Teileidentität"
+  },
+  {
+    "page": 2,
+    "text": "Das zweite Angebot bestätigt die Gegenansichten unabhängig vom ersten. Hier steht die <b>62762 jeweils rechts</b>; links liegt eine 62761. Die Ausschnitte unten zeigen nur die rechte Platine.<super><link href=\"https://www.ebay.de/itm/147416253187\" color=\"#135A64\">[Q1]</link></super>"
+  },
+  {
+    "page": 2,
+    "text": "Leiterbahnseite"
+  },
+  {
+    "page": 2,
+    "text": "Schalterseite"
+  },
+  {
+    "page": 2,
+    "text": "Abb. 3 und 4: Ausschnitte aus Q1, Galerie Bilder 2 und 1. Originaldateien jeweils 1600 × 1200 Pixel; Vergleich ohne künstliche Schärfung."
+  },
+  {
+    "page": 2,
+    "headers": [
+      "Nachweis",
+      "Aussage und Grenze"
+    ],
+    "rows": [
+      [
+        "Fotoaufdruck",
+        "62762 / 03/92 / VER 1.1 auf der Leiterbahnseite. Das ist eine Platinenkennung, kein Beleg für einen integrierten Digitaldecoder."
+      ],
+      [
+        "Märklin-Ersatzteilblätter",
+        "627620 ist als Leiterplatte, Position 27, dokumentiert. Im Blatt 3370 liegt sie beim motorlosen Kopf; der Motorwagen hat dort 627610. Auch das spätere Blatt führt 627620 hinten.<super><link href=\"https://static.maerklin.de/damcontent/ac/29/ac29ce530a37bf0a5e5e04986eed4c3a1434542471.pdf\" color=\"#135A64\">[Q4]</link></super><super><link href=\"https://static.maerklin.de/damcontent/c7/9c/c79c321455edb84f118a74a9c58838611434542615.pdf\" color=\"#135A64\">[Q5]</link></super>"
+      ],
+      [
+        "Übertragbarkeit auf 2976",
+        "Die Standardbestückung eines 3370/33701 beweist nicht die komplette Verdrahtung eines 2976. Ein gleicher Träger kann in einem anders aufgebauten Fahrzeug verwendet sein."
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "text": "Abgleich mit dem vorhandenen ICE"
+  },
+  {
+    "page": 3,
+    "text": "Abb. 5: Persönliche Ausgangsaufnahme, 842 × 204 Pixel. Der Motor befindet sich links. Die Nummer ist darin nicht sicher lesbar."
+  },
+  {
+    "page": 3,
+    "text": "<b>Sehr starke geometrische Übereinstimmung:</b> lange parallele Leiterzüge, versetzte Kantenkerben, Befestigungsbohrungen, Dreier-Lötgruppe, Zwischenpads und breite Endkontaktfläche passen zum 62762-Vergleich. Diese Kombination stützt die Zuordnung deutlich stärker als die bloße Farbe oder Länge der Platine."
+  },
+  {
+    "page": 3,
+    "text": "Hochauflösender Vergleich mit markierten Prüfbereichen"
+  },
+  {
+    "page": 3,
+    "text": "Abb. 6: Unveränderte Bildpixel mit Vektormarkierungen. LoDi-Foto des motorlosen Kopfes aus dem Beispiel 33701, nicht das persönliche Fahrzeug. Die Bildnummern sind Prüfbereiche, keine Hersteller-Padnamen.<super><link href=\"https://lokstoredigital.jimdoweb.com/hardware/beleuchtung/lodi-motor-wib-ice1m/\" color=\"#135A64\">[Q3]</link></super>"
+  },
+  {
+    "page": 3,
+    "headers": [
+      "Nr.",
+      "Erkennbarer Bereich",
+      "Bedeutung"
+    ],
+    "rows": [
+      [
+        "1",
+        "Endkontakte am geschlossenen Ende",
+        "Vier Kontakt-/Lötflächen; ihre Funktionen zuerst über angeschlossene Leitungen und Messung zuordnen."
+      ],
+      [
+        "2",
+        "Drei Schalterlötstellen am U-Ende",
+        "Schaltverhalten in beiden Stellungen erfassen; keine Annahme über die Kontaktfolge."
+      ],
+      [
+        "3",
+        "Kleine Zwischenpads",
+        "Vorhandene Anschlussmöglichkeiten; kein automatischer Masse- oder Plusanschluss."
+      ],
+      [
+        "4",
+        "Befestigungsauge mit Kupferumgebung",
+        "Verbindung zum Chassis kann durch Montage entstehen. Ausgebaut und montiert vergleichen."
+      ],
+      [
+        "5",
+        "Kennung / lange Leiterzüge",
+        "Layout identifizieren; Sichtverfolgung ist noch keine gemessene Netzliste."
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "text": "Technische Folgerungen für den Erhalt"
+  },
+  {
+    "page": 4,
+    "headers": [
+      "Bisher zu pauschal",
+      "Korrigierte Grundlage"
+    ],
+    "rows": [
+      [
+        "„Alte aktive Schaltung auf der langen Platine entfernen“",
+        "Auf der fotografierten 62762 sitzen keine Relais, Elkos oder Leistungshalbleiter. Die separate alte Umschalteinheit und ihre Verdrahtung müssen eigenständig erfasst werden."
+      ],
+      [
+        "„Leiterbahnen müssen getrennt werden“",
+        "Es ist bislang kein konkreter notwendiger Leiterbahnschnitt belegt. Vorhandene Verbindungen zuerst zuordnen; externe Drahtbrücken und Verbraucher können Messungen verfälschen."
+      ],
+      [
+        "„Der Schalter wählt den vorderen Schleifer“",
+        "Sichtbar ist ein mechanischer Schiebeschalter. Ein Umbauer nennt die Erhaltung der Ober-/Unterleitungswahl. Das ist kein Beleg für eine fahrtrichtungsabhängige Schleiferumschaltung.<super><link href=\"https://www.h0-modellbahnforum.de/t299058f54885-Maerklin-Schaltplan.html\" color=\"#135A64\">[Q10]</link></super>"
+      ],
+      [
+        "„LoDi-Pads und Widerstände lassen sich übertragen“",
+        "62762 hat keine LoDi-Padbezeichnung, keine bestätigte 21MTC-Aufnahme und keine abgebildeten R4/R5. LED-Strombegrenzung und Decoderaufnahme gehören in den neuen Anschlussplan.<super><link href=\"https://lokstoredigital.jimdoweb.com/hardware/beleuchtung/lodi-motor-wib-ice1m/\" color=\"#135A64\">[Q3]</link></super>"
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "text": "Vorgesehene Aufgabenteilung"
+  },
+  {
+    "page": 4,
+    "text": "<b>62762:</b> vorhandener mechanischer Träger und nach Zuordnung gegebenenfalls passiver Verteiler. <b>Neuer Decoder:</b> Motorregelung, Richtungsinformation und Funktionsausgänge. <b>Separate LED-Widerstände:</b> Strombegrenzung, wenn die vorgesehenen Leuchteinsätze diese nicht selbst enthalten. <b>Alte Umschalteinheit:</b> gehört nicht parallel an den neuen Motorausgang.<super><link href=\"https://static.maerklin.de/damcontent/da/e4/dae4fa90473657b9466d908bd6dcfa601663856106.pdf\" color=\"#135A64\">[Q6]</link></super>"
+  },
+  {
+    "page": 4,
+    "text": "Bevorzugter Aufbau als Planungsentscheidung"
+  },
+  {
+    "page": 4,
+    "text": "Die Originalplatine zunächst vollständig erhalten. Neue Motorleitungen und nicht eindeutig zuordenbare Funktionsleitungen direkt und isoliert führen. Nur nachgewiesene, benötigte Kupfernetze weiterverwenden. Ein Leiterbahnschnitt kommt erst in Betracht, wenn der endgültige Plan die Trennung eines tatsächlich gemessenen Kupferverbunds verlangt und sich dieser Verbund nicht über externe Anschlüsse auflösen lässt."
+  },
+  {
+    "page": 4,
+    "text": "Diese Lösung erhält die Originalplatine tatsächlich als Bauteil des Aufbaus. Sie behauptet aber weder eine bereits ausreichende Stromtragfähigkeit aller alten Leiterzüge noch einen schon geprüften Einbauplatz für Decoder und Anschlussplatine."
+  },
+  {
+    "page": 5,
+    "text": "Prüfreihenfolge vor der Platinenbearbeitung"
+  },
+  {
+    "page": 5,
+    "text": "Die folgende Reihenfolge ist aus den Bildbefunden und den Decoderanschlussbedingungen abgeleitet. Sie beschreibt die noch erforderliche Prüfung am eigenen Exemplar. <b>Alle Widerstandsprüfungen erfolgen ohne jede Versorgung (auch Oberleitung), Decoder und angeschlossenen Puffer.</b> Vor dem Umschalten auf Ω zuerst Spannungsfreiheit prüfen; vorhandene Energiespeicher nach ihrer Anleitung entladen.<super><link href=\"https://static.maerklin.de/damcontent/da/e4/dae4fa90473657b9466d908bd6dcfa601663856106.pdf\" color=\"#135A64\">[Q6]</link></super>"
+  },
+  {
+    "page": 5,
+    "headers": [
+      "Nr.",
+      "Konkrete Arbeit",
+      "Auswertung"
+    ],
+    "rows": [
+      [
+        "1",
+        "Leitungen vor jedem Ablöten an beiden Enden beschriften und fotografieren. U-Ende, geschlossenes Ende, Vorder-/Rückseite eindeutig benennen.",
+        "Aus Drahtfarbe und Nachbarfoto allein folgt keine elektrische Funktion."
+      ],
+      [
+        "2",
+        "Stromlos Schleifer, Radsätze/Chassis, Dachkontakt falls vorhanden, Motor und Leuchten bis zu ihren Anschlussstellen verfolgen. Externe Verbindungen getrennt notieren.",
+        "Eine Netzliste erhält bestätigte Funktionen. Unzugängliche Endpunkte bleiben offen."
+      ],
+      [
+        "3",
+        "Für zu prüfende Platinennetze angeschlossene Verbraucher oder Brücken nach Dokumentation so abtrennen, dass keine Parallelpfade bleiben. Messspitzen-Kurzschlusswert notieren.",
+        "Nahe am Eigenwert der Messleitungen: niederohmiger Pfad. Der Summerton allein ist kein Isolationsnachweis."
+      ],
+      [
+        "4",
+        "Jeden der drei Schalteranschlüsse gegen die beiden anderen in beiden Stellungen messen. Zusätzlich zugehörige Endkontakte und Dachkontakt prüfen.",
+        "Erst die gemessene Kontaktmatrix erklärt die tatsächliche Schalterfunktion."
+      ],
+      [
+        "5",
+        "Im höchsten Ω-Bereich beziehungsweise Autorange unerwünschte Verbindungen prüfen. Kupfernetze gegen Chassis und Befestigungen ausgebaut und montiert vergleichen.",
+        "OL bedeutet nur: oberhalb des Messbereichs. Es ist kein unbegrenzter Isolations- oder Hochspannungsnachweis."
+      ],
+      [
+        "6",
+        "Neuen Netzplan mit Märklin-Funktionen erstellen. U+ und beide Motoranschlüsse müssen vom Chassis getrennt sein. Erst danach Anschluss- oder Schnittbedarf festlegen.",
+        "Bleibt eine Verbindung unklar, bleibt das betroffene Netz unbenutzt. Kein Schnitt aus einer bloßen Bildvermutung."
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "text": "Wann ein Schnitt überhaupt begründet wäre"
+  },
+  {
+    "page": 5,
+    "text": "Ein geplanter Anschluss müsste zwei bisher leitend verbundene Punkte elektrisch trennen. Diese Verbindung ist am freigelegten Träger gemessen, die betroffene Leiterbahn eindeutig identifiziert und es gibt keine einfachere Trennung an einer äußeren Leitung. Erst dann wird eine konkrete Bearbeitungsstelle festgelegt und nach der Arbeit erneut gemessen. Für die vorliegenden Fotos ist ein solcher Fall <b>noch nicht nachgewiesen</b>."
+  },
+  {
+    "page": 6,
+    "text": "60972 und 60982: Folgen für die neue Anleitung"
+  },
+  {
+    "page": 6,
+    "text": "Bestätigter Bestand: 060972 und 060982, entsprechend Märklin 60972 und 60982. Die Besitzangabe legt noch nicht fest, ob sie die bisher geplanten 60977/59649 ersetzen oder zusätzlich vorhanden sind."
+  },
+  {
+    "page": 6,
+    "headers": [
+      "Teil",
+      "Belegter Anschlussweg",
+      "Folge"
+    ],
+    "rows": [
+      [
+        "60972",
+        "mLD3 ohne Sound; 21MTC-Decoder mit beiliegender Schnittstellenplatine, Halterung und Schraube.<super><link href=\"https://www.marklin.com/products/details/article/60972\" color=\"#135A64\">[Q7]</link></super>",
+        "Bei vollständigem Satz ist eine Aufnahme vorhanden. Montagehöhe, Isolation und Zugänglichkeit am ICE prüfen."
+      ],
+      [
+        "60982",
+        "mLD3 ohne Sound; fest angelöteter Kabelbaum, loser achtpoliger NEM-Stecker zum Selbstanlöten.<super><link href=\"https://www.marklin.com/products/details/article/60982\" color=\"#135A64\">[Q8]</link></super>",
+        "Direkte Verdrahtung möglich; dafür keine zweite 21MTC-Aufnahme nötig. Kein integrierter Sound durch Software nachrüstbar."
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "text": "Kabelfarben unbedingt getrennt behandeln"
+  },
+  {
+    "page": 6,
+    "headers": [
+      "Funktion",
+      "60972, Märklin-Farben",
+      "60982, NEM-Farben"
+    ],
+    "rows": [
+      [
+        "Gemeinsamer Plusanschluss U+",
+        "Orange",
+        "Blau, ohne Markierung"
+      ],
+      [
+        "Motoranschlüsse",
+        "Grün / Blau",
+        "Orange / Grau"
+      ],
+      [
+        "Außenschiene / Fahrzeugmasse",
+        "Braun",
+        "Schwarz"
+      ],
+      [
+        "Mittelschleifer",
+        "Rot",
+        "Rot"
+      ],
+      [
+        "Licht vorn / hinten",
+        "Grau / Gelb",
+        "Weiß / Gelb"
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "text": "Herstellerzuordnung nach deutscher Anleitung, S. 5-6. Markierte blaue Leitungen des 60982 (IN1/IN2/GND) sind andere Anschlüsse als U+. „Motoranschlüsse“ legt noch nicht die Fahrzeug-Fahrtrichtung fest. U+ darf nie mit Fahrzeugmasse verbunden werden. Beide Decoder setzen beim alten Feldspulenmotor einen geeigneten Motorumbau voraus.<super><link href=\"https://static.maerklin.de/damcontent/da/e4/dae4fa90473657b9466d908bd6dcfa601663856106.pdf\" color=\"#135A64\">[Q6]</link></super>"
+  },
+  {
+    "page": 6,
+    "text": "Welche Entscheidungen die Bildsuche nicht ersetzt"
+  },
+  {
+    "page": 6,
+    "text": "Bei Verwendung von zwei mLD3 müssen Soundziel, Bedienung der beiden Köpfe und Programmierung neu festgelegt werden. Die ESU-spezifischen CV- und Master/Slave-Schritte aus REV13 gelten dafür nicht. Auch die Frage, ob außer der LoDi-Motorplatine die Front- und Wagenmodule entfallen, ist noch offen. Die 62762-Bildbasis lässt sich für beide Entscheidungen verwenden."
+  },
+  {
+    "page": 6,
+    "text": "<b>Gesamtbewertung:</b> Die beidseitige Bildlücke ist geschlossen. Der Erhalt der 62762 ist technisch plausibel und besser begründet als zuvor. Offen sind die tatsächlichen Netze und Lasten des eigenen Fahrzeugs sowie die endgültige Decoder- und Beleuchtungswahl. Eine fertige Lötfreigabe wäre mit dem bisherigen Nachweisstand zu weitgehend."
+  },
+  {
+    "page": 7,
+    "text": "Quellen und Beweisgrenzen"
+  },
+  {
+    "page": 7,
+    "text": "Abruf: 12.09.2026. Bildausschnitte dienen dem Vergleich und der technischen Analyse. Es wurden keine Platinenmerkmale ergänzt oder durch KI erzeugt. Die unveränderten Bilddateien sind mit Ursprungs-URL, Auflösung und SHA-256 in der lokalen Belegsammlung gesichert."
+  },
+  {
+    "page": 7,
+    "text": "<b>Q1</b> komo35 / eBay. <link href=\"https://www.ebay.de/itm/147416253187\" color=\"#135A64\">627610 und 627620, Artikel 147416253187</link>."
+  },
+  {
+    "page": 7,
+    "text": "<b>Q2</b> Frank Liedke / Kleinanzeigen. <link href=\"https://www.kleinanzeigen.de/s-anzeige/maerklin-h0-3370-ice-3x-leiterplatten/3331585671-249-611\" color=\"#135A64\">3370 ICE, drei Leiterplatten; 20.02.2026</link>."
+  },
+  {
+    "page": 7,
+    "text": "<b>Q3</b> Lokstoredigital. <link href=\"https://lokstoredigital.jimdoweb.com/hardware/beleuchtung/lodi-motor-wib-ice1m/\" color=\"#135A64\">ICE 1 mit zwei Triebköpfen; Vergleichsfahrzeug 33701</link>."
+  },
+  {
+    "page": 7,
+    "text": "<b>Q4</b> Märklin. <link href=\"https://static.maerklin.de/damcontent/ac/29/ac29ce530a37bf0a5e5e04986eed4c3a1434542471.pdf\" color=\"#135A64\">Explosionszeichnung und Ersatzteilliste 3370, S. 1-2, Pos. 27</link>."
+  },
+  {
+    "page": 7,
+    "text": "<b>Q5</b> Märklin. <link href=\"https://static.maerklin.de/damcontent/c7/9c/c79c321455edb84f118a74a9c58838611434542615.pdf\" color=\"#135A64\">Ersatzteilblatt 33701/37701/39711, S. 3, Position 27</link>."
+  },
+  {
+    "page": 7,
+    "text": "<b>Q6</b> Märklin. <link href=\"https://static.maerklin.de/damcontent/da/e4/dae4fa90473657b9466d908bd6dcfa601663856106.pdf\" color=\"#135A64\">Einbauanleitung 60972/60982, deutsche Fassung, S. 3-9</link>."
+  },
+  {
+    "page": 7,
+    "text": "<b>Q7</b> Märklin. <link href=\"https://www.marklin.com/products/details/article/60972\" color=\"#135A64\">60972: mLD3 mit 21MTC-Schnittstellenplatine</link>."
+  },
+  {
+    "page": 7,
+    "text": "<b>Q8</b> Märklin. <link href=\"https://www.marklin.com/products/details/article/60982\" color=\"#135A64\">60982: mLD3 mit Kabelbaum und losem NEM-Stecker</link>."
+  },
+  {
+    "page": 7,
+    "text": "<b>Q9</b> Hagi / Stummiforum. <link href=\"https://www.stummiforum.de/t21783f5-TAMS-W-in-TEE-und-ICE-einbauen-gt-Was-beachten.html\" color=\"#135A64\">TAMS W11 in TEE und ICE; Originalbericht 02.03.2008</link>."
+  },
+  {
+    "page": 7,
+    "text": "<b>Q10</b> Roloand62 / H0-Modellbahnforum. <link href=\"https://www.h0-modellbahnforum.de/t299058f54885-Maerklin-Schaltplan.html\" color=\"#135A64\">Märklin 3750 Schaltplan; Beiträge 6-7, 19.03.2007</link>."
+  },
+  {
+    "page": 7,
+    "text": "<b>Q11</b> ICEbeamter / H0-Modellbahnforum. <link href=\"https://www.h0-modellbahnforum.de/t341874f19606-ICE-faehrt-nicht.html\" color=\"#135A64\">ICE 1 fährt nicht; Originalbericht 01.02.2019</link>."
+  },
+  {
+    "page": 7,
+    "text": "<b>Q12</b> Schönwitz. <link href=\"https://modellbau-schoenwitz.de/ersatzteilfinder/maerklin/teil/E627620\" color=\"#135A64\">E627620: Ersatzteilseite mit Bildplatzhalter</link>."
+  },
+  {
+    "page": 7,
+    "text": "Gewichtung der Belege"
+  },
+  {
+    "page": 7,
+    "text": "<b>Direkte Bildbelege:</b> Q1 und Q2 liefern zwei voneinander getrennte Bildpaare. Q3 enthält zusätzlich das bereits vorhandene hochauflösende Vergleichsfoto der losen 62762 im 33701-Kontext. Die eigenen Ausgangsfotos dokumentieren den vorhandenen ICE, jedoch keinen sicher lesbaren Platinenaufdruck."
+  },
+  {
+    "page": 7,
+    "text": "<b>Herstellerbelege:</b> Q4/Q5 bestätigen die Ersatzteilnummer 627620 und deren Position im jeweiligen Modell. Sie sind keine vollständigen Schaltpläne. Q6-Q8 belegen Eigenschaften und Anschlüsse der neuen Decoder. Bei Q6 wurde die deutsche Fassung verwendet; ein widersprüchlicher Sound-Absatz in der englischen Fassung wird nicht als Produkteigenschaft übernommen."
+  },
+  {
+    "page": 7,
+    "text": "<b>Originalberichte:</b> Q9 nennt 62762 in beiden Köpfen eines analogen ICE. Q10 beschreibt den Einbau einer Steuerwagenplatine zusammen mit einem separaten Decoder in einem Motorwagen. Beide Berichte stützen Variantenvielfalt, aber keinen universellen Lötplan. Q11 erschien auch im Stummiforum; derselbe Autor und Vorgang zählen nur einmal."
+  },
+  {
+    "page": 7,
+    "text": "<b>Ausgeschlossene Fehlbelege:</b> Q12 verwendet einen Bildplatzhalter. Die Benennung „Leiterplatte (Decoder)“ beweist keine Digitalfunktion. Unpassende Bildsuchtreffer zu Weichendecodern, Roco-Artikelnummern und die bestückte 62761 wurden nicht als 62762 verwendet."
+  },
+  {
+    "page": 7,
+    "text": "Bildnachweise: Q1, Bilder 1/2; Q2, Bilder 1/2; Q3, loses Originalteil im Abschnitt motorloser Triebkopf. Eigene Bilder: 0D2DC2F3-025D-48F9-8454-50A792498AD1_4_5005_c.jpeg und BAD231CB-B878-4D94-B5EE-CDAB1D69D455_4_5005_c.jpeg aus dem vorhandenen Arbeitsbestand."
+  }
+]

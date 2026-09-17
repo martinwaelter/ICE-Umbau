@@ -1,0 +1,54 @@
+MOTORSEITE | MECHANISCHE BEFESTIGUNG
+ARBEITSKARTE 18
+LoDi befestigen: beide Haltepunkte prüfen
+Eine Schraube darf nur die dafür vorgesehenen Flächen berühren. Ein sichtbarer Kupferring ist nicht automatisch
+Radmasse.
+VORHER Rote Revision und Anschlussrollen S. 16 dokumentiert. Decoder, Puffer und Lasten entfernt. Ausgefüllter
+Messplan S. 5 einschließlich Vorzustand liegt vor.
+SOLL: freier Abstand
+Chassis
+Signal-Kupfer
+Halter / Isolation
+FEHLER: Metallkontakt
+Chassis
+Signal-Kupfer
+Befestigungsprinzip, keine maßstäbliche 2976-Zeichnung. Ringnetz, Schraubenlänge und konkrete Auflage müssen am eigenen
+Exemplar stimmen.
+1. Platine zunächst lose an den vorgesehenen Auflagen positionieren. Unterseite, gesamte
+Schrauben-/Scheibenfläche und Schaftweg ansehen. Nur passende vorhandene Schrauben verwenden; keine
+längeren Schrauben probeweise einsetzen, keine Löcher aufbohren.
+2. Ring A am K1-Ende und Ring B am Widerstands-/Frontende auf eigenen Fotos markieren. Revisionsbezogene
+Herstellerangabe bzw. nachvollziehbar zugeordneter Leiterbahnplan muss je Ring Sollnetz und zulässigen
+Metallkontakt ergeben. Farbe, Glanz oder ein Piepton allein reichen nicht.
+Montagekarte
+Ring A
+Ring B
+Foto / elektrisches Sollnetz
+________
+________
+Quelle der Netzzuordnung
+________
+________
+Schraube / Schaftlänge / Auflage
+________
+________
+Unterseite / Fremdnetze frei
+________
+________
+Vor-/Nachprüfung gemäß S. 5
+________
+________
+3. Wenn die originale Montage zur bestätigten Ausführung passt: Platine plan auflegen und Schrauben
+gleichmäßig sicher anziehen. Nach jedem Haltepunkt auf schiefen Sitz, Berührung und gequetschte Litzen prüfen.
+Die festgelegten elektrischen Reihen nach S. 5 wiederholen.
+4. Wenn die originale Aufnahme nicht passt: Haltergeometrie, Befestigung, sichere Abstände und erforderliche
+elektrische Ringverbindungen zuerst festlegen. Eine Scheibe unter dem Schraubenkopf isoliert weder
+automatisch den Schaft noch die Unterseite. Unbekannte Ringkontakte nicht ersatzlos isolieren.
+STOPP Bei ungeklärtem Ringnetz oder fehlender sicherer Befestigung bleibt die Platine unmontiert. Kein Decoder
+nur auf losen Isolierstreifen und keine durch Litzen gehaltene Platine bestromen.
+WEITER, WENN Die offene Montage ist mechanisch und elektrisch geprüft. Die zusätzliche geschlossene Prüfung folgt
+später auf S. 36/S. 37.
+REV11 | ICE 2976 | 11.09.2026
+18 / 40
+Quellen: Q1, Q3, Q8 (S. 40)
+Weiter: 19

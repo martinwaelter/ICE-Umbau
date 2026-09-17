@@ -1,0 +1,52 @@
+MOTORSEITE | PLATINENZUORDNUNG
+ARBEITSKARTE 16
+Deine rote LoDi-Platine richtig erkennen
+Das Originalfoto bleibt groß. Die beschriftete Gegenseite und die tatsächliche Revision müssen zusätzlich
+vorliegen.
+VORHER Lose stromlose Platine, kein Decoder. Keine Jumper verändern und keine schwarze Steckerstruktur entfernen.
+1
+2
+3
+4
+5
+5
+Eigenes Foto aus REV10; ergänzte
+Nummern. Oben/unten gilt nur für diese
+Ansicht.
+1 - 21MTC: Steckfeld für 60977. Die schwarze Struktur ist nicht sicher als
+Kappe identifiziert. Tatsächlichen Index erst auf S. 30 abgleichen.
+2 - K1: unbestücktes Relaisfeld. Hier weder Puffer noch vierpoligen Stecker
+anschließen. Fehlendes Relais beweist allein keinen SW/RT-Durchgang.
+3 - LS1 / LS2: ausschließlich Lautsprecheradapter. Kein Anschluss an
+Masse oder LED-Plus.
+4 - R3 bis R6: für LED-Betrieb R4/R5 nicht überbrücken. R3/R6 nicht
+entfernen oder nach Foto verändern; Bestückung und Zweigzuordnung
+dokumentieren.
+5 - Befestigungsringe: Ring A beim K1-Ende, Ring B beim
+Widerstands-/Frontende benennen. Netz und zulässige Montage je Ring auf
+S. 18 bestimmen.
+Rote Platine umdrehen
+Ganze beschriftete Seite senkrecht fotografieren. Revision, SW, RT, GE,
+MASSE, MOT_L/R, Front-VCC, L_WS/L_RT sowie vorhandene SJ1/SJ2
+müssen lesbar sein. Nicht das fremde Bild auf S. 19 spiegeln.
+Rote Motorplatine
+Innenlicht
+V1.49, Pfad tatsächlich bestätigt
+AUX4
+ab V1.50: nur SJ1 zu
+AUX4
+ab V1.50: nur SJ2 zu
+AUX1
+beide offen / unklar
+Zuordnung offen
+beide geschlossen
+Nicht bestromen
+Eintragen: Revision ______; SJ1 ______; SJ2 ______; SW/RT-Pfad
+______; GE-Ausgang ______. Bei unklarer Brücke Makrofoto und
+revisionspassende Herstellerzuordnung verwenden.
+STOPP SJ2 der weißen MT-37700 V4.3 ist Türbeleuchtung. Diesen Zustand erhalten; er wählt keinen
+Decoder-AUX. Zwei geschlossene Auswahlbrücken auf der roten Platine können Decoder-Ausgänge verbinden.
+REV11 | ICE 2976 | 11.09.2026
+16 / 40
+Quellen: Q3, Q4, Q8 (S. 40)
+Weiter: 17

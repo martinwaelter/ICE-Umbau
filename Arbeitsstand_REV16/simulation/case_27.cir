@@ -1,0 +1,28 @@
+ICE2976 passive two-wire adapter - nominal device models, not hardware verification
+VU u 0 12
+RP1 u x1 4465.0
+RP2 u x2 4465.0
+RSW1 x1 0 1000000000000.0
+RSW2 x2 0 1
+RS1 x1 k1 950.0
+RS2 x2 k2 950.0
+RSHORT k1 k2 0.01
+D1 k1 vp DS
+D2 k2 vp DS
+DR vp nr RED
+DW vp nw WHITE
+RR nr k1 44650.0
+RW nw k2 44650.0
+D3 nr vp DS
+D4 nw vp DS
+.model DS D(Is=2.52n N=1.752 Rs=0.568 Cjo=4p Tt=4n BV=75)
+.model RED D(Is=1e-20 N=2 Rs=10)
+.model WHITE D(Is=1e-25 N=2 Rs=10)
+.control
+set wr_singlescale
+set wr_vecnames
+op
+wrdata case_27.dat v(x1) v(x2) v(k1) v(k2) v(vp) v(nr) v(nw) @dr[id] @dw[id]
+quit
+.endc
+.end

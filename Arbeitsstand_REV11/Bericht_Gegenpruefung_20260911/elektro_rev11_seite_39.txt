@@ -1,0 +1,37 @@
+SPÄTER | GRENZEN DES JETZIGEN UMBAUS
+ARBEITSKARTE 39
+Puffer und Signalhalt erst als eigene Ergänzung
+Die Werkstattabnahme bestätigt den beschriebenen Grundaufbau. Pufferanschluss und anlagenspezifische
+Halteabläufe brauchen eigene passende Daten und Tests.
+60974: jetzt beide abgetrennt lassen
+Grundsätzlich ist 60974 für 60977 vorgesehen. Märklins dokumentierte Steckbuchse sitzt jedoch auf dem
+Märklin-Träger; der 60977 steckt hier auf LoDi 511. Der konkrete unveränderte Anschlussweg dieser Revision ist
+noch festzulegen. K1, S2 und Front-VCC sind dafür keine bestätigten Pufferanschlüsse.
+1. Für eine spätere Ergänzung vorn: beide LoDi-Seiten/Revision, 60977-Firmware und unveränderten
+60974-Stecker dokumentieren. Passenden classicSUSI-Abgriff samt tatsächlicher Kontaktansicht eindeutig
+bestätigen. Kein Steckerabschneiden oder Pin-Abzählen als Abkürzung.
+2. Nur einen passend angebundenen Puffer am 60977 vorsehen; hinten keinen 60974 am ESU. Vorher
+Anschluss, Lade-/Restspannungsverhalten, Motorpufferung und Abschalt-/Nachlaufverhalten festlegen. Danach
+Anschluss-, Last-, Neustart- und Halteprüfungen wiederholen. Reset, Einmessfahrt und Pufferparameter sind
+getrennte Vorgänge. 60977-Firmware mindestens 3.2.0.1 bestätigen. Anfangs Motorpufferung ausgeschaltet
+lassen. Die Wagenbeleuchtung ist durch diesen Anschluss nicht automatisch gepuffert.
+CS3-Signalhalt: der Zug braucht einen echten Haltbefehl
+3. Reale Kontaktabschnitte in der CS3 auf Belegt/Frei prüfen. Je Richtung Signaladresse, Brems-/Haltekontakt,
+Schutzpunkt, Zuglänge und eindeutig zugeordneten ICE-Eintrag dokumentieren. Ein S88-Kontakt meldet keine
+automatische mfx-Identität.
+4. Erst damit die Ereignisfolge bei Signalhalt erstellen: am Bremskontakt passende Annäherung, am Haltekontakt
+Fahrstufe 0 für genau diesen ICE. Ein rotes Signalbild allein hält nicht an. Gleis kann für Licht/Sound digital
+versorgt bleiben.
+5. Zuerst ohne Fahrbewegung Logik prüfen. Danach langsam in beiden Richtungen mit freiem Auslauf: Halt,
+Durchfahrt, bereits belegter Kontakt beim Start, Signalwechsel nach Bremskontakt, fehlende/falsche Meldung und
+Neustart. Zugspitze und Nachlauf müssen vor dem Schutzpunkt bleiben.
+STOPP Der lange RT-Schleiferbus darf keinen fremden Booster-, Programmier-, Brems- oder Analogabschnitt
+überbrücken. Vor einer Bereichsgrenze den gesamten Zug anhalten. Puffer können Nachlauf trotz Gleisabschaltung
+verursachen.
+Bis zur eigenen Anlagenabnahme: ICE beaufsichtigt und von Hand anhalten. Vorhandene
+Rückmeldeverdrahtung unter der Anlage bleibt erforderlich. Eine bestandene Synchronisation überträgt weder
+Bremsabschnitterkennung noch Lichtmapping oder Helligkeit.
+REV11 | ICE 2976 | 11.09.2026
+39 / 40
+Quellen: Q1, Q3, Q7, Q15, Q16, Q20 (S. 40)
+Weiter: 40

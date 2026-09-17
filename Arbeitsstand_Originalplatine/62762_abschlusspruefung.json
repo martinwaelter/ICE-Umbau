@@ -1,0 +1,21 @@
+{
+  "pages": 7,
+  "pdf_sha256": "fe5eeb4b2a984bcb20944db446d1f651bdd93990ea77e5871fb17d34017cbd33",
+  "pdf_bytes": 6658248,
+  "links": 25,
+  "distinct_link_urls": 12,
+  "text_bounds_errors": [],
+  "main_rev13_unchanged": true,
+  "main_rev13_sha256": "6a4afec36193952fa0a7040fc230c9c37356e71968e5b3dcd6244347d4308bce",
+  "visual_review_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hardware_tests_performed": false,
+  "image_storage": "JPEG-Quelldaten direkt eingebettet, ohne Neuberechnung/Schärfung oder Auflösungsreduktion; PDF-Vektormarkierungen und Clipping unverändert."
+}

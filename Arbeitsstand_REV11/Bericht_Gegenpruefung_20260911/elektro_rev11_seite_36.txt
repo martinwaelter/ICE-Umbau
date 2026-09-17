@@ -1,0 +1,51 @@
+GEHÄUSEABSCHLUSS | BEIDE TRIEBKÖPFE
+ARBEITSKARTE 36
+Gehäuse schließen: zuerst ohne Decoder messen
+Ein Fehler kann erst durch Dach, Schraube oder Drehgestellstellung entstehen. Die geschlossene Prüfung
+ergänzt die offenen Messungen.
+VORHER Alles vom Gleis und Bus getrennt; beide Decoder/Puffer entfernt. Für den geprüften Pfad nötige Elektronik nach
+dokumentiertem Plan trennen, Restenergie ausschließen.
+1. Offenen Zustand aufnehmen: Messpaare und Werte aus S. 15, S. 4/S. 5 und betroffene Wagenpfade notieren.
+Schrauben und Litzen in ihrer vorgesehenen Endlage belassen. Ein pauschaler Pieptonvermerk genügt nicht.
+2. Isolierte Hilfsclips bei offenem Kopf anbringen. Motorseite nutzt PM1/PM2/PX/PX2 nach S. 14. Im Gegenkopf je
+zwei Punkte desselben getrennten Leiters und zwei Punkte des Metallbezugs wählen. Jeder Clip darf nur seine
+bezeichnete Kontaktstelle greifen.
+3. Freie Hilfsleitungsenden nur durch eine vorhandene sichere Öffnung nach außen führen. Nicht zwischen
+Gehäusehälften, unter Schrauben oder neben Zahnrädern einklemmen. Gibt es keinen sicheren Austritt, bleibt
+diese geschlossene Messung offen; Gehäuse nicht auf die Leitungen drücken.
+4. Gehäuse druckfrei aufsetzen; nur zugehörige Schrauben sicher anziehen. Fahrzeugclips dürfen sich nicht
+bewegen. Bei geschlossenem Gehäuse positive Vorproben, Isolation und positive Nachproben durchführen.
+Motorseite: ganze Sechserfolge S. 15. Gegenkopf: passive Reihe S. 4, keine Motorprobe.
+5. Drehgestelle und Kupplungen in normale Endlagen bewegen; je Lage vollständige Reihe wiederholen.
+Bestätigte getrennte Motor-/Signalpfade gegen Metall bleiben offen; gewünschte passive Leitungen bleiben stabil
+leitend. Serienwiderstände mit ihrem bekannten Sollwert beurteilen. Nicht durch LEDs auf OL prüfen.
+6. Änderung erst beim Schließen: wieder öffnen und eine Ursache nach der anderen prüfen - Litzenlage,
+Schraube, Halter, Dachkontakt. Ursache beheben und geschlossene Reihe erneut durchführen. Ein halb offenes
+Gehäuse ist keine Lösung.
+Kopf / Pfad / Lage
+Vorprobe
+Geschlossener Wert
+Nachprobe
+________________
+________
+____________
+________
+________________
+________
+____________
+________
+________________
+________
+____________
+________
+STOPP Eine misslungene Nachprobe entwertet den Offenbefund. Bestückte Netze ausschließlich nach ihrer
+ausgefüllten Messkarte beurteilen. Nach dieser Prüfung sind noch Wiederanschluss und Platzprüfung mit dem
+echten Decoder nötig.
+Messpunkte/Fotos ______; Gerät/Bereich ______; sichere Leitungsöffnung ______; Schrauben-/Drehgestelllagen
+______; Ergebnis ______.
+WEITER, WENN Geschlossene passive Prüfungen bestehen. Gehäuse wieder öffnen und den Abschluss auf S. 37
+vollständig ausführen.
+REV11 | ICE 2976 | 11.09.2026
+36 / 40
+Quellen: Q1, Q3, Q6 (S. 40)
+Weiter: 37

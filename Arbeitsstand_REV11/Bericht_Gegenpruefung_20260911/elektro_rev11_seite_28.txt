@@ -1,0 +1,60 @@
+ERSTSTROM | ZULÄSSIGE LASTSTUFEN
+ARBEITSKARTE 28
+Lastgrenzen vor dem Einschalten festlegen
+Auch der erste Standtest braucht eine begrenzte, geeignete Versorgung. Ein Ohm-Durchgangstest bestätigt keine
+Stromtragfähigkeit.
+VORHER Aufbau, Lasten, Messstellen und Strombegrenzung vor jeder Stufe dokumentieren. Keine Bestromung mit
+unbekanntem sicheren Grenzwert.
+QUELLE
+ein Ausgang
+A-METER
+abgesicherter
+Stromeingang
+LAST
+Stufe vorher festlegen
+Nur in Reihe. Niemals A/mA direkt zwischen B und 0: Kurzschluss.
+60977: Herstellergrenze
+Maximalwert
+Zusätzlich beachten
+Motor dauernd
+1,1 A
+Keine blockierte Motorprobe
+Je verstärktem Licht-/AUX1-AUX4
+250 mA
+Gilt nicht für Logikausgänge
+Licht und AUX zusammen
+300 mA
+Innenlicht und andere gleichzeitige Ausgänge
+summieren
+Gesamtlast
+1,6 A
+Motor, Sound und Licht; niedrigere Pfadgrenzen
+gelten
+1. Je Stufe festlegen: konkrete Verdrahtung, Last(en), Geräte/Messpunkte, abgesicherter Bereich, Begrenzung
+und eindeutige Abschaltwerte. Grenzen von Kupplung, Litze, LoDi-Platine und LED-Zweigen mit berücksichtigen.
+Fehlende Lastdaten zuerst im dafür geeigneten begrenzten Aufbau bestimmen.
+2. Stufen getrennt planen: Motorseite im Stand; Kleinstfahrt; Gegenkopf; erster Wagen; jeder weitere Wagen;
+gesamte Kombination; Versorgung nur von hinten. Unbekannte Last erlaubt auch nicht automatisch einen ersten
+Wagen. Einschaltspitze und höchste vorgesehene Helligkeit einschließen.
+3. Strommessung nur in einen vorher spannungslos geöffneten Pfad in Reihe einsetzen. Passenden
+abgesicherten Eingang und Bereich verwenden. Einzel-AUX, Licht/AUX-Summe und Gesamtstrom getrennt
+bewerten. Hintere ESU-LEDs zählen nicht zur 60977-AUX-Summe, belasten aber RT.
+4. Für die alleinige hintere Speisung ausschließlich die vorher identifizierte vordere Schleiferzuleitung stromlos
+trennen und einzeln isolieren. Der RT-Pfad durch alle Kupplungen muss den Motorstrom sicher tragen;
+Spannungseinbruch/Erwärmung prüfen. Kein Metall unter den Schleifer legen. Nach Wiederanschluss betroffene
+Prüfungen vollständig wiederholen.
+Stufe / Wagenzahl / Helligkeit
+Plan / Grenze vorher
+Ergebnis / erlaubt
+________________________
+________________
+________________
+________________________
+________________
+________________
+STOPP Amperemeter nie quer zwischen B und 0 anschließen. Nach Messung Rot wieder in V/Ω. Bei Überlast,
+Geruch oder unerwarteter Wärme ausschalten; keinen zweiten Versuch ohne Ursachenklärung.
+REV11 | ICE 2976 | 11.09.2026
+28 / 40
+Quellen: Q1, Q3, Q6, Q17 (S. 40)
+Weiter: 29

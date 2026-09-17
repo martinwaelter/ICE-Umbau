@@ -1,0 +1,155 @@
+{
+  "module": "Decoder gemeinsam bedienen – Eigenweg ohne Händler",
+  "status": "Redaktionell geprüft am 11.09.2026; Gerätedaten, Originalexport und reale Testergebnisse sind nicht vorliegend.",
+  "editorial_notes": [
+    "P1 bis P5 sind feste Seitenkarten; Querverweise bei der Endmontage auf die tatsächlichen Seitennummern umstellen.",
+    "Vor P1 muss eine eigene bebilderte Prüfaufnahmekarte stehen: Quelle, 21MTC-Orientierung, Lasten, Schalterstellungen, AUX3/AUX4-Ausgangsart und Lautsprecher müssen zur realen Aufnahme passen. 53900 nicht pauschal freigeben; 60970 nur nach Abgleich der realen Schalterstellungen und Lasten.",
+    "Die UI-Folge beruht auf REV10 und Märklin-Unterlagen. Es liegen keine eigenen Screenshots der tatsächlichen CS3-Version oder der ausgeführten ESU-Vergleichsserie vor. Keine nachgebauten Screenshots als Gerätebeleg gestalten.",
+    "Freigabe bedeutet im gesamten Modul: die genannten Daten und Prüfungen sind vollständig und nachvollziehbar erfüllt. Sie verlangt keinen Händler und keine pauschale externe Person.",
+    "Eine zukünftige individuelle Schreibkarte ist ein gesondertes auszufüllendes Blatt. Die Registerübersicht P2 ist ausdrücklich keine solche Karte. Fehlende persönliche Zahlen niemals durch Quellenbeispiele ersetzen.",
+    "Das vorgesehene Sollmapping aus REV10 sieht LV an beiden Decodern bei vorwärts und LR an beiden bei rückwärts vor; die hinteren LED-Farben sind dazu gegensinnig anzuschließen. Das ist kein bereits gemessenes Ergebnis. Die sichtbare Lichttabelle P5 muss zur finalen Anschlusszeichnung passen."
+  ],
+  "pages": [
+    {
+      "id": "P1",
+      "title": "Den richtigen Master eindeutig erfassen",
+      "goal": "Du sicherst die individuelle Kennung des vorderen Märklin 60977. Der hintere ESU soll später genau diesem Decoder folgen.",
+      "before": "Nur der 60977 befindet sich in der elektrisch geprüften Einzelaufnahme. ESU, Zug, Puffer und weitere Gleisquellen sind getrennt. Für eine bereits vorhandene, eindeutig zugeordnete Anmeldung genügt zunächst die Datensicherung.",
+      "steps": [
+        "CS3-Version und Datum notieren. Den Namen des zugehörigen mfx-Lokeintrags und die Artikelnummer am Decoderbestand abgleichen. Ein ähnlicher Lokname allein genügt nicht. Ist der Master noch nicht angemeldet, ausschließlich ihn allein mit Fahrstufe 0 auf der geprüften Aufnahme anmelden; keine Konfiguration verändern.",
+        "CS3-Systemeinstellungen öffnen und eine neue Sicherung auf USB erstellen. Einen neuen Dateinamen verwenden. Nicht ‚Wiederherstellen‘ auswählen. Den USB-Datenträger zum Computer bringen und die Sicherung dort zusätzlich kopieren; das Original erhalten.",
+        "Den vollständigen Masterdatensatz aus einer lesbaren Sicherungskopie sichern. Alternativ im Browser des gleichen lokalen Netzes http://<CS3-IP>/config/lokomotive.cs2 öffnen. <CS3-IP> durch die tatsächliche IP-Adresse ersetzen. Das ist ein reiner Lesezugriff. Bei Fehlerseite oder fehlendem Feld keine andere Zahl einsetzen.",
+        "Im eindeutig zugeordneten Datensatz mfxuid, uid und sid beziehungsweise address getrennt markieren. Ganze Zeile beziehungsweise ganzen Datensatz aufbewahren, einschließlich Feldnamen und Zahlenformat. Führende Nullen nicht streichen; keine Ziffernfolge kürzen oder umdrehen.",
+        "Hersteller-ID 131 zusätzlich notieren. Märklin nennt diesen Wert für CV8 des 60977. Er ist keine individuelle Seriennummer. Die vollständige mfxuid bleibt als Masterkennung erhalten; ihre Verwendung im ESU-Projekt wird auf P2 kontrolliert."
+      ],
+      "check": "Die Kennung stammt nachweislich von deinem 60977. Rohdatensatz, CS3-Version und Sicherung sind vorhanden. Hersteller-ID, mfxuid und Betriebsadresse stehen in getrennten Feldern.",
+      "stop": "Bei unklarer Zuordnung, fehlender mfxuid oder unbekanntem Zahlenformat bleibt die Synchronisationsprogrammierung offen. Kein Ersatz durch Artikelnummer, DCC-Adresse oder die zentraleninterne uid.",
+      "table": {
+        "headers": ["Eintragen", "Dein Wert"],
+        "rows": [["60977 / Firmware / CS3-Version", "________________"], ["Hersteller-ID", "131 – Herstellerangabe"], ["mfxuid mit Originalformat", "________________"], ["sid/address und Datensatzquelle", "________________"]]
+      },
+      "visual": {
+        "type": "labelled_data_card",
+        "instruction": "Drei getrennte Kästen zeichnen: Hersteller-ID → 131; mfxuid → leerer persönlicher Wert; sid/address → leerer veränderlicher Wert. uid als separate zentrale Lokkennung ausweisen. Keine fiktiven Rohdaten einsetzen."
+      },
+      "source_refs": ["S01", "S02", "S03", "S04"],
+      "rev10_refs": ["B2–B3", "F.2–F.3"]
+    },
+    {
+      "id": "P2",
+      "title": "ESU-Einstellung zuerst ohne Decoder vergleichen",
+      "goal": "Du erzeugst die nachvollziehbare Grundlage für die spätere persönliche Werteliste. Hier wird nur am Computer gearbeitet.",
+      "before": "Originale LokProgrammer-5-Software unter Windows verwenden; Decoder und Programmierhardware bleiben vollständig abgetrennt. Für diesen Vergleich ist kein LokProgrammer 53451 erforderlich. Herstellerkennung und persönliche Rohdaten aus P1 bereithalten.",
+      "steps": [
+        "Softwareversion notieren. Ein zum LokPilot 5 M4 MKL passendes Projekt öffnen und unter neuem Namen sichern. Projekttyp kontrollieren; ein LokSound-Projekt ist kein Ersatz. Ein neues Projekt enthält keine Bestätigung der Firmware oder Altwerte deines vorhandenen 59649.",
+        "‚Decoder > Sonderoptionen‘ öffnen und die Master/Slave-Adress-Synchronisation suchen. Die persönlichen Masterdaten eintragen, Ausgangszustand aus und alle sichtbaren Felder fotografieren. Diesen Ausgangsstand gesondert sichern. Sind Eingabefelder bei aus gesperrt oder werden sie geleert, genau dieses Verhalten dokumentieren. Für jeden Einzelvergleich den gesicherten Ausgangsstand neu öffnen.",
+        "Bei identischen eingetragenen Masterdaten von aus auf an wechseln. Direkt danach ‚Extras > Geänderte CVs anzeigen‘ öffnen. Den vollständigen Text einschließlich möglicher Indexangaben kopieren und zusammen mit einem Bildschirmfoto sichern. Erst danach speichern: Speichern leert die Änderungsliste.",
+        "Auch den Rückweg an auf aus dokumentieren. Löscht das Ausschalten Nummernfelder, diese Änderung ausdrücklich festhalten. Zusätzlich bei gleicher Seriennummer die Herstellerwerte 151 und 131 vergleichen. 151 ist hier ausschließlich ein Offline-Vergleichswert; er bezeichnet nicht deinen Märklin-Master.",
+        "Alle Änderungen miteinander abgleichen. Die Software muss Herstellerfeld, vollständige Seriennummer und Aktivierung nachvollziehbar abbilden. Zusätzliche CVs und Indexgruppen gehören ebenfalls in die spätere Karte. Ein leeres Exportfenster nach Speichern ist kein Nachweis ‚keine Änderung‘."
+      ],
+      "check": "Die gesicherten Vergleiche erklären sämtliche Änderungen und ihre Reihenfolge. Die Seriennummer bleibt die vollständige Kennung; keine Artikelnummer einsetzen. Erst aus diesem Ergebnis und den realen Altwerten P3 entsteht die persönliche Schreibkarte.",
+      "stop": "Option fehlt, Eingabeformat unklar oder Export unvollständig: noch nichts programmieren. CV191=0 ist hier kein bestätigter Ausschaltbefehl. Der Softwarevergleich und der reale Funktionstest bleiben getrennte Nachweise.",
+      "table": {
+        "headers": ["Belegte Registerzuordnung in JMRI", "Bedeutung"],
+        "rows": [["CV191", "Hersteller-ID des Masters"], ["CV192–195", "Masterseriennummer; niedrigstes Byte zuerst"], ["Aktivierung / weitere Änderungen", "Im Originalexport feststellen"]]
+      },
+      "visual": {
+        "type": "comparison_flow",
+        "instruction": "Drei gleich große Zustandskästen AUS → AN → AUS, darunter jeweils ‚Eingaben + vollständiger Export‘. Zusatzhinweis: ‚Export sichern, bevor gespeichert wird‘. Keine UI-Schaltflächen imitieren."
+      },
+      "source_refs": ["S05", "S06", "S07", "S08"],
+      "rev10_refs": ["F.1", "F.5"]
+    },
+    {
+      "id": "P3",
+      "title": "CS3: den einzelnen ESU zuerst nur lesen",
+      "goal": "Du prüfst den tatsächlichen Lesezugang und sicherst die vorhandenen Werte. Es wird kein Probierwert geschrieben.",
+      "before": "Den 59649 nur in der passenden, elektrisch geprüften Einzelaufnahme verwenden. Für zuverlässige DCC-Rückmeldung müssen ihre bestätigten Lasten angeschlossen sein. Motorloses Rücklesen im eingebauten Gegenkopf wird nicht vorausgesetzt.",
+      "steps": [
+        "CS3 auf STOP stellen und die Aufnahme physisch von jeder Versorgung trennen. Am abgetrennten Bildschirm einen manuellen DCC-Eintrag ‚SERVICE ESU59649 – nicht fahren‘ vorbereiten. Er dient der Wartung; der spätere Zug bleibt der mfx-Mastereintrag.",
+        "‚Bearbeiten > Loks bearbeiten‘ öffnen, genau den Serviceeintrag wählen und ‚Konfigurieren‘ öffnen. Programmiergleis verwenden, nicht PoM/Hauptgleisprogrammierung. Anhand der tatsächlichen Oberfläche CV-Nummernfeld, Wertefeld und Lesen unterscheiden. Fehlende CV-Zeilen jetzt ohne Decoder vorbereiten. Bildschirm und CS3-Version dokumentieren.",
+        "CS3 ausschalten. Nur diese Einzelaufnahme am vollständig getrennten Programmiergleisausgang anschließen. 60977, übriger Zug, Puffer, Kupplungsbus und weitere Quellen bleiben abgetrennt. Sitz und Lasten erneut prüfen, dann einschalten und STOP erst für den bestätigten Lesevorgang aufheben. Regler bleibt 0.",
+        "CV8 ausschließlich lesen; das Wertefeld nicht ändern. Erwartung beim ESU ist 151. Den Lesevorgang gezielt wiederholen und beide erfolgreichen Ergebnisse notieren. Ein stehen gebliebener Bildschirmwert ist keine frische Rücklesung. CV8=151 bestätigt den Hersteller, nicht Artikel und Firmware.",
+        "CV191, 192, 193, 194 und 195 einzeln frisch lesen und als Altwerte eintragen. Zusätzliche indizierte Register aus P2 nur mit vollständig bestimmter Indexgruppe lesen. Jede Zeile braucht ihren eigenen Leseerfolg. Anschließend STOP setzen und die Versorgung trennen."
+      ],
+      "check": "Zwei fehlerfreie CV8-Lesungen und sämtliche benötigten Altwerte liegen vor. Artikel, tatsächliche Firmware, Aufnahme, Lasten und CS3-Version werden getrennt dokumentiert; unbekannte Firmware nicht aus der PC-Softwareversion ableiten.",
+      "stop": "Bei Fehler sofort STOP; nichts schreiben und keinen Reset versuchen. Keine Widerstands-Ersatzlast improvisieren. Achtung: 8 als Wert in CV8 wäre beim ESU ein Reset. ‚Prog.‘/Vorlagenwerte schreiben bleibt unbenutzt.",
+      "table": {
+        "headers": ["CV", "Frisch gelesener Wert", "Ergebnis"],
+        "rows": [["8, erster / zweiter Lauf", "_____ / _____", "_____"], ["191 / 192 / 193", "_____ / _____ / _____", "_____"], ["194 / 195", "_____ / _____", "_____"]]
+      },
+      "visual": {
+        "type": "connection_diagram",
+        "instruction": "CS3-Programmiergleisausgang → geeignete Einzelaufnahme → ausschließlich 59649; getrennten 60977 und Zug daneben darstellen. Hinweis: Eigene elektrische Lasten der Aufnahme; keine Verbindung der Decoder-Ausgänge."
+      },
+      "source_refs": ["S09", "S10", "S11"],
+      "rev10_refs": ["F.4", "F.7"]
+    },
+    {
+      "id": "P4",
+      "title": "Persönliche Einzelwerte schreiben und zurücklesen",
+      "goal": "Du überträgst ausschließlich die vollständig geprüfte persönliche Werteliste. Diese Seite liefert den Bedienablauf; sie enthält keine fertigen Synchronisationswerte.",
+      "before": "P1–P3 erfüllt: eindeutige Masterdaten, vollständiger Originalvergleich, reale Altwerte und zuverlässige Einzelaufnahme. Die tatsächliche 59649-Firmware ist dokumentiert und für die Funktion geprüft. Die Schreibkarte nennt Reihenfolge, CV, nötige Indexgruppe sowie Alt- und Zielwert.",
+      "steps": [
+        "Die gleiche geprüfte Einzelaufnahme wie P3 verwenden. CS3 auf STOP; 60977, Zug und jede andere Quelle physisch abtrennen. Den ESU allein stromlos anschließen. Serviceeintrag und Programmiergleismodus kontrollieren. M4 für den späteren Funktionstest erhalten.",
+        "Erste Kartenzeile wählen. CV-Nummer mit der Bildschirmzeile vergleichen. Wenn erforderlich, ausschließlich die geprüfte Indexgruppe der Karte herstellen; sie gilt auch für Lesen und Rücklesen. Für CV191–195 allein sind CV31/CV32 nicht nötig.",
+        "Altwert gezielt frisch lesen und mit der Karte vergleichen. Bei Abweichung nicht fortfahren. Die Karte darf weder fremde Beispielwerte noch lediglich die Standardwerte eines neuen Projekts als deine Altwerte enthalten.",
+        "Zielwert auf der Karte prüfen: jedes einzelne CV-Byte liegt dezimal zwischen 0 und 255. Ausschließlich das Wertefeld der richtigen Zeile ändern. Die CS3 schreibt eine Wertänderung unmittelbar. Kein zusätzliches ‚Prog.‘ oder ‚Vorlagenwerte schreiben‘ betätigen.",
+        "Abschluss abwarten und dieselbe CV gezielt neu lesen. Nur ein fehlerfrei frisch gelesener Wert, der exakt dem Ziel entspricht, gilt als bestanden. Ergebnis notieren; dann erst zur nächsten Kartenzeile gehen.",
+        "Nach der letzten Zeile alle geänderten Werte erneut prüfen, indizierte Register in ihrer jeweiligen bestätigten Gruppe. Ergebnis sichern, STOP setzen und die Versorgung trennen. Erst anschließend zum mfx-Paartest umstecken."
+      ],
+      "check": "Jede Änderung besitzt einen passenden frischen Rücklesewert. Originalexport, Altwerte und fertiges Protokoll sind gemeinsam abgelegt. Für jede spätere DCC-Änderung wird der ESU wieder auf dieser quittierenden Einzelaufnahme gewartet; Wiedereinbau stets stromlos, betroffene Anschluss- und Funktionstests wiederholen.",
+      "stop": "Bei Lesefehler, Abweichung oder unerwarteter Reaktion sofort STOP. Ein Schreibbefehl kann trotz fehlender Quittierung ausgeführt sein. Nicht blind wiederholen, nicht zurücksetzen und nicht versuchsweise weitere CVs ändern.",
+      "table": {
+        "headers": ["Reihenfolge / Index", "CV", "Alt", "Ziel dez.", "Neu gelesen"],
+        "rows": [["________", "____", "____", "____", "____"], ["________", "____", "____", "____", "____"], ["________", "____", "____", "____", "____"]]
+      },
+      "visual": {
+        "type": "step_strip",
+        "instruction": "Waagerechte Folge: Nummer prüfen → Altwert lesen → Zielwert eingeben → frisch rücklesen → protokollieren. Direkt beim Eingabeschritt rot umrahmen: ‚Wertänderung schreibt sofort‘."
+      },
+      "source_refs": ["S08", "S09", "S10", "S11"],
+      "rev10_refs": ["F.6", "F.11"]
+    },
+    {
+      "id": "P5",
+      "title": "Ein Zugeintrag: beide Köpfe und Adresswechsel prüfen",
+      "goal": "Du weist nach, dass der ESU dem Märklin-Master automatisch folgt. Richtungswechsel müssen schon im Stand die richtigen Lichtausgänge schalten.",
+      "before": "P4 bestanden; zwei geeignete getrennte Aufnahmen mit getrennten Lasten. Genau eine gemeinsame Gleisquelle versorgt beide. Fahrstufe 0, automatische Fahrereignisse aus, keine Traktion. Der Testbetrieb muss nachweislich über mfx erfolgen.",
+      "steps": [
+        "Master allein am getrennten Betriebsausgang prüfen: eindeutiger mfx-Eintrag, F0 und passende leise Soundprobe. Dann vollständig stromlos machen, ESU-Aufnahme ergänzen und erneut versorgen. Motor-, Licht-, Plus- und Lautsprecheranschlüsse beider Decoder bleiben getrennt.",
+        "Nur den Mastereintrag bedienen. Alle vier Tabellenzeilen durchführen und die tatsächlichen Lichtausgänge beobachten. Im Prüfstand gilt bei vorgesehenem Mapping für beide Decoder LV bei vorwärts, LR bei rückwärts. Die spätere Farbbelegung am hinteren Kopf ist gegensinnig. Ein CS3-Symbol allein zählt nicht.",
+        "Versorgung unterbrechen und denselben Test nach Neustart wiederholen. Einen alten gespeicherten Slaveeintrag von einer aktiven zweiten Anmeldung unterscheiden. Löschen oder Ausblenden eines Eintrags beweist keine Synchronisation. Keine unbekannten Einträge probeweise fahren.",
+        "Für den Adresswechsel die Ausgangs-SID des Masters sichern. Einen geeigneten unabhängigen Adressgeber vorbereiten, beispielsweise passende kabelgebundene Mobile Station mit eigener Gleisbox. Eine MS an derselben CS3 ist kein unabhängiges System. Vor Quellenwechsel beide Systeme ausschalten und die vorherige Gleisquelle vollständig abtrennen.",
+        "Denselben Master anmelden. Nachweisen: gleiche mfxuid, tatsächlich andere SID, erfolgreiche Anmeldung und Steuerbarkeit. Dann die Tabelle wiederholen, ohne den ESU nachzukonfigurieren. Abschließend stromlos zur alleinigen CS3-Versorgung zurückwechseln und dort erneut prüfen."
+      ],
+      "check": "Beobachtete Ausgänge, alte/neue SID, Kennungsquelle, Projekt- und Firmwarestände dokumentieren. Bei fehlender SID-Anzeige bleibt nur der Wechseltest offen; ein geeigneter passiver Datennachweis ist vorher konkret einzurichten. Eine Bind-Zuweisung allein genügt nicht ohne erfolgreiche Anmeldung/Steuerung.",
+      "stop": "Gleiche oder unbekannte SID ist kein bestandener Wechseltest. Kein Zentralenreset, kein Löschen produktiver Lokdaten und keine gleiche DCC-Adresse als Ersatz. Spätere Sound- oder Mappingänderungen erfordern die jeweils betroffenen Tests erneut.",
+      "table": {
+        "headers": ["Befehl bei Fahrstufe 0", "Motorseite", "Gegenkopf"],
+        "rows": [["F0 aus / vorwärts", "dunkel", "dunkel"], ["F0 aus / rückwärts", "dunkel", "dunkel"], ["F0 an / vorwärts", "weiß", "rot"], ["F0 an / rückwärts", "rot", "weiß"]]
+      },
+      "visual": {
+        "type": "front_light_matrix",
+        "instruction": "Zwei klar benannte Zugköpfe mit weißen/roten Leuchten und Richtungspfeil ergänzen. Weiß/Rot nicht allein durch Farbe unterscheiden, sondern ausschreiben. Tatsächliche Prüfung findet am Prüfstand an LV/LR statt; fertige Leuchtendarstellung als späteres Sollbild kennzeichnen."
+      },
+      "source_refs": ["S02", "S05", "S12", "S13"],
+      "rev10_refs": ["C", "C.a", "17b/T9"]
+    }
+  ],
+  "sources": [
+    {"id":"S01","label":"Märklin 60975/60976/60977, CV8 auf S. 19","url":"https://static.maerklin.de/damcontent/f5/a9/f5a967e35e5b3faa19d17d36c62f586a1762409392.pdf"},
+    {"id":"S02","label":"Märklin CAN-Protokoll 2.0, UID/SID und Bind/Verify, S. 28–29","url":"https://www.maerklin.de/fileadmin/media/service/software-updates/cs2CAN-Protokoll-2_0.pdf"},
+    {"id":"S03","label":"TrainControl: CS3-Dateizugriff, festgelegter Quellstand","url":"https://github.com/bob123456678/TrainControl/blob/5f0a75e33256c4c1b4ac1998134c4bd04030fed0/src/org/traincontrol/marklin/file/CS2File.java#L184"},
+    {"id":"S04","label":"TrainControl: getrennte uid/mfxuid/sid in CS3-Testdaten","url":"https://github.com/bob123456678/TrainControl/blob/5f0a75e33256c4c1b4ac1998134c4bd04030fed0/test/lokomotive_cs3.cs2#L4"},
+    {"id":"S05","label":"ESU Master/Slave-Adress-Synchronisation","url":"https://www.esu.eu/support/tipps-tricks/lokprogrammer-software-50x/masterslave-adress-synchronisation/"},
+    {"id":"S06","label":"ESU: Geänderte CVs anzeigen; Export vor dem Speichern sichern","url":"https://www.esu.eu/support/tipps-tricks/lokprogrammer-software-v4/cv-aenderungen-anzeigen/"},
+    {"id":"S07","label":"ESU LokProgrammer-Software und Versionshinweise","url":"https://www.esu.eu/download/software/lokprogrammer/"},
+    {"id":"S08","label":"JMRI: CV191 und CV192–195, LokPilot-5-MKL-Einbindung und Bytefolge im Recherchebericht belegt","url":"https://github.com/JMRI/JMRI/blob/31e482094d472e481c1fb54f9901093c2efbfcec/xml/decoders/esu/v5standardCVs.xml#L993"},
+    {"id":"S09","label":"Märklin CS3-Changelog 2.6.0; unmittelbares CV-Schreiben und Lesefehler","url":"https://www.maerklin.de/fileadmin/media/service/cs3/Maerklin_CS3_v2.6.0_changelog.pdf"},
+    {"id":"S10","label":"ESU LokPilot 5 Betriebsanleitung, 8. Auflage","url":"https://www.esu.eu/download/betriebsanleitungen/digitaldecoder/?tx_esudownloads_pi1%5BdownloadItem%5D=803bc0046a0244b6416c82c6abfd385e"},
+    {"id":"S11","label":"RailCommunity RCN-216: DCC-Programmierung und Quittierung","url":"https://normen.railcommunity.de/RCN-216.pdf"},
+    {"id":"S12","label":"Märklin Mobile Station: eigenständige Gleisbox und Anschluss an Central Station","url":"https://static.maerklin.de/damcontent/2a/47/2a470bed20017f68f92306725d49fca81702905959.pdf"},
+    {"id":"S13","label":"REV10, Kapitel C/C.a; korrigierter Eigenweg im abgeschlossenen Recherchebericht","path":"/Users/martinwaelter/ICE Umbau/output/pdf/ICE_2976_Forensische_Recherche_OHNE_HAENDLER.md"}
+  ]
+}

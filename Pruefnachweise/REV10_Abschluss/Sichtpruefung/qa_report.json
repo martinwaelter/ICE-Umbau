@@ -1,0 +1,19 @@
+{
+  "automated_result": "PASS",
+  "pages": 92,
+  "sections": 78,
+  "internal_links": 230,
+  "internal_link_text_checks": 230,
+  "mismatching_link_texts": [],
+  "old_image_instances": 11,
+  "new_image_instances": 11,
+  "missing_images": {},
+  "missing_section_families": [],
+  "broken_links": [],
+  "out_of_bounds": [],
+  "sparse_pages_to_review": [],
+  "source_unchanged": true,
+  "hardware_tests": false,
+  "visual_review_separate": true,
+  "sha256": "2a07914135e92b066701b02029ab4315c624083dd5cb5890774b7b629d7f0ec0"
+}

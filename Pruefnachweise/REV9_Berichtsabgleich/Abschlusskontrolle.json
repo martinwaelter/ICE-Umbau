@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-10",
+  "result": "PASS",
+  "R_ids": 47,
+  "W_ids": 18,
+  "statuses": {
+    "Teilweise bestätigt": 32,
+    "Offen": 6,
+    "Bestätigt": 8,
+    "Nicht bestätigt": 1
+  },
+  "pdf_pages": 69,
+  "internal_links": 89,
+  "distinct_internal_target_pages": 67,
+  "external_annotations": 193,
+  "distinct_external_addresses": 44,
+  "originals_unchanged": true,
+  "hardware_tests": false,
+  "new_pdf_created": false,
+  "files": [
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/ICE2976_REV9_Pruefbericht.md",
+      "bytes": 65350,
+      "sha256": "efb6ba4a3f84b1519b11bf4e1e1a122f0ab910a1ff729f7b6dd09a1e1a3e0554"
+    },
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/ICE_2976_Umbauanleitung_REV9_MIT_SCHNELLANLEITUNG.pdf",
+      "bytes": 4609745,
+      "sha256": "c1c1b1a2772f0e25385ffe911041b1cd2f7351277ada2ed5d8ecbe1be0070d29"
+    },
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/ICE2976_REV9_Pruefbericht_KORRIGIERT.md",
+      "bytes": 75880,
+      "sha256": "97bb95d72d216400dcbea3c1b9d1b0ee0c52f6517abf44c6ed88836a1f093927"
+    },
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/ICE2976_REV9_Pruefbericht_AENDERUNGSLISTE.md",
+      "bytes": 7851,
+      "sha256": "eb0b96b922be46a13f2aca1f26f127405651d30108487453ba457011faf3119e"
+    },
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/Pruefnachweise/REV9_Berichtsabgleich/JMRI_decoderInfo_Abruf_2026-09-10.xml",
+      "bytes": 4273,
+      "sha256": "47660f3111b8003857bbc8d5935ac452775e975c0a05d6c3eaee55cff51a901f"
+    },
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/Pruefnachweise/REV9_Berichtsabgleich/JMRI_v5standardCVs_32eca6c.xml",
+      "bytes": 63303,
+      "sha256": "db2f1b72328f6749795cd084935d53899b26379f85004d5854fbc4ee6538f7ee"
+    },
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/Pruefnachweise/REV9_Berichtsabgleich/JMRI_v5standardCVs_Abruf_2026-09-10.xml",
+      "bytes": 63303,
+      "sha256": "db2f1b72328f6749795cd084935d53899b26379f85004d5854fbc4ee6538f7ee"
+    },
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/Pruefnachweise/REV9_Berichtsabgleich/Maerklin_60941_Original.pdf",
+      "bytes": 498125,
+      "sha256": "c9589e613c0dcf73bcfca34e8b54e2801e402941ea5654f3d3b07e60d1425e95"
+    },
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/Pruefnachweise/REV9_Berichtsabgleich/Maerklin_60977_Original.pdf",
+      "bytes": 11280069,
+      "sha256": "e3303c439d1bb9c157f598397bb98716b50daba7181e1279c60da3b5a0935b50"
+    },
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/Pruefnachweise/REV9_Berichtsabgleich/Maerklin_CAN_2_0.pdf",
+      "bytes": 980570,
+      "sha256": "98b3d6cb884cb74cfd33a5e2e6a11430b431f7743a49db73d577274c8f46bc7a"
+    }
+  ]
+}

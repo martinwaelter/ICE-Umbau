@@ -1,0 +1,105 @@
+{
+  "pages": 44,
+  "bookmarks": 44,
+  "links": 261,
+  "invalid_page_links": [],
+  "out_of_bounds_characters": [],
+  "unresolved_placeholders": [],
+  "words": 14667,
+  "figure_placements": 26,
+  "photo_or_manufacturer_placements": 14,
+  "vector_diagram_placements": 12,
+  "sources": 34,
+  "bytes": 7126082,
+  "sha256": "95af61083373a0755fde8ebd5ae70233952f6283b3db652b03e71c26582bcc8e",
+  "rev10_unchanged": true,
+  "rev11_unchanged": true,
+  "all_rev11_photo_sources_retained": true,
+  "visual_review": {
+    "root": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "electrical_agent": [
+      3,
+      5,
+      18,
+      19,
+      30,
+      31,
+      32,
+      35,
+      36,
+      40,
+      41
+    ],
+    "coverage_agent": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      37,
+      38,
+      39,
+      42,
+      43,
+      44
+    ],
+    "programming_agent": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      32,
+      36,
+      41
+    ],
+    "final_recheck_root": [
+      3,
+      7,
+      14,
+      17,
+      18,
+      24
+    ],
+    "final_recheck_electrical": [
+      3,
+      19,
+      24,
+      31,
+      32,
+      36,
+      40,
+      41
+    ],
+    "final_recheck_coverage": [
+      18,
+      21,
+      23
+    ]
+  },
+  "scope": "Document content/layout validation. No physical decoder programming or vehicle test performed.",
+  "finding_coverage": {
+    "ids": 33,
+    "file": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV12/Befundabdeckung_REV12.md",
+    "hardware_tests_performed": false
+  },
+  "report_corrected": "/Users/martinwaelter/ICE Umbau/ICE2976_REV11_Pruefbericht_KORRIGIERT.md",
+  "status": "Document correction and validation complete"
+}

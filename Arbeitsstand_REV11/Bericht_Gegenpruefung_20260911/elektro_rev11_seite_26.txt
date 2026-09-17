@@ -1,0 +1,50 @@
+MITTELWAGEN | NUR BEI GEWÄHLTER RADKONTAKTOPTION
+ARBEITSKARTE 26
+Optional: örtliche Radkontakte an Wagen-B
+Eine Achskontaktfeder ergänzt die örtliche Radmasse. Beide Kupplungspole bleiben RT und GE; es entsteht kein
+dritter Zugbus.
+VORHER Ein Wagen vom Gleis, beidseitig abgekuppelt. Für diese B-Prüfung keine Kupplungslitzen oder Speicher
+angeschlossen. Messplan S. 5 festgelegt.
+1. Vorhandene Feder, Befestigung und Litze fotografieren; bis zur berührten Metallachse/Radfläche verfolgen.
+Leitung von alter Elektronik lösen und frei isolieren. Keine Achshalterung als „Massefeder“ entfernen; nicht direkt
+an der Achse löten.
+2. Zwei blanke Punkte desselben leitenden Achs-/Radpfads positiv prüfen. Freie Federlitze gegen diesen Pfad
+messen: stabil leitend, auch bei mehreren Radstellungen. Bezug und Leitung positiv nachprüfen. Nicht auf Lack,
+Haftreifen oder Kunststoff messen und keine Feder zum Kaschieren eines Fehlers stärker verbiegen.
+B-Pfade am selben Wagenende
+Vorher
+Nachher
+Rot B / Schwarz O
+________
+________
+Rot O / Schwarz B
+________
+________
+Rot B / Schwarz L
+________
+________
+Rot L / Schwarz B
+________
+________
+3. Vor dem Anlöten alle vier Werte nach ausgefülltem Elektronikplan erfassen: Bereich, Polung, Wartezeit und
+positive Padkontakte vor/nach jeder Reihe. Kein allgemeines OL erwarten. Dann genau eine geprüfte
+Radkontaktlitze an B des zugehörigen Endes löten.
+4. Abkühlen lassen, mit Lupe auf Brücken zu O/L prüfen. Vier Werte unter identischen Bedingungen wiederholen;
+Litze bis B auf Durchgang und Drehgestellbewegung prüfen. Neu niederohmig/unerklärlich verändert: Litze wieder
+von B trennen, einzeln isolieren, Ursache beheben und Reihe neu.
+5. Zweiter Radkontakt am anderen Ende erhält seine eigene Kontakt- und B-Prüfung. Keine interne
+B-B-Verbindung voraussetzen. Erst danach Kupplungslitzen an O/RT und L/GE nach S. 25 anschließen. SJ2
+unverändert lassen. Wagen anschließend auf stromlosem Gleis von Hand rollen lassen und mit dem Vorzustand
+vergleichen. Bei Klemmen Federlage oder Litze korrigieren.
+6. Nach elektrischer Abnahme darf nur der Testwagen den zugehörigen Meldeabschnitt belegen; andere
+Köpfe/Wagen außerhalb halten. Frei - belegt - frei in mehreren Radstellungen und beiden Orientierungen prüfen,
+gegebenenfalls mit Innenlicht aus und an getrennt. Eine Meldung identifiziert nicht automatisch den ICE;
+Signalhalt separat nach S. 39.
+STOPP Ohne passende vorhandene Feder bleibt B frei. Für Nachrüstung Unterseite, Lager und Federaufnahme mit
+Maßstab dokumentieren; keine Ersatzteilnummer eines anderen Modells ungeprüft kaufen. B niemals an O/RT oder
+L/GE brücken.
+WEITER, WENN Kontakt, vier B-Pfade, Bewegung und spätere Rückmeldung sind je Wagenende dokumentiert.
+REV11 | ICE 2976 | 11.09.2026
+26 / 40
+Quellen: Q4, Q8 (S. 40)
+Weiter: 27

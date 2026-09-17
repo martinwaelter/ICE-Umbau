@@ -1,0 +1,37 @@
+MITTELWAGEN | MONTAGE
+ARBEITSKARTE 23
+Mittelwagen: Platine einpassen und Enden
+benennen
+Die vorhandene LoDi-Leiste übernimmt die Längsverbindung. Zusätzliche lange Steueradern werden nicht durch
+den Wagen gezogen.
+VORHER Wagen vollständig abgekuppelt und vom Gleis. Vorhandene Speicher erfassen und nach bestätigtem Verfahren
+behandeln; nicht kurzschließen.
+Eigene MT-37700 V4.3 aus REV10. Endpads L / O / B; SJ2 = Türbeleuchtung.
+Eigenes Einbaubild im Bordrestaurant: Passung für jeden tatsächlichen Wagen prüfen. Es zeigt noch keine abgenommene
+Kupplungsverdrahtung.
+1. Ersten Wagen als Muster öffnen: tatsächliche Rastungen und Endabdeckungen lösen, nicht am Fenstereinsatz
+hebeln. Kupplung, Haltenasen, vorhandene Kabel und mögliche Achskontakte vor Ausbau fotografieren. Enden
+dauerhaft „1“ und „2“ nennen.
+2. Platine ohne Strom trocken auflegen. Dach muss ohne Druck schließen; Platine und Litzen dürfen Fenster,
+Rastungen und Schrauben nicht stören. Bei abweichender Passung nichts auf Verdacht kürzen.
+SJ2/Türbeleuchtung unverändert lassen.
+Pad im gewählten LoDi-Motorplatinenbetrieb
+Anschluss
+O an beiden Enden
+RT-Kupplungspfad / Roh-Mittelleiter
+L an beiden Enden
+GE / geschalteter Innenlichtpfad
+B
+Ohne örtlichen Achskontakt frei; mit geprüfter Radkontaktoption
+nach S. 26
+3. Vor Löten jede Kupplungshälfte und jeden Übergang nach S. 24 zuordnen. Leiste nach S. 25 vorprüfen. Dann
+flexible kurze Litzen von Kupplung zu bestätigtem Pad führen; die Deichsel muss beide Endlagen ohne Zug an
+Lötstellen erreichen.
+STOPP Diese Belegung gilt für den hier gewählten Motorplatinenbetrieb: RT an O, GE an L. O nicht nach einer
+anderen LoDi-Variante als Masse behandeln. Radkontakte beider Triebköpfe bleiben erhalten.
+WEITER, WENN Wagen/Endorientierung und Passung sind dokumentiert. Weiter mit der elektrischen Einzelprüfung,
+noch nicht einschalten.
+REV11 | ICE 2976 | 11.09.2026
+23 / 40
+Quellen: Q3, Q4 (S. 40)
+Weiter: 24

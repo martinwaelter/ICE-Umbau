@@ -1,0 +1,47 @@
+GEHÄUSEABSCHLUSS | ENDABNAHME
+ARBEITSKARTE 37
+Wiederanschließen, endgültig schließen und
+abnehmen
+Die Prüfung ohne Decoder bestätigt nicht dessen realen Platzbedarf. Wiederanschlüsse und endgültige Montage
+werden deshalb nochmals kontrolliert.
+VORHER Geschlossene passive Prüfung S. 36 bestanden. Fahrzeug weiterhin vollständig stromlos und vom Bus
+getrennt.
+1. Gehäuse öffnen und alle Hilfsprüfleitungen vollständig entfernen. Geplante Anschlüsse wiederherstellen.
+Sämtliche dadurch betroffenen Soll-/Fremdpfade nach S. 4/S. 5, Motorlitzen zusätzlich nach S. 14/S. 15, mit
+positiven Kontrollen erneut prüfen.
+2. Wurde eine Leitung umgelegt oder ein Halter geändert, die zugehörige geschlossene Prüfung wiederholen.
+Reale Halter-/Bauteilhöhen und Dachgeometrie dokumentieren; bloßer seitlicher Blick beweist keinen verdeckten
+Freiraum.
+3. Decoder stromlos nach S. 30/S. 31 einsetzen. Tatsächlichen Freiraum, Litzenlage und Wärmeabfuhr prüfen.
+Decoder nicht in Isolierband/Folie einwickeln. Gefährdende Metallfläche geeignet isolieren und Abstand erhalten.
+Gehäuse ohne Druck schließen.
+4. Innerhalb der zugelassenen Last F0/Richtung, Sound, T1-T9 und kontrollierten Fahrtest am geschlossenen Zug
+wiederholen. Bei einem neuen Fehler sofort trennen; nicht das Gehäuse unter Spannung öffnen oder drücken.
+5. Helligkeit erst jetzt mit Lichtleitern/Gehäuse bei gleichem Umgebungslicht vergleichen. Weiß und Rot getrennt
+abstimmen; helleren Ausgang dimmen. ESU-Änderung nur auf Einzelaufnahme. Wagen-TRIMM jeweils stromlos
+minimal verstellen, Werkzeug entfernen, einschalten und vergleichen; Endanschlag nicht erzwingen.
+Endabnahme
+Ergebnis / Nachweis
+Endgültige Wagenzahl / Reihenfolge / Orientierung
+________________________
+Geprüfte Projekte / Firmware / Innenlichttaste
+________________________
+Lasten / höchste Helligkeit / alleinige hintere Speisung
+________________________
+Gehäuse geschlossen / Bewegung / Wiederanschlussprüfung
+________________________
+F0 / Sound / T1-T9 / Fahrt geschlossen
+________________________
+Freigegebener einheitlicher Anlagenbereich
+________________________
+Beide 60974 weiterhin ab; Signalhalt separat offen/geprüft
+________________________
+STOPP Nach Dimmung oder Projektänderung betroffene Tests wiederholen; nach Leitungslageänderung zusätzlich
+Gehäuseprüfung. Strombegrenzung muss auch ungedimmt sicher sein.
+Datum ______; Ergebnis bestanden/offen/fehlgeschlagen ______; verbleibende Abweichung ______. Erst bei
+vollständig bestandenem Abschluss im bestätigten Bereich betreiben. Puffer und automatischer Signalhalt sind
+eigene spätere Aufgaben.
+REV11 | ICE 2976 | 11.09.2026
+37 / 40
+Quellen: Q1, Q3, Q4, Q6 (S. 40)
+Weiter: 38

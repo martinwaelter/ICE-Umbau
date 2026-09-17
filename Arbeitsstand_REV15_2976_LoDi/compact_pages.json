@@ -1,0 +1,2652 @@
+[
+  {
+    "n": 1,
+    "title": "Märklin ICE 1 2976 mit LoDi – Umbau Schritt für Schritt",
+    "phase": "START | SCOPE",
+    "goal": "Diese kompakte Ausgabe führt den vollständigen Umbau aus: Hochleistungsmotor, LoDi-Motorplatinen 512/511, LoDi-514-Frontlicht, Wagenlicht, stromführende Kupplungen, 60977/60972-Decoder und richtungsabhängiger Lichtwechsel. Standard ist die reversible Paralleleinspeisung beider Schleifer für maximale Stromaufnahme; die Schleiferumschaltung bleibt als getrennte spätere Option dokumentiert. Jeder Schritt endet mit einer Prüfung.",
+    "before": "Geltungsbereich: der Märklin ICE 1 aus Startpackung 2976. Die rote LoDi-Motor WiB ICE-M-S (Art.-Nr. LoDi-512) gehört in den motorisierten Kopf. Im Grundaufbau wird ihre Umschaltfunktion nicht aktiviert: Vorderer und hinterer Schleifer werden über den RT-Rohstrombus parallel geführt. Die LoDi-Motor WiB ICE-M (Art.-Nr. LoDi-511) gehört in den motorlosen Gegenkopf. Zwei LoDi-514 werden als Frontlicht eingesetzt. Für jeden Innenwagen wird eine eigene LoDi-WiB ICE1-M (LoDi-510) benötigt; das Bordrestaurant braucht ebenfalls die dafür passende LoDi-Wagenplatine. Die 2976-Fotos und Zeichnungen bleiben Vergleichsmaterial; vor jedem Eingriff die eigene Platine, Halter und Kupplung fotografieren.",
+    "blocks": [
+      {
+        "type": "figure",
+        "kind": "system",
+        "maxh": 168,
+        "after": 5
+      },
+      {
+        "type": "small",
+        "text": "<b>Reihenfolge:</b> öffnen → Motor/HLA → LoDi-512 → Frontlicht → LoDi-511 → RT/GE-Kupplungen → Decoder → Wagenplatinen je Wagen → Einzeltest → Endabnahme.",
+        "after": 4
+      },
+      {
+        "type": "note",
+        "label": "STOPPREGEL",
+        "tone": "stop",
+        "text": "Bei Kurzschluss, unklarer Platinenrevision, falscher Lichtfarbe oder klemmender Kupplung nicht weiterlöten. Erst die betroffene Karte und die Messung klären.",
+        "after": 0
+      }
+    ],
+    "check": "",
+    "sources": [
+      "Q1",
+      "Q3",
+      "Q7"
+    ],
+    "original_card": 1,
+    "rev12_card": 1,
+    "source_card": 1
+  },
+  {
+    "n": 2,
+    "title": "Teile und Geräte vor dem Öffnen abhaken",
+    "phase": "Vorbereitung",
+    "goal": "Lege die Baugruppen getrennt nach Motorseite, Gegenkopf und Mittelwagen bereit. Diese Tabelle ist keine zusätzliche Einkaufsliste.",
+    "before": "Vorhanden laut Bestand: 1× LoDi-512 ICE-M-S, 1× LoDi-511 ICE-M, 1× Satz LoDi-514 Front (2 Stück), Märklin 60977, Märklin 60972, Märklin 60982 (Reserve mit 8-poligem Kabelbaum), Märklin 60971 Programmer, Märklin 60941, Märklin 78792 Bordrestaurant, Multimeter und CS3 mit aktueller Firmware. Für jeden Innenwagen wird 1× LoDi-510 benötigt; die tatsächlich benötigte Anzahl wird am Zug W1…Wn gezählt. Für jeden Wagenübergang werden 2× Märklin E395640 am Triebkopf sowie E374060 + E374340 für die Wagenübergänge. Pro Übergang werden zwei getrennte Kupplungspole RT und GE benötigt.",
+    "blocks": [
+      {
+        "type": "table",
+        "headers": [
+          "Baugruppe",
+          "Benötigt",
+          "Vorher prüfen"
+        ],
+        "widths": [
+          1.2,
+          2.1,
+          1.7
+        ],
+        "rows": [
+          [
+            "Motor",
+            "Märklin 60941 HLA",
+            "5-polig, Bürstenfahnen frei"
+          ],
+          [
+            "Motor-Kopf",
+            "LoDi-512 / 60977",
+            "Aufdruck, 21MTC, SW/SJ"
+          ],
+          [
+            "Gegenkopf",
+            "LoDi-511 / Märklin 60972",
+            "21MTC-Platine, LED-Pads"
+          ],
+          [
+            "Frontlicht",
+            "2× LoDi-514",
+            "Weiß/Rot/Plus markieren"
+          ],
+          [
+            "Innenwagen",
+            "1× LoDi-510 je Wagen; Restaurant separat prüfen",
+            "O=RT, L=GE; B nur optional"
+          ],
+          [
+            "Kupplungen",
+            "2× E395640; E374060 + E374340",
+            "Polzahl, Richtung und Passung messen"
+          ]
+        ],
+        "after": 6
+      },
+      {
+        "type": "p",
+        "text": "Werkzeug: Multimeter, feine Lötstation, Entlöthilfe, Lupe, Kamera, isolierende Unterlage und geordnete Schraubenablage. Vor dem Löten beide Köpfe stromlos machen und jede Leitung fotografieren.",
+        "after": 6
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "tone": "stop",
+        "text": "Fehlt der Funktionsdecoder für den LoDi-511 oder sind die Kupplungspole unklar, nicht mit dem Einbau beginnen.",
+        "after": 0
+      }
+    ],
+    "check": "Bauteile und Geräte sind eindeutig bezeichnet; die offenen Daten stehen bei der zugehörigen Karte.",
+    "sources": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q6"
+    ],
+    "original_card": 2,
+    "rev12_card": 2,
+    "source_card": 2
+  },
+  {
+    "n": 3,
+    "title": "Einen getrennten Prüfabschnitt vorbereiten",
+    "phase": "Vorbereitung | vor dem ersten Strom",
+    "goal": "„Prüfgleis“ bedeutet hier einen eigenen, vollständig von der Anlage getrennten Aufbau. Eine leere Anlage erfüllt diese Bedingung nicht.",
+    "before": "Jetzt den freien Abschnitt vorbereiten; alle Gleisstecker bleiben abgezogen. Eine ausgeschaltete CS3 bleibt aus; läuft sie bereits, STOP setzen. Gleise, Anschlussleitung, nichtleitende Unterlage und unbeleuchtete Endbegrenzung bereitlegen.",
+    "blocks": [
+      {
+        "type": "figure",
+        "kind": "testtrack",
+        "maxh": 108,
+        "after": 5
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Geraden des vorhandenen passenden Gleissystems zusammenstecken. Länge nach Prüfling wählen: alle Räder und Schleifer vollständig auf dem Abschnitt; für Kleinstfahrt zusätzlich freier Auslauf. Für spätere Zugtests muss die ganze Zusammenstellung darauf passen. Nicht pauschal mit drei oder vier Gleisen planen."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Gleis auf waagerechter, nichtleitender Fläche gegen Verrutschen sichern; Abrollen und Absturz begrenzen. Keine Schienen-, Mittelleiter- oder Kabelverbindung zur Anlage. Keine Weichen-/Signaldecoder, Beleuchtung, beleuchteten Prellböcke oder zweite Einspeisung anschließen."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Anschlussstellen fotografieren: B führt zum Mittelleiter, 0 zu den Schienen. Bei C-Gleis B/0 an der Unterseite ablesen. Vor der ersten Messung [[4]]/dem nächsten Arbeitsschritt lesen, danach hierher zurückkehren. Nur freie passive Anschlussleitung/Gleise prüfen; den Stecker zur CS3 weiterhin abgezogen lassen."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Verwendung",
+          "Genau dieser CS3-Ausgang"
+        ],
+        "rows": [
+          [
+            "DCC lesen/schreiben; erste Einzelkontrolle nach Decodereinbau",
+            "Programmiergleis; höchstens 1,5 A laut Q26. Nur der jeweilige einzelne Prüfling."
+          ],
+          [
+            "Paar-, Licht-, Sound-, Fahr- und Wagenlasttests",
+            "Betriebsgleis; Anlage bleibt abgezogen. Die Lastabnahme folgt [[25]]."
+          ]
+        ],
+        "widths": [
+          1.2,
+          1.7
+        ]
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "<b>Für die späteren Prüfungen:</b> Derselbe zweipolige Stecker kommt jeweils an genau einen der beiden Ausgänge aus der Tabelle. Quellenwechsel: STOP, Stecker ganz abziehen, erst dann am anderen Ausgang einstecken. Keine gemeinsame 0-Verbindung und kein Wechsel durch Überfahren einer Gleistrennung. Jetzt noch nicht anschließen."
+      },
+      {
+        "type": "step",
+        "label": "5.",
+        "text": "Netzteilartikel am geschlossenen Gehäuse ablesen. Vor dem späteren ersten Anschluss unter System → GFP3 → Einstellungen die Netzteilauswahl damit abgleichen; sie bestimmt das Abschaltverhalten. „Max. 5 A“ ist keine pauschale H0-Einstellung. Nur ein für CS3 und H0 zugelassenes Netzteil verwenden."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Fehlt der getrennte Aufbau, bleiben Bestromung und Fahrversuche offen. Bestandsaufnahme, Softwarevorbereitung und passive Prüfungen können weitergehen. Ein ungeklärter Fehler am Programmierausgang darf nicht durch Wechsel zur stärkeren Quelle übergangen werden.",
+        "tone": "stop"
+      },
+      {
+        "type": "small",
+        "text": "Gleissystem/Länge ______; B/0-Foto ______; ohne Anlagenverbindung ______; CS3/Netzteil/gewählte Einstellung ______. GFP3-Daten: aktuelle Kurzanleitung Q26, S. 26; ältere Menüansicht Q36, S. 33."
+      }
+    ],
+    "check": "Der freie Abschnitt ist vorbereitet und die Anschlusszuordnung geprüft; der CS3-Stecker bleibt abgezogen. Weiter zur Kupplungsaufnahme dem nächsten Arbeitsschritt. Bestromen erst auf der jeweiligen späteren Prüfkarte.",
+    "sources": [
+      "Q1",
+      "Q26",
+      "Q36"
+    ],
+    "original_card": 45,
+    "rev12_card": 45,
+    "source_card": 3
+  },
+  {
+    "n": 4,
+    "title": "Netze unterscheiden, Multimeter vorbereiten",
+    "phase": "Vorbereitung",
+    "goal": "Diese Grundregeln gelten bei jeder Messung und jedem Anschluss.",
+    "before": "",
+    "blocks": [
+      {
+        "type": "figure",
+        "kind": "nets",
+        "maxh": 110
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Bezeichnung",
+          "Gemeint ist",
+          "Verwechslung vermeiden"
+        ],
+        "rows": [
+          [
+            "B / RT",
+            "Roh-Digitalsignal vom Mittelschleifer",
+            "Kein U+ und kein Lichtausgang"
+          ],
+          [
+            "0 / Radmasse",
+            "Rückleiter über Räder/vorgesehene Metallkontakte",
+            "Kein Elektronik-GND"
+          ],
+          [
+            "U+ / +Ub",
+            "Gleichgerichtetes Funktionsplus des jeweiligen Decoders",
+            "Nicht mit anderem Decoder-U+ verbinden"
+          ],
+          [
+            "GND",
+            "Interner Elektronikminus",
+            "Kein braunes Fahrzeugkabel allein aufgrund der Farbe"
+          ]
+        ],
+        "widths": [
+          0.9,
+          1.8,
+          2.2
+        ]
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Vom Gleis nehmen; Quellen und Wagenbus trennen, Decoder und beide 60974 entfernen. Jeden tatsächlich bestückten Wagenelko mit Wert/Nennspannung notieren. Leere C1/C2-Plätze benötigen keine Entladung. 60974 getrennt lassen; nicht öffnen."
+      },
+      {
+        "type": "note",
+        "label": "VOR WIDERSTANDSMESSUNGEN",
+        "text": "Je identifiziertem Wagenelko bis 470 µF / 35 V: COM/VΩ, V DC; Gerätefunktion vor/nachher an einer 1,5-V-Batterie prüfen. Direkt am Elko messen; über Nennspannung oder unbekannter Speicher: stoppen. Nachgemessene 10 kΩ ≥0,5 W mit isolierten Clips mindestens eine Minute direkt parallel anlegen. Spannung messen; Widerstand abnehmen, 10 s warten, nachmessen. Jeden Speicher einzeln behandeln und zum Schluss alle erneut prüfen. Erst zu Ω wechseln, wenn bei mindestens 0,01-V-Auflösung keine Restspannung angezeigt wird und das Gerätehandbuch es zulässt. Bei Rest-/wiederkehrender Spannung weiter entladen und Restquelle klären. Kein Drahtkurzschluss.",
+        "tone": "info"
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Schwarz in COM, Rot in V/Ω stecken. Widerstandsbereich wählen. Spitzen zusammen: niedrigen Leitungswert notieren. Spitzen getrennt: die tatsächliche Offenanzeige des Geräts notieren (meist OL). Diese beiden Kontrollen vor und nach einer Reihe durchführen."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Kontakt zusätzlich am Bauteil prüfen: Zwei sichere Punkte desselben Leiters müssen vor und nach der Isolationsmessung verbunden sein. Ein Piepton allein genügt nicht; Lack, Kunststoff und lose Clips können scheinbar gute OL-Werte erzeugen."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Keinen 250-/500-V-Isolationstester benutzen. Im Strombereich niemals direkt zwischen B und 0 messen. Nach einer Strommessung Rot wieder in V/Ω zurückstecken.",
+        "tone": "stop"
+      },
+      {
+        "type": "p",
+        "text": "<b>Beschriften:</b> B, 0, M1, M2, U+, W/R (LED-Farbe) und GE sind Arbeitsnamen. Märklin-Orange kann U+, Decoder/NEM-Orange Motor bedeuten: Anschlussziel und tatsächliche Farbe gemeinsam notieren."
+      },
+      {
+        "type": "small",
+        "text": "Beispiel für einen isolierten 470-µF-Elko: P = (35 V)² / 10 kΩ = 0,123 W; mit C +20 % und R +5 %: τ = 5,92 s. Weitere Speicher können nachladen; entscheidend sind Nachmessungen an allen Speichern."
+      }
+    ],
+    "check": "Gerät, Bereich, Kurz-/Offenanzeige und sichere Kontaktpunkte sind bekannt.",
+    "sources": [
+      "Q1",
+      "Q6",
+      "Q8",
+      "Q4",
+      "Q34"
+    ],
+    "original_card": 3,
+    "rev12_card": 3,
+    "source_card": 5
+  },
+  {
+    "n": 5,
+    "title": "Alte Elektrik ausbauen, 60941 montieren",
+    "phase": "Motorseite | mechanischer Aufbau",
+    "goal": "Das eigene Ausgangsfoto zeigt noch Feldspule und lange Altplatine. Die Herstellerzeichnung darunter erklärt die Teile des neuen Motors.",
+    "before": "CS3-Paarprüfung dem nächsten Arbeitsschritt bestanden; alles getrennt, Decoder/Puffer ab. Motorbauart fotografieren: 60941 verlangt den passenden Trommelkollektormotor. Bei Scheibenkollektor/abweichendem Sitz keinen Einbau erzwingen.",
+    "blocks": [
+      {
+        "type": "figure",
+        "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/0D2DC2F3-025D-48F9-8454-50A792498AD1_4_5005_c.jpeg",
+        "maxh": 94
+      },
+      {
+        "type": "small",
+        "text": "Eigenes 2976-Ausgangsfoto aus REV10. Verdeckte Kontakte sind darauf nicht vollständig erkennbar."
+      },
+      {
+        "type": "figure",
+        "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60941_seite2_600dpi.png",
+        "maxh": 218,
+        "crop": [
+          0.1,
+          0.03,
+          0.875,
+          0.625
+        ]
+      },
+      {
+        "type": "small",
+        "text": "Märklin 60941, Originalzeichnung: 1 Magnet, 2 Rotor, 3 Motorschild, 4 Schrauben, 5 Bürsten, 6 Drosseln. Bauteilnummern sind keine Handgriffnummern."
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Gehäuse an den tatsächlichen Befestigungen lösen, ohne an Litzen zu ziehen. Schrauben mit Einbauort ablegen. Beide Seiten, Unterseite, alte Lampenfassung, Schleifer- und Radkontakte fotografieren. Jeden Draht bis zu seinem Ziel verfolgen."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Alte Platine/Umschalter und ersetzte Lampenfassungen an ihren Lötstellen abtrennen, ausbauen und beschriftet aufbewahren. Unbekannte Leiterbahnen nicht aufschneiden. Die alte Lampenfassung wird nicht als neue LED-Lötstütze verwendet."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Bürstenfedern kontrolliert entlasten, Bürsten entnehmen. Motorschild und Feldspule ausbauen; Rotor-, Lager- und Scheibenlage dokumentieren. Permanentmagnet, fünfpoligen Rotor und neues Schild passend einsetzen. Teile müssen ohne Druck in die vorhandenen Sitze passen."
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Zugehörige Schrauben schrittweise sicher anziehen. Nach jeder Schraube vorsichtig Beweglichkeit prüfen; nicht über die Räder gewaltsam zurückdrehen. Bürsten frei einsetzen und Federn so auflegen, dass sie weder Nachbarfahne noch Metallrahmen berühren."
+      }
+    ],
+    "check": "Kein harter Anschlag oder starkes Klemmen. Keine Testfahrt, kein Analogtrafo und keine Einmessfahrt. Nächster Schritt: Entstörung und vollständig getrennte Motorprüfung.",
+    "sources": [
+      "Q1",
+      "Q2",
+      "Q6",
+      "Q30"
+    ],
+    "original_card": 12,
+    "rev12_card": 13,
+    "source_card": 15
+  },
+  {
+    "n": 6,
+    "title": "Kondensatoren prüfen, Drosseln einbauen",
+    "phase": "Motorseite | Entstörung",
+    "goal": "Die Anschlussenden entscheiden über die Funktion. Gleich aussehende Bauteile dürfen nicht gemeinsam abgeschnitten werden.",
+    "before": "Motor montiert; Motorleitungen noch nicht mit LoDi verbunden. Decoder und Puffer bleiben entfernt.",
+    "blocks": [
+      {
+        "type": "figure",
+        "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/motor_a_2048.jpg",
+        "maxh": 201,
+        "marks": [
+          [
+            1,
+            0.439,
+            0.279,
+            0.215,
+            0.08
+          ],
+          [
+            2,
+            0.641,
+            0.508,
+            0.865,
+            0.677
+          ],
+          [
+            3,
+            0.482,
+            0.442,
+            0.466,
+            0.805
+          ],
+          [
+            4,
+            0.523,
+            0.252,
+            0.62,
+            0.065
+          ]
+        ]
+      },
+      {
+        "type": "small",
+        "text": "LoDi-Vergleich 33701 vor Anpassung, kein Foto deines 60941. Nase links. Originalfoto mit Prüfmarkierungen; keine gemessenen Fehler deines Zuges."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Bild-Nr.",
+          "Prüfen und behandeln"
+        ],
+        "rows": [
+          [
+            "1 und 2",
+            "Beide Drähte der äußeren Kondensatoren verfolgen. Bürste zu Rahmen/Masseöse: diesen Kondensator am abgetrennten Motor gezielt auslöten. Radmasseleitung erhalten."
+          ],
+          [
+            "3",
+            "Quer-Kondensator am unveränderten passenden 60941-Motorschild zwischen M1 und M2 belassen. Beide Enden verfolgen. Fremdbestückung oder fehlendes Bauteil separat klären; keinen Kapazitätswert raten."
+          ],
+          [
+            "4",
+            "Drosseln liegen in den Motorleitungen; keine LED-Widerstände. Jeden Anschluss bis zum Motor bzw. freien Litzenende verfolgen."
+          ]
+        ],
+        "widths": [
+          0.55,
+          3.8
+        ]
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Gelieferten Motorschildzustand mit Foto festhalten: vorhandener Kondensator, beide Enden und Kennzeichnung. Die 60941-Beilage liefert keinen allgemein einzusetzenden Kondensatorwert. Verdeckte Enden zuerst sichtbar machen."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Je eine mitgelieferte Drossel in jeden Motorzweig einfügen: <b>M1 - Drossel 1 - Litze 1</b> und <b>M2 - Drossel 2 - Litze 2</b>. Kein Drosselende an Masse; keine Drossel quer zwischen beiden Bürsten."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Schrumpfschlauch vorher auffädeln. Blankstellen einzeln isolieren, nach Abkühlen festen Sitz prüfen. Beide Zweige endgültig verlegen, mit Bewegungsschlaufe; ihre freien Enden bleiben einzeln isoliert und von LoDi getrennt."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Ein Kondensator zwischen Bürste und Metallrahmen kann nach kurzem Laden im Ohmtest OL anzeigen. Deshalb zusätzlich beide Anschlussdrähte mit der Lupe verfolgen. Bei unklarem Verlauf den Anschluss vor dem weiteren Einbau klären.",
+        "tone": "stop"
+      }
+    ],
+    "check": "Beide vollständigen Zweige sind montiert und noch frei. Jetzt dem nächsten Arbeitsschritt und [[7]] zuerst an den Bürsten, danach an den freien Litzenenden durchführen.",
+    "sources": [
+      "Q2",
+      "Q3",
+      "Q6"
+    ],
+    "original_card": 13,
+    "rev12_card": 14,
+    "source_card": 16
+  },
+  {
+    "n": 7,
+    "title": "Motorprüfung: diese sechs Messungen wiederholen",
+    "phase": "Motorseite | Messkarte",
+    "goal": "Eine Messreihe umfasst immer Vorproben, beide Isolationswerte und Nachproben. Das gilt auch nach jeder Lage- oder Kontaktänderung.",
+    "before": "Aufbau dem nächsten Arbeitsschritt. Schwarz in COM, Rot in V/Ω; Ω-Autorange oder höchster Widerstandsbereich. Clips am Motor bleiben fest.",
+    "blocks": [
+      {
+        "type": "table",
+        "headers": [
+          "Nr.",
+          "Rot / Schwarz am freien Ende",
+          "Erwartung"
+        ],
+        "rows": [
+          [
+            "1",
+            "PX2 / PX",
+            "Niedriger, reproduzierbarer Wert des bestätigten Bezugspfads."
+          ],
+          [
+            "2",
+            "PM1 / PM2",
+            "Bleibender endlicher Motorwiderstand nach möglichem Ladeeffekt. Ein kurzer Ausschlag genügt nicht."
+          ],
+          [
+            "3",
+            "PM1 / PX",
+            "Nach stabiler Anzeige: bestätigter Offenwert/OL. Bleibende Zahl = nicht bestanden."
+          ],
+          [
+            "4",
+            "PM2 / PX",
+            "Eigener Offenwert/OL. Eine bestandene Bürste ersetzt die andere nicht."
+          ],
+          [
+            "5",
+            "PX2 / PX",
+            "Positive Referenzprobe aus 1 muss weiterhin stimmen."
+          ],
+          [
+            "6",
+            "PM1 / PM2",
+            "Bleibender Motorpfad aus 2 muss weiterhin messbar sein."
+          ]
+        ],
+        "widths": [
+          0.3,
+          1.45,
+          2.6
+        ]
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Zunächst die sechs Werte an den Bürstenfahnen erfassen. Dann PM1 und PM2 an die freien Enden der fertig verlegten Motorlitzen setzen und alles wiederholen. So werden auch beide Drosseln, Lötstellen und Litzen geprüft."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Für Chassis, Motorrahmen, Radmasse und Schleifer getrennte Reihen. Arbeitsumfang dieser Anleitung: mindestens vier über eine Rotorumdrehung verteilte Stellungen, jeweils beide normalen Drehgestellendlagen. Je Lage die Sechserfolge an Bürsten und Litzenenden; Getriebe nicht erzwingen. Vier Stellungen sind eine festgelegte Stichprobe, kein Hersteller-Vollnachweis aller Winkel."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Messort / Lage / Gegenstelle",
+          "1 / 2 vorher",
+          "3 / 4 Isolation",
+          "5 / 6 nachher"
+        ],
+        "rows": [
+          [
+            "Bürsten / __________",
+            "____ / ____",
+            "____ / ____",
+            "____ / ____"
+          ],
+          [
+            "Bürsten / __________",
+            "____ / ____",
+            "____ / ____",
+            "____ / ____"
+          ],
+          [
+            "Litzenenden / ______",
+            "____ / ____",
+            "____ / ____",
+            "____ / ____"
+          ],
+          [
+            "Litzenenden / ______",
+            "____ / ____",
+            "____ / ____",
+            "____ / ____"
+          ]
+        ],
+        "widths": [
+          1.4,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "type": "small",
+        "text": "Diese Karte für weitere Gegenstellen/Lagen kopieren. Gerät/Bereich ______; Datum ______; Fotos ______. Kein allgemeiner Grenzwert wie 0,3 Ω: Messleitungen und tatsächlichen Pfad berücksichtigen."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Ist Vor-/Nachprobe offen, sind die dazwischenliegenden OL-Werte ungültig. Kontaktfehler beheben, ganze Reihe neu. OL in einer Motorstellung nicht durch Weiterdrehen als erledigt behandeln.",
+        "tone": "stop"
+      },
+      {
+        "type": "p",
+        "text": "<b>Bei endlichem Isolationswert:</b> Strom getrennt lassen. Litzen, Bürstenfedern, Kondensatorenden, Schrauben sowie Kohlestaub und Metallspäne prüfen. Verunreinigung materialverträglich entfernen; vor Nachmessung vollständig trocknen lassen. Ein beim Schraubenlösen verschwindender Fehler verlangt passende Schaftlänge/Abstände, keine lose Schraube. Ganze Reihe wiederholen."
+      }
+    ],
+    "check": "Alle erforderlichen Reihen bestanden, beide Drosselzweige eingeschlossen. Hilfsleitungen entfernen. Motor erst nach eindeutiger Padzuordnung [[11]] anschließen.",
+    "sources": [
+      "Q1",
+      "Q2",
+      "Q6"
+    ],
+    "original_card": 15,
+    "rev12_card": 16,
+    "source_card": 18
+  },
+  {
+    "n": 8,
+    "title": "LoDi-512 und LoDi-511 richtig erkennen",
+    "phase": "Motorseite | Platinenzuordnung",
+    "goal": "Die beschriftete Gegenseite und die tatsächliche Revision müssen zusätzlich vorliegen. Brücken und Netze werden nur nach passender Herstellerzuordnung verwendet.",
+    "before": "Vor dem Einbau die Aufdrucke fotografieren. 512 = ICE-M-S mit optionaler Schleiferumschaltung für den motorisierten Kopf; 511 = ICE-M ohne Umschaltrelais für den Gegenkopf. Standardbetrieb: beide Schleifer parallel auf RT, SW bleibt nur als später nutzbare, isolierte Option frei. Stecker, SW/SJ-Jumper und Widerstände nur nach der eigenen Platinenrevision zuordnen.",
+    "blocks": [
+      {
+        "type": "table",
+        "headers": [
+          "Betriebsart",
+          "Verdrahtung",
+          "Konsequenz"
+        ],
+        "widths": [
+          1.2,
+          2.4,
+          1.4
+        ],
+        "rows": [
+          [
+            "Standard jetzt",
+            "Vorderer und hinterer Schleifer gemeinsam auf RT; GE nur als Lichtbus",
+            "Doppelte Stromaufnahme; eine Quelle"
+          ],
+          [
+            "Spätere Option",
+            "LoDi-Schleiferumschaltung nach Herstellerplan, mit eigener Trenn-/Grenzprüfung",
+            "Signalabschnitte möglich; nicht gleichzeitig parallel"
+          ],
+          [
+            "Verbot",
+            "SW/RT, beide Decoder-Ausgänge oder zwei GE-Quellen brücken",
+            "Kurzschluss-/Decoderrisiko"
+          ]
+        ],
+        "after": 6
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Die aktuelle Platinenrevision beidseitig fotografieren und SW, RT, GE, SJ1/SJ2 sowie den örtlichen Schleiferanschluss markieren.",
+        "after": 4
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Für den Grundaufbau den vorderen Schleifer und den RT-Kupplungsbus als einen Rohstromkreis dokumentieren. SW nicht mit einem Decoder-Ausgang verbinden; der isolierte SW-Abzweig bleibt für eine spätere, getrennte Umschaltvariante erhalten.",
+        "after": 4
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "tone": "stop",
+        "text": "Nie gleichzeitig die beiden Schleifer parallel brücken und die Relaisumschaltung aktivieren. Vor einem späteren Wechsel muss die Parallellitze stromlos getrennt und die neue LoDi-Schaltung vollständig neu geprüft werden.",
+        "after": 0
+      }
+    ],
+    "check": "",
+    "sources": [
+      "Q3",
+      "Q4",
+      "Q8"
+    ],
+    "original_card": 16,
+    "rev12_card": 17,
+    "source_card": 19
+  },
+  {
+    "n": 9,
+    "title": "LoDi-514-Frontlicht ohne vertauschte Farben anschließen",
+    "phase": "Beleuchtung | vor dem Anschluss",
+    "goal": "Vorn bleibt die passende LoDi-Beschaltung; hinten bekommt jede Farbe einen eigenen Widerstand.",
+    "before": "Je 514 sind Weiß, Rot und gemeinsamer Plusleiter zu markieren. Weiß und Rot bekommen ihre eigenen LoDi-Zweige; keine LED-Leitung gemeinsam auf einen Ausgang legen. Die beiden Frontplatinen sind mechanisch seitenrichtig zuzuordnen, bevor gelötet wird.",
+    "blocks": [
+      {
+        "type": "figure",
+        "kind": "led",
+        "maxh": 105,
+        "after": 5
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Leitung",
+          "Anschluss"
+        ],
+        "widths": [
+          1,
+          2
+        ],
+        "rows": [
+          [
+            "Gemeinsamer Plus",
+            "Front-VCC / U+ der jeweiligen LoDi-Platine"
+          ],
+          [
+            "Weiß",
+            "L_WS bzw. Weiß-Ausgang"
+          ],
+          [
+            "Rot",
+            "L_RT bzw. Rot-Ausgang"
+          ]
+        ],
+        "after": 6
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Jede 514 fotografieren und die drei Leitungen vor dem Löten markieren. Keine Farbe aus dem 2976-Original übernehmen.",
+        "after": 4
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Weiß und Rot jeweils einzeln gegen den gemeinsamen Plus messen; RT/GE und Chassis dürfen dabei nicht verbunden sein.",
+        "after": 4
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "tone": "stop",
+        "text": "Falsche Farbe oder Kurzschluss: Decoder abziehen, Leitung zurückverfolgen, erst danach weiterarbeiten.",
+        "after": 0
+      }
+    ],
+    "check": "Vorderer Originalpfad passt; hintere Widerstände sind begründet oder die hinteren LEDs bleiben ausdrücklich getrennt.",
+    "sources": [
+      "Q3",
+      "Q6",
+      "Q27"
+    ],
+    "original_card": 17,
+    "rev12_card": 18,
+    "source_card": 20
+  },
+  {
+    "n": 10,
+    "title": "LoDi befestigen: beide Haltepunkte prüfen",
+    "phase": "Motorseite | mechanische Befestigung",
+    "goal": "Die elektrische Zuordnung beider Befestigungsringe muss feststehen. Eine Schraube darf nur die vorgesehenen Flächen berühren; ein sichtbarer Kupferring ist nicht automatisch Radmasse.",
+    "before": "Revision [[8]] zugeordnet; Decoder/Puffer/Lasten ab. Anschlusskontrolle dem nächsten Arbeitsschritt und passende Montagezeichnung bereitlegen.",
+    "blocks": [
+      {
+        "type": "figure",
+        "kind": "screw",
+        "maxh": 128
+      },
+      {
+        "type": "small",
+        "text": "Befestigungsprinzip, keine maßstäbliche 2976-Zeichnung. Ringnetz, Schraubenlänge und konkrete Auflage müssen am eigenen Exemplar stimmen."
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Platine zunächst lose an den vorgesehenen Auflagen positionieren. Unterseite, gesamte Schrauben-/Scheibenfläche und Schaftweg ansehen. Nur passende vorhandene Schrauben verwenden; keine längeren Schrauben probeweise einsetzen, keine Löcher aufbohren."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Ring A am K1-Ende und Ring B am Frontende im eigenen Foto markieren. Originalhalter, Schrauben und Auflagen mit der zugehörigen LoDi-Revisionszeichnung abgleichen. Unklarer Metallkontakt: LoDi konkret nach elektrischer Zuordnung beider Ringe und zulässiger Schraub-/Chassisverbindung fragen. Eine niederohmige Messung allein bestimmt keinen zulässigen Anschluss."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Montagekarte",
+          "Ring A",
+          "Ring B"
+        ],
+        "rows": [
+          [
+            "Foto / zugelassener elektrischer Anschluss",
+            "________",
+            "________"
+          ],
+          [
+            "Quelle der Netzzuordnung",
+            "________",
+            "________"
+          ],
+          [
+            "Schraube / Schaftlänge / Auflage",
+            "________",
+            "________"
+          ],
+          [
+            "Unterseite / Fremdnetze frei",
+            "________",
+            "________"
+          ],
+          [
+            "Anschluss-/Sichtprüfung nach dem nächsten Arbeitsschritt",
+            "________",
+            "________"
+          ]
+        ],
+        "widths": [
+          1.6,
+          1,
+          1
+        ]
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Wenn die originale Montage zur bestätigten Ausführung passt: Platine plan auflegen und Schrauben gleichmäßig sicher anziehen. Nach jedem Haltepunkt auf schiefen Sitz, Berührung und gequetschte Litzen prüfen. Die festgelegten elektrischen Reihen nach dem nächsten Arbeitsschritt wiederholen."
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Wenn die originale Aufnahme nicht passt: Haltergeometrie, Befestigung, sichere Abstände und erforderliche elektrische Ringverbindungen zuerst festlegen. Eine Scheibe unter dem Schraubenkopf isoliert weder automatisch den Schaft noch die Unterseite. Unbekannte Ringkontakte nicht ersatzlos isolieren."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Bei ungeklärtem Ringnetz oder fehlender sicherer Befestigung bleibt die Platine unmontiert. Kein Decoder nur auf losen Isolierstreifen und keine durch Litzen gehaltene Platine bestromen.",
+        "tone": "stop"
+      }
+    ],
+    "check": "Die offene Montage ist mechanisch und elektrisch geprüft. Die zusätzliche geschlossene Prüfung folgt später auf [[28]]/[[29]].",
+    "sources": [
+      "Q1",
+      "Q3",
+      "Q8"
+    ],
+    "original_card": 18,
+    "rev12_card": 20,
+    "source_card": 22
+  },
+  {
+    "n": 11,
+    "title": "Motorseite: genau diese Anschlüsse benutzen",
+    "phase": "Motorseite | Verdrahtung",
+    "goal": "Die Padnamen bestimmen das Anschlussziel. Das Bild zeigt eine beschriftete LoDi-V1.49-Vergleichsplatine und ersetzt den Abgleich deiner Revision nicht.",
+    "before": "Motorprüfung [[7]], Padzuordnung [[8]] und Befestigung [[10]] bestanden. Decoder bleibt draußen.",
+    "blocks": [
+      {
+        "type": "figure",
+        "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/bilder_quellen/lodi_motor_montiert_original.jpg",
+        "maxh": 153
+      },
+      {
+        "type": "small",
+        "text": "LoDi / Lokstoredigital, Vergleichsumbau 33701, beschriftete Seite V1.49. Keine ungeprüfte Spiegelung auf das eigene Platinenfoto."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Aufdruck am eigenen Exemplar",
+          "Einzige vorgesehene Verbindung"
+        ],
+        "rows": [
+          [
+            "SW / SCHLEIFER",
+            "Örtlicher Mittelschleifer; tatsächlichen SW/RT-Pfad vorher bestätigen."
+          ],
+          [
+            "RT / KUPPLUNG",
+            "Rohstrompfad zur Kupplung und später zum anderen Schleifer."
+          ],
+          [
+            "GE / KUPPLUNG",
+            "Geschalteter Wagenlichtpfad; nur hier vorn gespeist."
+          ],
+          [
+            "MASSE",
+            "Eigene Rad-/Schienenrückleitung, nicht Decoder-GND."
+          ],
+          [
+            "MOT_L / MOT_R",
+            "MOT_L an Zweig ____; MOT_R an den anderen ____. Jeder mit eigener Drossel nach [[6]]; vor Löten notieren."
+          ],
+          [
+            "VCC beim Frontanschluss",
+            "Gemeinsames Plus des LoDi-514-Einsatzes. Kein Draht zu Chassis, MASSE oder 21MTC-Pin 12."
+          ],
+          [
+            "L_WS / L_RT",
+            "Weiß / Rot der Front, mit bestätigter vorgesehener Strombegrenzung."
+          ],
+          [
+            "LS1 / LS2",
+            "Nur die zwei Litzen des Lautsprecheradapters nach [[12]]."
+          ]
+        ],
+        "widths": [
+          1.3,
+          2.8
+        ],
+        "after": 5
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Vor Löten Messzugang [[28]] festlegen: außen bei geschlossenem Gehäuse zugängliche, zugentlastete Motor-Service-Trennstelle möglich? Ja: zweipolig, berührungssicher und passend zum Motorstrom ausführen; Anschlussseiten markieren. Nein: Zugang zuerst lösen, nicht als bestanden abzeichnen. Frontzweige nur nach [[9]]; freie Adern vor Löten nach dem nächsten Arbeitsschritt prüfen."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Motorzuordnung fotografieren und jede Litze nach Tabelle beschriften. Schrumpfschlauch vorher auffädeln. Kurz abisolieren, bündeln/verzinnen und zugfrei löten. Nach Abkühlen mit Lupe auf Zinnbrücken, Drahtfäden und Lötperlen prüfen; Sitz prüfen. Bewegungsschlaufen frei halten; dem nächsten Arbeitsschritt wiederholen."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "K1, PANTO, AUX3, AUX5 und S2 erhalten hier keine neue Leitung oder Brücke. Front-VCC ist der dokumentierte LED-Plusanschluss; interne 21MTC-Vcc ist eine andere Funktion. Kein freies Pin-Abzählen als Anschlussmethode.",
+        "tone": "stop"
+      }
+    ],
+    "check": "Leitungs- und Servicezugang dokumentiert; Anschlussprüfung bestanden. Freie Enden einzeln isoliert. Decoder erst auf [[20]] einsetzen.",
+    "sources": [
+      "Q1",
+      "Q3",
+      "Q8"
+    ],
+    "original_card": 19,
+    "rev12_card": 21,
+    "source_card": 23
+  },
+  {
+    "n": 12,
+    "title": "Lautsprecher mit erhaltenem Stecker anschließen",
+    "phase": "Motorseite | Sound",
+    "goal": "Ein Lautsprecher aus dem 60977-Satz wird über einen passenden Gegenstecker an LS1/LS2 angebunden.",
+    "before": "60977 entfernt; Puffer und Gleis getrennt. LS1/LS2 am eigenen LoDi-Träger sicher identifiziert.",
+    "blocks": [
+      {
+        "type": "figure",
+        "kind": "front",
+        "maxh": 187
+      },
+      {
+        "type": "small",
+        "text": "Funktionsschema der Motorseite, keine Pad-Lagezeichnung. „Motor“ umfasst beide Drosselzweige; Frontanschlüsse gelten nur mit bestätigter Strombegrenzung."
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Genau einen unveränderten Lautsprecher aus deinem 60977-Satz verwenden; Satzherkunft sichern. Er muss druckfrei passen. Herstellerleistung des 60977: 1,6 W an 8 Ω, 2,75 W an 4 Ω; dies bestimmt nicht die Impedanz deines Satzlautsprechers. Bei Ersatz gelten dessen Nennimpedanz und Belastbarkeit. Keine Impedanz aus einfachem Ohmwert erraten."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Originalstecker erhalten: von Kontaktseite und seitlich fotografieren, Kontaktabstand und Gehäusemaße notieren. Diese Daten mit der Maßzeichnung eines zweipoligen Gegensteckers vergleichen; Rastung und Pinform müssen passen. Falls die Serie unklar bleibt, genau dieses Foto samt Maßen beim Hersteller/Steckeranbieter klären. Nicht durch Aufdrücken probieren."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Adapter ohne Decoder und ohne Lautsprecher prüfen: Kontakt 1 bis Litze 1 und Kontakt 2 bis Litze 2 müssen leitend sein; zwischen den beiden getrennten Pfaden darf keine Drahtbrücke bestehen. Positive Kontaktkontrollen vor und nach der Reihe nach dem nächsten Arbeitsschritt."
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Je eine Adapterlitze an LS1 und LS2 löten, Blankstellen einzeln isolieren und zugentlasten. Fertigen Adapter und neu angeschlossene Netze nach dem nächsten Arbeitsschritt/dem nächsten Arbeitsschritt prüfen. Niemals an Membran oder dünnen Lautsprecheranschlüssen ziehen."
+      },
+      {
+        "type": "step",
+        "label": "5.",
+        "text": "Schallkapsel sicher befestigen, Membran frei lassen und Dachraum prüfen. Lautsprecher erst nach elektrischer Anschlussprüfung stecken. Der erste leise Soundtest folgt mit dem Motortriebkopf auf [[22]]."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Beide Lautsprecherdrähte führen ausschließlich zu LS1 und LS2. Keiner an Chassis, U+, VCC, GND oder +5V. Keinen zweiten Lautsprecher parallel anschließen.",
+        "tone": "stop"
+      },
+      {
+        "type": "p",
+        "text": "Satzherkunft/Bauform ______; Gegenstecker/Maßzeichnung ______; Adapterprüfung ______; freie Membran/Schallraum ______; späterer leiser Funktionstest ______."
+      }
+    ],
+    "check": "",
+    "sources": [
+      "Q1",
+      "Q3"
+    ],
+    "original_card": 20,
+    "rev12_card": 22,
+    "source_card": 24
+  },
+  {
+    "n": 13,
+    "title": "Motorloser Kopf: Träger und Halter zuordnen",
+    "phase": "Gegenkopf | mechanischer Aufbau",
+    "goal": "Der Märklin 60972 kommt auf den leeren Märklin-Träger aus dem 60977-Satz. Die alte lange Platine wird dafür nicht weiterverwendet.",
+    "before": "Vorabtest dem nächsten Arbeitsschritt bestanden; Gegenkopf getrennt, stromlos, Decoder/Puffer entfernt. Anschlusszuordnung und Sichtprüfung dem nächsten Arbeitsschritt vor Befestigung vorbereiten.",
+    "blocks": [
+      {
+        "type": "columns",
+        "columns": [
+          [
+            {
+              "type": "figure",
+              "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/quellen_alt/tmp/pdfs/rev5/research/dummy_full.jpg",
+              "maxh": 174
+            },
+            {
+              "type": "small",
+              "text": "LoDi-Vergleich 33701. Nase/Lampenende rechts, Kupplung links. Hohe Altstützen sind kein bestätigter Halter für den kleinen Träger."
+            }
+          ],
+          [
+            {
+              "type": "figure",
+              "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60977_600dpi-005.png",
+              "maxh": 235,
+              "crop": [
+                0.045,
+                0.225,
+                0.478,
+                0.695
+              ]
+            },
+            {
+              "type": "small",
+              "text": "Märklin-Originalzeichnung des Trägers, S. 5. Aufdrucke an deinem Exemplar abgleichen."
+            }
+          ]
+        ],
+        "widths": [
+          1,
+          1.35
+        ],
+        "gap": 16,
+        "after": 5
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Alte Leiterplatte, Lampenfassung und jeden Anschluss vor dem Ablöten fotografieren. Schleiferleitung und Radkontakte getrennt verfolgen. Alte Elektrik/Lampenfassung ausbauen und aufbewahren; keine unbekannten Massefedern entfernen.",
+        "after": 5
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Träger, Halteplatte und beide hinteren LED-Widerstände trocken positionieren. Tatsächliche Bauform/Leistung aus [[9]] verwenden; keine pauschale 0,5-W-Vorgabe. Dachraum, Wärmeabstand zu Kunststoff/Litzen, freie Unterseite, Drehgestelle und Kupplungen prüfen. Widerstandskörper nicht einklemmen. Nichts bohren oder alte Metallstützen verbiegen.",
+        "after": 5
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Befestigung vor Montage festlegen: Halteplatte, Ort, Schraubentyp/-länge, zulässiger Sitz und obere/untere Abstände. Reicht der vorhandene Halter nicht, passende isolierende Halterung anhand der realen Maße bestimmen. Litzen dürfen den Träger nicht halten.",
+        "after": 5
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Tatsächlicher Aufdruck",
+          "Verwendung hinten"
+        ],
+        "rows": [
+          [
+            "B/GR; 0/GL",
+            "Schleifer/RT; örtlicher Radkontakt nach [[14]]"
+          ],
+          [
+            "+Ub; LV; LR",
+            "LED-Plus; Rot über Widerstand; Weiß über Widerstand"
+          ],
+          [
+            "MR/MV, AUX1-AUX4, GND, +5V",
+            "Nicht anschließen; vorhandene freie Litzen einzeln isolieren"
+          ],
+          [
+            "SUSI- und Lautsprecherbuchse",
+            "Beide frei lassen; keine Kurzschlussbrücke"
+          ]
+        ],
+        "widths": [
+          1.2,
+          2.4
+        ],
+        "after": 5
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Offene Montage vor/nach Befestigung nach dem nächsten Arbeitsschritt/dem nächsten Arbeitsschritt prüfen. Absichtliche 0/GL-Radmasse nicht als Isolationsfehler bewerten. Geschlossenen Dachraum zusätzlich auf [[28]]/[[29]] prüfen.",
+        "after": 5
+      }
+    ],
+    "check": "Träger passt sicher, Aufdrucke stimmen und die Befestigung ist dokumentiert. 60972 bleibt bis [[21]] abgezogen.",
+    "sources": [
+      "Q1",
+      "Q3",
+      "Q6",
+      "Q8"
+    ],
+    "original_card": 21,
+    "rev12_card": 23,
+    "source_card": 25
+  },
+  {
+    "n": 14,
+    "title": "Gegenkopf: Schleifer, Rückleiter und LEDs verdrahten",
+    "phase": "Gegenkopf | Anschlusskarte",
+    "goal": "S und R werden am tatsächlichen Kopf nachgewiesen. Ein fremdes Foto belegt keinen vorhandenen hinteren Schleifer.",
+    "before": "Halter [[13]] geklärt. Jetzt [[16]] für die Kupplung des Gegenkopfs ausführen, dann hier zu Schritt 1 zurückkehren. LED-Auslegung [[9]] belegt oder hintere LEDs getrennt/einzeln isoliert. Decoder/Puffer ab.",
+    "blocks": [
+      {
+        "type": "figure",
+        "kind": "rear",
+        "maxh": 172
+      },
+      {
+        "type": "small",
+        "text": "Funktionsschema, keine Lagezeichnung des Trägers. R Rot und R Weiß bedeuten Serienwiderstände; R links bezeichnet die örtliche Radstromaufnahme."
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Unterseite ansehen: Mittelschleifer zwischen den Rädern suchen. Seine Leitung bis zum Anschluss verfolgen und <b>S</b> nennen. Radstromaufnahme getrennt verfolgen und <b>R</b> nennen. RT und GE der Kupplung über die Kontaktprüfung zuordnen, nicht nach Litzenfarbe."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "S und R nach dokumentierter Trennung von alter Elektronik einzeln prüfen: S zum tatsächlichen Schleifer, R zum tatsächlich genutzten leitenden Radkontakt. Positive Vor-/Nachkontrollen und normale Drehgestellbewegung nach dem nächsten Arbeitsschritt. Bei angeschlossener Elektronik nach dem nächsten Arbeitsschritt prüfen."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Den isolierbaren Dreiwegpunkt <b>S + RT + Leitung B/GR</b> auf eigenem Foto festlegen. Er muss mechanisch sicher liegen, von Metall frei bleiben und vollständig isolierbar sein. Nicht drei Litzen auf ein zu kleines Pad pressen. Vorher Schrumpfschlauch auffädeln; bündeln, verzinnen und zugfrei löten. Nach Abkühlen Verbindung und Fremdpfade prüfen, dann vollständig mit Schrumpfschlauch umschließen. Beim Schrumpfen Platine, LED und Kunststoff vor Hitze schützen."
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "R an <b>0/GL</b>. Nur mit belegter LED-Auslegung: Plus an <b>+Ub</b>, Rot über eigenen Widerstand an <b>LV</b>, Weiß über eigenen Widerstand an <b>LR</b>. Sonst alle drei LED-Adern getrennt und einzeln isoliert lassen. Lampenfeder, Chassisschraube, +5V oder GND sind keine LED-Anschlüsse."
+      },
+      {
+        "type": "step",
+        "label": "5.",
+        "text": "GE endet hinten einzeln isoliert. Ebenso jede vorhandene freie Litze von MR/MV, AUX1-AUX4, GND und +5V. Schlauch auch stirnseitig geschlossen und abrutschsicher setzen; keine zwei blanken Enden in denselben Schlauch schieben. Buchsen frei lassen."
+      },
+      {
+        "type": "step",
+        "label": "6.",
+        "text": "Nach jedem Anschluss/Umlegen betroffene Prüfungen dem nächsten Arbeitsschritt/dem nächsten Arbeitsschritt wiederholen. Beide Drehgestell- und Kupplungsendlagen müssen ohne Litzenzug erreichbar bleiben. Lupe: keine Zinnbrücke oder Drähtchen; alle Verbindungen dokumentieren."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Fehlt die eigene hintere Stromaufnahme, ist der ungekuppelte Fahrzeugtest nicht möglich. Keine zufällige RT-Speisung als ihren Nachweis verbuchen. Hinten niemals einen Decoder-Ausgang auf GE legen.",
+        "tone": "stop"
+      }
+    ],
+    "check": "",
+    "sources": [
+      "Q1",
+      "Q3",
+      "Q6"
+    ],
+    "original_card": 22,
+    "rev12_card": 24,
+    "source_card": 26
+  },
+  {
+    "n": 15,
+    "title": "Jeden Innenwagen mit LoDi-510 ausrüsten",
+    "phase": "Mittelwagen | Montage",
+    "goal": "Die vorhandene LoDi-Leiste übernimmt die Längsverbindung. Zusätzliche lange Steueradern werden nicht durch den Wagen gezogen.",
+    "before": "LoDi-510 ist eine Wagenplatine, nicht die zentrale Zugplatine. Für jeden vorgesehenen Innenwagen W1…Wn wird eine eigene Platine benötigt; im Bordrestaurant ist die passende LoDi-Variante nach Platinenaufdruck einzusetzen. RT ist der gemeinsame Rohstrombus, GE der einzige geschaltete Innenlichtbus vom vorderen 60977.",
+    "blocks": [
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Alle Wagen zählen und dauerhaft W1…Wn beschriften. Pro Wagen LoDi-510, Einbaurichtung, Platinenrevision und Potentiometerstellung fotografieren. Fehlende Platinen erst beschaffen; keine Wagenplatine zwischen zwei Wagen teilen.",
+        "after": 4
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Platinen ohne Strom trocken auflegen. Dach, Fenstereinsatz, Rastnasen, Kupplungsdeichsel und Drehgestelle müssen frei bleiben. Das Potentiometer zunächst auf niedrige Helligkeit stellen; die Endhelligkeit wird erst nach der Lastprüfung erhöht.",
+        "after": 4
+      },
+      {
+        "type": "table",
+        "headers": [
+          "LoDi-510-Pad",
+          "Anschluss im 2976-Grundaufbau",
+          "Regel"
+        ],
+        "widths": [
+          1.2,
+          2.2,
+          1.6
+        ],
+        "rows": [
+          [
+            "O",
+            "RT-Kupplung / Roh-Mittelleiter",
+            "O-O durchgängig prüfen"
+          ],
+          [
+            "L",
+            "GE-Kupplung / geschaltetes Innenlicht",
+            "L-L durchgängig prüfen"
+          ],
+          [
+            "B",
+            "örtlicher Radkontakt",
+            "frei lassen, sofern nicht separat nachgewiesen"
+          ],
+          [
+            "SJ2/Türlicht",
+            "nur nach Platinenaufdruck",
+            "nicht mit SJ1 der Motorplatine verwechseln"
+          ]
+        ],
+        "after": 6
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "RT-Litzen an O und GE-Litzen an L anschließen. Keine zusätzliche lange Steuerleitung durch den Zug ziehen. B und lose Massefedern einzeln isolieren, sofern kein eigener Radkontakt bewusst nachgerüstet wird.",
+        "after": 4
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Jeden Wagen einzeln auf L-L, O-O, L gegen O und freie Enden prüfen. Danach die Deichsel in beide Endlagen bewegen; kein Draht darf spannen oder am Rad schleifen.",
+        "after": 4
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "tone": "stop",
+        "text": "Ein einziger LoDi-510 beleuchtet nur einen Wagen. Ein gemeinsamer U+/GND-Draht zwischen den beiden Decoderplatinen ist nicht zulässig; der 60977 speist GE, der hintere 60972 bleibt am GE-Ende isoliert.",
+        "after": 0
+      }
+    ],
+    "check": "Wagen/Endorientierung und Passung sind dokumentiert. Weiter mit der elektrischen Einzelprüfung, noch nicht einschalten.",
+    "sources": [
+      "Q3",
+      "Q4"
+    ],
+    "original_card": 23,
+    "rev12_card": 25,
+    "source_card": 27
+  },
+  {
+    "n": 16,
+    "title": "Stromführende Kupplungen: RT und GE durchmessen",
+    "phase": "Mittelwagen | RT und GE",
+    "goal": "Die physische Kontaktzuordnung wird gemessen. Zwei Vertauschungen können sich am Zugende gegenseitig verdecken.",
+    "before": "Bestand laut Bestellung: 2× Märklin E395640 für die Triebkopf-Übergänge sowie E374060 + E374340 als stromführende Wagenkupplungspaare. Jeder Übergang benötigt zwei voneinander getrennte Pole: RT für den Rückleiter und GE für den Lichtschaltpfad. Artikelnummer und Polzahl werden notiert; Form und Kabelfarbe beweisen keine Belegung.",
+    "blocks": [
+      {
+        "type": "figure",
+        "kind": "coupler",
+        "maxh": 125,
+        "after": 5
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "E395640 an den beiden Triebkopf-Übergängen, E374060/E374340 an den Wagenübergängen trocken einsetzen. Jede Kontaktfläche fotografieren und vorläufig K1/K2 nennen.",
+        "after": 4
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "RT-1 zu RT-2 und GE-1 zu GE-2 müssen leitend sein; RT zu GE, RT/GE zu Chassis und RT/GE zum falschen Nachbarpol müssen offen sein.",
+        "after": 4
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Kupplung in beide Endlagen bewegen und die Messung wiederholen. Bei Unterbrechung, Kreuzpfad oder mechanischem Zug nicht einbauen.",
+        "after": 4
+      },
+      {
+        "type": "note",
+        "label": "DOKUMENTIEREN",
+        "text": "Übergang, Fotoansicht, Polzahl, RT/GE-Herkunft und Messwerte auf dem Abnahmeblatt notieren.",
+        "after": 0
+      }
+    ],
+    "check": "Jeder einzelne Übergang stimmt. Eine Gesamtmessung allein und bloßer Durchgang beweisen noch keine Stromtragfähigkeit.",
+    "sources": [
+      "Q3",
+      "Q4"
+    ],
+    "original_card": 24,
+    "rev12_card": 26,
+    "source_card": 28
+  },
+  {
+    "n": 17,
+    "title": "Wagen: vor und nach dem Löten vergleichen",
+    "phase": "Mittelwagen | Anschlussprüfung",
+    "goal": "Die weiße Leiste bleibt unverändert. Du prüfst jeden Kontakt zu seinem richtigen Pad und die vorgesehenen Längspfade.",
+    "before": "Wagen allein, ohne Gleis/Bus. Speicherzustand nach [[4]] prüfen. Passive Kupplungen [[16]] bestanden; eigene Leiste/Anschlusspads nach dem nächsten Arbeitsschritt zugeordnet.",
+    "blocks": [
+      {
+        "type": "table",
+        "headers": [
+          "Vor Kupplungsanschluss",
+          "Nach Kupplungsanschluss"
+        ],
+        "rows": [
+          [
+            "L Ende 1 zu L Ende 2: stabiler Sollpfad",
+            "L-L erneut prüfen, auch bei Deichselbewegung"
+          ],
+          [
+            "O Ende 1 zu O Ende 2: stabiler Sollpfad",
+            "O-O erneut prüfen, auch bei Deichselbewegung"
+          ],
+          [
+            "L gegen O: nur optionaler Diagnosevergleich nach dem nächsten Arbeitsschritt",
+            "Bei gleichen belegten Geräte-/Bauteilbedingungen vergleichen; kein pauschales OL-Soll"
+          ],
+          [
+            "Jede freie Kontaktlitze einzeln zugeordnet",
+            "An beiden Enden: RT-Kontakt zu O; GE-Kontakt zu L"
+          ]
+        ],
+        "widths": [
+          1.5,
+          1.6
+        ]
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Ende 1/2, Revision und vorhandene Speicher fotografieren. L-L und O-O zuerst positiv nachweisen. Je Reihe Kontaktkontrollen vor und nachher durchführen. Ist eine Soll-Durchleitung unklar, noch keine Kupplungslitze anlöten."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "RT-Litzen an O, GE-Litzen an L löten; flexibles Kabel mit Bewegungsschlaufe, keine zusätzliche Längsader. B bleibt frei. Nur bei geplanter Radkontaktoption dem nächsten Arbeitsschritt/1–3 vorbereiten; ihre Funktionsprobe 4–5 folgt bei [[26]]. Eine vorhandene lose Federlitze einzeln isolieren."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Mit Lupe jede Lötstelle auf Brücke und Einzelsträhnen prüfen. Für jedes Wagenende tatsächlichen RT-Kontakt bis O und GE-Kontakt bis L kontrollieren. L-L und O-O erneut prüfen. Deichsel in beide Endlagen schwenken; Litzen dürfen nicht spannen oder am Rad streifen."
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Abweichung beim Prüfen: stromlos die zuletzt angeschlossene Litze abnehmen und einzeln prüfen; Lötstelle auf Brücke, Drahtfaden oder abgelöstes Pad untersuchen. Korrigieren und die betroffenen Prüfungen aus Schritt 3 wiederholen. Bestückte Querpfade bleiben nur der optionale Vergleich nach dem nächsten Arbeitsschritt."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Ein Vorher-/Nachhervergleich erkennt Änderungen, bestätigt aber allein keine fehlerfreie ursprüngliche Elektronik. Kein Bauteil entfernen und keine Leiterbahn aufschneiden, um einen Offenwert zu erhalten.",
+        "tone": "stop"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Wagen / Revision / Ende",
+          "L-L / O-O",
+          "Kontakt-Pad / Bewegung",
+          "Querpfade / Ergebnis"
+        ],
+        "rows": [
+          [
+            "________________",
+            "_____ / _____",
+            "____________",
+            "____________"
+          ],
+          [
+            "________________",
+            "_____ / _____",
+            "____________",
+            "____________"
+          ],
+          [
+            "________________",
+            "_____ / _____",
+            "____________",
+            "____________"
+          ]
+        ],
+        "widths": [
+          1.2,
+          0.9,
+          1.25,
+          1.2
+        ]
+      },
+      {
+        "type": "p",
+        "text": "<b>Weiter zur Lastprüfung:</b> Wenn der vordere Schleifer aussetzt, kann der Motorstrom über RT durch alle Wagenkupplungen fließen. Daher Wagenzahl nicht aus der Ohmmessung ableiten; zulässige Stufen auf [[25]] bestimmen."
+      }
+    ],
+    "check": "",
+    "sources": [
+      "Q3",
+      "Q4"
+    ],
+    "original_card": 25,
+    "rev12_card": 27,
+    "source_card": 29
+  },
+  {
+    "n": 18,
+    "title": "60977 und richtungsabhängiges Licht einstellen",
+    "phase": "Konfiguration | getrennte Decoder",
+    "goal": "Motorart, Ausgangsart, Funktionstaste und Lichteffekt sind verschiedene Einstellungen. Nach dem letzten Soundprojekt erneut prüfen.",
+    "before": "Nur auf dem isolierten Prüfabschnitt programmieren. Motorisierter Kopf: vorwärts weiß, rückwärts rot. Gegenkopf: die physische LED-Zuordnung wird gespiegelt, damit am Zugende bei derselben Fahrtrichtung rot leuchtet. Erst danach beide Decoder gemeinsam testen.",
+    "blocks": [
+      {
+        "type": "table",
+        "headers": [
+          "Funktion",
+          "Soll"
+        ],
+        "widths": [
+          1.1,
+          3
+        ],
+        "rows": [
+          [
+            "Motor",
+            "60941 vollständig geprüft; CV52 nach Märklin-Projekt, Wert dokumentieren"
+          ],
+          [
+            "Frontlicht",
+            "Weiß/Rot getrennt; AUX4 nur nach dokumentierter LoDi-Jumperstellung"
+          ],
+          [
+            "Innenlicht",
+            "60977-AUX4 → GE → L an allen LoDi-510; keine Last an LV/LR; Helligkeit je Wagen separat"
+          ],
+          [
+            "Schleifer",
+            "Standard: beide Schleifer parallel auf RT; Umschalt-AUX bleibt aus"
+          ],
+          [
+            "AUX1/AUX2",
+            "Bei der -S-Platine für spätere Schleiferumschaltung reserviert; im Parallelbetrieb keine externe Brücke"
+          ],
+          [
+            "AUX3/AUX5",
+            "AUX3 optional Fernlicht; AUX5 optional Führerstand; nur lokal und erst nach belegter Platinenrevision"
+          ]
+        ],
+        "after": 5
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "60977 mit dem Märklin 60971 einzeln lesen, Projektversion und geänderte CV-Werte notieren, dann schreiben und zurücklesen.",
+        "after": 4
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "60972 mit dem 60971 separat lesen. mfx im hinteren Decoder nur durch gezieltes Löschen des mfx-Bits in CV50 deaktivieren (Altwert lesen, Bit 3 löschen, übrige Bits unverändert lassen; bei Standardwert 15 ergibt das 7). Vorwärts LV und rückwärts LR so zuordnen, dass der Gegenkopf sichtbar gespiegelt leuchtet. 60982 nicht direkt auf die 21MTC setzen; sein 8-poliger Kabelbaum ist eine andere Anschlussvariante.",
+        "after": 4
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Fahrtrichtung",
+          "Motor-Kopf",
+          "Gegenkopf"
+        ],
+        "widths": [
+          1,
+          1.2,
+          1.2
+        ],
+        "rows": [
+          [
+            "Vorwärts",
+            "weiß an / rot aus",
+            "rot an / weiß aus"
+          ],
+          [
+            "Rückwärts",
+            "rot an / weiß aus",
+            "weiß an / rot aus"
+          ]
+        ],
+        "after": 5
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "tone": "stop",
+        "text": "Keine automatische Einmessfahrt und kein CV-Experiment am angeschlossenen Zug. Erst Einzelkopf prüfen, dann Paarprüfung.",
+        "after": 0
+      }
+    ],
+    "check": "",
+    "sources": [
+      "Q1",
+      "Q3",
+      "Q6",
+      "Q10"
+    ],
+    "original_card": 27,
+    "rev12_card": 29,
+    "source_card": 31
+  },
+  {
+    "n": 19,
+    "title": "Vor dem Einsetzen: jeden Kopf prüfen",
+    "phase": "Erststrom | Voraussetzung je Kopf",
+    "goal": "Vor dem ersten Einschalten im Fahrzeug: Diese Liste setzt eine bestandene Decoderpaarprüfung außerhalb des Zuges voraus.",
+    "before": "Je Kopf getrennt prüfen. Datum ______; Motorseite/Gegenkopf ______; zugehörige Fotos und Protokolle ______.",
+    "blocks": [
+      {
+        "type": "table",
+        "headers": [
+          "Jetzt erforderlicher Nachweis",
+          "Motorseite",
+          "Gegenkopf"
+        ],
+        "rows": [
+          [
+            "Eigene CS3-Paarprüfung dem nächsten Arbeitsschritt; Identität/Projekt und Aktivierung dokumentiert; SID-Erweiterung separat",
+            "________",
+            "________"
+          ],
+          [
+            "Reale Revision/Padbelegung und sichere Befestigung [[8]]-[[14]]",
+            "________",
+            "________"
+          ],
+          [
+            "Schleifer und Radkontakt; eindeutige RT/GE-Zuordnung",
+            "________",
+            "________"
+          ],
+          [
+            "Motor einschließlich Drosseln/Litzen dem nächsten Arbeitsschritt/[[7]]; bestätigter Motortyp",
+            "________",
+            "entfällt"
+          ],
+          [
+            "LED-Auslegung [[9]] belegt; alternativ hintere LEDs getrennt/einzeln isoliert. Messung dem nächsten Arbeitsschritt folgt beim Ersttest",
+            "________",
+            "________"
+          ],
+          [
+            "Ein Lautsprecher, Adapter und mechanischer Sitz [[12]]",
+            "________",
+            "entfällt"
+          ],
+          [
+            "Passive Leiter/Motorprüfung bestanden; Anschluss- und Sichtprüfung bestückter Platinen dem nächsten Arbeitsschritt",
+            "________",
+            "________"
+          ],
+          [
+            "Gesicherte Projekte; Innenlicht-AUX und Ausgangsart [[18]]",
+            "________",
+            "________"
+          ],
+          [
+            "Getrennter Prüfabschnitt [[3]]; Einzel-Ersttest dem nächsten Arbeitsschritt vorbereitet, keine Wagen/Puffer",
+            "________",
+            "________"
+          ],
+          [
+            "Gleis, Bus, Puffer, andere Quellen physisch getrennt; Restenergie ausgeschlossen",
+            "________",
+            "________"
+          ],
+          [
+            "Alle Hilfsleitungen entfernt; unbenutzte Enden einzeln isoliert",
+            "________",
+            "________"
+          ],
+          [
+            "Passende Indexmerkmale eindeutig sichtbar; geplante Decoderlage/Freiraum",
+            "________",
+            "________"
+          ],
+          [
+            "Prüfort: eine Quelle, Fahrstufe 0, Automatik aus; keine Einmessfahrt",
+            "________",
+            "________"
+          ]
+        ],
+        "widths": [
+          3.5,
+          0.8,
+          0.8
+        ]
+      },
+      {
+        "type": "p",
+        "text": "<b>Erst dann einsetzen:</b> Motorseite auf [[20]], Gegenkopf auf [[21]]. Den tatsächlichen Steckersitz anschließend noch im stromlosen Zustand seitlich prüfen. Danach der jeweils erlaubte Einzeltest auf [[22]]/[[23]]."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "„Entfällt“ gilt nur für Motor und Lautsprecher des Gegenkopfs. Bei hinteren LEDs ist stattdessen ausdrücklich „getrennt/einzeln isoliert“ zulässig; Lichtabnahme bleibt offen. Jede andere fehlende Pflichtangabe sperrt den betroffenen Erststrom. Spätere Lastmessungen werden nicht vorweg als bestanden eingetragen.",
+        "tone": "stop"
+      },
+      {
+        "type": "p",
+        "text": "<b>Später separat:</b> Ausgangs- und Fahrtests [[22]]-[[27]], geschlossene Gehäuseprüfung [[28]]/[[29]]. Keine zukünftigen Ergebnisse vorweg abhaken. Änderungen an Anschluss, Befestigung oder Projekt machen die betroffenen Nachweise erneut erforderlich."
+      }
+    ],
+    "check": "Alle für diesen Kopf erforderlichen Voraussetzungen sind tatsächlich erfüllt.",
+    "sources": [
+      "Q1",
+      "Q3",
+      "Q6"
+    ],
+    "original_card": 29,
+    "rev12_card": 32,
+    "source_card": 33
+  },
+  {
+    "n": 20,
+    "title": "Vorn: 60977 gerade auf LoDi einsetzen",
+    "phase": "Erststrom | Steckkarte Motorseite",
+    "goal": "Der Märklin 60977 gehört auf die rote LoDi 511. Diese Karte erst unmittelbar vor dem Einzeltest der Motorseite ausführen.",
+    "before": "Karte [[19]] für Motorseite vollständig. Kopf vom Gleis, Wagen/Bus und alle Versorgungen getrennt; beide 60974 ab.",
+    "blocks": [
+      {
+        "type": "columns",
+        "columns": [
+          [
+            {
+              "type": "figure",
+              "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/image-2.jpg",
+              "maxh": 252,
+              "crop": [
+                0.08,
+                0.35,
+                0.93,
+                0.76
+              ]
+            },
+            {
+              "type": "small",
+              "text": "Detail aus deinem Originalfoto: lange helle Fläche Richtung K1, Steckfeld, darunter LS1/LS2. Die schwarze Struktur bleibt unberührt."
+            }
+          ],
+          [
+            {
+              "type": "p",
+              "text": "<b>Vorgesehene Lage:</b> Der lange Decoderkörper zeigt zur freien hellen Fläche Richtung K1, nicht über LS1/LS2. Die schwarze Buchsenleiste des Decoders zeigt nach oben und bleibt sichtbar."
+            },
+            {
+              "type": "p",
+              "text": "<b>Steckmechanik:</b> Stifte des Trägers treten von unten durch die Löcher der Decoderplatine in deren Buchse ein. Nicht von oben in die sichtbare Buchse drücken."
+            },
+            {
+              "type": "note",
+              "label": "INDEX ZUERST",
+              "text": "Die fehlende Stiftposition 11 am Träger und die zugehörige geschlossene Decoderposition müssen am echten Exemplar sichtbar zusammenpassen. Das Foto zeigt diesen Abgleich noch nicht.",
+              "tone": "stop"
+            }
+          ]
+        ],
+        "widths": [
+          0.85,
+          1.85
+        ],
+        "gap": 16
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Nur an den Platinenkanten halten. Beide Stiftreihen, Fehlstelle und geschlossene Indexposition ansehen. Nicht nach einer geratenen Links-/Rechts-Zählung ausrichten. Langer Freiraum allein beweist keine richtige Stecklage."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "60977 parallel über der Steckleiste halten. Beide Reihen und Index deckungsgleich setzen. Kein Stift darf auf der Decoderplatine oder an der geschlossenen Stelle stehen. Bei unklarer Sicht absetzen und Nahfotos beider Teile zur Identifikation aufnehmen."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Gleichmäßig im Bereich der Steckleiste nach unten drücken; nicht auf Chips oder das freie Decoderende. Bei Widerstand abheben und Reihenversatz prüfen. Keine Pins biegen oder das Teil testweise umdrehen."
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Seitlich kontrollieren: alle Stifte eingeführt, Decoder parallel, keine Unterseiten-Metallberührung, keine Litze eingeklemmt. Tatsächlichen Platz zum späteren Dach mitprüfen. Erst danach offener Einzeltest [[22]]."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Unklare schwarze Struktur oder verdeckter Index: nicht aufstecken und nichts abziehen. LoDi anhand Gesamtfoto, Makro von oben/seitlich und Revision konkret fragen: „Was ist die schwarze Struktur, wie wird 60977 hier korrekt gesteckt, muss etwas entfernt werden und wie?“ Antwort am eigenen Teil abgleichen. Herstellerkontakt ist kein Händlerauftrag.",
+        "tone": "stop"
+      }
+    ],
+    "check": "Index und beide Reihen stimmen; tatsächlicher Sitz und Freiraum sind im stromlosen Aufbau geprüft.",
+    "sources": [
+      "Q1",
+      "Q3",
+      "Q8"
+    ],
+    "original_card": 30,
+    "rev12_card": 33,
+    "source_card": 34
+  },
+  {
+    "n": 21,
+    "title": "60972 auf LoDi-511 setzen und hinten mfx-frei halten",
+    "phase": "Erststrom | Steckkarte Gegenkopf",
+    "goal": "Der 60972 sitzt auf der LoDi-511-21MTC-Aufnahme. Die folgende Herstellerzeichnung zeigt dessen Steckmechanik.",
+    "before": "Der 60972 sitzt auf der LoDi-511-21MTC-Aufnahme. Der Gegenkopf liefert Frontlicht und nimmt den hinteren Schleifer auf; sein GE-Anschluss bleibt isoliert, damit nur der vordere 60977 den Innenlichtbus speist. Die mfx-Abschaltung erfolgt am isolierten Decoderplatz.",
+    "blocks": [
+      {
+        "type": "columns",
+        "columns": [
+          [
+            {
+              "type": "figure",
+              "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV11/zeichnungsquellen/maerklin_60977_600dpi-006.png",
+              "maxh": 335,
+              "crop": [
+                0.07,
+                0.205,
+                0.375,
+                0.91
+              ]
+            },
+            {
+              "type": "small",
+              "text": "Märklin-Originalzeichnung S. 6: Einsteckfolge mit Warn-Seitenprofil. Im Gegenkopf wird hier der 60972 eingesetzt."
+            }
+          ],
+          [
+            {
+              "type": "step",
+              "label": "1.",
+              "text": "Leeren Träger so zuordnen wie auf [[13]]: SUSI-/Lautsprecherbuchsen auf einer Seite der Stiftleiste, lange freie Decoderfläche auf der anderen. Aufdrucke und bereits geprüfte +Ub/LV/LR/B/GR/0/GL-Verbindungen abgleichen."
+            },
+            {
+              "type": "step",
+              "label": "2.",
+              "text": "60972 an den Kanten halten. Seine schwarze Buchsenleiste zeigt nach oben. Der lange Decoderkörper zeigt über die freie Trägerfläche weg von den beiden Steckbuchsen. Stifte treten von unten durch die Decoderplatine ein."
+            },
+            {
+              "type": "step",
+              "label": "3.",
+              "text": "Tatsächliche fehlende Stiftposition und geschlossene Indexposition 11 sichtbar deckungsgleich halten. Beide Reihen vor dem Drücken prüfen. Keine verdeckte Stelle erraten und keine unbekannte Steckerstruktur entfernen."
+            }
+          ]
+        ],
+        "widths": [
+          0.9,
+          1.75
+        ],
+        "gap": 16
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Decoder parallel im Steckleistenbereich nach unten setzen. Bei Widerstand wieder abheben; keinen einseitigen oder um einen Platz versetzten Sitz mit Kraft korrigieren. Von der Seite alle eingeführten Stifte, geraden Sitz und Abstand zum Rahmen prüfen."
+      },
+      {
+        "type": "step",
+        "label": "5.",
+        "text": "Freiraum über dem realen Decoder prüfen. Litzen tragen weder Träger noch Decoder; GE und alle unbenutzten Trägerlitzen bleiben einzeln isoliert. Erst danach die erlaubte Fahrzeugprüfung [[23]] ausführen."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Vorn 60977 auf LoDi; hinten 60972 auf Märklin-Träger. Zum Abziehen immer die gesamte Versorgung trennen und gleichmäßig an den Kanten abheben. Nicht mit Metall unterhebeln.",
+        "tone": "stop"
+      },
+      {
+        "type": "p",
+        "text": "Kopf/Datum ______; Index sichtbar ______; beide Reihen vollständig ______; seitlicher Sitz ______; Metall-/Dachfreiraum ______; Foto ______."
+      }
+    ],
+    "check": "",
+    "sources": [
+      "Q1",
+      "Q6",
+      "Q8"
+    ],
+    "original_card": 31,
+    "rev12_card": 34,
+    "source_card": 35
+  },
+  {
+    "n": 22,
+    "title": "Motorseite: Erstkontrolle und Funktionstest",
+    "phase": "Erststrom | Motortriebkopf allein",
+    "goal": "Erstkontrolle am Programmiergleis; danach spannungsfrei zum Betriebsausgang wechseln und Licht, Sound und Kleinstfahrt prüfen.",
+    "before": "Checkliste [[19]], Motorprüfung und Stecklage [[20]] bestanden. Prüfabschnitt [[3]] und Stufen dem nächsten Arbeitsschritt vorbereitet. Gegenkopf/Wagen/Puffer getrennt; freie Kontakte isoliert.",
+    "blocks": [
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Nur Programmiergleisausgang an den freien Prüfabschnitt anschließen; Betriebsgleisstecker ab. Automatik aus, Fahrstufe 0, F0/Sound aus. Unter System → GFP3 → Daten den Leerwert ohne Fahrzeug notieren (Q26, S. 26)."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "STOP, Motortriebkopf allein vollständig aufsetzen, dann STOP aufheben. Ohne Fahrbefehl beobachten und eindeutigen Märklin-mfx-Eintrag abgleichen. Bei Abschaltung, Geruch, Wärme oder unerwartetem Motorlauf sofort STOP und physisch trennen; Diagnose nach dem nächsten Arbeitsschritt. Noch keinen Fahrbefehl geben."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Nur nach unauffälliger Erstkontrolle: STOP, Gleisstecker ganz abziehen und spannungsfrei an den Betriebsausgang umstecken; Anlage bleibt ab. STOP aufheben, erneut Ruhe prüfen; bei Fahrstufe 0 F0 prüfen: aus → dunkel, vorwärts → Weiß, rückwärts → Rot. LED-Werte nach dem nächsten Arbeitsschritt messen; danach Sound leise zuschalten."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Offener Standtest",
+          "Ist / Ergebnis"
+        ],
+        "rows": [
+          [
+            "Kommunikation / eindeutiger 60977",
+            "________________"
+          ],
+          [
+            "F0 aus / vorwärts / rückwärts",
+            "________________"
+          ],
+          [
+            "Leiser Sound / keine Überlast",
+            "________________"
+          ],
+          [
+            "Keine Wärme-/Geruchsauffälligkeit",
+            "________________"
+          ]
+        ],
+        "widths": [
+          1.8,
+          1
+        ]
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Erst nach bestandenem Standtest am Betriebsausgang: freien Auslauf und Endbegrenzung prüfen. Kleinste Fahrstufe kurz anlegen, dann 0; Räder nie festhalten. Bei Abschaltung sofort trennen und Ursache nach dem nächsten Arbeitsschritt klären. Dieser Funktionsversuch ersetzt keine volle Motorlastabnahme [[25]]."
+      },
+      {
+        "type": "step",
+        "label": "5.",
+        "text": "Falsche Richtung: STOP, trennen. Motorlitzen mit der auf [[11]] notierten und fotografierten Zuordnung vergleichen. Abweichung korrigieren und dem nächsten Arbeitsschritt/[[7]] wiederholen. Nur bei bestätigter Verdrahtung alternativ den 60977 allein bearbeiten: CV51 Bit 0 „Motoranschluss tauschen“ mit gesichertem Altwert ändern, übrige Bits erhalten und rücklesen. Danach Richtung/Licht prüfen; keine zweite Umkehr über CV29 oder Lichtmapping."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Brummen ohne Bewegung, Geruch, auffällige Wärme oder Überlast: sofort Versorgung aus. Mechanik, Bürsten, Litzen und Isolation stromlos prüfen. Nicht höhere Fahrstufe geben oder wiederholt einschalten.",
+        "tone": "stop"
+      },
+      {
+        "type": "p",
+        "text": "<b>Einmessfahrt bleibt aus:</b> CV7/Firmware-Feld nicht auf 77 setzen. Das kurze Prüfgleis ist dafür nicht vorgesehen. Die gewöhnliche Kleinstfahrt ist ein eigener kontrollierter Handgriff."
+      },
+      {
+        "type": "p",
+        "text": "Datum/Projekt ______; Quelle/Netzteil ______; GFP3 leer/Erstkontrolle ______; Frontstrom ______; Sound ______; Kleinstfahrt/Richtung ______. Volle Lastabnahme folgt [[25]]."
+      }
+    ],
+    "check": "Die Motorseite besteht ihren Einzeltest. Alle Änderungen sind erneut geprüft; erst dann Gegenkopf ergänzen.",
+    "sources": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q10",
+      "Q26"
+    ],
+    "original_card": 32,
+    "rev12_card": 35,
+    "source_card": 36
+  },
+  {
+    "n": 23,
+    "title": "Gegenkopf anschließen, beide Fronten prüfen",
+    "phase": "Erststrom | Gegenkopf und Paar",
+    "goal": "Die Einzelprüfung bestätigt die hintere Stromaufnahme und Verdrahtung. Die synchronisierte Lichtreaktion wird anschließend gemeinsam mit dem Master geprüft.",
+    "before": "Gegenkopf nach [[19]]/[[21]] vorbereitet; Motorseite [[22]] bestanden. Prüfabschnitt [[3]], keine Wagen/Puffer. Beide Köpfe ungekuppelt; freie Kontakte einzeln isoliert.",
+    "blocks": [
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Gegenkopf zuerst allein: STOP, Motorseite abnehmen. S/R, B/GR/0/GL, Halter und Widerstände prüfen; freie RT-/GE-Kontakte isolieren. Gleisstecker vollständig abziehen und an den Programmierausgang umstecken. Gegenkopf aufsetzen, STOP aufheben; GFP3-Ruhewert notieren. Bei Abschaltung, Wärme/Geruch sofort STOP und trennen; Diagnose dem nächsten Arbeitsschritt."
+      },
+      {
+        "type": "note",
+        "label": "RICHTIGER PRÜFZWECK",
+        "text": "Ohne Master keine eigene F0-Reaktion fordern; keine Neuanmeldung oder motorlose DCC-Programmierung. DCC-Wartung nur auf dem nächsten Arbeitsschritt. Sind hintere LEDs noch getrennt, Schritte 2–4 auslassen: Ruhetest dokumentieren, Licht bleibt offen. Unabhängige Montageprüfungen dürfen weitergehen; keine volle Wagen-/Fahrendabnahme.",
+        "tone": "info"
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Nur nach unauffälliger hinterer Einzelkontrolle: STOP, Gleisstecker vollständig abziehen und am Betriebsausgang einstecken. Beide Köpfe ungekuppelt und mit Abstand vollständig auf denselben freien Abschnitt setzen. Eine CS3-Quelle, Automatik aus, Fahrstufe 0. Lage und freie Kontakte prüfen, dann STOP aufheben; keine Decoderparameter ändern."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Nur den gemeinsamen ICE-Master bedienen",
+          "Motorseite",
+          "Gegenkopf"
+        ],
+        "rows": [
+          [
+            "F0 aus, vorwärts und rückwärts",
+            "dunkel",
+            "dunkel"
+          ],
+          [
+            "F0 an, vorwärts",
+            "weiß",
+            "rot"
+          ],
+          [
+            "F0 an, rückwärts",
+            "rot",
+            "weiß"
+          ]
+        ],
+        "widths": [
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Mindestens fünf Richtungswechsel bei Fahrstufe 0 durchführen. Physische Farben und Verzögerung beobachten. Kein Anrollen nötig; keine unerwünschte Ein-/Ausblendung. Alte gespeicherte Slave-Zeile von einer aktiven, unabhängig steuerbaren Anmeldung unterscheiden."
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "STOP, Gleisstecker abziehen. Gegenkopf abnehmen und wieder aufsetzen. Beide Köpfe unverändert am Betriebsausgang anschließen, Fahrstufe 0, dann STOP aufheben und Lichtfolge wiederholen. Hintere LED-Zweige einzeln nach dem nächsten Arbeitsschritt prüfen und hier dokumentieren. Bei Abweichung STOP und trennen; Einschaltfolge dem nächsten Arbeitsschritt vergleichen und Ursache vor erneutem Versuch klären."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Aktiv eigenständig steuerbarer Slave nach eindeutiger Zuordnung: Paartest nicht bestanden. Nichts durch Löschen/Ausblenden passend machen. Keine CV- oder Mappingänderung am gemeinsamen Zug.",
+        "tone": "stop"
+      },
+      {
+        "type": "p",
+        "text": "Ist vorwärts ______; rückwärts ______; F0 aus ______; fünf Wechsel ______; Neustart ______; Eintragsvergleich ______; Datum/Projekt ______. Bei Fehler Versorgung trennen und nach [[30]] eingrenzen."
+      }
+    ],
+    "check": "Ruhetest bestanden: ______; Frontlicht/LED-Zweige bestanden oder offen: ______. Volle Wagen-/Fahrabnahme erst mit geprüftem Licht und Lastnachweisen dem nächsten Arbeitsschritt/[[25]].",
+    "sources": [
+      "Q1",
+      "Q6",
+      "Q7",
+      "Q26"
+    ],
+    "original_card": 33,
+    "rev12_card": 36,
+    "source_card": 37
+  },
+  {
+    "n": 24,
+    "title": "Anlagenbereich vor dem ersten Fahrtest prüfen",
+    "phase": "Anlage | vor jeder neuen Strecke",
+    "goal": "RT verbindet beide Schleifer. Der Abstand zwischen ihnen wird elektrisch überbrückt – auch wenn der ICE selbst vor dem Signal stehen bleibt.",
+    "before": "Zug zunächst vom Gleis. Anschlussunterlagen, Gleis-/Signalplan und Fotos bereitlegen. Eine unbekannte Grenze bleibt außerhalb der Teststrecke.",
+    "blocks": [
+      {
+        "type": "figure",
+        "kind": "district",
+        "maxh": 132
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Den gesamten vorgesehenen Fahrweg im Plan markieren. Jede Mittelleiter-Trennstelle, Einspeisung, Signalstelle und jeden Übergang verfolgen; auch verdeckte Anschlusskabel und Abstellgleise berücksichtigen. Signalbegriff „Rot“ allein sagt nichts über die elektrische Wirkung."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Abschnitt / tatsächlicher Aufbau",
+          "Entscheidung für den langen RT-Bus"
+        ],
+        "rows": [
+          [
+            "Gleiche digitale CS3-Quelle; keine schaltende/bremsende Mittelleitertrennung",
+            "Für diesen Gesichtspunkt geeignet; restliche Last-/Fahrtests bleiben erforderlich."
+          ],
+          [
+            "Signal schaltet Gleis stromlos / Bremsmodul speist Sonderstrom",
+            "Mit direktem RT-Bus hier nicht fahren. LoDi nennt ICE-M-S für zugbeeinflussende Signale; deren Umbau braucht eigene Prüfung."
+          ],
+          [
+            "Anderer Booster, Programmiergleis, Analogversorgung oder unklare Einspeisung",
+            "Kein Übergang und keine Überbrückung; getrenntes Prüfgleis verwenden."
+          ],
+          [
+            "Rückmeldekontakt ohne Änderung der Mittelleiterversorgung",
+            "Schaltung prüfen; Kontaktgleis-Signal und Signalhalt sind unterschiedliche Funktionen."
+          ]
+        ],
+        "widths": [
+          1.2,
+          1.7
+        ]
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Signal/Modul und Plan zuordnen. Kontakt laut Hersteller potentialfrei, also elektrisch von der Steuerelektronik getrennt: alle Quellen trennen, Klemmen fotografieren, Kontaktadern beschriften/abnehmen und isolieren. Kontaktpunkte nach dem nächsten Arbeitsschritt vor/nachprüfen; Ω direkt am getrennten Kontakt messen. Wert gilt nur für diese Stellung; nicht zum Umschalten bestromen. Nach Foto wiederanschließen und prüfen. Unbekannte Elektronik: Herstellerplan klären oder Bereich offen lassen."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Nur den vollständig geklärten zusammenhängenden Bereich freigeben. Grenzen im Plan und am Gleis markieren. Der ganze Zug einschließlich beider Schleifer muss vor jeder gesperrten Grenze bleiben. Eine bestandene Werkstattprüfung gilt nicht automatisch für andere Anlagenbereiche."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Halteabschnitte nicht beiläufig dauerhaft einspeisen und keine Booster-/Programmiertrennung überbrücken. Ein Wechsel auf ICE-M-S oder reine CS3-Ereignissteuerung ist eine eigenständige Anlagen-/Umbauentscheidung.",
+        "tone": "stop"
+      },
+      {
+        "type": "p",
+        "text": "Plan/Quelle ______; geprüfte Strecke ______; Signal-/Modulliste ______; gesperrte Grenzen ______; Datum ______. Nur dieser Bereich ist anschließend für [[27]] und [[29]] freigegeben."
+      }
+    ],
+    "check": "Alle Streckenabschnitte sind elektrisch zugeordnet; keine unbekannte oder unzulässig überbrückte Grenze liegt im Fahrweg.",
+    "sources": [
+      "Q3",
+      "Q4",
+      "Q26"
+    ],
+    "original_card": 44,
+    "rev12_card": 38,
+    "source_card": 38
+  },
+  {
+    "n": 25,
+    "title": "Wagenlast und alleinige hintere Einspeisung prüfen",
+    "phase": "Lastabnahme | tatsächliche Konfiguration",
+    "goal": "Die endgültige Wagenzahl braucht begründete Lastgrenzen. Das Multimeter ergänzt die Prüfung; ein DC-Mittelwert begrenzt keine Stromspitzen.",
+    "before": "Jetzt vorbereiten; ausführen begleitend ab [[26]], nach [[19]]–[[23]]. Prüfplatz [[3]] und für jede Fahrbewegung Bereich [[24]] geklärt. Konfiguration/Grenzen notieren; Änderungen nur vollständig stromlos.",
+    "blocks": [
+      {
+        "type": "figure",
+        "kind": "current_probe",
+        "maxh": 113,
+        "after": 5
+      },
+      {
+        "type": "p",
+        "text": "<b>Nachweis 1 – Hersteller:</b> LoDi mit Revisionen, Fotos, Wagenzahl, CS3-/Netzteiltyp und 60977-AUX4 nach Dauer-/Einschaltstrom und zulässiger Konfiguration fragen. Antwort muss höchste Helligkeit, weitere Ausgänge und Leiterpfadgrenzen abdecken. Fehlende veröffentlichte Werte sind keine Freigabe.",
+        "after": 5
+      },
+      {
+        "type": "p",
+        "text": "<b>Nachweis 2 – Stromverlauf:</b> AC/DC-Stromsonde plus Speicheroszilloskop mit geeigneter mA-Auflösung, Bandbreite und Fehlerangabe verwenden. Um genau eine GE-Ader, ohne elektrischen Masseanschluss. Geeigneten Messplatz gezielt ausleihen; Gerätebezeichnungen und Kurven sichern.",
+        "after": 5
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Beim Sondenweg: ohne Leiter nullen, nachher erneut kontrollieren. Einschalten mit Vortrigger erfassen, also mit aufgezeichnetem Vorlauf vor dem Stromanstieg. Licht aus/ein, höchste Helligkeit, beide Richtungen/Protokolle. Je weiterer Wagen dieselbe Reihe; Zeit-/Strommaßstab und Gerätefehler sichern.",
+        "after": 5
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Spitzenwert (Peak) samt Messunsicherheit ≤250 mA je verstärktem 60977-Ausgang; keine unbelegte kurze Überlast. Obere gleichzeitige vordere Licht-/AUX-Werte zusammen ≤300 mA; hintere LEDs zählen hier nicht mit. Für Leitererwärmung den Effektivwert (RMS) berücksichtigen.",
+        "after": 5
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Hintere Einspeisung allein: vordere Schleiferzuleitung stromlos öffnen, Enden isolieren. Im Stand alternativ sichere nichtleitende Schleiferauflage mit Kontaktkontrolle; für Fahrt Leitung wirklich trennen. Kein Papier unter fahrendem Schleifer.",
+        "after": 5
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Sonde um hintere RT-Litze zur ersten Kupplung. Motor/Sound/Licht kontrolliert erfassen, Motor nie blockieren. RT-Spannungsfall zwischen hinterem und vorderem Zugende nur differentiell messen; Leitergrenze, Unterbrechungen und Wärme beachten. Danach ausschalten, Sonde abnehmen, vordere Schleiferleitung wiederanschließen und nach dem nächsten Arbeitsschritt prüfen.",
+        "after": 5
+      },
+      {
+        "type": "p",
+        "text": "<b>Ergänzend mit deinem DMM:</b> Stromlos GE an zugänglicher Einzelader öffnen. Batteriebetriebenes DMM ohne USB/Netzverbindung, geeigneter abgesicherter DC-mA-Bereich: Rot wagenwärts, COM zum AUX; nur in Reihe. Höchste Helligkeit messen, ausschalten, Leitung wiederherstellen/prüfen, Rot zurück in V/Ω. Ergebnis ist ein Betriebs-Mittelwert; auch 40 % Reserve ersetzt keinen Peaknachweis.",
+        "after": 5
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Kein geerdeter Oszilloskop-Masseclip an GE/RT. Shunt nur mit fachgerecht isolierter/differentieller Erfassung. Flackerfreiheit und DC-Mittelwert bestätigen keine Nenntragfähigkeit. Ohne Nachweis 1 oder 2 bleibt die numerische Lastabnahme offen.",
+        "tone": "stop",
+        "after": 5
+      },
+      {
+        "type": "small",
+        "text": "Wagen/Reihenfolge ______; Nachweis/Geräte ______; GE Peak/RMS ______; ergänzender DMM-Mittelwert ______; Licht/AUX-Summe ______; RT-/Gesamtgrenze und Ist ______.",
+        "after": 5
+      }
+    ],
+    "check": "",
+    "sources": [
+      "Q1",
+      "Q3",
+      "Q6",
+      "Q26",
+      "Q28",
+      "Q33"
+    ],
+    "original_card": 43,
+    "rev12_card": 31,
+    "source_card": 39
+  },
+  {
+    "n": 26,
+    "title": "Wagen ergänzen: Innenlicht T1 bis T8 prüfen",
+    "phase": "Zugtest | zunächst offene Gehäuse",
+    "goal": "Jeden Wagen zuerst passiv prüfen. Beim elektrischen Ergänzen die jeweilige Laststufe nach [[25]] begleiten; die endgültige Zusammenstellung vollständig testen.",
+    "before": "Einzel-/Fronttests [[22]]/[[23]] bestanden; Wagen [[15]]–[[17]] passiv geprüft. B zunächst frei; nur bei gewählter Radkontaktoption dem nächsten Arbeitsschritt/1–3 vorbereitet. Bereich [[24]], Lastnachweis [[25]] vorbereitet. Betriebsausgang, Fahrstufe 0, Puffer ab. Optionale B-Probe 4–5 erst während dieser Wagenstufe.",
+    "blocks": [
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "STOP, physisch trennen. Nur den nächsten geprüften Wagen ankoppeln und Orientierung/Kontaktzuordnung prüfen. Freie Kontakte beider Köpfe und des jeweils letzten Wagens einzeln isolieren. Erst dann den für diese Stufe bestätigten Prüfaufbau einschalten; niemals unter Spannung kuppeln."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Test",
+          "Du bedienst den gemeinsamen ICE-Eintrag",
+          "Bestanden, wenn"
+        ],
+        "rows": [
+          [
+            "T1",
+            "F0, Sound und Innenlicht aus.",
+            "Alle Wagen dunkel."
+          ],
+          [
+            "T2",
+            "Innenlicht einmal einschalten, loslassen; 30 Sekunden beobachten.",
+            "Bleibt an, kein Blinken/Timer."
+          ],
+          [
+            "T3",
+            "F0 aus. Bei Fahrstufe 0 zehnmal vorwärts und zurück; je Zustand etwa 2 Sekunden warten.",
+            "Innenlicht unverändert, Motor steht."
+          ],
+          [
+            "T4",
+            "F0 an. Die zehn Wechsel wiederholen.",
+            "Fronten wechseln korrekt, Innenlicht unverändert."
+          ],
+          [
+            "T5",
+            "Nur F0 mehrfach aus/ein schalten.",
+            "Innenlicht reagiert nicht."
+          ],
+          [
+            "T6",
+            "Zugelassenen Sound leise zuschalten; Richtungsfolge im Stand wiederholen.",
+            "Kein Lichtausfall, Sound-Neustart oder Reset."
+          ],
+          [
+            "T7",
+            "Nur Innenlicht aus/ein schalten.",
+            "Wagen folgen; Fronten/Sound bleiben unverändert."
+          ],
+          [
+            "T8",
+            "Nach jedem weiteren zugelassenen Wagen die Folge wiederholen.",
+            "Jede endgültige Wagen-/Endorientierung besteht; später auch geschlossen."
+          ]
+        ],
+        "widths": [
+          0.35,
+          2.35,
+          1.45
+        ]
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Bei einem Fehler sofort trennen. Alle Wagen richtungsabhängig dunkel: Innenlichtmapping und GE prüfen. Ein Wagen/alles ab einer Kupplung: betroffenen Übergang und Kontakt-Pad-Zuordnung prüfen. Sound-Neustart zusammen mit Lichtausfall: Versorgung und Last klären."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Keinen Puffer gegen ungeklärtes Flackern anlöten. Ein kurzer Einbruch trotz richtiger Zuordnung braucht eine Messung des tatsächlichen Ausgangs-/Versorgungsverlaufs im passenden Aufbau. Ohne Ursache keinen weiteren Einschaltversuch.",
+        "tone": "stop"
+      },
+      {
+        "type": "p",
+        "text": "Wagenzahl/Reihenfolge ______; Endorientierung ______; AUX/Taste ______; Laststufe ______; T1-T8 je Stufe ______; Datum ______. Zug und Kupplungen während der Standprüfung nicht berühren."
+      }
+    ],
+    "check": "Die vorgesehene Zusammenstellung besteht T1–T8 und Lastabnahme [[25]]. Im bereits geprüften Bereich [[24]] mit T9/Fahrtest [[27]] fortfahren.",
+    "sources": [
+      "Q1",
+      "Q3",
+      "Q4",
+      "Q10"
+    ],
+    "original_card": 34,
+    "rev12_card": 37,
+    "source_card": 40
+  },
+  {
+    "n": 27,
+    "title": "T9: jede Funktionstaste und die Fahrt abnehmen",
+    "phase": "Zugtest | endgültiges Projekt",
+    "goal": "Ein letzter Projekttransfer kann Lichtmapping oder Ausgangsart verändern. Deshalb wird die tatsächlich gespeicherte Funktionstastenbelegung geprüft.",
+    "before": "T1–T8 und Lastabnahme [[25]] bestanden; Projekte dokumentiert. Nur Bereich [[24]] am Betriebsausgang; Fahrstufe 0, keine Einmessfunktion.",
+    "blocks": [
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Für jede im Projekt belegte Taste vorher festlegen, was sich ändern darf: vordere Front, hintere Front, Innenlicht und Sound. Keine freien oder unbekannten Tasten versuchsweise betätigen. Testaufbau gegen ungewollte Bewegung sichern."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Jede belegte Taste einzeln aus/ein schalten: jeweils vorwärts und rückwärts, jeweils F0 aus und an. Soll und tatsächliche Reaktion nebeneinander notieren. Ungewolltes Frontlicht bei F0 aus oder eine fremde Innenlichtreaktion ist ein Fehler."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Taste / Richtung / F0",
+          "Soll: vorn / hinten / innen / Sound",
+          "Ist / Ergebnis"
+        ],
+        "rows": [
+          [
+            "________________",
+            "________________________",
+            "________________"
+          ],
+          [
+            "________________",
+            "________________________",
+            "________________"
+          ],
+          [
+            "________________",
+            "________________________",
+            "________________"
+          ],
+          [
+            "________________",
+            "________________________",
+            "________________"
+          ],
+          [
+            "________________",
+            "________________________",
+            "________________"
+          ],
+          [
+            "________________",
+            "________________________",
+            "________________"
+          ]
+        ],
+        "widths": [
+          1.1,
+          1.7,
+          1.1
+        ]
+      },
+      {
+        "type": "small",
+        "text": "Tabelle für sämtliche belegten Tasten und Kombinationen fortsetzen/kopieren. Projekt ______; Firmware ______; Laststufe ______; Datum ______."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Erst nach bestandenem Standtest und zugelassener Gesamt-Motorlast: bei kleinster Fahrstufe Stand-Fahrt-Stand in beiden Richtungen prüfen. Richtung ausschließlich bei stehendem Zug wechseln. Freien, waagerechten Fahrweg und Absturzschutz sicherstellen."
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Nur die nach [[24]] erfassten Kurven/Weichen im zulässigen Bereich langsam befahren. Vor gesperrten Abschnittsgrenzen den ganzen Zug anhalten. Wagenlicht, Sound, Beweglichkeit und Leitungslage beobachten. Bis Gehäuseabschluss bleibt dies ein beaufsichtigter offener Fahrtest."
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Abweichung: STOP, Versorgung physisch trennen. Nur den betroffenen Decoder auf dem bestätigten Einzelplatz ändern. Danach die betroffenen Ausgangs-/Synchronisationstests und T9 wiederholen; keine Änderung am verbundenen Zug.",
+        "tone": "stop"
+      },
+      {
+        "type": "p",
+        "text": "Stand-Fahrt-Stand vorwärts ______; rückwärts ______; Kurven/Weichen ______; auffällige Unterbrechungen ______; T9 vollständig ______. Nach Gehäuseschluss die betroffenen Funktions- und Fahrtests erneut prüfen."
+      }
+    ],
+    "check": "Die endgültige offene Zusammenstellung funktioniert. Geschlossenen Zustand noch nicht als bestanden eintragen.",
+    "sources": [
+      "Q1",
+      "Q6",
+      "Q7",
+      "Q10"
+    ],
+    "original_card": 35,
+    "rev12_card": 39,
+    "source_card": 41
+  },
+  {
+    "n": 28,
+    "title": "Gehäuseprüfung: Sitzprobe und endgültiger Motorzweig",
+    "phase": "Gehäuseabschluss | beide Köpfe",
+    "goal": "Zuerst den Messzugang vorbereiten. Die Endprüfung erfolgt nach dem endgültigen Schließen in [[29]] und verändert danach keine Innenleitung mehr.",
+    "before": "Vom Gleis/Bus nehmen, Decoder und Puffer herausnehmen, Motor-Serviceverbindung öffnen; Restenergie [[4]]. Zugangsentscheidung [[11]] und offene Sechserfolge [[7]] bestanden.",
+    "blocks": [
+      {
+        "type": "figure",
+        "kind": "closed_access",
+        "maxh": 108
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "<b>Jetzt: Sitzprobe.</b> Hilfsleitungen PM1/PM2 nur motorseitig an freie Drossel-/Litzenenden, PX/PX2 an bestätigten Metallbezug. Vorhandene Öffnung und Zugentlastung fotografieren. Kein allgemeines OL durch LEDs oder bestückte Platinen. Im Gegenkopf nur tatsächlich passive Pfade prüfen."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Gehäuse vollständig schließen, passende Schrauben anziehen und normale Drehgestelllagen prüfen; wieder öffnen. Keine Druck-/Scheuerspuren, verschobenen Clips oder eingeklemmten Adern. Ein halb offenes Gehäuse besteht die Probe nicht. Hilfsleitungen vor endgültiger Montage entfernen; weiter mit [[29]]."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "<b>Erst nach endgültigem Schließen auf [[29]]:</b> Versorgung getrennt lassen. Prüfen, dass die außen zugängliche Motor-Service-Trennstelle weiterhin offen ist. Innenlitzen bleiben unverändert. PM1/PM2 an die motorseitigen Kontakte setzen, PX/PX2 an den bestätigten Metallbezug. Die andere Steckerhälfte zur LoDi bleibt getrennt."
+      },
+      {
+        "type": "note",
+        "label": "MESSUMFANG",
+        "text": "Sechserfolge nach [[7]] an jeder zugänglichen Gegenstelle und normalen Drehgestelllage; Vor-/Nachproben zwingend. Bei geschlossenem Kopf nur ohne Eingriff erreichbare Rotorlagen prüfen; die vollständige Rotorreihe erfolgte offen. Prüfung bestätigt den endgültig verlegten Motorzweig, keinen pauschalen OL-Wert der angeschlossenen Decoderelektronik.",
+        "tone": "info"
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Nach bestandener Reihe Messgerät entfernen und nur die äußere Serviceverbindung wieder stecken/sichern. Gehäuse und Innenlitzen nicht mehr öffnen/umlegen; dann Funktionsabschluss [[29]]. Bei Fehler oder nach erneutem Öffnen Ursache korrigieren, Endmontage und betroffene Reihe wiederholen."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Kopf / Pfad / Lage",
+          "Vorprobe",
+          "Geschlossen",
+          "Nachprobe"
+        ],
+        "rows": [
+          [
+            "_______________",
+            "______",
+            "______",
+            "______"
+          ],
+          [
+            "_______________",
+            "______",
+            "______",
+            "______"
+          ]
+        ],
+        "widths": [
+          1.6,
+          0.8,
+          0.8,
+          0.8
+        ]
+      },
+      {
+        "type": "small",
+        "text": "Zugang/Fotos ______; Sitzprobe ______; endgültige Motorprüfung ______. Fehlt ein von außen bedienbarer geprüfter Zugang, bleibt diese Endprüfung offen; nicht durch einen Einschaltversuch ersetzen."
+      }
+    ],
+    "check": "Vor [[29]]: Sitz-/Zugangsprobe 1–2 bestanden. Bei [[29]] nach endgültigem Schließen: Schritte 3–4 bestanden, Serviceverbindung außen wiederhergestellt; danach nur noch Funktionsabschluss.",
+    "sources": [
+      "Q1",
+      "Q6"
+    ],
+    "original_card": 36,
+    "rev12_card": 40,
+    "source_card": 42
+  },
+  {
+    "n": 29,
+    "title": "Wiederanschließen, endgültig schließen und abnehmen",
+    "phase": "Gehäuseabschluss | Endabnahme",
+    "goal": "Die Prüfung ohne Decoder bestätigt nicht dessen realen Platzbedarf. Wiederanschlüsse und endgültige Montage werden deshalb nochmals kontrolliert.",
+    "before": "Sitz-/Zugangsprobe [[28]]/1–2 bestanden. Zug stromlos und vom Bus getrennt; die Motor-Service-Trennstelle ist außen erreichbar.",
+    "blocks": [
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Motor-Serviceverbindung offen lassen. Am offenen Kopf Sechserfolge dem nächsten Arbeitsschritt/[[7]] wiederholen; <b>danach</b> Hilfsleitungen entfernen. Geplante Innenanschlüsse herstellen und dem nächsten Arbeitsschritt/dem nächsten Arbeitsschritt prüfen. Motor-/Platinenseite der äußeren Serviceverbindung markieren und getrennt lassen. Kein Motor-OL durch die Platine messen."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Innenverlauf, Halter und Zugentlastung fotografieren. Passende Decoder [[20]]/[[21]] einsetzen; reale Höhe, Dachraum und Wärmeabfuhr prüfen. Kein Decoder in Folie/Isolierband. Gefährdende Metallfläche isolieren und Abstand erhalten."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Gehäuse vollständig und druckfrei schließen. Jetzt Endprüfung [[28]]/3–4 am außen getrennten Motorpfad ausführen. Erst bei Erfolg außen wieder verbinden und Steckersitz/Isolation ansehen; nicht erneut öffnen oder innen umlegen. Bei jeder nötigen Innenänderung Schließen und Endprüfung wiederholen. Ein halb offenes Gehäuse ist keine Lösung."
+      },
+      {
+        "type": "step",
+        "label": "4.",
+        "text": "Erst nach dieser Endprüfung innerhalb der geprüften Last F0/Richtung, Sound, T1–T9 und Fahrt am geschlossenen Zug wiederholen. Neuer Fehler: STOP und trennen. Nicht unter Spannung öffnen/drücken. Äußere Serviceverbindung gegen Lösen und Berührung sichern."
+      },
+      {
+        "type": "step",
+        "label": "5.",
+        "text": "Helligkeit erst jetzt mit Lichtleitern/Gehäuse bei gleichem Umgebungslicht vergleichen. Weiß und Rot getrennt abstimmen; helleren Ausgang dimmen. 60972-Änderung nur auf Einzelaufnahme. Wagen-TRIMM jeweils stromlos minimal verstellen, Werkzeug entfernen, einschalten und vergleichen; Endanschlag nicht erzwingen."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Endabnahme",
+          "Ergebnis / Nachweis"
+        ],
+        "rows": [
+          [
+            "Endgültige Wagenzahl / Reihenfolge / Orientierung",
+            "________________________"
+          ],
+          [
+            "CS3-Paarabnahme / Projekte / Innenlichttaste; Firmwarestatus und SID-Erweiterung getrennt",
+            "________________________"
+          ],
+          [
+            "Lasten / höchste Helligkeit / alleinige hintere Speisung",
+            "________________________"
+          ],
+          [
+            "Gehäuse geschlossen / Bewegung / Wiederanschlussprüfung",
+            "________________________"
+          ],
+          [
+            "F0 / Sound / T1-T9 / Fahrt geschlossen",
+            "________________________"
+          ],
+          [
+            "Begrenzter eigener Anlagenbereich nach [[24]]",
+            "________________________"
+          ],
+          [
+            "Beide 60974 weiterhin ab; Signalhalt separat offen/geprüft",
+            "________________________"
+          ]
+        ],
+        "widths": [
+          2.1,
+          1.4
+        ]
+      },
+      {
+        "type": "note",
+        "label": "STOPP",
+        "text": "Nach Dimmung/Projektänderung betroffene Tests wiederholen. Für Zugang erneut geöffnet: Endmontage und Schließprüfung erneut ausführen, auch ohne bewusstes Umlegen. Strombegrenzung muss ungedimmt sicher sein.",
+        "tone": "stop"
+      },
+      {
+        "type": "p",
+        "text": "Datum ______; elektrischer Abschluss bestanden/offen ______; freigegebener Bereich ______. Danach optionalen Rückmeldetest dem nächsten Arbeitsschritt/6 ausführen. Erst bei abgeschlossenem Grundaufbau in diesem Bereich fahren. Geänderter mfx-Systemzustand, Puffer und automatischer Signalhalt benötigen die jeweils getrennten Ergänzungsprüfungen."
+      }
+    ],
+    "check": "",
+    "sources": [
+      "Q1",
+      "Q3",
+      "Q4",
+      "Q6"
+    ],
+    "original_card": 37,
+    "rev12_card": 41,
+    "source_card": 43
+  },
+  {
+    "n": 30,
+    "title": "Fehler eingrenzen und später sicher warten",
+    "phase": "Nachschlagen | Fehler und Wartung",
+    "goal": "Erst ausschalten und physisch trennen. Die letzte Änderung und den genauen fehlgeschlagenen Test dokumentieren; keine Blindkorrektur.",
+    "before": "",
+    "blocks": [
+      {
+        "type": "table",
+        "headers": [
+          "Beobachtung",
+          "Stromlos prüfen",
+          "Nicht tun"
+        ],
+        "rows": [
+          [
+            "Sofort Überlast",
+            "Aufbau/letzte Änderung, Quellen-/Netzteilgrenze, RT/GE/0, 21MTC-Sitz und Metallkontakt",
+            "Wiederholt einschalten"
+          ],
+          [
+            "Nur mit Gehäuse",
+            "Schraube, Dachkontakt, Litzenquetschung, realer Decoderraum",
+            "Mit Kraft zuschrauben"
+          ],
+          [
+            "Nur in Kurven",
+            "Deichsel-/Drehgestelllitzen, Zug, Scheuern und Kontaktkontrollen",
+            "Günstige Stellung als bestanden notieren"
+          ],
+          [
+            "LED dunkel/falsche Farbe",
+            "Plus, Serienwiderstand, Polung, Mapping getrennt",
+            "Widerstand brücken oder direkt ans Gleis"
+          ],
+          [
+            "Motor brummt/warm",
+            "Freilauf, Bürsten, Drosseln, Isolation; Kohlestaub/Späne",
+            "Mehr Fahrstufe oder blockiert testen"
+          ],
+          [
+            "Slave folgt nicht",
+            "Kennung, Export, Rücklesewerte, Protokolle; Diagnoseentscheid dem nächsten Arbeitsschritt",
+            "Gleiche DCC-Adresse als mfx-Erfolg ausgeben"
+          ],
+          [
+            "Alle Wagen richtungsabhängig dunkel",
+            "Innenlicht-Taste, Bedingung und GE-AUX-Zuordnung",
+            "F0 als zusätzliche Innenlichttaste verwenden"
+          ],
+          [
+            "Ab einer Kupplung dunkel",
+            "Jeden betroffenen Kontakt bis O/L und Einzelübergang",
+            "Nur Gesamtdurchgang messen"
+          ],
+          [
+            "Lichtausfall plus Sound-Neustart",
+            "Stromaufnahme, Last und Spannungseinbruch",
+            "Puffer auf Verdacht anschließen"
+          ],
+          [
+            "CV-Lesefehler nach Schreiben",
+            "Versorgung, Kontakt, Quittierung; tatsächlichen Zustand feststellen",
+            "Schreibbefehl blind wiederholen oder Reset"
+          ]
+        ],
+        "widths": [
+          1.1,
+          1.7,
+          1.25
+        ]
+      },
+      {
+        "type": "h",
+        "text": "Verbindlicher Wartungsweg"
+      },
+      {
+        "type": "step",
+        "label": "1.",
+        "text": "Zug stromlos machen, Kopf vom Gleis und Bus trennen. Decoder an den Kanten abziehen. 60972 auf die bestätigte Einzelaufnahme dem nächsten Arbeitsschritt setzen; Lesen/Ändern nach dem nächsten Arbeitsschritt/dem nächsten Arbeitsschritt. Märklin 60977 nach dem nächsten Arbeitsschritt/[[18]] bearbeiten. Die passende Aufnahme muss auch später erneut verfügbar sein."
+      },
+      {
+        "type": "step",
+        "label": "2.",
+        "text": "Altprojekt/Altwerte sichern, nur die begründete Änderung übertragen und frisch rücklesen. Eine fehlende Quittierung (ACK, Rückmeldung des Decoders) kann trotz ausgeführtem Schreiben auftreten. Die 150-Ω-Hilfe aus Fremddecoder-Unterlagen für andere Fx-micro-Modelle nicht auf 60972 übertragen."
+      },
+      {
+        "type": "step",
+        "label": "3.",
+        "text": "Stromlos wieder einsetzen. Betroffene Anschluss-/Steck-, Funktions-/Synchronisations- und bei Lageänderung Gehäuseprüfungen wiederholen. Datum und neuer Projektstand gehören zum Zug."
+      },
+      {
+        "type": "p",
+        "text": "Fehlerprotokoll: Karte/Test ______; Aufbau/letzte Änderung ______; Soll/Ist ______; Messpunkte/Parameter ______; Vor-/Nachprobe ______; Ursache/Korrektur ______; Wiederholung ______."
+      }
+    ],
+    "check": "",
+    "sources": [
+      "Q1",
+      "Q6",
+      "Q17"
+    ],
+    "original_card": 38,
+    "rev12_card": 42,
+    "source_card": 44
+  },
+  {
+    "n": 31,
+    "title": "Quellen, offene Bestätigungen und Abnahmeblatt",
+    "phase": "Nachschlagen | Quellen",
+    "goal": "Herstellerquellen belegen Plattform und Schnittstellen. Passung, Kontaktkraft, Strom und Lichtfunktion am eigenen 2976 bleiben Messwerte und werden vor dem Schließen eingetragen.",
+    "before": "",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "<b>Herstellerquellen:</b> LoDi-WiB ICE-M / Motor WiB ICE-M(-S), Einbaufolge für den ICE 1; Märklin 60941 Hochleistungsmotor; Märklin 60977 mSD3 SoundDecoder; Märklin 60972 mLD3 mit 21MTC; Märklin 60982 mLD3 mit Kabelbaum; Märklin Ersatzteilliste 2976/3370."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Eintrag",
+          "Verwendung"
+        ],
+        "widths": [
+          1,
+          3
+        ],
+        "rows": [
+          [
+            "LoDi-512 ICE-M-S",
+            "Motorisierter Kopf, 21-polige Schnittstelle, Schleiferumschaltung"
+          ],
+          [
+            "LoDi-511 ICE-M",
+            "Motorloser Gegenkopf, Licht- und Kupplungspfad"
+          ],
+          [
+            "LoDi-514",
+            "Je Kopf Weiß/Rot/Plus für richtungsabhängiges Frontlicht"
+          ],
+          [
+            "E395640",
+            "2 Stück; stromführende Triebkopf-Übergänge"
+          ],
+          [
+            "E374060 + E374340",
+            "Stromführende Wagenkupplungspaare laut Bestellung"
+          ],
+          [
+            "Märklin 60941",
+            "5-poliger Hochleistungsmotor und Bürstenanschlüsse"
+          ],
+          [
+            "Märklin 60977 / 60972",
+            "Sound-/Fahrdecoder vorn und 21MTC-Funktionsdecoder hinten"
+          ],
+          [
+            "Märklin 60971",
+            "Decoder-Programmer für Lesen, Schreiben und Rücklesen"
+          ],
+          [
+            "Märklin 60982",
+            "Reserve/Alternative mit 8-poligem Kabelbaum; nicht direkt auf LoDi-21MTC"
+          ],
+          [
+            "Märklin 78792",
+            "Bordrestaurant-Wagen; passende LoDi-Wagenplatine und Innenlicht erst nach RT/GE-Prüfung"
+          ],
+          [
+            "LoDi-510",
+            "Je Innenwagen eine LoDi-WiB ICE1-M; O=RT, L=GE, B optional"
+          ]
+        ]
+      },
+      {
+        "type": "note",
+        "label": "OFFEN VOR DER ENDMONTAGE",
+        "tone": "stop",
+        "text": "Kupplungs-Artikelnummer und Polzahl, LoDi-Platinenrevision, reale Decoderwerte, Stromaufnahme je Wagen und die Passung des eigenen 2976 sind einzutragen. Ohne diese Nachweise keine endgültige Freigabe."
+      },
+      {
+        "type": "p",
+        "text": "<b>Abnahme:</b> Erst 60977 allein, dann Gegenkopf, dann jeder Wagen einzeln. Nach jedem Übergang RT gegen GE auf Kurzschluss prüfen; bei falscher Lichtfarbe zuerst LED-Zuordnung und danach Decoder-Richtung prüfen."
+      }
+    ],
+    "check": "",
+    "sources": [],
+    "original_card": 40,
+    "rev12_card": 44,
+    "source_card": 46
+  }
+]

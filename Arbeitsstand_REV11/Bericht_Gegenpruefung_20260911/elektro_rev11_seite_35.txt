@@ -1,0 +1,53 @@
+ZUGTEST | ENDGÜLTIGES PROJEKT
+ARBEITSKARTE 35
+T9: jede Funktionstaste und die Fahrt abnehmen
+Ein letzter Projekttransfer kann Lichtmapping oder Ausgangsart verändern. Deshalb wird die tatsächlich
+gespeicherte Funktionstastenbelegung geprüft.
+VORHER T1-T8 bestanden; endgültige Projekte/Firmware dokumentiert. Nur zugelassene Last, Fahrstufe 0 und keine
+Einmessfunktion.
+1. Für jede im Projekt belegte Taste vorher festlegen, was sich ändern darf: vordere Front, hintere Front,
+Innenlicht und Sound. Keine freien oder unbekannten Tasten versuchsweise betätigen. Testaufbau gegen
+ungewollte Bewegung sichern.
+2. Jede belegte Taste einzeln aus/ein schalten: jeweils vorwärts und rückwärts, jeweils F0 aus und an. Soll und
+tatsächliche Reaktion nebeneinander notieren. Ungewolltes Frontlicht bei F0 aus oder eine fremde
+Innenlichtreaktion ist ein Fehler.
+Taste / Richtung / F0
+Soll: vorn / hinten / innen / Sound
+Ist / Ergebnis
+________________
+________________________
+________________
+________________
+________________________
+________________
+________________
+________________________
+________________
+________________
+________________________
+________________
+________________
+________________________
+________________
+________________
+________________________
+________________
+Tabelle für sämtliche belegten Tasten und Kombinationen fortsetzen/kopieren. Projekt ______; Firmware ______; Laststufe ______;
+Datum ______.
+3. Erst nach bestandenem Standtest und zugelassener Gesamt-Motorlast: bei kleinster Fahrstufe
+Stand-Fahrt-Stand in beiden Richtungen prüfen. Richtung ausschließlich bei stehendem Zug wechseln. Freien,
+waagerechten Fahrweg und Absturzschutz sicherstellen.
+4. Vorgesehene Kurven und Weichen langsam befahren. Wagenlicht, Sound-Neustart, Beweglichkeit und
+Leitungslage beobachten. Bis zum geschlossenen Abschluss nur diesen kontrollierten offenen Test durchführen.
+Stillstand ohne Flackern beweist keine verschmutzungsfeste Fahrt.
+STOPP Abweichung: STOP, Versorgung physisch trennen. Nur den betroffenen Decoder auf dem bestätigten
+Einzelplatz ändern. Danach die betroffenen Ausgangs-/Synchronisationstests und T9 wiederholen; keine Änderung
+am verbundenen Zug.
+Stand-Fahrt-Stand vorwärts ______; rückwärts ______; Kurven/Weichen ______; auffällige Unterbrechungen
+______; T9 vollständig ______. Nach Gehäuseschluss die betroffenen Funktions- und Fahrtests erneut prüfen.
+WEITER, WENN Die endgültige offene Zusammenstellung funktioniert. Geschlossenen Zustand noch nicht als bestanden
+eintragen.
+REV11 | ICE 2976 | 11.09.2026
+35 / 40
+Quellen: Q1, Q6, Q7, Q10 (S. 40)
+Weiter: 36

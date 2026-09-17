@@ -1,0 +1,54 @@
+VORBEREITUNG
+ARBEITSKARTE 03
+Netze unterscheiden, Multimeter vorbereiten
+Diese Grundregeln gelten bei jeder Messung und jedem Anschluss.
+GLEIS
+B: Schleifer
+0: Räder
+EIN DECODER
+Gleichrichter
+U+ = Funktionsplus
+GND = Elektronikminus
+LV / LR = geschaltet
+FRONT-LED
+U+ / Plus
+Lichtausgang
+B, 0, U+ und GND getrennt benennen. Kabelfarbe allein genügt nicht.
+Kein U+ / GND an Chassis; kein U+ zwischen beiden Decodern verbinden.
+Bezeichnung
+Gemeint ist
+Verwechslung vermeiden
+B / RT
+Roh-Digitalsignal vom Mittelschleifer
+Kein U+ und kein Lichtausgang
+0 / Radmasse
+Rückleiter über Räder/vorgesehene
+Metallkontakte
+Kein Elektronik-GND
+U+ / +Ub
+Gleichgerichtetes Funktionsplus des
+jeweiligen Decoders
+Nicht mit anderem Decoder-U+ verbinden
+GND
+Interner Elektronikminus
+Kein braunes Fahrzeugkabel allein aufgrund der
+Farbe
+1. Fahrzeug vom Gleis nehmen; alle Versorgungen und den Wagenbus physisch trennen. Decoder und beide
+60974 entfernen. Vor Ω-/Diodenmessungen Restenergie nach Geräte-/Bauteilanleitung ausschließen.
+Kondensatoren nicht mit Draht oder Schraubendreher kurzschließen.
+2. Schwarz in COM, Rot in V/Ω stecken. Widerstandsbereich wählen. Spitzen zusammen: niedrigen Leitungswert
+notieren. Spitzen getrennt: die tatsächliche Offenanzeige des Geräts notieren (meist OL). Diese beiden Kontrollen
+vor und nach einer Reihe durchführen.
+3. Kontakt zusätzlich am Bauteil prüfen: Zwei sichere Punkte desselben Leiters müssen vor und nach der
+Isolationsmessung verbunden sein. Ein Piepton allein genügt nicht; Lack, Kunststoff und lose Clips können
+scheinbar gute OL-Werte erzeugen.
+STOPP Keinen 250-/500-V-Isolationstester benutzen. Im Strombereich niemals direkt zwischen B und 0 messen.
+Nach einer Strommessung Rot wieder in V/Ω zurückstecken.
+Beschriften: B, 0, M1, M2, U+, W, R und GE sind Arbeitsnamen. W/R meint die LED-Farbe. Märklin-Orange kann
+U+ sein, ESU/NEM-Orange ein Motoranschluss; deshalb immer Anschlussziel und tatsächliche Litzenfarbe
+gemeinsam notieren.
+WEITER, WENN Gerät, Bereich, Kurz-/Offenanzeige und sichere Kontaktpunkte sind bekannt.
+REV11 | ICE 2976 | 11.09.2026
+3 / 40
+Quellen: Q1, Q6, Q8 (S. 40)
+Weiter: 4

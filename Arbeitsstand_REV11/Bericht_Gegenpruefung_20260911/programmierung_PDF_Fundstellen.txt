@@ -1,0 +1,651 @@
+PDF-SEITE 2
+VORBEREITUNG
+ARBEITSKARTE 02
+Teile zuordnen und Arbeitsplatz einrichten
+Lege die Baugruppen getrennt nach Motorseite, Gegenkopf und Mittelwagen bereit. Diese Tabelle ist keine
+zusätzliche Einkaufsliste.
+Ort
+Teile im gewählten Aufbau
+Vor Verwendung prüfen
+Motorseite
+60941; 60977; LoDi 511; ein Lautsprecher aus
+60977
+Satz vollständig; rote Platinenrevision;
+Lautsprecher/Stecker
+Gegenkopf
+59649 LokPilot 5 M4 MKL; leerer Märklin-Träger
+samt Halteplatte aus 60977
+Artikel, beide Trägerseiten, Index und
+Befestigung
+Beide Fronten
+Zwei LoDi-514-Einsätze; hinten zwei
+Serienwiderstände
+Plus/Weiß/Rot; Zweigdaten und Widerstände
+nach S. 17
+Mittelwagen
+Je eine passende LoDi-WiB ICE-M;
+Originalkupplungen
+Abgebildet: MT-37700 V4.3. Anzahl und
+Passung am eigenen Wagen
+Programmierung
+CS3; Märklin 60971 für 60977; Windows mit
+ESU-Software
+ESU nie am 60971 aufstecken.
+Einzelaufnahmen nach S. 6
+Später
+Zwei vorhandene 60974 bleiben jetzt abgetrennt
+Ein späterer Puffer vorn braucht den
+Anschlussnachweis S. 39
+Werkzeuge griffbereit
+Nichtleitende Unterlage, helle Lampe/Lupe, Kamera, geordnete Schraubenablage, passende Schraubendreher,
+regelbare Elektronik-Lötstation, feine Spitze, Elektroniklot, Entlöthilfe, Pinzette, flexible Litze und passende
+Schrumpfschläuche. Dazu Elektronik-Multimeter mit Geräteanleitung und kleine isolierte Prüfclips. Keine
+unbekannte Messspannung an LEDs oder Platinen verwenden.
+1. Fotoordner „ICE2976_REV11“ anlegen. Je Baugruppe Artikel, Revision, Anschlüsse und Schraubenlage
+aufnehmen. Dateien mit Karte und Bauteil benennen, z. B. „LoDi_beschriftete_Seite“. Scharfe Gesamtansicht plus
+Nahaufnahme sichern.
+2. Geräteliste ausfüllen: CS3-Version/Netzteil ______; Multimeter/Handbuch ______; Märklin-Werkzeug ______;
+Windows/ESU-Version ______; Prüfaufnahme(n) ______; MS/Gleisbox/Netzteil ______.
+KUPPLUNGEN E395640/E395660 und E374340/E374060 stammen als Kupplungskandidaten aus verwandten
+Modellen. Aufnahme, Rastung, Endprofil und Beweglichkeit deines 2976 zuerst vergleichen; keine Passung
+erzwingen.
+Unbekannte Stellen nur dokumentieren. Unlesbare Aufdrucke mit seitlichem Licht erneut fotografieren. Keine
+Abdeckung abhebeln, keinen Stecker abschneiden und keine Leiterbahn auf Verdacht trennen.
+WEITER, WENN Bauteile und Geräte sind eindeutig bezeichnet; die offenen Daten stehen bei der zugehörigen Karte.
+REV11 | ICE 2976 | 11.09.2026
+2 / 40
+Quellen: Q1, Q2, Q3, Q4, Q6 (S. 40)
+Weiter: 3
+
+
+PDF-SEITE 6
+VORBEREITUNG
+ARBEITSKARTE 06
+Prüfaufnahme und genau eine Gleisquelle
+Die lose Decoderprüfung findet vor dem Zugumbau statt. Eine passende 21MTC-Buchse allein bestätigt die
+Aufnahme noch nicht.
+EINE QUELLE
+CS3-Ausgang
+B und 0
+EINZELAUFNAHME
+Passender Decoder, Lasten und Orientierung
+PAARTEST: ZWEI GETRENNTE AUFNAHMEN
+Eigene Lasten je Decoder, gleiche Quelle
+Kein U+ / AUX / Motor-Ausgang gemeinsam
+Quelle umstecken:
+vorher ausschalten
+und vollständig trennen.
+An der tatsächlichen Aufnahme festlegen
+Eintragen / abgleichen
+Artikel, Revision, Decoder und Index
+____________________________
+Quelle, Anschlüsse und Schalterstellungen
+____________________________
+Motorlast / DCC-Quittierung
+____________________________
+AUX3/AUX4: Logik oder verstärkt
+59649 MKL: verstärkt; Monitore müssen passen
+Lautsprecher: Impedanz und Belastbarkeit
+____________________________
+Zulässige Testlast / Begrenzung / Abschaltwert
+____________________________
+Bestand prüfen: Märklin 60970 dokumentiert Umschalter für Logik/verstärkt, Motor/Funktion und Lautsprecher.
+Beim ESU 53900 unterscheiden sich Herstellerangaben zu Lautsprecher und Impedanz je Quelle/Ausführung.
+Keinen davon ungeprüft anschließen oder vorsorglich kaufen. Die tatsächlichen Schalterbilder mit der passenden
+Originalanleitung abgleichen.
+LASTEN 60977: bis 1,6 W an 8 Ω; die 53900-Anleitung nennt einen 0,5-W-Prüflautsprecher. Passende Impedanz
+gibt keine volle Lautstärke frei. AUX3/AUX4 eines MKL nicht an einen ungeklärten Logikmonitor anschließen.
+1. Getrenntes Gleis/Prüfplatz vorbereiten. CS3-Automatik aus, Fahrstufe 0. Programmer, Betriebsgleis und
+Gleisbox dürfen nie gleichzeitig mit derselben Aufnahme verbunden sein. Zum Umstecken ausschalten und die
+bisherige Quelle vollständig abtrennen.
+2. Für Einzelprogrammierung nur einen Decoder anschließen. Für den Paartest zwei geeignete getrennte
+Aufnahmen bzw. gleichwertig dokumentierte Aufbauten mit eigenen Lasten verwenden. Genau eine Quelle speist
+beide Gleiseingänge.
+Im späteren Zug: Der RT-Bus verbindet beide Schleifer. Der ganze Zug bleibt auf einem einzigen freigegebenen
+Stromkreis; keine Grenze zu Programmiergleis, anderem Booster, Brems-/Analogabschnitt überbrücken. Erst den
+vollständigen Zug stromlos umsetzen.
+WEITER, WENN Die sechs Felder sind für die tatsächlich verwendete Aufnahme geklärt. Ein eigener 53451 ist erst bei
+konkretem Kommunikations- oder Firmwarebedarf zu entscheiden.
+REV11 | ICE 2976 | 11.09.2026
+6 / 40
+Quellen: Q1, Q6, Q17, Q18, Q19 (S. 40)
+Weiter: 7
+
+
+PDF-SEITE 7
+DECODER-NACHWEIS | VOR DEM ZUGUMBAU
+ARBEITSKARTE 07
+Den richtigen Master eindeutig erfassen
+Du sicherst die individuelle Kennung des vorderen Märklin 60977. Der hintere ESU soll später genau diesem
+Decoder folgen.
+VORHER Nur der 60977 befindet sich in der elektrisch geprüften Einzelaufnahme. ESU, Zug, Puffer und weitere
+Gleisquellen sind getrennt. Für eine bereits vorhandene, eindeutig zugeordnete Anmeldung genügt zunächst die
+Datensicherung.
+A. 60977-Zustand sichern: Anschlussadapter vom 60971 abnehmen. Nur den 60977 nach sichtbarem Index am
+abgenommenen 21MTC-Adapter einsetzen, dann Adapter am Programmer anschließen. Nur USB, alle übrigen
+Anschlüsse frei. Im mDecoderTool3 „Decoder / Decoder-Informationen anzeigen“: Typ/Firmware notieren; danach
+„Decoder / Decoder auslesen“ und Einstellungen als neues Projekt sichern. Sounds werden nicht mit ausgelesen.
+Keine Firmwareaktualisierung wählen. Nach Lesen zuerst Adapter abnehmen, dann Decoder abziehen; im Betrieb
+keine Kontakte berühren.
+1. CS3-Version und Datum notieren. Den Namen des zugehörigen mfx-Lokeintrags und die Artikelnummer am
+Decoderbestand abgleichen. Ein ähnlicher Lokname allein genügt nicht. Ist der Master noch nicht angemeldet,
+ausschließlich ihn allein mit Fahrstufe 0 auf der geprüften Aufnahme anmelden; keine Konfiguration verändern.
+2. CS3-Systemeinstellungen öffnen und eine neue Sicherung auf USB erstellen. Einen neuen Dateinamen
+verwenden. Nicht ‚Wiederherstellen‘ auswählen. Den USB-Datenträger zum Computer bringen und die Sicherung
+dort zusätzlich kopieren; das Original erhalten.
+3. Den vollständigen Masterdatensatz aus einer lesbaren Sicherungskopie sichern. Alternativ im Browser des
+gleichen lokalen Netzes http://<CS3-IP>/config/lokomotive.cs2 öffnen. <CS3-IP> durch die tatsächliche
+IP-Adresse ersetzen. Das ist ein reiner Lesezugriff. Bei Fehlerseite oder fehlendem Feld keine andere Zahl
+einsetzen.
+4. Im eindeutig zugeordneten Datensatz mfxuid, uid und sid beziehungsweise address getrennt markieren. Ganze
+Zeile beziehungsweise ganzen Datensatz aufbewahren, einschließlich Feldnamen und Zahlenformat. Führende
+Nullen nicht streichen; keine Ziffernfolge kürzen oder umdrehen.
+5. Hersteller-ID 131 zusätzlich notieren. Märklin nennt diesen Wert für CV8 des 60977. Er ist keine individuelle
+Seriennummer. Die vollständige mfxuid bleibt als Masterkennung erhalten; ihre Verwendung im ESU-Projekt wird
+auf S. 8 kontrolliert.
+Eintragen
+Dein Wert
+60977 / Firmware / CS3-Version
+________________
+Hersteller-ID
+131 - Herstellerangabe
+mfxuid mit Originalformat
+________________
+sid/address und Datensatzquelle
+________________
+STOPP Bei unklarer Zuordnung, fehlender mfxuid oder unbekanntem Zahlenformat bleibt die
+Synchronisationsprogrammierung offen. Kein Ersatz durch Artikelnummer, DCC-Adresse oder die zentraleninterne
+uid.
+WEITER, WENN Die Kennung stammt nachweislich von deinem 60977. Rohdatensatz, CS3-Version und Sicherung sind
+vorhanden. Hersteller-ID, mfxuid und Betriebsadresse stehen in getrennten Feldern.
+REV11 | ICE 2976 | 11.09.2026
+7 / 40
+Quellen: Q1, Q15, Q14, Q21, Q22 (S. 40)
+Weiter: 8
+
+
+PDF-SEITE 8
+DECODER-NACHWEIS | VOR DEM ZUGUMBAU
+ARBEITSKARTE 08
+ESU-Einstellung zuerst ohne Decoder vergleichen
+Du erzeugst die nachvollziehbare Grundlage für die spätere persönliche Werteliste. Hier wird nur am Computer
+gearbeitet.
+VORHER Originale LokProgrammer-5-Software unter Windows verwenden; Decoder und Programmierhardware bleiben
+vollständig abgetrennt. Für diesen Vergleich ist kein LokProgrammer 53451 erforderlich. Herstellerkennung und
+persönliche Rohdaten aus S. 7 bereithalten.
+1. Softwareversion notieren. Ein zum LokPilot 5 M4 MKL passendes Projekt öffnen und unter neuem Namen
+sichern. Projekttyp kontrollieren; ein LokSound-Projekt ist kein Ersatz. Ein neues Projekt enthält keine Bestätigung
+der Firmware oder Altwerte deines vorhandenen 59649.
+2. ‚Decoder > Sonderoptionen‘ öffnen und die Master/Slave-Adress-Synchronisation suchen. Die persönlichen
+Masterdaten eintragen, Ausgangszustand aus und alle sichtbaren Felder fotografieren. Diesen Ausgangsstand
+gesondert sichern. Sind Eingabefelder bei aus gesperrt oder werden sie geleert, genau dieses Verhalten
+dokumentieren. Für jeden Einzelvergleich den gesicherten Ausgangsstand neu öffnen. Zur Kontrolle der Bytefolge
+zusätzlich eine unsymmetrische Seriennummer ausschließlich offline verwenden; deren vier Bytewerte müssen
+unterscheidbar sein.
+3. Bei identischen eingetragenen Masterdaten von aus auf an wechseln. Direkt danach ‚Extras > Geänderte CVs
+anzeigen‘ öffnen. Den vollständigen Text einschließlich möglicher Indexangaben kopieren und zusammen mit
+einem Bildschirmfoto sichern. Erst danach speichern: Speichern leert die Änderungsliste.
+4. Auch den Rückweg an auf aus dokumentieren. Löscht das Ausschalten Nummernfelder, diese Änderung
+ausdrücklich festhalten. Zusätzlich bei gleicher Seriennummer die Herstellerwerte 151 und 131 vergleichen. 151
+ist hier ausschließlich ein Offline-Vergleichswert; er bezeichnet nicht deinen Märklin-Master.
+5. Alle Änderungen miteinander abgleichen. Die Software muss Herstellerfeld, vollständige Seriennummer und
+Aktivierung nachvollziehbar abbilden. Zusätzliche CVs und Indexgruppen gehören ebenfalls in die spätere Karte.
+Ein leeres Exportfenster nach Speichern ist kein Nachweis ‚keine Änderung‘.
+JMRI-Zusammensetzung: S = CV192 + 256 × CV193 + 65.536 × CV194 + 16.777.216 × CV195. Das erklärt die Bytefolge; die vollständige
+Aktivierung muss der Originalexport zeigen.
+Belegte Registerzuordnung in JMRI
+Bedeutung
+CV191
+Hersteller-ID des Masters
+CV192-195
+Masterseriennummer; niedrigstes Byte zuerst
+Aktivierung / weitere Änderungen
+Im Originalexport feststellen
+STOPP Option fehlt, Eingabeformat unklar oder Export unvollständig: noch nichts programmieren. CV191=0 ist hier
+kein bestätigter Ausschaltbefehl. Der Softwarevergleich und der reale Funktionstest bleiben getrennte Nachweise.
+WEITER, WENN Die gesicherten Vergleiche erklären sämtliche Änderungen und ihre Reihenfolge. Die Seriennummer
+bleibt die vollständige Kennung; keine Artikelnummer einsetzen. Erst aus diesem Ergebnis und den realen Altwerten S. 9
+entsteht die persönliche Schreibkarte.
+REV11 | ICE 2976 | 11.09.2026
+8 / 40
+Quellen: Q7, Q12, Q11, Q13 (S. 40)
+Weiter: 9
+
+
+PDF-SEITE 9
+DECODER-NACHWEIS | VOR DEM ZUGUMBAU
+ARBEITSKARTE 09
+CS3: den einzelnen ESU zuerst nur lesen
+Du prüfst den tatsächlichen Lesezugang und sicherst die vorhandenen Werte. Es wird kein Probierwert
+geschrieben.
+VORHER Den 59649 nur in der passenden, elektrisch geprüften Einzelaufnahme verwenden. Für zuverlässige
+DCC-Rückmeldung müssen ihre bestätigten Lasten angeschlossen sein. Motorloses Rücklesen im eingebauten
+Gegenkopf wird nicht vorausgesetzt.
+1. CS3 auf STOP stellen und die Aufnahme physisch von jeder Versorgung trennen. Am abgetrennten Bildschirm
+einen manuellen DCC-Eintrag ‚SERVICE ESU59649 - nicht fahren‘ vorbereiten. Er dient der Wartung; der spätere
+Zug bleibt der mfx-Mastereintrag.
+2. „Bearbeiten > Loks bearbeiten“ öffnen, genau den Serviceeintrag wählen und „Konfigurieren“ öffnen.
+Programmiergleis verwenden, nicht PoM. CV-Nummernfeld und Wertefeld unterscheiden; fehlende Zeilen jetzt
+ohne Decoder vorbereiten. Für eine erneute frische Rücklesung den Menüpunkt „Decoder auslesen“
+identifizieren: Er liest die vorbereitete Liste erneut. Bildschirm und tatsächliche Version dokumentieren.
+3. CS3 ausschalten. Nur diese Einzelaufnahme am vollständig getrennten Programmiergleisausgang
+anschließen. 60977, übriger Zug, Puffer, Kupplungsbus und weitere Quellen bleiben abgetrennt. Sitz und Lasten
+erneut prüfen, dann einschalten und STOP erst für den bestätigten Lesevorgang aufheben. Regler bleibt 0.
+4. CV8 ausschließlich lesen; Wertefeld nicht ändern. Erwartung beim ESU: 151. Für die Wiederholung „Decoder
+auslesen“ wählen, Abschluss abwarten und fehlerfreie Zeile prüfen. Beide Ergebnisse notieren. Antippen einer
+bereits gelesenen Zeile oder ein stehen gebliebener Wert beweist keine neue Lesung. CV8=151 bestätigt den
+Hersteller, nicht Artikel und Firmware.
+5. CV191, 192, 193, 194 und 195 einzeln frisch lesen und als Altwerte eintragen. Jede Zeile braucht einen
+eigenen Leseerfolg. Firmware und zusätzliche indizierte Altwerte folgen erst nach S. 10. Anschließend STOP und
+Versorgung trennen.
+CV
+Frisch gelesener Wert
+Ergebnis
+8, erster / zweiter Lauf
+_____ / _____
+_____
+191 / 192 / 193
+_____ / _____ / _____
+_____
+194 / 195
+_____ / _____
+_____
+STOPP Bei Fehler sofort STOP; nichts schreiben und keinen Reset versuchen. Keine Widerstands-Ersatzlast
+improvisieren. Achtung: 8 als Wert in CV8 wäre beim ESU ein Reset. ‚Prog.‘/Vorlagenwerte schreiben bleibt
+unbenutzt.
+WEITER, WENN Zwei fehlerfreie CV8-Lesungen und Altwerte CV191-195 liegen vor. Artikel, Aufnahme, Lasten und
+CS3-Version sind dokumentiert. Firmware und indizierte Altwerte werden anschließend nach S. 10 erhoben.
+REV11 | ICE 2976 | 11.09.2026
+9 / 40
+Quellen: Q9, Q6, Q17 (S. 40)
+Weiter: 10
+
+
+PDF-SEITE 10
+DECODER-NACHWEIS | VOR DEM ZUGUMBAU
+ARBEITSKARTE 10
+CS3: Firmware lesen und Einzelwerte schreiben
+Zuerst die begrenzte Firmwarediagnose, danach die vollständige persönliche Synchronisationskarte. Keine
+fremden Beispielwerte übertragen.
+VORHER Masterdaten/Originalvergleich S. 7/S. 8 und erfolgreiches Grundlesen S. 9 vorhanden. Erst Firmwarestand
+unten erheben; eine ausdrücklich gemeldete Updateanforderung vor Synchronisationsänderungen klären. Die persönliche
+Schreibkarte nennt CV, nötigen Index sowie Alt-/Zielwert.
+ZUERST: FIRMWAREDIAGNOSE Vor Verbindung zwei Leselisten vorbereiten: A nur CV31/CV32, B nur CV285-288.
+Mit A beide Altwerte sichern; CV31 = 0, dann CV32 = 255 einzeln nach dem Ablauf unten setzen und rücklesen. Erst bei
+bestätigtem 0/255 Liste B wählen: CV285-288 nur lesen. Version = CV288.CV287.(256 × CV286 + CV285). Dann wieder
+A wählen, beide Index-Altwerte zurückstellen und rücklesen. Beim Listenwechsel niemals Vorlagenwerte schreiben. Diese
+Diagnose folgt JMRI für LP5/MKL; kein bereits bestandener Gerätetest. CV7 allein genügt nicht.
+1. Die gleiche geprüfte Einzelaufnahme wie S. 9 verwenden. CS3 auf STOP; 60977, Zug und jede andere Quelle
+physisch abtrennen. Den ESU allein stromlos anschließen. Serviceeintrag und Programmiergleismodus
+kontrollieren. M4 für den späteren Funktionstest erhalten.
+2. Erste Kartenzeile wählen. CV-Nummer mit der Bildschirmzeile vergleichen. Wenn erforderlich, ausschließlich
+die geprüfte Indexgruppe der Karte herstellen; sie gilt auch für Lesen und Rücklesen. Für CV191-195 allein sind
+CV31/CV32 nicht nötig.
+3. Altwert gezielt frisch lesen und mit der Karte vergleichen. Bei Abweichung nicht fortfahren. Die Karte darf weder
+fremde Beispielwerte noch lediglich die Standardwerte eines neuen Projekts als deine Altwerte enthalten.
+4. Zielwert auf der Karte prüfen: jedes einzelne CV-Byte liegt dezimal zwischen 0 und 255. Ausschließlich das
+Wertefeld der richtigen Zeile ändern. Die CS3 schreibt eine Wertänderung unmittelbar. Kein zusätzliches ‚Prog.‘
+oder ‚Vorlagenwerte schreiben‘ betätigen.
+5. Abschluss abwarten, dann im Menü „Decoder auslesen“ die vorbereitete Liste erneut lesen. Dieselbe CV in
+derselben gegebenenfalls nötigen Indexgruppe fehlerfrei prüfen. Der Wert muss exakt dem Ziel entsprechen.
+Ergebnis notieren; erst dann nächste Kartenzeile. Bloßes erneutes Antippen eines angezeigten Wertes reicht
+nicht.
+6. Nach der letzten Zeile alle geänderten Werte erneut prüfen, indizierte Register in ihrer jeweiligen bestätigten
+Gruppe. Ergebnis sichern, STOP setzen und die Versorgung trennen. Erst anschließend zum mfx-Paartest
+umstecken.
+Reihenfolge / Index
+CV
+Alt
+Ziel dez.
+Neu gelesen
+________
+____
+____
+____
+____
+________
+____
+____
+____
+____
+________
+____
+____
+____
+____
+STOPP Bei Lesefehler, Abweichung oder unerwarteter Reaktion sofort STOP. Ein Schreibbefehl kann trotz fehlender
+Quittierung ausgeführt sein. Nicht blind wiederholen, nicht zurücksetzen und nicht versuchsweise weitere CVs
+ändern.
+WEITER, WENN Jede Änderung besitzt einen passenden frischen Rücklesewert. Originalexport, Altwerte und fertiges
+Protokoll sind gemeinsam abgelegt. Für jede spätere DCC-Änderung wird der ESU wieder auf dieser quittierenden
+Einzelaufnahme gewartet; Wiedereinbau stets stromlos, betroffene Anschluss- und Funktionstests wiederholen.
+REV11 | ICE 2976 | 11.09.2026
+10 / 40
+Quellen: Q13, Q9, Q6, Q17, Q23 (S. 40)
+Weiter: 11
+
+
+PDF-SEITE 11
+DECODER-NACHWEIS | VOR DEM ZUGUMBAU
+ARBEITSKARTE 11
+Ein Zugeintrag: beide Köpfe und Adresswechsel
+prüfen
+Du weist nach, dass der ESU dem Märklin-Master automatisch folgt. Richtungswechsel müssen schon im Stand
+die richtigen Lichtausgänge schalten.
+VORHER S. 10 bestanden; zwei geeignete getrennte Aufnahmen mit getrennten Lasten. Genau eine gemeinsame
+Gleisquelle versorgt beide. Fahrstufe 0, automatische Fahrereignisse aus, keine Traktion. Der Testbetrieb muss
+nachweislich über mfx erfolgen. Für Sound nur bekannte Tasten eines dokumentierten Projekts; keine Einmessfunktion.
+1. Master allein am getrennten Betriebsausgang prüfen: eindeutiger mfx-Eintrag, F0 und passende leise
+Soundprobe. Dann vollständig stromlos machen, ESU-Aufnahme ergänzen und erneut versorgen. Motor-, Licht-,
+Plus- und Lautsprecheranschlüsse beider Decoder bleiben getrennt.
+2. Nur den Mastereintrag bedienen. Alle vier Tabellenzeilen durchführen; mindestens fünf Richtungswechsel im
+Stand wiederholen und die tatsächlichen Lichtausgänge beobachten. Im Prüfstand gilt bei vorgesehenem
+Mapping für beide Decoder LV bei vorwärts, LR bei rückwärts. Die spätere Farbbelegung am hinteren Kopf ist
+gegensinnig. Ein CS3-Symbol allein zählt nicht.
+3. Versorgung unterbrechen und nach Neustart wiederholen. Danach beide Reihenfolgen mit geeigneten separat
+schaltbaren Gleiseingängen testen: Master vor Slave; Slave vor Master. Zum Umstecken Gesamtversorgung
+trennen. Alte gespeicherte Slave-Zeile von aktiver Zweitanmeldung unterscheiden; keine unbekannten Einträge
+probeweise fahren.
+4. Für den Adresswechsel die Ausgangs-SID des Masters sichern. Einen geeigneten unabhängigen Adressgeber
+vorbereiten, beispielsweise passende kabelgebundene Mobile Station mit eigener Gleisbox. Eine MS an
+derselben CS3 ist kein unabhängiges System. Vor Quellenwechsel beide Systeme ausschalten und die vorherige
+Gleisquelle vollständig abtrennen.
+5. Denselben Master anmelden. Nachweisen: gleiche mfxuid, tatsächlich andere SID, erfolgreiche Anmeldung und
+Steuerbarkeit. Dann die Tabelle wiederholen, ohne den ESU nachzukonfigurieren. Abschließend stromlos zur
+alleinigen CS3-Versorgung zurückwechseln und dort erneut prüfen.
+F0 / Richtung bei Fahrstufe 0
+60977 LV / LR
+59649 LV / LR
+aus / vorwärts
+aus / aus
+aus / aus
+aus / rückwärts
+aus / aus
+aus / aus
+an / vorwärts
+an / aus
+an / aus
+an / rückwärts
+aus / an
+aus / an
+STOPP Gleiche oder unbekannte SID ist kein bestandener Wechseltest. Kein Zentralenreset, kein Löschen
+produktiver Lokdaten und keine gleiche DCC-Adresse als Ersatz. Spätere Sound- oder Mappingänderungen
+erfordern die jeweils betroffenen Tests erneut. Nach eindeutiger Zuordnung aktiv selbständig steuerbarer Slave: Test
+nicht bestanden.
+Späteres Frontbild: vorwärts Motor weiß / Gegenkopf rot; rückwärts umgekehrt. Hier werden zuerst die physischen LV/LR-Ausgänge der
+Aufnahmen geprüft.
+WEITER, WENN Ausgänge, Einschaltfolgen, alte/neue SID, Kennungsquelle, Projekte und Firmware dokumentieren.
+Ohne SID-Anzeige einen konkret bestätigten passiven Datennachweis verwenden; Bind allein genügt ohne
+Anmeldung/Steuerbarkeit nicht. Erst bei bestandenem Gesamtprotokoll den elektrischen Zugumbau beginnen.
+REV11 | ICE 2976 | 11.09.2026
+11 / 40
+Quellen: Q15, Q7, Q16 (S. 40)
+Weiter: 12
+
+
+PDF-SEITE 27
+KONFIGURATION | GETRENNTE DECODER
+ARBEITSKARTE 27
+Motor und Innenlicht im 60977 einstellen
+Motorart, Ausgangsart, Funktionstaste und Lichteffekt sind verschiedene Einstellungen. Nach dem letzten
+Soundprojekt erneut prüfen.
+VORHER Nur 60977 im bestätigten Märklin-Aufbau; 59649, Zug und Puffer physisch getrennt. Altprojekt und Firmware
+sichern. Änderungen nie am verbundenen Zug.
+Einstellung
+Konkretes Soll
+Motor
+Vollständiger geprüfter 60941: technische Zuordnung HLA/C90. Märklin-Tabelle: CV52 = 3;
+danach rücklesen. Unklarer Motorzustand zuerst klären.
+Frontlicht
+F0 vorwärts = LV / Weiß; F0 rückwärts = LR / Rot. Keine ungewollten Zusatzbedingungen.
+Innenlicht-Ausgang
+Genau der bestätigte AUX aus S. 16: AUX4 oder AUX1. Keine Jumperänderung.
+Innenlicht-Taste
+Dokumentierte freie/bewusst übernommene Taste, rastend. Nicht automatisch F4 oder F6.
+Effekt und Bedingung
+Dimmer, Modus 1; beide Richtungen, Stand und Fahrt, ohne zusätzliche
+Zustandsbeschränkung (Tabellenbedingung 0). Kein Timer/Blinken oder Dauer-an-Modus 19.
+Ausschließlich diese
+Taste
+Kein F0, Motorlauf, Richtungsereignis oder konkurrierender Auslöser auf demselben AUX.
+1. Passendes ICE-Soundprojekt mit dem Märklin-Werkzeug öffnen, Quelle/Version/Funktionstasten
+dokumentieren und niedrige Anfangslautstärke einstellen. mfx aktiv lassen. Motortyp und Tabellen-Sollwerte
+abgleichen; keinen Glockenanker-/Sinus-Prüfstandwert übernehmen. Unter neuem Namen sichern, übertragen
+und Einstellungen erneut lesen. Sounddatei gesondert aufbewahren; bloßes Auslesen sichert die Sounds nicht.
+2. Nur bei Innenlicht über AUX4: CV51 am 60977 sichern. Bit4 (Wertigkeit 16) muss 0 sein, damit AUX4
+verstärkt arbeitet. Bevorzugt im Projekt die elektrische Ausgangsart ändern. Bei Einzelwert: gesetztes Bit4 durch
+Abziehen von genau 16 löschen; sonst Altwert lassen. Nie pauschal CV51 = 0.
+3. Nur bei Innenlicht über AUX4: CV51 frisch rücklesen; Ziel stimmt, Bit4 = 0, übrige Bits entsprechen dem Altwert.
+Bei Innenlicht über AUX1 keine vorsorgliche AUX4-Änderung fordern. Nach jedem späteren Projekttransfer die
+tatsächlich benötigte Ausgangsart und das Mapping erneut prüfen.
+ESU hinten: Bestätigtes F0-Mapping aus S. 11 übernehmen: vorwärts LV, rückwärts LR. Die Farbverdrahtung auf
+S. 22 kehrt die sichtbaren Farben um. Nötige Mapping-/Dimmänderungen erhalten eine eigene vollständige
+Exportkarte mit Indexgruppen; CV191-195 sind dafür nicht die Mappingwerte.
+STOPP Keine automatische Einmessfahrt anfordern: CV7/Firmware-Feld des 60977 nicht auf 77 setzen. Nicht den
+ESU am Märklin 60971 verwenden. Eine AUX-Nummer ist keine Funktionstastennummer.
+Projekt ______; Motor/CV52 rückgelesen ______; Innenlicht-AUX/Taste ______; CV51 alt/ziel/neu ______; letzte
+Übertragung ______. Nach Änderungen betroffene Ausgangs-, Synchronisations- und T9-Tests wiederholen.
+REV11 | ICE 2976 | 11.09.2026
+27 / 40
+Quellen: Q1, Q3, Q6, Q10 (S. 40)
+Weiter: 28
+
+
+PDF-SEITE 29
+ERSTSTROM | VORAUSSETZUNG JE KOPF
+ARBEITSKARTE 29
+Vor dem ersten Strom: beide Köpfe abhaken
+Diese Karte wird vor dem Einsetzen ausgefüllt. Sie enthält keine erst später möglichen Funktions- oder
+Gehäuseergebnisse.
+VORHER Je Kopf getrennt prüfen. Datum ______; Motorseite/Gegenkopf ______; zugehörige Fotos und Protokolle
+______.
+Jetzt erforderlicher Nachweis
+Motorseite
+Gegenkopf
+Decoder-Vorabtest S. 11 mit eigener Identität, Aktivierung, Firmware und neuer SID
+________
+________
+Reale Revision/Padbelegung und sichere Befestigung S. 16-S. 22
+________
+________
+Schleifer und Radkontakt; eindeutige RT/GE-Zuordnung
+________
+________
+Motor einschließlich Drosseln/Litzen S. 14/S. 15; bestätigter Motortyp
+________
+entfällt
+LED-Zweige und sichere Strombegrenzung S. 17; passendes Mapping
+________
+________
+Ein Lautsprecher, Adapter und mechanischer Sitz S. 20
+________
+entfällt
+Passive Leiter S. 4 und vollständiger Elektronikplan/Ergebnisse S. 5
+________
+________
+Gesicherte Projekte; Innenlicht-AUX und Ausgangsart S. 27
+________
+________
+Erste konkrete Laststufe S. 28; Messung/Begrenzung/Abbruchwerte
+________
+________
+Gleis, Bus, Puffer, andere Quellen physisch getrennt; Restenergie ausgeschlossen
+________
+________
+Alle Hilfsleitungen entfernt; unbenutzte Enden einzeln isoliert
+________
+________
+Passende Indexmerkmale eindeutig sichtbar; geplante Decoderlage/Freiraum
+________
+________
+Prüfort: eine Quelle, Fahrstufe 0, Automatik aus; keine Einmessfahrt
+________
+________
+Erst dann einsetzen: Motorseite auf S. 30, Gegenkopf auf S. 31. Den tatsächlichen Steckersitz anschließend
+noch im stromlosen Zustand seitlich prüfen. Danach der jeweils erlaubte Einzeltest auf S. 32/S. 33.
+STOPP Eine offene Pflichtzeile nicht mit „entfällt“ schließen. Ein G0-/Vorabtest am losen Decoder bestätigt keine
+richtige Fahrzeugverdrahtung. Ein erfolgreicher Leseversuch bestätigt keine Motorisolation.
+Später separat: Ausgangs- und Fahrtests S. 32-S. 35, geschlossene Gehäuseprüfung S. 36/S. 37. Keine
+zukünftigen Ergebnisse vorweg abhaken. Änderungen an Anschluss, Befestigung oder Projekt machen die
+betroffenen Nachweise erneut erforderlich.
+WEITER, WENN Alle für diesen Kopf erforderlichen Voraussetzungen sind tatsächlich erfüllt.
+REV11 | ICE 2976 | 11.09.2026
+29 / 40
+Quellen: Q1, Q3, Q6 (S. 40)
+Weiter: 30
+
+
+PDF-SEITE 38
+NACHSCHLAGEN | FEHLER UND WARTUNG
+ARBEITSKARTE 38
+Fehler eingrenzen und später sicher warten
+Erst ausschalten und physisch trennen. Die letzte Änderung und den genauen fehlgeschlagenen Test
+dokumentieren; keine Blindkorrektur.
+Beobachtung
+Stromlos prüfen
+Nicht tun
+Sofort Überlast
+RT/GE/0, 21MTC-Sitz, Metallkontakt, zuletzt
+ergänzte Baugruppe
+Wiederholt einschalten
+Nur mit Gehäuse
+Schraube, Dachkontakt, Litzenquetschung, realer
+Decoderraum
+Mit Kraft zuschrauben
+Nur in Kurven
+Deichsel-/Drehgestelllitzen, Zug, Scheuern und
+Kontaktkontrollen
+Günstige Stellung als bestanden
+notieren
+LED dunkel/falsche Farbe
+Plus, Serienwiderstand, Polung, Mapping
+getrennt
+Widerstand brücken oder direkt ans
+Gleis
+Motor brummt/warm
+Freilauf, Bürsten, Drosselzweige, Isolation
+Mehr Fahrstufe oder blockiert
+testen
+Slave folgt nicht
+Eigene Masterkennung, Originalexport, Firmware,
+tatsächliche Ausgangsreaktion
+Gleiche DCC-Adresse als
+mfx-Erfolg ausgeben
+Alle Wagen richtungsabhängig
+dunkel
+Innenlicht-Taste, Bedingung und
+GE-AUX-Zuordnung
+F0 als zusätzliche Innenlichttaste
+verwenden
+Ab einer Kupplung dunkel
+Jeden betroffenen Kontakt bis O/L und
+Einzelübergang
+Nur Gesamtdurchgang messen
+Lichtausfall plus
+Sound-Neustart
+Stromaufnahme, Last und Spannungseinbruch
+Puffer auf Verdacht anschließen
+CV-Lesefehler nach Schreiben
+Versorgung, Kontakt, Quittierung; tatsächlichen
+Zustand feststellen
+Schreibbefehl blind wiederholen
+oder Reset
+Verbindlicher Wartungsweg
+1. Zug stromlos machen, Kopf vom Gleis und Bus trennen. Decoder an den Kanten abziehen und auf die
+geeignete bestätigte Einzelaufnahme setzen. ESU nur dort per DCC ändern; Märklin 60977 am passenden
+Märklin-Werkzeug bearbeiten.
+2. Altprojekt/Altwerte sichern, nur die begründete Änderung übertragen und frisch rücklesen. Ein fehlender ACK
+kann trotz ausgeführtem Schreiben auftreten. Die aus ESU-Unterlagen bekannte 150-Ω-Hilfe für andere
+Fx-micro-Modelle nicht auf 59649 übertragen.
+3. Stromlos wieder einsetzen. Betroffene Anschluss-/Steck-, Funktions-/Synchronisations- und bei Lageänderung
+Gehäuseprüfungen wiederholen. Datum und neuer Projektstand gehören zum Zug.
+Fehlerprotokoll: Karte/Test ______; Aufbau/letzte Änderung ______; Soll/Ist ______; Messpunkte/Parameter
+______; Vor-/Nachprobe ______; Ursache/Korrektur ______; Wiederholung ______.
+REV11 | ICE 2976 | 11.09.2026
+38 / 40
+Quellen: Q1, Q6, Q17 (S. 40)
+Weiter: 39
+
+
+PDF-SEITE 39
+SPÄTER | GRENZEN DES JETZIGEN UMBAUS
+ARBEITSKARTE 39
+Puffer und Signalhalt erst als eigene Ergänzung
+Die Werkstattabnahme bestätigt den beschriebenen Grundaufbau. Pufferanschluss und anlagenspezifische
+Halteabläufe brauchen eigene passende Daten und Tests.
+60974: jetzt beide abgetrennt lassen
+Grundsätzlich ist 60974 für 60977 vorgesehen. Märklins dokumentierte Steckbuchse sitzt jedoch auf dem
+Märklin-Träger; der 60977 steckt hier auf LoDi 511. Der konkrete unveränderte Anschlussweg dieser Revision ist
+noch festzulegen. K1, S2 und Front-VCC sind dafür keine bestätigten Pufferanschlüsse.
+1. Für eine spätere Ergänzung vorn: beide LoDi-Seiten/Revision, 60977-Firmware und unveränderten
+60974-Stecker dokumentieren. Passenden classicSUSI-Abgriff samt tatsächlicher Kontaktansicht eindeutig
+bestätigen. Kein Steckerabschneiden oder Pin-Abzählen als Abkürzung.
+2. Nur einen passend angebundenen Puffer am 60977 vorsehen; hinten keinen 60974 am ESU. Vorher
+Anschluss, Lade-/Restspannungsverhalten, Motorpufferung und Abschalt-/Nachlaufverhalten festlegen. Danach
+Anschluss-, Last-, Neustart- und Halteprüfungen wiederholen. Reset, Einmessfahrt und Pufferparameter sind
+getrennte Vorgänge. 60977-Firmware mindestens 3.2.0.1 bestätigen. Anfangs Motorpufferung ausgeschaltet
+lassen. Die Wagenbeleuchtung ist durch diesen Anschluss nicht automatisch gepuffert.
+CS3-Signalhalt: der Zug braucht einen echten Haltbefehl
+3. Reale Kontaktabschnitte in der CS3 auf Belegt/Frei prüfen. Je Richtung Signaladresse, Brems-/Haltekontakt,
+Schutzpunkt, Zuglänge und eindeutig zugeordneten ICE-Eintrag dokumentieren. Ein S88-Kontakt meldet keine
+automatische mfx-Identität.
+4. Erst damit die Ereignisfolge bei Signalhalt erstellen: am Bremskontakt passende Annäherung, am Haltekontakt
+Fahrstufe 0 für genau diesen ICE. Ein rotes Signalbild allein hält nicht an. Gleis kann für Licht/Sound digital
+versorgt bleiben.
+5. Zuerst ohne Fahrbewegung Logik prüfen. Danach langsam in beiden Richtungen mit freiem Auslauf: Halt,
+Durchfahrt, bereits belegter Kontakt beim Start, Signalwechsel nach Bremskontakt, fehlende/falsche Meldung und
+Neustart. Zugspitze und Nachlauf müssen vor dem Schutzpunkt bleiben.
+STOPP Der lange RT-Schleiferbus darf keinen fremden Booster-, Programmier-, Brems- oder Analogabschnitt
+überbrücken. Vor einer Bereichsgrenze den gesamten Zug anhalten. Puffer können Nachlauf trotz Gleisabschaltung
+verursachen.
+Bis zur eigenen Anlagenabnahme: ICE beaufsichtigt und von Hand anhalten. Vorhandene
+Rückmeldeverdrahtung unter der Anlage bleibt erforderlich. Eine bestandene Synchronisation überträgt weder
+Bremsabschnitterkennung noch Lichtmapping oder Helligkeit.
+REV11 | ICE 2976 | 11.09.2026
+39 / 40
+Quellen: Q1, Q3, Q7, Q15, Q16, Q20 (S. 40)
+Weiter: 40
+
+
+PDF-SEITE 40
+NACHSCHLAGEN | QUELLEN
+ARBEITSKARTE 40
+Quellen, Bilder und Geltungsbereich
+Kurzbelege Q1-Q23 stehen auf den Arbeitskarten. Die verlinkten Originalquellen sind hier zusammengeführt.
+Q1 Märklin 60975/60976/60977: Einbau, Träger, CV8, CV51/52, Grenzwerte
+Q2 Märklin 60941/60943: Original-Montagezeichnung, 12/2022
+Q3 LoDi Motor WiB ICE-M(-S): Anschlüsse, Revisionen, Bilder des 33701
+Q4 LoDi WiB ICE-M: Wagenplatinen und Anschlussvarianten
+Q5 LoDi Frontmodule: Produktangaben, ohne Vorwiderstände
+Q6 ESU LokPilot 5: Betriebsanleitung, 21MTC/MKL, Einbau und CVs
+Q7 ESU: Master/Slave-Adress-Synchronisation
+Q8 RailCommunity RCN-121: 21MTC-Schnittstelle, 08.12.2024
+Q9 Märklin CS3-Changelog 2.6.0: CV-Lesen und unmittelbares Schreiben
+Q10 Märklin mSD3/mLD3: CV-Tabelle, Effekte und Bedingungen
+Q11 ESU: originale LokProgrammer-Software / Versionshinweise
+Q12 ESU: geänderte CVs anzeigen und vor dem Speichern sichern
+Q13 JMRI: Registerdefinition CV191/192-195, festgelegter Quellstand
+Q14 TrainControl: originale CS3-Testdaten mit uid, mfxuid und sid
+Q15 Märklin CAN-Protokoll 2.0: Decoder-UID, Bind und Verify
+Q16 Märklin Mobile Station: zulässige Anschlüsse / Gleisbox
+Q17 RailCommunity RCN-216: DCC-Serviceprogrammierung und Quittierung
+Q18 Märklin 60970: Prüfstand und Schalterstellungen
+Q19 ESU 53900: Produktangaben, echte Ausführung zusätzlich abgleichen
+Q20 Märklin 60974: Anschluss, Voraussetzungen und Pufferbetrieb
+Q21 Märklin Programmer 60971: Adapterfolge und ausschließlich USB
+Q22 Märklin mDecoderTool3 v3.60: Typ/Firmware und Einstellungen lesen
+Q23 JMRI LP5/MKL: Decoderinformationen und Firmwarebytes, definierte Quelle
+Bildherkunft und verbindliche Referenz
+Referenz ist die vom Nutzer benannte ICE_2976_Umbauanleitung_REV10_MIT_SCHNELLANLEITUNG.pdf,
+92 Seiten. REV11 ordnet ihre Arbeitsinhalte neu, erhält notwendige Prüfungen und arbeitet die
+Recherchekorrekturen vom 10./11.09.2026 ein. Historische Prüfdebatten und doppelte Kurzfassungen entfallen.
+Eigene 2976-/LoDi-Fotos stammen unverändert aus REV10. Märklin-Zeichnungen stammen aus Q1/Q2. Ergänzte
+hochauflösende LoDi-Fotos zeigen den Vergleichsumbau 33701 (Q3), nicht deinen fertig umgebauten Zug.
+Nummern/Leitlinien liegen als separate Markierungen über Originalfotos. Funktionsschemata sind eigene
+technische Zeichnungen ohne Behauptung einer maßstäblichen Padlage.
+Die Anleitung ist redaktionell und visuell geprüft. Reale Gerätewerte, Messungen und Funktionstests sind vom Anwender einzutragen.
+Kein Beispielbild bestätigt unsichtbare Leiterbahnen, den vorhandenen Halter oder eine bereits bestandene Inbetriebnahme.
+Quellenstand: 11.09.2026.
+REV11 | ICE 2976 | 11.09.2026
+40 / 40
+Originalreferenz: REV10 | Persönliche Gerätewerte vor Anwendung eintragen

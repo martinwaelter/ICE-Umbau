@@ -1,0 +1,48 @@
+{
+  "user_request": "Separate Umbauanleitung zur Weiterverwendung der originalen Märklin-Platine ohne LoDi-Platine",
+  "confirmed": "LoDi ist gemeint",
+  "pending_scope": "Nur Motorplatine oder sämtliche LoDi-Module",
+  "confirmed_additional_inventory_statement": {
+    "user_verbatim": "ich habe  060972 und 060982",
+    "normalized_articles": [
+      "Märklin 60972",
+      "Märklin 60982"
+    ],
+    "60972": "mLD3 ohne Sound; 21MTC-Decoder, Schnittstellenplatine, Halteplatte und Schraube laut Lieferumfang; Vollständigkeit des persönlichen Satzes noch nicht gesehen",
+    "60982": "mLD3 ohne Sound; angelöteter Kabelbaum, separater achtpoliger NEM-Stecker zum Selbstanlöten; keine zusätzliche 21MTC-Trägerplatine im Lieferumfang",
+    "pending_use": "Zusätzlich zu bisher vorgesehenen 60977/59649 vorhanden oder an deren Stelle zu verwenden; Nutzerfrage gestellt, noch keine Festlegung",
+    "wiring_consequence": "60972: Märklin-Farbschema; 60982: NEM-Farbschema. Insbesondere orange/blau erfüllen verschiedene Aufgaben. Vorhandene LoDi-/60977-Farbanweisungen nicht pauschal übernehmen.",
+    "architecture_consequence": "Keine weitere 21MTC-Platine pauschal als Einkauf vorsehen. Anzahl und Zuordnung nach bestätigter Decoderwahl neu bestimmen. ESU-spezifische mfx-Master/Slave-Programmierung nicht auf einen Märklin-mLD3 übertragen.",
+    "manufacturer_sources": [
+      "https://www.marklin.com/products/details/article/60972",
+      "https://www.marklin.com/products/details/article/60982",
+      "https://static.maerklin.de/damcontent/da/e4/dae4fa90473657b9466d908bd6dcfa601663856106.pdf"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/0D2DC2F3-025D-48F9-8454-50A792498AD1_4_5005_c.jpeg",
+      "sha256": "4e69d2084c348f60762c73788e1a327764fc2d79a317d4c2a63500f04967c8f2"
+    },
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/Arbeitsstand_REV10/bilder/BAD231CB-B878-4D94-B5EE-CDAB1D69D455_4_5005_c.jpeg",
+      "sha256": "73612a13554c5dd8dfd1cb3a21b3232fdfadfa6b78716e8053742476085b53cb"
+    },
+    {
+      "path": "/Users/martinwaelter/ICE Umbau/output/pdf/ICE_2976_Umbauanleitung_REV13_WERKSTATTFASSUNG.pdf",
+      "sha256": "6a4afec36193952fa0a7040fc230c9c37356e71968e5b3dcd6244347d4308bce"
+    }
+  ],
+  "board_observation_initial": "Zwei vorhandene Fotos zeigen eine lange grüne Leiterplatte von einer Seite und seitlich; Bauteilseite und komplette Anschlusswege sind nicht hinreichend abgebildet. Keine konkreten Trennstellen freigegeben.",
+  "board_observation": "Aktueller Stand 12.09.2026: Zwei unabhängige öffentliche Fotopaare belegen beide Seiten der 62762 / 03/92 / VER1.1. Eigene Aufnahme geometrisch sehr starker Treffer; eigener Aufdruck nicht zweifelsfrei lesbar. Vergleichsexemplare: passiver Träger mit Schalter, keine aktive 62761-Bestückung. Keine pauschale Schnittnotwendigkeit belegt. Eigene elektrische Netzzuordnung weiterhin ausstehend.",
+  "current_62762_research": {
+    "status": "Bildsuche und forensischer Quellenabgleich abgeschlossen; kein Hardwaretest",
+    "report_pdf": "output/pdf/ICE_2976_Originalplatine_62762_Bildbefund_und_Umbaugrundlage.pdf",
+    "evidence_manifest": "Arbeitsstand_Originalplatine/belege_62762/manifest.json",
+    "image_sources": [
+      "https://www.ebay.de/itm/147416253187",
+      "https://www.kleinanzeigen.de/s-anzeige/maerklin-h0-3370-ice-3x-leiterplatten/3331585671-249-611"
+    ],
+    "remaining": "Decoderverwendung, Umfang übriger LoDi-Module, reale Netzliste und Lasten; keine weitere pauschale Forderung nach Netz-Vergleichsfotos nötig"
+  }
+}

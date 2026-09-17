@@ -1,0 +1,45 @@
+ELEKTRISCHE PRÜFUNG | PLATINEN UND LEDS
+ARBEITSKARTE 05
+Bestückte Netze: die konkrete Messkarte
+Für bestückte Elektronik werden Bauteilpfad, Prüfparameter und erwartetes Verhalten vor der Messung
+festgelegt. Diese sechs Angaben machen die Messung am eigenen Aufbau nachvollziehbar.
+VORHER Eigene beidseitige Platinenfotos, lesbare Revision, Anschlussrollen und Multimeterhandbuch bereithalten.
+Decoder/Puffer entfernt; übrige Restenergie ausschließen.
+Pro Messung vorab ausfüllen
+Deine konkrete Festlegung
+1. Zwei Kontaktstellen
+Foto/Markierung und Anschlussname beider sicher zugänglicher Punkte:
+__________________
+2. Elektrischer Zustand
+Was angeschlossen/getrennt ist; Spannungsfreiheit und Speicherzustand:
+__________________
+3. Bekannter Sollpfad
+Kupfer / Widerstand / Halbleiter / weitere Bauteile; Quelle: __________________
+4. Messparameter
+Gerät, Modus, Prüfspannung/-strom, Polung(en), Wartezeit: __________________
+5. Soll und Abbruch
+Begründeter Werte-/Verhaltensbereich; eindeutige Abweichung: __________________
+6. Kontaktkontrollen
+Je Messseite positive Vor-/Nachprobe ohne Nachbarnetz-Brücke:
+__________________
+Diese Bereiche müssen abgedeckt sein
+Vorn: SW/RT-Strompfad und Ring A/B; Motorpads; Front-VCC, L_WS/L_RT und wirksame
+LED-Strombegrenzung; GE/AUX-Zuordnung; LS1/LS2. Jeweils absichtliche Bauteilwege gegenüber
+unerwünschtem Kontakt zu Rahmen, Schrauben, Halter und Nachbarnetzen unterscheiden.
+Hinten: S/RT/B/GR-Verbund; 0/GL-Radkontakt; +Ub, LV und LR samt Widerständen; GE-Ende und unbenutzte
+Trägerlitzen. Wagen: O/RT, L/GE und bei Radkontaktoption B-Pfade nach S. 25/S. 26.
+1. Eigene Aufdrucke mit revisionspassender Herstellerzeichnung abgleichen. Unbekannte interne Pfade bleiben
+offen. RCN-121 erklärt Schnittstellenrollen, aber keine unsichtbare LoDi-Leiterbahn; Front-VCC ist nicht interne
+Pin-12-Vcc.
+2. Erst bei sechs vollständigen Feldern messen. Sicher zugängliche Pads oder eine eindeutig zugeordnete
+Kontaktaufnahme benutzen. Nicht mit freien Spitzen zwischen 21MTC-Pins suchen oder direkt an Pins löten.
+3. Vor/nach Löten, Befestigung und Bewegung die betroffenen Messreihen im gleichen dokumentierten Zustand
+wiederholen. Abweichung eingrenzen, beheben, vollständige Reihe erneut prüfen. Eine unveränderte
+Vorheranzeige allein beweist keinen richtigen Ausgangszustand.
+STOPP Fehlt ein Feld, bleibt diese Messung und die davon abhängige Bestromung offen. Niedriger Widerstand kann
+ein Sollpfad sein; hoher Widerstand ohne guten Kontakt beweist nichts. Keine willkürlichen Grenzwerte und kein
+allgemeines OL über LEDs/Platinen.
+REV11 | ICE 2976 | 11.09.2026
+5 / 40
+Quellen: Q1, Q3, Q8 (S. 40)
+Weiter: 6

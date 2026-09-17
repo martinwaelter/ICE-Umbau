@@ -1,0 +1,182 @@
+[
+  {
+    "id": "Q1",
+    "title": "Märklin 60975/60976/60977: Einbau, Träger, CV8, CV51/52, Grenzwerte",
+    "url": "https://static.maerklin.de/damcontent/f5/a9/f5a967e35e5b3faa19d17d36c62f586a1762409392.pdf"
+  },
+  {
+    "id": "Q2",
+    "title": "Märklin 60941/60943: Original-Montagezeichnung, 12/2022",
+    "url": "https://static.maerklin.de/damcontent/e3/bb/e3bb202fe80385cc96835d783af5e1821670919973.pdf"
+  },
+  {
+    "id": "Q3",
+    "title": "LoDi Motor WiB ICE-M(-S): Anschlüsse, Revisionen, Bilder des 33701",
+    "url": "https://lokstoredigital.jimdoweb.com/hardware/beleuchtung/lodi-motor-wib-ice1m/"
+  },
+  {
+    "id": "Q4",
+    "title": "LoDi WiB ICE-M: Wagenplatinen und Anschlussvarianten",
+    "url": "https://lokstoredigital.jimdoweb.com/hardware/beleuchtung/lodi-wib-ice-m/"
+  },
+  {
+    "id": "Q5",
+    "title": "LoDi-Shop: Abschnitt ICE-M Front 2 Stück, ohne Vorwiderstände",
+    "url": "https://www.lodi-shop.de/produkte/beleuchtung-und-umr%C3%BCstung/lodi-wib-ice-m/"
+  },
+  {
+    "id": "Q6",
+    "title": "ESU LokPilot 5: Betriebsanleitung, 21MTC/MKL, Einbau und CVs",
+    "url": "https://www.esu.eu/download/betriebsanleitungen/digitaldecoder/?tx_esudownloads_pi1%5BdownloadItem%5D=803bc0046a0244b6416c82c6abfd385e"
+  },
+  {
+    "id": "Q7",
+    "title": "ESU: Master/Slave-Adress-Synchronisation",
+    "url": "https://www.esu.eu/support/tipps-tricks/lokprogrammer-software-50x/masterslave-adress-synchronisation/"
+  },
+  {
+    "id": "Q8",
+    "title": "RailCommunity RCN-121: 21MTC-Schnittstelle, 08.12.2024",
+    "url": "https://normen.railcommunity.de/RCN-121.pdf"
+  },
+  {
+    "id": "Q9",
+    "title": "Märklin CS3-Changelog 2.6.0: CV-Lesen und Lesefehler",
+    "url": "https://www.maerklin.de/fileadmin/media/service/cs3/Maerklin_CS3_v2.6.0_changelog.pdf"
+  },
+  {
+    "id": "Q10",
+    "title": "Märklin mSD3/mLD3: CV-Tabelle, Effekte und Bedingungen",
+    "url": "https://www.maerklin.de/fileadmin/media/service/technische_informationen/CV-Tabelle-mSD3.pdf"
+  },
+  {
+    "id": "Q11",
+    "title": "ESU: originale LokProgrammer-Software / Versionshinweise",
+    "url": "https://www.esu.eu/download/software/lokprogrammer/"
+  },
+  {
+    "id": "Q12",
+    "title": "ESU: geänderte CVs anzeigen und vor dem Speichern sichern",
+    "url": "https://www.esu.eu/support/tipps-tricks/lokprogrammer-software-v4/cv-aenderungen-anzeigen/"
+  },
+  {
+    "id": "Q13",
+    "title": "JMRI: Registerdefinition CV191/192-195, festgelegter Quellstand",
+    "url": "https://github.com/JMRI/JMRI/blob/31e482094d472e481c1fb54f9901093c2efbfcec/xml/decoders/esu/v5standardCVs.xml#L993"
+  },
+  {
+    "id": "Q14",
+    "title": "TrainControl: originale CS3-Testdaten mit uid, mfxuid und sid",
+    "url": "https://github.com/bob123456678/TrainControl/blob/5f0a75e33256c4c1b4ac1998134c4bd04030fed0/test/lokomotive_cs3.cs2#L4"
+  },
+  {
+    "id": "Q15",
+    "title": "Märklin CAN-Protokoll 2.0: Decoder-UID, Bind und Verify",
+    "url": "https://www.maerklin.de/fileadmin/media/service/software-updates/cs2CAN-Protokoll-2_0.pdf"
+  },
+  {
+    "id": "Q16",
+    "title": "Märklin Mobile Station: zulässige Anschlüsse / Gleisbox",
+    "url": "https://static.maerklin.de/damcontent/2a/47/2a470bed20017f68f92306725d49fca81702905959.pdf"
+  },
+  {
+    "id": "Q17",
+    "title": "RailCommunity RCN-216: DCC-Serviceprogrammierung und Quittierung",
+    "url": "https://normen.railcommunity.de/RCN-216.pdf"
+  },
+  {
+    "id": "Q18",
+    "title": "Märklin 60970: Prüfstand und Schalterstellungen",
+    "url": "https://static.maerklin.de/damcontent/e3/85/e385c3c228363431569450fe58ba95481677562275.pdf"
+  },
+  {
+    "id": "Q19",
+    "title": "ESU 53900: Produktangaben, echte Ausführung zusätzlich abgleichen",
+    "url": "https://www.esu.eu/produkte/profi-pruefstand/"
+  },
+  {
+    "id": "Q20",
+    "title": "Märklin 60974: Anschluss, Voraussetzungen und Pufferbetrieb",
+    "url": "https://static.maerklin.de/damcontent/c2/76/c276c3bb1b06e89061b9588a4be1f8e41760429428.pdf"
+  },
+  {
+    "id": "Q21",
+    "title": "Märklin Programmer 60971: Adapterfolge und ausschließlich USB",
+    "url": "https://static.maerklin.de/damcontent/21/3e/213ee6e47c4afa9ad2282158bf7728441660728698.pdf"
+  },
+  {
+    "id": "Q22",
+    "title": "Märklin mDecoderTool3 v3.60: Typ/Firmware und Einstellungen lesen",
+    "url": "https://streaming.maerklin.de/public-media/mdt3/pdfs/D_mDecoderTool3_A5_v360.pdf"
+  },
+  {
+    "id": "Q23",
+    "title": "JMRI LP5/MKL: Decoderinformationen und Firmwarebytes, definierte Quelle",
+    "url": "https://github.com/JMRI/JMRI/blob/31e482094d472e481c1fb54f9901093c2efbfcec/xml/decoders/esu/v4decoderInfoCVs.xml"
+  },
+  {
+    "id": "Q24",
+    "title": "Märklin: CV-Editor, Vorlagenwerte und Zahleneingabe",
+    "url": "https://www.maerklin.de/fileadmin/media/clubs/downloads/Loks_CV_Editor.pdf"
+  },
+  {
+    "id": "Q25",
+    "title": "JMRI SplitVariableValue: abgeleitete Byte-Reihenfolge",
+    "url": "https://github.com/JMRI/JMRI/blob/31e482094d472e481c1fb54f9901093c2efbfcec/java/src/jmri/jmrit/symbolicprog/SplitVariableValue.java"
+  },
+  {
+    "id": "Q26",
+    "title": "Märklin CS3-Kurzanleitung ab V2.5: Anschlüsse; GFP3/Netzteil S.26",
+    "url": "https://static.maerklin.de/damcontent/c1/ce/c1ce554ad6ad195c04e32ba1b4dd64511764068661.pdf"
+  },
+  {
+    "id": "Q27",
+    "title": "Fluke 87/89: Widerstandsmessung und Bauteilpfade",
+    "url": "https://assets.fluke.com/manuals/87_89iv_umeng0200.pdf"
+  },
+  {
+    "id": "Q28",
+    "title": "RailCommunity RCN-210: DCC-Gleissignal und Asymmetrie",
+    "url": "https://normen.railcommunity.de/RCN-210.pdf"
+  },
+  {
+    "id": "Q29",
+    "title": "ESU 53900: originale Prüfstand-Anleitung",
+    "url": "https://www.esu.eu/download/betriebsanleitungen/profi-pruefstand/?no_cache=1&tx_esudownloads_pi1%5BdownloadItem%5D=3e2cdb190091da48cc2030b2734bbd32"
+  },
+  {
+    "id": "Q30",
+    "title": "Märklin 60941: Eignung für Trommelkollektormotoren",
+    "url": "https://www.marklin.com/products/details/article/60941"
+  },
+  {
+    "id": "Q31",
+    "title": "TrainControl CS2File: getrennte CS2-Datei- und CS3-API-Wege",
+    "url": "https://github.com/bob123456678/TrainControl/blob/5f0a75e33256c4c1b4ac1998134c4bd04030fed0/src/org/traincontrol/marklin/file/CS2File.java"
+  },
+  {
+    "id": "Q32",
+    "title": "TrainControl CS3-JSON-Testdaten: mfxuid, uid und address",
+    "url": "https://github.com/bob123456678/TrainControl/blob/5f0a75e33256c4c1b4ac1998134c4bd04030fed0/test/CS3_loks_v260.json"
+  },
+  {
+    "id": "Q33",
+    "title": "Tektronix: Stromsonde und Messwiderstand am Oszilloskop",
+    "url": "https://www.tek.com/en/documents/application-note/making-accurate-current-measurements-power-supplies-oscilloscopes"
+  },
+  {
+    "id": "Q34",
+    "title": "Fluke: Kondensatoren entladen und Spannung nachprüfen",
+    "url": "https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-measure-capacitance"
+  },
+  {
+    "id": "Q36",
+    "title": "Märklin CS3: vollständiges Handbuch 2017, GFP3 gedruckte S. 33; ergänzend zur aktuellen Kurzanleitung Q26, S. 26",
+    "url": "https://www.maerklin.de/fileadmin/media/produkte/pdfs/MANUAL_CS3_DE-EN_17-02.pdf"
+  },
+  {
+    "id": "Q35",
+    "title": "JMRI LokPilot 5/MKL: Einbindung der gemeinsamen Decoderinformationen",
+    "url": "https://github.com/JMRI/JMRI/blob/31e482094d472e481c1fb54f9901093c2efbfcec/xml/decoders/ESU_LokPilot5.xml#L246"
+  }
+]

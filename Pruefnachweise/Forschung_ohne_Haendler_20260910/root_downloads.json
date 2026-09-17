@@ -1,0 +1,20 @@
+[
+  {
+    "file": "CS3_changelog.pdf",
+    "url": "https://www.maerklin.de/fileadmin/media/service/cs3/Maerklin_CS3_v2.6.0_changelog.pdf",
+    "pages": 40,
+    "sha256": "28bae53b15c100f6ad02b65c8cb0a3e81eb8dc0633db27ae034547cbafaea4c5"
+  },
+  {
+    "file": "CS3_CV_Editor.pdf",
+    "url": "https://www.maerklin.de/fileadmin/media/clubs/downloads/Loks_CV_Editor.pdf",
+    "pages": 2,
+    "sha256": "7dc88392065a2bfb24c1dc8a35206eede87d93d63c12c179a3635ace437c2a8d"
+  },
+  {
+    "file": "CS3_Manual.pdf",
+    "url": "https://static.maerklin.de/damcontent/c1/ce/c1ce554ad6ad195c04e32ba1b4dd64511764068661.pdf",
+    "pages": 48,
+    "sha256": "d14ce7bd34d8e2f7467cea32fb5ffb1e0a068151dd3a4dc9bffc465db86c9a25"
+  }
+]

@@ -1,0 +1,61 @@
+ERSTSTROM | VORAUSSETZUNG JE KOPF
+ARBEITSKARTE 29
+Vor dem ersten Strom: beide Köpfe abhaken
+Diese Karte wird vor dem Einsetzen ausgefüllt. Sie enthält keine erst später möglichen Funktions- oder
+Gehäuseergebnisse.
+VORHER Je Kopf getrennt prüfen. Datum ______; Motorseite/Gegenkopf ______; zugehörige Fotos und Protokolle
+______.
+Jetzt erforderlicher Nachweis
+Motorseite
+Gegenkopf
+Decoder-Vorabtest S. 11 mit eigener Identität, Aktivierung, Firmware und neuer SID
+________
+________
+Reale Revision/Padbelegung und sichere Befestigung S. 16-S. 22
+________
+________
+Schleifer und Radkontakt; eindeutige RT/GE-Zuordnung
+________
+________
+Motor einschließlich Drosseln/Litzen S. 14/S. 15; bestätigter Motortyp
+________
+entfällt
+LED-Zweige und sichere Strombegrenzung S. 17; passendes Mapping
+________
+________
+Ein Lautsprecher, Adapter und mechanischer Sitz S. 20
+________
+entfällt
+Passive Leiter S. 4 und vollständiger Elektronikplan/Ergebnisse S. 5
+________
+________
+Gesicherte Projekte; Innenlicht-AUX und Ausgangsart S. 27
+________
+________
+Erste konkrete Laststufe S. 28; Messung/Begrenzung/Abbruchwerte
+________
+________
+Gleis, Bus, Puffer, andere Quellen physisch getrennt; Restenergie ausgeschlossen
+________
+________
+Alle Hilfsleitungen entfernt; unbenutzte Enden einzeln isoliert
+________
+________
+Passende Indexmerkmale eindeutig sichtbar; geplante Decoderlage/Freiraum
+________
+________
+Prüfort: eine Quelle, Fahrstufe 0, Automatik aus; keine Einmessfahrt
+________
+________
+Erst dann einsetzen: Motorseite auf S. 30, Gegenkopf auf S. 31. Den tatsächlichen Steckersitz anschließend
+noch im stromlosen Zustand seitlich prüfen. Danach der jeweils erlaubte Einzeltest auf S. 32/S. 33.
+STOPP Eine offene Pflichtzeile nicht mit „entfällt“ schließen. Ein G0-/Vorabtest am losen Decoder bestätigt keine
+richtige Fahrzeugverdrahtung. Ein erfolgreicher Leseversuch bestätigt keine Motorisolation.
+Später separat: Ausgangs- und Fahrtests S. 32-S. 35, geschlossene Gehäuseprüfung S. 36/S. 37. Keine
+zukünftigen Ergebnisse vorweg abhaken. Änderungen an Anschluss, Befestigung oder Projekt machen die
+betroffenen Nachweise erneut erforderlich.
+WEITER, WENN Alle für diesen Kopf erforderlichen Voraussetzungen sind tatsächlich erfüllt.
+REV11 | ICE 2976 | 11.09.2026
+29 / 40
+Quellen: Q1, Q3, Q6 (S. 40)
+Weiter: 30
